@@ -1,0 +1,9 @@
+Dateiformate:
+    - xml
+    - json
+First: XML
+    	Different parsing models: 
+            - DOM only for moderately large files, not for data bases, slow processing times, only if memory isn't an issue; use when infrequently parsing
+            - SAX for larger files, allows you to discard elements, finding/modifying specific tree nodes is hard, read-only parsing
+            - ElementTree needs less memory than DOM, hence faster than DOM, recommended as Default by https://stackoverflow.com/questions/192907/xml-parsing-elementtree-vs-sax-and-dom
+Second: json

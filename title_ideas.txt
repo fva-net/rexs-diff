@@ -1,0 +1,17 @@
+Modellfindung eines Matching Problems von REXS-Modellen
+
+Modeling of a matching problem of REXS-Models: An integer optimization Approach
+
+Matching REXS Models: Modeling using Integer Optimization
+Matching REXS Models: An Integer Optimization Framework
+
+Matching REXS-Modelle: Modellierung unter Verwendung von Ganzzahliger Optimierung
+Matching REXS-Modelle: Ein Ganzzahliger Optimierungsrahmen
+
+
+
+Matching REXS Models - An Integer Optimization Framework
+Matching REXS Modelle - Ein Ganzzahliger Optimierungsanatz
+
+Matching Gear Unit Representations -  An Integer Optimization Framework
+Matching von Getriebedarstellungen - Ein Ganzzahliger Optimierungsansatz

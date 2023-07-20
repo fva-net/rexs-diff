@@ -1,0 +1,79 @@
+{
+"component_matches": [{
+    "type" : "shaft",
+    "component_a" : {
+        "id": "bfhcl",
+        "name" : "qwdb" 
+        },
+    "component_b" : {
+        "id": "bfhcl",
+        "name" : "qwdb" 
+        },
+    "attributes" : [{
+        "result": "values_different",
+        "id" : "w_axis_vector",
+        "component_a": {
+            "unit" : "mm",
+            "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+            },
+        "component_b": {
+            "unit" : "mm",
+            "floating_point_array" : [ 0.0, 0.0, 2.0 ]
+            }
+        },{
+        "result": "values_equal",
+        "id" : "v_axis_vector",
+        "unit": "mm",
+        "floating_point_array":  [0.1, 0.0, 0.1]
+        },{
+        "result": "only_a",
+        "id": "u_axis_vector",
+        "unit": "mm",
+        "floating_point_array": [0.0, 0.1, 0.1]
+        },{
+        "result": "only_b",
+        "id": "support_vector",
+        "unit": "mm",
+        "floating_point_array": [0.0, 70.0, 0.0]
+        }]
+    },{
+    "type": "flank",
+    "component_a":{
+        "id": "2",
+        "name": "hsjdi"
+        },
+    "component_b":{
+        "id": "3",
+        "name": "aldp"
+        },
+    "attributes":[{
+
+        }]
+    }],
+"components_only_a":[{
+    "type":"uifhdo",
+    "id": "ifh",
+    "attributes":[{
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+        },{
+        "id" : "direction_vector_gravity_u",
+        "unit" : "none",
+        "floating_point" : 0.0
+        }]
+}],
+"components_only_b": [{
+    "type": "osmv",
+    "id": "vfmo",
+    "attributes": [{
+        "id" : "number_of_nodes_in_mesh_width_for_loaddistribution",
+        "unit" : "none",
+        "integer" : 18
+    }, {
+        "id" : "account_for_gravity",
+        "unit" : "none",
+        "boolean" : true
+    }]
+}]
+}

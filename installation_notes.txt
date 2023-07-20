@@ -1,0 +1,5 @@
+Install pydantic: version 1.8
+        conda install -c conda-forge pydantic
+Install pyscipopt:
+    Conda: IN environment
+        conda install --channel conda-forge pyscipopt
