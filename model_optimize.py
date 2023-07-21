@@ -1,6 +1,5 @@
 from find_index import find_index
 from pyscipopt import Model
-import math
 import sys
 
 
@@ -67,7 +66,7 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
         for r_prime in relations_prime:
             # Only for relations that are of the same type and same order
             if r.type == r_prime.type:
-                if r.type == "ordered_assembly" or r.type == "ordered_reference":
+                if "ordered" in r.type:
                     if r.order ==r_prime.order:
                         for i in range(len(r.refs)):
                             c_index= find_index(r.refs[i].id, components)
