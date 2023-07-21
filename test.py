@@ -5,9 +5,8 @@
 from import_data import import_data
 from model_optimize import model_optimize
 from output_data import output_data
-from f_c import f_c, f_c_2
+from f_c import f_c
 from find_index import find_index
-from wrong_matches import wrong_matches
 from output_function import output_function
 from obj_func import obj_func
 import time
@@ -21,9 +20,10 @@ start_time = time.time()
 #################################################
 # Define file paths                             #
 #################################################
+# C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\REXS-Database\FVA_2-stage_industry-gearbox\fva_2-stage_industry-gearbox_1-2.rexsj
 
 # Define path of the import files, must be a json-file
-input_file = "Sample_Data/REXS-Database/BEARINX_29_Kegel-Stirnradgetriebe/Bearinx_29_Kegel-Stirnradgetriebe_rexs_1_4.rexsj" # data of the first model
+input_file = "Sample_Data/REXS-Database/FVA_2-stage_industry-gearbox/fva_2-stage_industry-gearbox_1-2.rexsj" # data of the first model
 input_file_prime = "Sample_Data/REXS-Database/BEARINX_29_Kegel-Stirnradgetriebe/Bearinx_29_Kegel-Stirnradgetriebe_rexs_1_3.rexsj" # data of the second model
 
 # Define the path and name for the output file
@@ -44,13 +44,15 @@ relations_roles = ["assembly", "part", "stage", "gear_1", "gear_2", "gear", "sta
 components, relations = import_data(input_file, relations_roles) # components and relations of the first model
 components_prime, relations_prime = import_data(input_file_prime, relations_roles) # components and relations of the second model
 
-
-print(f"component, 49: {components[find_index(49, components)]}")
+for r in relations:
+    if "ordered" in r.type:
+        print(r.type)
+# print(f"component, 49: {components[find_index(49, components)]}")
 # print(f"component, 211: {components[find_index(211, components)]}")
 # print(f"component, 212: {components[find_index(212, components)]}")
 # print(f"component, 213: {components[find_index(213, components)]}")
 
-print(f"component_prime, 43: {components_prime[find_index(43, components_prime)]}")
+# print(f"component_prime, 43: {components_prime[find_index(43, components_prime)]}")
 # print(f"component_prime, 211: {components_prime[find_index(211, components_prime)]}")
 # print(f"component_prime, 212: {components_prime[find_index(212, components_prime)]}")
 # print(f"component_prime, 213: {components_prime[find_index(213, components_prime)]}")
@@ -64,13 +66,13 @@ print(f"component_prime, 43: {components_prime[find_index(43, components_prime)]
 
 
 
-f_c_matrix = f_c(components, components_prime) # distance function of the components
-g_r = np.ones((len(relations), len(relations_prime))).tolist() # distance function of the relations
-gamma_c = np.zeros(len(components)).tolist() # penalty for unmatched components of data model 1
-gamma_c_prime = np.zeros(len(components_prime)).tolist() # penalty for unmatched components of data model 2
-delta_r = np.zeros(len(relations)).tolist() # penalty for unmatched relations of data model 1
-delta_r_prime = np.zeros(len(relations_prime)).tolist() # penalty for unmatched relations of data model 2
-epsilon = 5 # penalty for matched components with different types
+# f_c_matrix = f_c(components, components_prime) # distance function of the components
+# g_r = np.ones((len(relations), len(relations_prime))).tolist() # distance function of the relations
+# gamma_c = np.zeros(len(components)).tolist() # penalty for unmatched components of data model 1
+# gamma_c_prime = np.zeros(len(components_prime)).tolist() # penalty for unmatched components of data model 2
+# delta_r = np.zeros(len(relations)).tolist() # penalty for unmatched relations of data model 1
+# delta_r_prime = np.zeros(len(relations_prime)).tolist() # penalty for unmatched relations of data model 2
+# epsilon = 5 # penalty for matched components with different types
 
 # id= 3
 # id_prime = 14
