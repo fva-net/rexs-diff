@@ -9,6 +9,7 @@ from f_c import f_c
 from find_index import find_index
 from output_function import output_function
 from obj_func import obj_func
+from which_relations import which_relations
 import time
 from datetime import datetime
 import numpy as np
@@ -23,8 +24,8 @@ start_time = time.time()
 # C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\REXS-Database\FVA_2-stage_industry-gearbox\fva_2-stage_industry-gearbox_1-2.rexsj
 
 # Define path of the import files, must be a json-file
-input_file = "Sample_Data/REXS-Database/FVA_2-stage_industry-gearbox/fva_2-stage_industry-gearbox_1-2.rexsj" # data of the first model
-input_file_prime = "Sample_Data/REXS-Database/BEARINX_29_Kegel-Stirnradgetriebe/Bearinx_29_Kegel-Stirnradgetriebe_rexs_1_3.rexsj" # data of the second model
+input_file = "Sample_Data/REXS-Database/FVA_worm_stage/fva_worm_stage_1-3.rexsj" # data of the first model
+input_file_prime = "Sample_Data/REXS-Database/FVA_worm_stage/fva_worm_stage_1-4.rexsj" # data of the second model
 
 # Define the path and name for the output file
 current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -44,15 +45,12 @@ relations_roles = ["assembly", "part", "stage", "gear_1", "gear_2", "gear", "sta
 components, relations = import_data(input_file, relations_roles) # components and relations of the first model
 components_prime, relations_prime = import_data(input_file_prime, relations_roles) # components and relations of the second model
 
-for r in relations:
-    if "ordered" in r.type:
-        print(r.type)
-# print(f"component, 49: {components[find_index(49, components)]}")
+# print(f"component, 28: {components[find_index(28, components)]}")
 # print(f"component, 211: {components[find_index(211, components)]}")
 # print(f"component, 212: {components[find_index(212, components)]}")
 # print(f"component, 213: {components[find_index(213, components)]}")
 
-# print(f"component_prime, 43: {components_prime[find_index(43, components_prime)]}")
+# print(f"component_prime, 58: {components_prime[find_index(28, components_prime)]}")
 # print(f"component_prime, 211: {components_prime[find_index(211, components_prime)]}")
 # print(f"component_prime, 212: {components_prime[find_index(212, components_prime)]}")
 # print(f"component_prime, 213: {components_prime[find_index(213, components_prime)]}")
@@ -60,13 +58,15 @@ for r in relations:
 # print(f"relations, 43: {relations[find_index(43, relations)]}")
 # print(f"relations_prime, 393: {relations_prime[find_index(393, relations_prime)]}")
 
+id = 31
+print(f"Component {id} is in relations {which_relations(id, relations_prime)}")
 
 # Set the parameters and functions of the model #
 #################################################
 
 
 
-# f_c_matrix = f_c(components, components_prime) # distance function of the components
+f_c_matrix = f_c(components, components_prime) # distance function of the components
 # g_r = np.ones((len(relations), len(relations_prime))).tolist() # distance function of the relations
 # gamma_c = np.zeros(len(components)).tolist() # penalty for unmatched components of data model 1
 # gamma_c_prime = np.zeros(len(components_prime)).tolist() # penalty for unmatched components of data model 2
@@ -74,10 +74,15 @@ for r in relations:
 # delta_r_prime = np.zeros(len(relations_prime)).tolist() # penalty for unmatched relations of data model 2
 # epsilon = 5 # penalty for matched components with different types
 
-# id= 3
-# id_prime = 14
+# id= 28
+# id_prime = 28
 # f= f_c_matrix[find_index(id, components)][find_index(id_prime, components_prime)]
 # print(f)
+
+### Is f_c_matrix symmetric?
+
+f_c_transpose = np.transpose(f_c_matrix)
+np.allclose(f_c_matrix, f_c_transpose)
 
 #################################################
 # Objective function                            #
