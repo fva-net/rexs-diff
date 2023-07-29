@@ -37,55 +37,102 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
     
     # All parts of the objective function
     start_time = time.time()
-    T1 = sum(f_c[i][j] * x[i][j] for i in range(x_rows) for j in range(x_cols)) # Reward term 1 for the components
+   
+    # Reward term 1 for the components
+    T1=0
+    for i in range(x_rows):
+        for j in range(i, x_cols):
+            if f_c[i][j] != 0:
+                T1 += f_c[i][j] * x[i][j]
+    # T1 = sum(f_c[i][j] * x[i][j] for i in range(x_rows) for j in range(i, x_cols)) # Reward term 1 for the components
+
     end_time = time.time()
     delta_time = end_time - start_time
     line2= f"Preparing part T1 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line2)
     start_time = time.time()
-    T2 = sum(g_r[k][l] * z[k][l] for k in range(z_rows) for l in range(z_cols)) # Reward term 2 for the relations
+
+    # T2 = np.sum(np.multiply(g_r, z))
+    # Reward term 2 for the relations
+    T2=0
+    for k in range(z_rows):
+        for l in range(k, z_cols):
+            if g_r[k][l] != 0:
+                T2 += g_r[k][l] * z[k][l]
+    # T2 = sum(g_r[k][l] * z[k][l] for k in range(z_rows) for l in range(k, z_cols)) 
+
     end_time = time.time()
     delta_time = end_time - start_time
     line3= f"Preparing part T2 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line3)
     start_time = time.time()
-    T3 = sum(gamma_c[i] * (1 - sum(x[i][j] for j in range(x_cols))) for i in range(x_rows)) # Penalty term for unmatched components in the first data model
+
+    # Penalty term for unmatched components in the first data model
+    T3 = 0
+    for i in range(x_rows):
+        if gamma_c[i] != 0:
+            T3 += gamma_c[i] * (1 - sum(x[i][j] for j in range(i, x_cols)))
+    # T3 = sum(gamma_c[i] * (1 - sum(x[i][j] for j in range(i, x_cols))) for i in range(x_rows))
+
     end_time = time.time()
     delta_time = end_time - start_time
     line4= f"Preparing part T3 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line4)
     start_time = time.time()
-    T4 = sum(gamma_c_prime[j] * (1- sum(x[i][j] for i in range(x_rows))) for j in range(x_cols)) # Penalty term for unmatched components in the second data model
+
+    # Penalty term for unmatched components in the second data model
+    T4 = 0
+    for j in range(x_cols):
+        if gamma_c_prime[j] != 0:
+            T4 += gamma_c_prime[j] * (1- sum(x[i][j] for i in range(j, x_rows)))
+    # T4 = sum(gamma_c_prime[j] * (1- sum(x[i][j] for i in range(j, x_rows))) for j in range(x_cols)) 
+
     end_time = time.time()
     delta_time = end_time - start_time
     line5= f"Preparing part T4 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line5)
     start_time = time.time()
-    T5 = sum(delta_r[k] * (1 - sum(z[k][l] for l in range(z_cols))) for k in range(z_rows)) # Penalty terms for unmatched relations in the first data model
+
+    # Penalty term for unmatched relations in the first data model
+    T5 = 0
+    for k in range(z_rows):
+        if delta_r[k] != 0:
+            T5 += delta_r[k] * (1 - sum(z[k][l] for l in range(k, z_cols)))
+    # T5 = sum(delta_r[k] * (1 - sum(z[k][l] for l in range(k, z_cols))) for k in range(z_rows)) 
+
     end_time = time.time()
     delta_time = end_time - start_time
     line6= f"Preparing part T5 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line6)
     start_time = time.time()
-    T6 = sum(delta_r_prime[l] * (1 - sum(z[k][l] for k in range(z_rows))) for l in range(z_cols)) # Penalty term for unmatched relations in the second data model
+
+    # Penalty term for unmatched relations in the second data model
+    T6 = 0
+    for l in range(z_cols):
+        if delta_r_prime[l] != 0:
+            T6 += delta_r_prime[l] * (1 - sum(z[k][l] for k in range(l, z_rows)))
+            
+    # T6 = sum(delta_r_prime[l] * (1 - sum(z[k][l] for k in range(l, z_rows))) for l in range(z_cols))
+
     end_time = time.time()
     delta_time = end_time - start_time
     line7= f"Preparing part T6 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line7)
     start_time = time.time()
     
-
-    # Penaltyterm for matched components with different types
+    # Penalty term for matched components with different types
     T7 = 0
     for c in range(x_rows):
         for c_prime in range(x_cols):
             if components[c].type != components_prime[c_prime].type:
                 T7 += epsilon *x[c][c_prime]
+
     end_time = time.time()
     delta_time = end_time - start_time
     line8= f"Preparing part T7 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line8)
     start_time = time.time()
+
     # Objective as a whole
     objective = T1+T2-T3-T4-T5-T6-T7
     end_time = time.time()
@@ -93,6 +140,7 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
     line9= f"Putting the objective function together took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line9)
     start_time = time.time()
+
     # Set the objective function
     model.setObjective(objective, sense = 'maximize')
     end_time = time.time()
