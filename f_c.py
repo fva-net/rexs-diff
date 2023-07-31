@@ -3,17 +3,17 @@ import numpy as np
 def f_c(components, components_prime):
     """
     This functions tells us how similar two components are.
-    Output:matrix of dimension len(components) x len(components_prime)
+    Output: matrix of dimension len(components) x len(components_prime)
 
     For now: proportion of attributes that are equal
     """
     len_comp = len(components)
     len_comp_prime = len(components_prime)
 
-    f_c_matrix = np.zeros((len_comp, len_comp_prime)).tolist() # initialize the matrix
+    f_c_matrix = np.zeros((len_comp, len_comp_prime)) # initialize the matrix
 
     for c in range(len_comp):
-        for c_prime in range(c, len_comp_prime):
+        for c_prime in range(len_comp_prime):
             if components[c].type == components_prime[c_prime].type:
                 total_number_attributes = max(len(components[c].attributes), len(components_prime[c_prime].attributes))
                 if total_number_attributes == 0:
@@ -35,3 +35,6 @@ def f_c(components, components_prime):
     return f_c_matrix
 
 
+if __name__ == "__main__":
+    matrix = np.array([[1,2,3],[4,5,6]])
+    print(matrix[0][1])
