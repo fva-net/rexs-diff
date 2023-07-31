@@ -142,6 +142,58 @@ def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, component
         for row in table_relations[1:]:
             formatted_row = "\t".join("{{:<{}}}".format(width).format(item) for width, item in zip(column_widths, row))
             file.write(formatted_row + "\n")
+
+        file.write("\n \n")    
+        # unmatched relations
+        # Data model 1
+        file.write("The unmatched relations from the first data model are: \n")
+        table_relations=[["Rel_ID", "Rel_Type"]]
+        for i in range(len(sol_z)):
+            match_found = False
+            for j in range(len(sol_z[0])):
+                if sol_z[i][j]==1:
+                    match_found = True
+                    break
+            if not match_found:
+                id = str(relations[i].id)
+                type = relations[i].type
+                list_relations=[id, type]
+                table_relations.append(list_relations)
+        
+        # Add table of unmatched relations
+        column_widths = [max(len(str(item)) for item in column) for column in zip(*table_relations)]
+        header_relations = table_relations[0]
+        formatted_header = "\t".join("{{:<{}}}".format(width) for width in column_widths).format(*header_relations)
+        file.write(formatted_header + "\n")
+        for row in table_relations[1:]:
+            formatted_row = "\t".join("{{:<{}}}".format(width).format(item) for width, item in zip(column_widths, row))
+            file.write(formatted_row + "\n")
+
+        file.write("\n \n")
+
+        # Data model 2
+        file.write("The unmatched relations from the second data model are: \n")
+        table_relations_prime=[["Rel_ID", "Rel_Type"]]
+        for j in range(len(sol_z[0])):
+            match_found = False
+            for i in range(len(sol_z)):
+                if sol_z[i][j]==1:
+                    match_found = True
+                    break
+            if not match_found:
+                id = str(relations_prime[j].id)
+                type = relations_prime[j].type
+                list_relations_prime=[id, type]
+                table_relations_prime.append(list_relations_prime)
+
+        # Add table of unmatched relations
+        column_widths = [max(len(str(item)) for item in column) for column in zip(*table_relations_prime)]
+        header_relations_prime = table_relations_prime[0]
+        formatted_header = "\t".join("{{:<{}}}".format(width) for width in column_widths).format(*header_relations_prime)
+        file.write(formatted_header + "\n")
+        for row in table_relations_prime[1:]:
+            formatted_row = "\t".join("{{:<{}}}".format(width).format(item) for width, item in zip(column_widths, row))
+            file.write(formatted_row + "\n")
             
         file.write("\n \n")
         # Add the console output to the outputfile
