@@ -22,17 +22,17 @@ start_time_script = time.time()
 # Define file paths                             #
 #################################################
 
-# C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\REXS-Database\SEW_Winkelgetriebe_Hypoid_2stufig/sew_winkelgetriebe_hypoid_2stufig_1_0.rexsj
+# FVA_manual_transmission/fva_manual_transmission_1-3.rexsj
 
-# Define path of the import files, must end with ".json"
-input_file = "Sample_Data/REXS-Database/SEW_Winkelgetriebe_Hypoid_2stufig/sew_winkelgetriebe_hypoid_2stufig_1-2.rexsj" # data of the first model
-input_file_prime = "Sample_Data/REXS-Database/SEW_Winkelgetriebe_Hypoid_2stufig/sew_winkelgetriebe_hypoid_2stufig_bearinx_1-3.rexsj" # data of the second model
+# Define path of the import file
+input_file = "Sample_Data/REXS-Database/FVA_manual_transmission/fva_manual_transmission_1-3.rexsj" # data of the first model
+input_file_prime = "Sample_Data/REXS-Database/FVA_manual_transmission/fva_manual_transmission_edit_1-5.rexsj" # data of the second model
 
 # Define the path and name for the output file
 current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-output_file = f"output/SEW_Winkelgetriebe_Hypoid_2stufig/{current_datetime}_output.txt"
-output_file_json = f"output/SEW_Winkelgetriebe_Hypoid_2stufig/{current_datetime}_output.json"
-output_file_runtime = f"output/SEW_Winkelgetriebe_Hypoid_2stufig/{current_datetime}_runtime.txt"
+output_file = f"output/FVA_manual_transmission/{current_datetime}_output.txt"
+output_file_json = f"output/FVA_manual_transmission/{current_datetime}_output.json"
+output_file_runtime = f"output/FVA_manual_transmission/{current_datetime}_runtime.txt"
 
 
 # Define the role ordering of the relations
@@ -57,12 +57,12 @@ start_time = time.time()
 #################################################
 
 f_c_matrix = f_c(components, components_prime) # distance function of the components
-g_r = np.ones((len(relations), len(relations_prime))).tolist() # distance function of the relations
-gamma_c = np.zeros(len(components)).tolist() # penalty for unmatched components of data model 1
-gamma_c_prime = np.zeros(len(components_prime)).tolist() # penalty for unmatched components of data model 2
-delta_r = np.zeros(len(relations)).tolist() # penalty for unmatched relations of data model 1
-delta_r_prime = np.zeros(len(relations_prime)).tolist() # penalty for unmatched relations of data model 2
-epsilon = 5 # penalty for matched components with different types
+g_r = np.ones((len(relations), len(relations_prime))) # distance function of the relations
+gamma_c = np.zeros(len(components)) # penalty for unmatched components of data model 1
+gamma_c_prime = np.zeros(len(components_prime)) # penalty for unmatched components of data model 2
+delta_r = np.zeros(len(relations)) # penalty for unmatched relations of data model 1
+delta_r_prime = np.zeros(len(relations_prime)) # penalty for unmatched relations of data model 2
+epsilon = 15 # penalty for matched components with different types
 
 end_time = time.time()
 delta_time = end_time - start_time
@@ -78,7 +78,7 @@ sol_x, sol_z, objective_value  = model_optimize(components, relations, component
 
 end_time = time.time()
 delta_time = end_time - start_time
-line3=f"Optimizing the model took{time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))}."
+line3=f"Optimizing the model took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))}."
 print(line3)
 start_time = time.time()
 # account for numerical errors
@@ -104,7 +104,7 @@ output_function(components, components_prime, sol_x, sol_z, output_file_json)
 
 end_time = time.time()
 delta_time = end_time - start_time
-line4=f"Outputting the data took{time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))}."
+line4=f"Outputting the data took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))}."
 print(line4)
 
 # Stop the timer and print the time it took to run the script
