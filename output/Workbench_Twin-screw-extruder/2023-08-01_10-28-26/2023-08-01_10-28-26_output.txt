@@ -1,0 +1,732 @@
+We have attempted to match the data in Sample_Data/REXS-Database/Workbench_Twin-screw-extruder/Twin_screw-extruder.rexsj to the data in Sample_Data/REXS-Database/Workbench_Twin-screw-extruder/Twin_screw-extruder_mod-2.rexsj. 
+208/238 components and 259/295 relations from the first data model were matched. 
+208/239 components and 259/294 relations from the second data model were matched. 
+ 
+ 
+The following matching of components and relations was poduced: 
+Components are matched as follows: 
+ID  	Type                                   	|	ID  	Type                                   
+1   	gear_unit                              	|	1   	gear_unit                              
+2   	gear_casing                            	|	2   	gear_casing                            
+3   	cylindrical_stage                      	|	3   	cylindrical_stage                      
+4   	shaft                                  	|	4   	shaft                                  
+6   	shaft                                  	|	6   	shaft                                  
+8   	cylindrical_gear                       	|	8   	cylindrical_gear                       
+9   	cylindrical_gear                       	|	9   	cylindrical_gear                       
+20  	cylindrical_stage                      	|	20  	cylindrical_stage                      
+21  	shaft                                  	|	21  	shaft                                  
+23  	cylindrical_gear                       	|	23  	cylindrical_gear                       
+24  	cylindrical_gear                       	|	24  	cylindrical_gear                       
+27  	cylindrical_stage                      	|	27  	cylindrical_stage                      
+28  	shaft                                  	|	28  	shaft                                  
+30  	cylindrical_gear                       	|	30  	cylindrical_gear                       
+31  	cylindrical_gear                       	|	31  	cylindrical_gear                       
+36  	external_load                          	|	36  	external_load                          
+37  	cylindrical_stage                      	|	37  	cylindrical_stage                      
+38  	shaft                                  	|	38  	shaft                                  
+40  	cylindrical_gear                       	|	40  	cylindrical_gear                       
+49  	cylindrical_stage                      	|	49  	cylindrical_stage                      
+50  	shaft                                  	|	50  	shaft                                  
+52  	cylindrical_gear                       	|	52  	cylindrical_gear                       
+70  	cylindrical_stage                      	|	70  	cylindrical_stage                      
+71  	shaft                                  	|	71  	shaft                                  
+73  	cylindrical_gear                       	|	73  	cylindrical_gear                       
+80  	cylindrical_stage                      	|	80  	cylindrical_stage                      
+81  	shaft                                  	|	81  	shaft                                  
+83  	cylindrical_gear                       	|	83  	cylindrical_gear                       
+94  	external_load                          	|	94  	external_load                          
+95  	rack_shaped_tool                       	|	95  	rack_shaped_tool                       
+96  	rack_shaped_tool                       	|	96  	rack_shaped_tool                       
+97  	rack_shaped_tool                       	|	97  	rack_shaped_tool                       
+98  	rack_shaped_tool                       	|	98  	rack_shaped_tool                       
+102 	rolling_bearing_with_catalog_geometry  	|	102 	rolling_bearing_with_catalog_geometry  
+103 	rolling_bearing_with_catalog_geometry  	|	103 	rolling_bearing_with_catalog_geometry  
+104 	rolling_bearing_with_detailed_geometry 	|	104 	rolling_bearing_with_detailed_geometry 
+107 	rolling_bearing_with_catalog_geometry  	|	107 	rolling_bearing_with_catalog_geometry  
+108 	rolling_bearing_with_catalog_geometry  	|	108 	rolling_bearing_with_catalog_geometry  
+109 	rolling_bearing_with_detailed_geometry 	|	109 	rolling_bearing_with_detailed_geometry 
+110 	rolling_bearing_with_catalog_geometry  	|	110 	rolling_bearing_with_catalog_geometry  
+113 	rolling_bearing_with_catalog_geometry  	|	113 	rolling_bearing_with_catalog_geometry  
+116 	rolling_bearing_with_catalog_geometry  	|	116 	rolling_bearing_with_catalog_geometry  
+119 	rolling_bearing_with_catalog_geometry  	|	119 	rolling_bearing_with_catalog_geometry  
+121 	rolling_bearing_with_catalog_geometry  	|	121 	rolling_bearing_with_catalog_geometry  
+123 	rolling_bearing_with_catalog_geometry  	|	123 	rolling_bearing_with_catalog_geometry  
+125 	rolling_bearing_with_catalog_geometry  	|	125 	rolling_bearing_with_catalog_geometry  
+127 	rolling_bearing_with_catalog_geometry  	|	127 	rolling_bearing_with_catalog_geometry  
+128 	rolling_bearing_with_detailed_geometry 	|	128 	rolling_bearing_with_detailed_geometry 
+129 	rolling_bearing_with_catalog_geometry  	|	129 	rolling_bearing_with_catalog_geometry  
+130 	rolling_bearing_with_catalog_geometry  	|	130 	rolling_bearing_with_catalog_geometry  
+131 	external_load                          	|	131 	external_load                          
+136 	cylindrical_stage_gear_data            	|	136 	cylindrical_stage_gear_data            
+137 	cylindrical_stage_gear_data            	|	137 	cylindrical_stage_gear_data            
+138 	cylindrical_stage_gear_data            	|	138 	cylindrical_stage_gear_data            
+139 	cylindrical_stage_gear_data            	|	139 	cylindrical_stage_gear_data            
+140 	cylindrical_stage_gear_data            	|	140 	cylindrical_stage_gear_data            
+141 	cylindrical_stage_gear_data            	|	141 	cylindrical_stage_gear_data            
+142 	cylindrical_stage_gear_data            	|	142 	cylindrical_stage_gear_data            
+143 	cylindrical_stage_gear_data            	|	143 	cylindrical_stage_gear_data            
+144 	cylindrical_stage_gear_data            	|	144 	cylindrical_stage_gear_data            
+145 	cylindrical_stage_gear_data            	|	145 	cylindrical_stage_gear_data            
+146 	cylindrical_stage_gear_data            	|	146 	cylindrical_stage_gear_data            
+147 	cylindrical_stage_gear_data            	|	147 	cylindrical_stage_gear_data            
+148 	cylindrical_stage_gear_data            	|	148 	cylindrical_stage_gear_data            
+149 	cylindrical_stage_gear_data            	|	149 	cylindrical_stage_gear_data            
+330 	lubricant                              	|	330 	lubricant                              
+791 	material                               	|	791 	material                               
+792 	material                               	|	792 	material                               
+953 	lubricant                              	|	953 	lubricant                              
+1484	rolling_bearing_row                    	|	1484	rolling_bearing_row                    
+1485	rolling_bearing_row                    	|	1485	rolling_bearing_row                    
+1486	rolling_bearing_row                    	|	1486	rolling_bearing_row                    
+1487	rolling_bearing_row                    	|	1487	rolling_bearing_row                    
+1488	rolling_bearing_row                    	|	1488	rolling_bearing_row                    
+1489	rolling_bearing_row                    	|	1489	rolling_bearing_row                    
+1490	rolling_bearing_row                    	|	1490	rolling_bearing_row                    
+1491	rolling_bearing_row                    	|	1491	rolling_bearing_row                    
+1492	rolling_bearing_row                    	|	1492	rolling_bearing_row                    
+1493	rolling_bearing_row                    	|	1493	rolling_bearing_row                    
+1494	rolling_bearing_row                    	|	1494	rolling_bearing_row                    
+1495	rolling_bearing_row                    	|	1495	rolling_bearing_row                    
+1496	rolling_bearing_row                    	|	1496	rolling_bearing_row                    
+1498	rolling_bearing_row                    	|	1498	rolling_bearing_row                    
+1499	rolling_bearing_row                    	|	1499	rolling_bearing_row                    
+1500	rolling_bearing_row                    	|	1500	rolling_bearing_row                    
+1501	rolling_bearing_row                    	|	1501	rolling_bearing_row                    
+1518	rolling_element                        	|	1722	rolling_element                        
+1519	rolling_element                        	|	1723	rolling_element                        
+1520	rolling_element                        	|	1724	rolling_element                        
+1521	rolling_element                        	|	1725	rolling_element                        
+1522	rolling_element                        	|	1726	rolling_element                        
+1523	rolling_element                        	|	1727	rolling_element                        
+1524	rolling_element                        	|	1728	rolling_element                        
+1525	rolling_element                        	|	1729	rolling_element                        
+1526	rolling_element                        	|	1730	rolling_element                        
+1527	rolling_element                        	|	1731	rolling_element                        
+1528	rolling_element                        	|	1732	rolling_element                        
+1529	rolling_element                        	|	1733	rolling_element                        
+1530	rolling_element                        	|	1734	rolling_element                        
+1531	rolling_element                        	|	1735	rolling_element                        
+1532	rolling_element                        	|	1736	rolling_element                        
+1533	rolling_element                        	|	1737	rolling_element                        
+1534	rolling_element                        	|	1738	rolling_element                        
+1535	rolling_element                        	|	1739	rolling_element                        
+1536	rolling_element                        	|	1740	rolling_element                        
+1537	rolling_element                        	|	1741	rolling_element                        
+1538	rolling_element                        	|	1742	rolling_element                        
+1539	rolling_element                        	|	1743	rolling_element                        
+1540	rolling_element                        	|	1744	rolling_element                        
+1549	rolling_element                        	|	1745	rolling_element                        
+1550	rolling_element                        	|	1746	rolling_element                        
+1551	rolling_element                        	|	1747	rolling_element                        
+1552	rolling_element                        	|	1748	rolling_element                        
+1553	rolling_element                        	|	1749	rolling_element                        
+1554	rolling_element                        	|	1750	rolling_element                        
+1555	rolling_element                        	|	1751	rolling_element                        
+1556	rolling_element                        	|	1752	rolling_element                        
+1557	shaft_section                          	|	1753	shaft_section                          
+1558	shaft_section                          	|	1754	shaft_section                          
+1559	shaft_section                          	|	1755	shaft_section                          
+1560	shaft_section                          	|	1756	shaft_section                          
+1561	shaft_section                          	|	1757	shaft_section                          
+1562	shaft_section                          	|	1758	shaft_section                          
+1563	shaft_section                          	|	1759	shaft_section                          
+1564	shaft_section                          	|	1760	shaft_section                          
+1565	shaft_section                          	|	1761	shaft_section                          
+1566	shaft_section                          	|	1762	shaft_section                          
+1567	shaft_section                          	|	1763	shaft_section                          
+1568	shaft_section                          	|	1764	shaft_section                          
+1569	shaft_section                          	|	1765	shaft_section                          
+1570	shaft_section                          	|	1766	shaft_section                          
+1571	shaft_section                          	|	1767	shaft_section                          
+1572	shaft_section                          	|	1768	shaft_section                          
+1573	shaft_section                          	|	1769	shaft_section                          
+1574	shaft_section                          	|	1770	shaft_section                          
+1575	shaft_section                          	|	1771	shaft_section                          
+1576	shaft_section                          	|	1772	shaft_section                          
+1577	shaft_section                          	|	1773	shaft_section                          
+1578	shaft_section                          	|	1774	shaft_section                          
+1579	shaft_section                          	|	1775	shaft_section                          
+1580	shaft_section                          	|	1776	shaft_section                          
+1581	shaft_section                          	|	1777	shaft_section                          
+1582	shaft_section                          	|	1778	shaft_section                          
+1583	shaft_section                          	|	1779	shaft_section                          
+1584	shaft_section                          	|	1780	shaft_section                          
+1585	shaft_section                          	|	1781	shaft_section                          
+1586	shaft_section                          	|	1782	shaft_section                          
+1587	shaft_section                          	|	1783	shaft_section                          
+1588	shaft_section                          	|	1784	shaft_section                          
+1589	shaft_section                          	|	1785	shaft_section                          
+1590	shaft_section                          	|	1786	shaft_section                          
+1591	shaft_section                          	|	1787	shaft_section                          
+1592	shaft_section                          	|	1788	shaft_section                          
+1593	shaft_section                          	|	1789	shaft_section                          
+1594	shaft_section                          	|	1790	shaft_section                          
+1595	shaft_section                          	|	1791	shaft_section                          
+1596	shaft_section                          	|	1792	shaft_section                          
+1597	shaft_section                          	|	1793	shaft_section                          
+1598	shaft_section                          	|	1794	shaft_section                          
+1599	shaft_section                          	|	1795	shaft_section                          
+1600	shaft_section                          	|	1796	shaft_section                          
+1601	shaft_section                          	|	1797	shaft_section                          
+1602	shaft_section                          	|	1798	shaft_section                          
+1603	cylindrical_gear_flank                 	|	1800	cylindrical_gear_flank                 
+1604	cylindrical_gear_flank                 	|	1801	cylindrical_gear_flank                 
+1605	cylindrical_gear_flank                 	|	1802	cylindrical_gear_flank                 
+1606	cylindrical_gear_flank                 	|	1803	cylindrical_gear_flank                 
+1607	cylindrical_gear_flank                 	|	1804	cylindrical_gear_flank                 
+1608	cylindrical_gear_flank                 	|	1805	cylindrical_gear_flank                 
+1609	cylindrical_gear_flank                 	|	1806	cylindrical_gear_flank                 
+1610	cylindrical_gear_flank                 	|	1807	cylindrical_gear_flank                 
+1611	cylindrical_gear_flank                 	|	1808	cylindrical_gear_flank                 
+1612	cylindrical_gear_flank                 	|	1809	cylindrical_gear_flank                 
+1613	cylindrical_gear_flank                 	|	1810	cylindrical_gear_flank                 
+1614	cylindrical_gear_flank                 	|	1811	cylindrical_gear_flank                 
+1615	cylindrical_gear_flank                 	|	1812	cylindrical_gear_flank                 
+1616	cylindrical_gear_flank                 	|	1813	cylindrical_gear_flank                 
+1617	cylindrical_gear_flank                 	|	1814	cylindrical_gear_flank                 
+1618	cylindrical_gear_flank                 	|	1815	cylindrical_gear_flank                 
+1619	cylindrical_gear_flank                 	|	1816	cylindrical_gear_flank                 
+1620	cylindrical_gear_flank                 	|	1817	cylindrical_gear_flank                 
+1621	cylindrical_gear_flank                 	|	1818	cylindrical_gear_flank                 
+1622	cylindrical_gear_flank                 	|	1819	cylindrical_gear_flank                 
+1623	cylindrical_gear_manufacturing_settings	|	1828	cylindrical_gear_manufacturing_settings
+1624	cylindrical_gear_manufacturing_settings	|	1829	cylindrical_gear_manufacturing_settings
+1625	cylindrical_gear_manufacturing_settings	|	1830	cylindrical_gear_manufacturing_settings
+1626	cylindrical_gear_manufacturing_settings	|	1831	cylindrical_gear_manufacturing_settings
+1627	cylindrical_gear_manufacturing_settings	|	1832	cylindrical_gear_manufacturing_settings
+1628	cylindrical_gear_manufacturing_settings	|	1833	cylindrical_gear_manufacturing_settings
+1629	cylindrical_gear_manufacturing_settings	|	1834	cylindrical_gear_manufacturing_settings
+1630	cylindrical_gear_manufacturing_settings	|	1835	cylindrical_gear_manufacturing_settings
+1631	cylindrical_gear_manufacturing_settings	|	1836	cylindrical_gear_manufacturing_settings
+1632	cylindrical_gear_manufacturing_settings	|	1837	cylindrical_gear_manufacturing_settings
+1633	cylindrical_gear_manufacturing_settings	|	1838	cylindrical_gear_manufacturing_settings
+1634	cylindrical_gear_manufacturing_settings	|	1839	cylindrical_gear_manufacturing_settings
+1635	cylindrical_gear_manufacturing_settings	|	1840	cylindrical_gear_manufacturing_settings
+1636	cylindrical_gear_manufacturing_settings	|	1841	cylindrical_gear_manufacturing_settings
+1637	cylindrical_gear_manufacturing_settings	|	1842	cylindrical_gear_manufacturing_settings
+1638	cylindrical_gear_manufacturing_settings	|	1843	cylindrical_gear_manufacturing_settings
+1639	cylindrical_gear_manufacturing_settings	|	1844	cylindrical_gear_manufacturing_settings
+1640	cylindrical_gear_manufacturing_settings	|	1845	cylindrical_gear_manufacturing_settings
+1641	cylindrical_gear_manufacturing_settings	|	1846	cylindrical_gear_manufacturing_settings
+1642	cylindrical_gear_manufacturing_settings	|	1847	cylindrical_gear_manufacturing_settings
+1643	helix_crowning                         	|	1853	helix_crowning                         
+1644	tip_relief                             	|	1854	tip_relief                             
+1645	root_relief                            	|	1855	root_relief                            
+1646	helix_slope                            	|	1852	helix_slope                            
+1647	helix_slope                            	|	1856	helix_slope                            
+
+
+The unmatched components from the first data model are: 
+ID  	Type                                  
+100 	rolling_bearing_with_detailed_geometry
+101 	rolling_bearing_with_detailed_geometry
+126 	rolling_bearing_with_detailed_geometry
+1482	rolling_bearing_row                   
+1483	rolling_bearing_row                   
+1497	rolling_bearing_row                   
+1502	rolling_element                       
+1503	rolling_element                       
+1504	rolling_element                       
+1505	rolling_element                       
+1506	rolling_element                       
+1507	rolling_element                       
+1508	rolling_element                       
+1509	rolling_element                       
+1510	rolling_element                       
+1511	rolling_element                       
+1512	rolling_element                       
+1513	rolling_element                       
+1514	rolling_element                       
+1515	rolling_element                       
+1516	rolling_element                       
+1517	rolling_element                       
+1541	rolling_element                       
+1542	rolling_element                       
+1543	rolling_element                       
+1544	rolling_element                       
+1545	rolling_element                       
+1546	rolling_element                       
+1547	rolling_element                       
+1548	rolling_element                       
+
+
+The unmatched components from the second data model are: 
+ID  	Type                                   
+1706	cylindrical_stage                      
+1707	shaft                                  
+1709	cylindrical_gear                       
+1710	cylindrical_gear                       
+1711	cylindrical_stage_gear_data            
+1712	cylindrical_stage_gear_data            
+1713	rack_shaped_tool                       
+1714	rack_shaped_tool                       
+1715	material                               
+1716	cylindrical_stage                      
+1717	cylindrical_gear                       
+1718	cylindrical_gear                       
+1719	cylindrical_stage_gear_data            
+1720	cylindrical_stage_gear_data            
+1721	concept_bearing                        
+1799	shaft_section                          
+1820	cylindrical_gear_flank                 
+1821	cylindrical_gear_flank                 
+1822	cylindrical_gear_flank                 
+1823	cylindrical_gear_flank                 
+1824	cylindrical_gear_flank                 
+1825	cylindrical_gear_flank                 
+1826	cylindrical_gear_flank                 
+1827	cylindrical_gear_flank                 
+1848	cylindrical_gear_manufacturing_settings
+1849	cylindrical_gear_manufacturing_settings
+1850	cylindrical_gear_manufacturing_settings
+1851	cylindrical_gear_manufacturing_settings
+1857	helix_crowning                         
+1858	tip_relief                             
+1859	root_relief                            
+
+Relations are matched as follows: 
+Rel_ID	Rel_Type          	Order	Ref 1                                              	Ref 2                           	Ref 3                                                              	|	Rel_ID	Rel_Type          	Order	Ref 1                                              	Ref 2                           	Ref 3                                                              
+2     	assembly          	     	1,assembly,gear_unit                               	2,part,gear_casing              	                                                                   	|	1     	assembly          	     	1,assembly,gear_unit                               	2,part,gear_casing              	                                                                   
+5     	assembly          	     	1,assembly,gear_unit                               	3,part,cylindrical_stage        	                                                                   	|	4     	assembly          	     	1,assembly,gear_unit                               	3,part,cylindrical_stage        	                                                                   
+6     	assembly          	     	1,assembly,gear_unit                               	4,part,shaft                    	                                                                   	|	5     	assembly          	     	1,assembly,gear_unit                               	4,part,shaft                    	                                                                   
+7     	assembly          	     	1,assembly,gear_unit                               	6,part,shaft                    	                                                                   	|	6     	assembly          	     	1,assembly,gear_unit                               	6,part,shaft                    	                                                                   
+10    	assembly          	     	4,assembly,shaft                                   	8,part,cylindrical_gear         	                                                                   	|	2     	assembly          	     	4,assembly,shaft                                   	8,part,cylindrical_gear         	                                                                   
+11    	assembly          	     	6,assembly,shaft                                   	9,part,cylindrical_gear         	                                                                   	|	3     	assembly          	     	6,assembly,shaft                                   	9,part,cylindrical_gear         	                                                                   
+12    	stage             	     	3,stage,cylindrical_stage                          	8,gear_1,cylindrical_gear       	9,gear_2,cylindrical_gear                                          	|	76    	stage             	     	3,stage,cylindrical_stage                          	8,gear_1,cylindrical_gear       	9,gear_2,cylindrical_gear                                          
+23    	assembly          	     	1,assembly,gear_unit                               	20,part,cylindrical_stage       	                                                                   	|	7     	assembly          	     	1,assembly,gear_unit                               	20,part,cylindrical_stage       	                                                                   
+24    	assembly          	     	1,assembly,gear_unit                               	21,part,shaft                   	                                                                   	|	8     	assembly          	     	1,assembly,gear_unit                               	21,part,shaft                   	                                                                   
+27    	assembly          	     	6,assembly,shaft                                   	23,part,cylindrical_gear        	                                                                   	|	9     	assembly          	     	6,assembly,shaft                                   	23,part,cylindrical_gear        	                                                                   
+28    	assembly          	     	21,assembly,shaft                                  	24,part,cylindrical_gear        	                                                                   	|	10    	assembly          	     	21,assembly,shaft                                  	24,part,cylindrical_gear        	                                                                   
+29    	stage             	     	20,stage,cylindrical_stage                         	23,gear_1,cylindrical_gear      	24,gear_2,cylindrical_gear                                         	|	77    	stage             	     	20,stage,cylindrical_stage                         	23,gear_1,cylindrical_gear      	24,gear_2,cylindrical_gear                                         
+30    	assembly          	     	1,assembly,gear_unit                               	27,part,cylindrical_stage       	                                                                   	|	11    	assembly          	     	1,assembly,gear_unit                               	27,part,cylindrical_stage       	                                                                   
+31    	assembly          	     	1,assembly,gear_unit                               	28,part,shaft                   	                                                                   	|	12    	assembly          	     	1,assembly,gear_unit                               	28,part,shaft                   	                                                                   
+34    	assembly          	     	6,assembly,shaft                                   	30,part,cylindrical_gear        	                                                                   	|	13    	assembly          	     	6,assembly,shaft                                   	30,part,cylindrical_gear        	                                                                   
+35    	assembly          	     	28,assembly,shaft                                  	31,part,cylindrical_gear        	                                                                   	|	14    	assembly          	     	28,assembly,shaft                                  	31,part,cylindrical_gear        	                                                                   
+36    	stage             	     	27,stage,cylindrical_stage                         	30,gear_1,cylindrical_gear      	31,gear_2,cylindrical_gear                                         	|	78    	stage             	     	27,stage,cylindrical_stage                         	30,gear_1,cylindrical_gear      	31,gear_2,cylindrical_gear                                         
+41    	assembly          	     	4,assembly,shaft                                   	36,part,external_load           	                                                                   	|	15    	assembly          	     	4,assembly,shaft                                   	36,part,external_load           	                                                                   
+43    	assembly          	     	1,assembly,gear_unit                               	37,part,cylindrical_stage       	                                                                   	|	16    	assembly          	     	1,assembly,gear_unit                               	37,part,cylindrical_stage       	                                                                   
+44    	assembly          	     	1,assembly,gear_unit                               	38,part,shaft                   	                                                                   	|	17    	assembly          	     	1,assembly,gear_unit                               	38,part,shaft                   	                                                                   
+47    	assembly          	     	38,assembly,shaft                                  	40,part,cylindrical_gear        	                                                                   	|	18    	assembly          	     	38,assembly,shaft                                  	40,part,cylindrical_gear        	                                                                   
+48    	stage             	     	37,stage,cylindrical_stage                         	31,gear_1,cylindrical_gear      	40,gear_2,cylindrical_gear                                         	|	79    	stage             	     	37,stage,cylindrical_stage                         	31,gear_1,cylindrical_gear      	40,gear_2,cylindrical_gear                                         
+57    	assembly          	     	1,assembly,gear_unit                               	49,part,cylindrical_stage       	                                                                   	|	20    	assembly          	     	1,assembly,gear_unit                               	49,part,cylindrical_stage       	                                                                   
+58    	assembly          	     	1,assembly,gear_unit                               	50,part,shaft                   	                                                                   	|	21    	assembly          	     	1,assembly,gear_unit                               	50,part,shaft                   	                                                                   
+61    	assembly          	     	50,assembly,shaft                                  	52,part,cylindrical_gear        	                                                                   	|	22    	assembly          	     	50,assembly,shaft                                  	52,part,cylindrical_gear        	                                                                   
+62    	stage             	     	49,stage,cylindrical_stage                         	24,gear_1,cylindrical_gear      	52,gear_2,cylindrical_gear                                         	|	80    	stage             	     	49,stage,cylindrical_stage                         	24,gear_1,cylindrical_gear      	52,gear_2,cylindrical_gear                                         
+63    	assembly          	     	1,assembly,gear_unit                               	70,part,cylindrical_stage       	                                                                   	|	23    	assembly          	     	1,assembly,gear_unit                               	70,part,cylindrical_stage       	                                                                   
+64    	assembly          	     	1,assembly,gear_unit                               	71,part,shaft                   	                                                                   	|	24    	assembly          	     	1,assembly,gear_unit                               	71,part,shaft                   	                                                                   
+67    	assembly          	     	71,assembly,shaft                                  	73,part,cylindrical_gear        	                                                                   	|	25    	assembly          	     	71,assembly,shaft                                  	73,part,cylindrical_gear        	                                                                   
+68    	stage             	     	70,stage,cylindrical_stage                         	52,gear_1,cylindrical_gear      	73,gear_2,cylindrical_gear                                         	|	81    	stage             	     	70,stage,cylindrical_stage                         	52,gear_1,cylindrical_gear      	73,gear_2,cylindrical_gear                                         
+69    	assembly          	     	1,assembly,gear_unit                               	80,part,cylindrical_stage       	                                                                   	|	26    	assembly          	     	1,assembly,gear_unit                               	80,part,cylindrical_stage       	                                                                   
+70    	assembly          	     	1,assembly,gear_unit                               	81,part,shaft                   	                                                                   	|	27    	assembly          	     	1,assembly,gear_unit                               	81,part,shaft                   	                                                                   
+73    	assembly          	     	81,assembly,shaft                                  	83,part,cylindrical_gear        	                                                                   	|	28    	assembly          	     	81,assembly,shaft                                  	83,part,cylindrical_gear        	                                                                   
+74    	stage             	     	80,stage,cylindrical_stage                         	73,gear_1,cylindrical_gear      	83,gear_2,cylindrical_gear                                         	|	82    	stage             	     	80,stage,cylindrical_stage                         	73,gear_1,cylindrical_gear      	83,gear_2,cylindrical_gear                                         
+84    	assembly          	     	81,assembly,shaft                                  	94,part,external_load           	                                                                   	|	29    	assembly          	     	81,assembly,shaft                                  	94,part,external_load           	                                                                   
+93    	side              	     	102,assembly,rolling_bearing_with_catalog_geometry 	6,inner_part,shaft              	2,outer_part,gear_casing                                           	|	101   	side              	     	102,assembly,rolling_bearing_with_catalog_geometry 	6,inner_part,shaft              	2,outer_part,gear_casing                                           
+96    	side              	     	103,assembly,rolling_bearing_with_catalog_geometry 	6,inner_part,shaft              	2,outer_part,gear_casing                                           	|	102   	side              	     	103,assembly,rolling_bearing_with_catalog_geometry 	6,inner_part,shaft              	2,outer_part,gear_casing                                           
+99    	side              	     	104,assembly,rolling_bearing_with_detailed_geometry	6,inner_part,shaft              	2,outer_part,gear_casing                                           	|	103   	side              	     	104,assembly,rolling_bearing_with_detailed_geometry	6,inner_part,shaft              	2,outer_part,gear_casing                                           
+104   	side              	     	107,assembly,rolling_bearing_with_catalog_geometry 	6,inner_part,shaft              	2,outer_part,gear_casing                                           	|	114   	side              	     	107,assembly,rolling_bearing_with_catalog_geometry 	6,inner_part,shaft              	2,outer_part,gear_casing                                           
+107   	side              	     	108,assembly,rolling_bearing_with_catalog_geometry 	28,inner_part,shaft             	2,outer_part,gear_casing                                           	|	115   	side              	     	108,assembly,rolling_bearing_with_catalog_geometry 	28,inner_part,shaft             	2,outer_part,gear_casing                                           
+110   	side              	     	109,assembly,rolling_bearing_with_detailed_geometry	28,inner_part,shaft             	2,outer_part,gear_casing                                           	|	97    	side              	     	109,assembly,rolling_bearing_with_detailed_geometry	28,inner_part,shaft             	2,outer_part,gear_casing                                           
+112   	side              	     	110,assembly,rolling_bearing_with_catalog_geometry 	21,inner_part,shaft             	2,outer_part,gear_casing                                           	|	98    	side              	     	110,assembly,rolling_bearing_with_catalog_geometry 	21,inner_part,shaft             	2,outer_part,gear_casing                                           
+117   	side              	     	113,assembly,rolling_bearing_with_catalog_geometry 	21,inner_part,shaft             	2,outer_part,gear_casing                                           	|	100   	side              	     	113,assembly,rolling_bearing_with_catalog_geometry 	21,inner_part,shaft             	2,outer_part,gear_casing                                           
+122   	side              	     	116,assembly,rolling_bearing_with_catalog_geometry 	50,inner_part,shaft             	2,outer_part,gear_casing                                           	|	104   	side              	     	116,assembly,rolling_bearing_with_catalog_geometry 	50,inner_part,shaft             	2,outer_part,gear_casing                                           
+127   	side              	     	119,assembly,rolling_bearing_with_catalog_geometry 	50,inner_part,shaft             	2,outer_part,gear_casing                                           	|	105   	side              	     	119,assembly,rolling_bearing_with_catalog_geometry 	50,inner_part,shaft             	2,outer_part,gear_casing                                           
+131   	side              	     	121,assembly,rolling_bearing_with_catalog_geometry 	71,inner_part,shaft             	2,outer_part,gear_casing                                           	|	106   	side              	     	121,assembly,rolling_bearing_with_catalog_geometry 	71,inner_part,shaft             	2,outer_part,gear_casing                                           
+135   	side              	     	123,assembly,rolling_bearing_with_catalog_geometry 	71,inner_part,shaft             	2,outer_part,gear_casing                                           	|	107   	side              	     	123,assembly,rolling_bearing_with_catalog_geometry 	71,inner_part,shaft             	2,outer_part,gear_casing                                           
+140   	side              	     	125,assembly,rolling_bearing_with_catalog_geometry 	38,inner_part,shaft             	2,outer_part,gear_casing                                           	|	108   	side              	     	125,assembly,rolling_bearing_with_catalog_geometry 	38,inner_part,shaft             	2,outer_part,gear_casing                                           
+146   	side              	     	127,assembly,rolling_bearing_with_catalog_geometry 	38,inner_part,shaft             	2,outer_part,gear_casing                                           	|	110   	side              	     	127,assembly,rolling_bearing_with_catalog_geometry 	38,inner_part,shaft             	2,outer_part,gear_casing                                           
+149   	side              	     	128,assembly,rolling_bearing_with_detailed_geometry	81,inner_part,shaft             	2,outer_part,gear_casing                                           	|	111   	side              	     	128,assembly,rolling_bearing_with_detailed_geometry	81,inner_part,shaft             	2,outer_part,gear_casing                                           
+152   	side              	     	129,assembly,rolling_bearing_with_catalog_geometry 	81,inner_part,shaft             	2,outer_part,gear_casing                                           	|	112   	side              	     	129,assembly,rolling_bearing_with_catalog_geometry 	81,inner_part,shaft             	2,outer_part,gear_casing                                           
+155   	side              	     	130,assembly,rolling_bearing_with_catalog_geometry 	81,inner_part,shaft             	2,outer_part,gear_casing                                           	|	113   	side              	     	130,assembly,rolling_bearing_with_catalog_geometry 	81,inner_part,shaft             	2,outer_part,gear_casing                                           
+156   	assembly          	     	38,assembly,shaft                                  	131,part,external_load          	                                                                   	|	19    	assembly          	     	38,assembly,shaft                                  	131,part,external_load          	                                                                   
+159   	stage_gear_data   	     	3,stage,cylindrical_stage                          	8,gear,cylindrical_gear         	136,stage_gear_data,cylindrical_stage_gear_data                    	|	83    	stage_gear_data   	     	3,stage,cylindrical_stage                          	8,gear,cylindrical_gear         	136,stage_gear_data,cylindrical_stage_gear_data                    
+160   	stage_gear_data   	     	3,stage,cylindrical_stage                          	9,gear,cylindrical_gear         	137,stage_gear_data,cylindrical_stage_gear_data                    	|	84    	stage_gear_data   	     	3,stage,cylindrical_stage                          	9,gear,cylindrical_gear         	137,stage_gear_data,cylindrical_stage_gear_data                    
+161   	stage_gear_data   	     	20,stage,cylindrical_stage                         	23,gear,cylindrical_gear        	138,stage_gear_data,cylindrical_stage_gear_data                    	|	85    	stage_gear_data   	     	20,stage,cylindrical_stage                         	23,gear,cylindrical_gear        	138,stage_gear_data,cylindrical_stage_gear_data                    
+162   	stage_gear_data   	     	20,stage,cylindrical_stage                         	24,gear,cylindrical_gear        	139,stage_gear_data,cylindrical_stage_gear_data                    	|	86    	stage_gear_data   	     	20,stage,cylindrical_stage                         	24,gear,cylindrical_gear        	139,stage_gear_data,cylindrical_stage_gear_data                    
+163   	stage_gear_data   	     	27,stage,cylindrical_stage                         	30,gear,cylindrical_gear        	140,stage_gear_data,cylindrical_stage_gear_data                    	|	87    	stage_gear_data   	     	27,stage,cylindrical_stage                         	30,gear,cylindrical_gear        	140,stage_gear_data,cylindrical_stage_gear_data                    
+164   	stage_gear_data   	     	27,stage,cylindrical_stage                         	31,gear,cylindrical_gear        	141,stage_gear_data,cylindrical_stage_gear_data                    	|	88    	stage_gear_data   	     	27,stage,cylindrical_stage                         	31,gear,cylindrical_gear        	141,stage_gear_data,cylindrical_stage_gear_data                    
+165   	stage_gear_data   	     	37,stage,cylindrical_stage                         	31,gear,cylindrical_gear        	142,stage_gear_data,cylindrical_stage_gear_data                    	|	89    	stage_gear_data   	     	37,stage,cylindrical_stage                         	31,gear,cylindrical_gear        	142,stage_gear_data,cylindrical_stage_gear_data                    
+166   	stage_gear_data   	     	37,stage,cylindrical_stage                         	40,gear,cylindrical_gear        	143,stage_gear_data,cylindrical_stage_gear_data                    	|	90    	stage_gear_data   	     	37,stage,cylindrical_stage                         	40,gear,cylindrical_gear        	143,stage_gear_data,cylindrical_stage_gear_data                    
+167   	stage_gear_data   	     	49,stage,cylindrical_stage                         	24,gear,cylindrical_gear        	144,stage_gear_data,cylindrical_stage_gear_data                    	|	91    	stage_gear_data   	     	49,stage,cylindrical_stage                         	24,gear,cylindrical_gear        	144,stage_gear_data,cylindrical_stage_gear_data                    
+168   	stage_gear_data   	     	49,stage,cylindrical_stage                         	52,gear,cylindrical_gear        	145,stage_gear_data,cylindrical_stage_gear_data                    	|	92    	stage_gear_data   	     	49,stage,cylindrical_stage                         	52,gear,cylindrical_gear        	145,stage_gear_data,cylindrical_stage_gear_data                    
+169   	stage_gear_data   	     	70,stage,cylindrical_stage                         	52,gear,cylindrical_gear        	146,stage_gear_data,cylindrical_stage_gear_data                    	|	93    	stage_gear_data   	     	70,stage,cylindrical_stage                         	52,gear,cylindrical_gear        	146,stage_gear_data,cylindrical_stage_gear_data                    
+170   	stage_gear_data   	     	70,stage,cylindrical_stage                         	73,gear,cylindrical_gear        	147,stage_gear_data,cylindrical_stage_gear_data                    	|	94    	stage_gear_data   	     	70,stage,cylindrical_stage                         	73,gear,cylindrical_gear        	147,stage_gear_data,cylindrical_stage_gear_data                    
+171   	stage_gear_data   	     	80,stage,cylindrical_stage                         	73,gear,cylindrical_gear        	148,stage_gear_data,cylindrical_stage_gear_data                    	|	95    	stage_gear_data   	     	80,stage,cylindrical_stage                         	73,gear,cylindrical_gear        	148,stage_gear_data,cylindrical_stage_gear_data                    
+172   	stage_gear_data   	     	80,stage,cylindrical_stage                         	83,gear,cylindrical_gear        	149,stage_gear_data,cylindrical_stage_gear_data                    	|	96    	stage_gear_data   	     	80,stage,cylindrical_stage                         	83,gear,cylindrical_gear        	149,stage_gear_data,cylindrical_stage_gear_data                    
+175   	reference         	     	102,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	318   	reference         	     	102,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+176   	reference         	     	103,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	319   	reference         	     	103,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+177   	reference         	     	104,origin,rolling_bearing_with_detailed_geometry  	953,referenced,lubricant        	                                                                   	|	320   	reference         	     	104,origin,rolling_bearing_with_detailed_geometry  	953,referenced,lubricant        	                                                                   
+178   	reference         	     	107,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	321   	reference         	     	107,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+179   	reference         	     	108,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	322   	reference         	     	108,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+180   	reference         	     	109,origin,rolling_bearing_with_detailed_geometry  	953,referenced,lubricant        	                                                                   	|	323   	reference         	     	109,origin,rolling_bearing_with_detailed_geometry  	953,referenced,lubricant        	                                                                   
+181   	reference         	     	110,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	324   	reference         	     	110,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+182   	reference         	     	113,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	325   	reference         	     	113,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+183   	reference         	     	116,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	326   	reference         	     	116,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+184   	reference         	     	119,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	327   	reference         	     	119,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+185   	reference         	     	121,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	328   	reference         	     	121,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+186   	reference         	     	123,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	329   	reference         	     	123,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+187   	reference         	     	125,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	330   	reference         	     	125,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+189   	reference         	     	127,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	331   	reference         	     	127,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+190   	reference         	     	128,origin,rolling_bearing_with_detailed_geometry  	953,referenced,lubricant        	                                                                   	|	332   	reference         	     	128,origin,rolling_bearing_with_detailed_geometry  	953,referenced,lubricant        	                                                                   
+191   	reference         	     	129,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	333   	reference         	     	129,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+192   	reference         	     	130,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   	|	334   	reference         	     	130,origin,rolling_bearing_with_catalog_geometry   	953,referenced,lubricant        	                                                                   
+193   	reference         	     	2,origin,gear_casing                               	953,referenced,lubricant        	                                                                   	|	335   	reference         	     	2,origin,gear_casing                               	953,referenced,lubricant        	                                                                   
+194   	reference         	     	3,origin,cylindrical_stage                         	953,referenced,lubricant        	                                                                   	|	336   	reference         	     	3,origin,cylindrical_stage                         	953,referenced,lubricant        	                                                                   
+195   	reference         	     	20,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   	|	337   	reference         	     	20,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   
+196   	reference         	     	27,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   	|	338   	reference         	     	27,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   
+197   	reference         	     	37,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   	|	339   	reference         	     	37,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   
+198   	reference         	     	49,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   	|	340   	reference         	     	49,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   
+199   	reference         	     	70,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   	|	341   	reference         	     	70,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   
+200   	reference         	     	80,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   	|	342   	reference         	     	80,origin,cylindrical_stage                        	953,referenced,lubricant        	                                                                   
+201   	reference         	     	8,origin,cylindrical_gear                          	792,referenced,material         	                                                                   	|	345   	reference         	     	8,origin,cylindrical_gear                          	792,referenced,material         	                                                                   
+202   	reference         	     	9,origin,cylindrical_gear                          	792,referenced,material         	                                                                   	|	346   	reference         	     	9,origin,cylindrical_gear                          	792,referenced,material         	                                                                   
+203   	reference         	     	23,origin,cylindrical_gear                         	792,referenced,material         	                                                                   	|	347   	reference         	     	23,origin,cylindrical_gear                         	792,referenced,material         	                                                                   
+204   	reference         	     	24,origin,cylindrical_gear                         	792,referenced,material         	                                                                   	|	348   	reference         	     	24,origin,cylindrical_gear                         	792,referenced,material         	                                                                   
+205   	reference         	     	30,origin,cylindrical_gear                         	792,referenced,material         	                                                                   	|	349   	reference         	     	30,origin,cylindrical_gear                         	792,referenced,material         	                                                                   
+206   	reference         	     	31,origin,cylindrical_gear                         	792,referenced,material         	                                                                   	|	350   	reference         	     	31,origin,cylindrical_gear                         	792,referenced,material         	                                                                   
+207   	reference         	     	40,origin,cylindrical_gear                         	792,referenced,material         	                                                                   	|	351   	reference         	     	40,origin,cylindrical_gear                         	792,referenced,material         	                                                                   
+208   	reference         	     	52,origin,cylindrical_gear                         	792,referenced,material         	                                                                   	|	352   	reference         	     	52,origin,cylindrical_gear                         	792,referenced,material         	                                                                   
+209   	reference         	     	73,origin,cylindrical_gear                         	792,referenced,material         	                                                                   	|	353   	reference         	     	73,origin,cylindrical_gear                         	792,referenced,material         	                                                                   
+210   	reference         	     	83,origin,cylindrical_gear                         	792,referenced,material         	                                                                   	|	354   	reference         	     	83,origin,cylindrical_gear                         	792,referenced,material         	                                                                   
+211   	reference         	     	4,origin,shaft                                     	791,referenced,material         	                                                                   	|	359   	reference         	     	4,origin,shaft                                     	791,referenced,material         	                                                                   
+212   	reference         	     	6,origin,shaft                                     	791,referenced,material         	                                                                   	|	360   	reference         	     	6,origin,shaft                                     	791,referenced,material         	                                                                   
+213   	reference         	     	21,origin,shaft                                    	791,referenced,material         	                                                                   	|	361   	reference         	     	21,origin,shaft                                    	791,referenced,material         	                                                                   
+214   	reference         	     	28,origin,shaft                                    	791,referenced,material         	                                                                   	|	362   	reference         	     	28,origin,shaft                                    	791,referenced,material         	                                                                   
+215   	reference         	     	38,origin,shaft                                    	791,referenced,material         	                                                                   	|	363   	reference         	     	38,origin,shaft                                    	791,referenced,material         	                                                                   
+216   	reference         	     	50,origin,shaft                                    	791,referenced,material         	                                                                   	|	364   	reference         	     	50,origin,shaft                                    	791,referenced,material         	                                                                   
+217   	reference         	     	71,origin,shaft                                    	791,referenced,material         	                                                                   	|	365   	reference         	     	71,origin,shaft                                    	791,referenced,material         	                                                                   
+218   	reference         	     	81,origin,shaft                                    	791,referenced,material         	                                                                   	|	366   	reference         	     	81,origin,shaft                                    	791,referenced,material         	                                                                   
+219   	assembly          	     	4,assembly,shaft                                   	1557,part,shaft_section         	                                                                   	|	368   	assembly          	     	4,assembly,shaft                                   	1753,part,shaft_section         	                                                                   
+220   	assembly          	     	4,assembly,shaft                                   	1558,part,shaft_section         	                                                                   	|	369   	assembly          	     	4,assembly,shaft                                   	1754,part,shaft_section         	                                                                   
+221   	assembly          	     	4,assembly,shaft                                   	1559,part,shaft_section         	                                                                   	|	370   	assembly          	     	4,assembly,shaft                                   	1755,part,shaft_section         	                                                                   
+222   	assembly          	     	4,assembly,shaft                                   	1560,part,shaft_section         	                                                                   	|	371   	assembly          	     	4,assembly,shaft                                   	1756,part,shaft_section         	                                                                   
+223   	assembly          	     	4,assembly,shaft                                   	1561,part,shaft_section         	                                                                   	|	372   	assembly          	     	4,assembly,shaft                                   	1757,part,shaft_section         	                                                                   
+224   	assembly          	     	6,assembly,shaft                                   	1562,part,shaft_section         	                                                                   	|	373   	assembly          	     	6,assembly,shaft                                   	1758,part,shaft_section         	                                                                   
+225   	assembly          	     	6,assembly,shaft                                   	1563,part,shaft_section         	                                                                   	|	374   	assembly          	     	6,assembly,shaft                                   	1759,part,shaft_section         	                                                                   
+226   	assembly          	     	6,assembly,shaft                                   	1564,part,shaft_section         	                                                                   	|	375   	assembly          	     	6,assembly,shaft                                   	1760,part,shaft_section         	                                                                   
+227   	assembly          	     	6,assembly,shaft                                   	1565,part,shaft_section         	                                                                   	|	376   	assembly          	     	6,assembly,shaft                                   	1761,part,shaft_section         	                                                                   
+228   	assembly          	     	6,assembly,shaft                                   	1566,part,shaft_section         	                                                                   	|	377   	assembly          	     	6,assembly,shaft                                   	1762,part,shaft_section         	                                                                   
+229   	assembly          	     	6,assembly,shaft                                   	1567,part,shaft_section         	                                                                   	|	378   	assembly          	     	6,assembly,shaft                                   	1763,part,shaft_section         	                                                                   
+230   	assembly          	     	6,assembly,shaft                                   	1568,part,shaft_section         	                                                                   	|	379   	assembly          	     	6,assembly,shaft                                   	1764,part,shaft_section         	                                                                   
+231   	assembly          	     	6,assembly,shaft                                   	1569,part,shaft_section         	                                                                   	|	380   	assembly          	     	6,assembly,shaft                                   	1765,part,shaft_section         	                                                                   
+232   	assembly          	     	6,assembly,shaft                                   	1570,part,shaft_section         	                                                                   	|	381   	assembly          	     	6,assembly,shaft                                   	1766,part,shaft_section         	                                                                   
+233   	assembly          	     	6,assembly,shaft                                   	1571,part,shaft_section         	                                                                   	|	382   	assembly          	     	6,assembly,shaft                                   	1767,part,shaft_section         	                                                                   
+234   	assembly          	     	6,assembly,shaft                                   	1572,part,shaft_section         	                                                                   	|	383   	assembly          	     	6,assembly,shaft                                   	1768,part,shaft_section         	                                                                   
+235   	assembly          	     	21,assembly,shaft                                  	1573,part,shaft_section         	                                                                   	|	384   	assembly          	     	21,assembly,shaft                                  	1769,part,shaft_section         	                                                                   
+236   	assembly          	     	21,assembly,shaft                                  	1574,part,shaft_section         	                                                                   	|	385   	assembly          	     	21,assembly,shaft                                  	1770,part,shaft_section         	                                                                   
+237   	assembly          	     	21,assembly,shaft                                  	1575,part,shaft_section         	                                                                   	|	386   	assembly          	     	21,assembly,shaft                                  	1771,part,shaft_section         	                                                                   
+238   	assembly          	     	28,assembly,shaft                                  	1576,part,shaft_section         	                                                                   	|	387   	assembly          	     	28,assembly,shaft                                  	1772,part,shaft_section         	                                                                   
+239   	assembly          	     	28,assembly,shaft                                  	1577,part,shaft_section         	                                                                   	|	388   	assembly          	     	28,assembly,shaft                                  	1773,part,shaft_section         	                                                                   
+240   	assembly          	     	28,assembly,shaft                                  	1578,part,shaft_section         	                                                                   	|	389   	assembly          	     	28,assembly,shaft                                  	1774,part,shaft_section         	                                                                   
+241   	assembly          	     	38,assembly,shaft                                  	1579,part,shaft_section         	                                                                   	|	390   	assembly          	     	38,assembly,shaft                                  	1775,part,shaft_section         	                                                                   
+242   	assembly          	     	38,assembly,shaft                                  	1580,part,shaft_section         	                                                                   	|	391   	assembly          	     	38,assembly,shaft                                  	1776,part,shaft_section         	                                                                   
+243   	assembly          	     	38,assembly,shaft                                  	1581,part,shaft_section         	                                                                   	|	392   	assembly          	     	38,assembly,shaft                                  	1777,part,shaft_section         	                                                                   
+244   	assembly          	     	38,assembly,shaft                                  	1582,part,shaft_section         	                                                                   	|	393   	assembly          	     	38,assembly,shaft                                  	1778,part,shaft_section         	                                                                   
+245   	assembly          	     	38,assembly,shaft                                  	1583,part,shaft_section         	                                                                   	|	394   	assembly          	     	38,assembly,shaft                                  	1779,part,shaft_section         	                                                                   
+246   	assembly          	     	38,assembly,shaft                                  	1584,part,shaft_section         	                                                                   	|	395   	assembly          	     	38,assembly,shaft                                  	1780,part,shaft_section         	                                                                   
+247   	assembly          	     	38,assembly,shaft                                  	1585,part,shaft_section         	                                                                   	|	396   	assembly          	     	38,assembly,shaft                                  	1781,part,shaft_section         	                                                                   
+248   	assembly          	     	38,assembly,shaft                                  	1586,part,shaft_section         	                                                                   	|	397   	assembly          	     	38,assembly,shaft                                  	1782,part,shaft_section         	                                                                   
+249   	assembly          	     	38,assembly,shaft                                  	1587,part,shaft_section         	                                                                   	|	398   	assembly          	     	38,assembly,shaft                                  	1783,part,shaft_section         	                                                                   
+250   	assembly          	     	50,assembly,shaft                                  	1588,part,shaft_section         	                                                                   	|	399   	assembly          	     	50,assembly,shaft                                  	1784,part,shaft_section         	                                                                   
+251   	assembly          	     	50,assembly,shaft                                  	1589,part,shaft_section         	                                                                   	|	400   	assembly          	     	50,assembly,shaft                                  	1785,part,shaft_section         	                                                                   
+252   	assembly          	     	50,assembly,shaft                                  	1590,part,shaft_section         	                                                                   	|	401   	assembly          	     	50,assembly,shaft                                  	1786,part,shaft_section         	                                                                   
+253   	assembly          	     	71,assembly,shaft                                  	1591,part,shaft_section         	                                                                   	|	402   	assembly          	     	71,assembly,shaft                                  	1787,part,shaft_section         	                                                                   
+254   	assembly          	     	71,assembly,shaft                                  	1592,part,shaft_section         	                                                                   	|	403   	assembly          	     	71,assembly,shaft                                  	1788,part,shaft_section         	                                                                   
+255   	assembly          	     	71,assembly,shaft                                  	1593,part,shaft_section         	                                                                   	|	404   	assembly          	     	71,assembly,shaft                                  	1789,part,shaft_section         	                                                                   
+256   	assembly          	     	81,assembly,shaft                                  	1594,part,shaft_section         	                                                                   	|	405   	assembly          	     	81,assembly,shaft                                  	1790,part,shaft_section         	                                                                   
+257   	assembly          	     	81,assembly,shaft                                  	1595,part,shaft_section         	                                                                   	|	406   	assembly          	     	81,assembly,shaft                                  	1791,part,shaft_section         	                                                                   
+258   	assembly          	     	81,assembly,shaft                                  	1596,part,shaft_section         	                                                                   	|	407   	assembly          	     	81,assembly,shaft                                  	1792,part,shaft_section         	                                                                   
+259   	assembly          	     	81,assembly,shaft                                  	1597,part,shaft_section         	                                                                   	|	408   	assembly          	     	81,assembly,shaft                                  	1793,part,shaft_section         	                                                                   
+260   	assembly          	     	81,assembly,shaft                                  	1598,part,shaft_section         	                                                                   	|	409   	assembly          	     	81,assembly,shaft                                  	1794,part,shaft_section         	                                                                   
+261   	assembly          	     	81,assembly,shaft                                  	1599,part,shaft_section         	                                                                   	|	410   	assembly          	     	81,assembly,shaft                                  	1795,part,shaft_section         	                                                                   
+262   	assembly          	     	81,assembly,shaft                                  	1600,part,shaft_section         	                                                                   	|	411   	assembly          	     	81,assembly,shaft                                  	1796,part,shaft_section         	                                                                   
+263   	assembly          	     	81,assembly,shaft                                  	1601,part,shaft_section         	                                                                   	|	412   	assembly          	     	81,assembly,shaft                                  	1797,part,shaft_section         	                                                                   
+264   	assembly          	     	81,assembly,shaft                                  	1602,part,shaft_section         	                                                                   	|	413   	assembly          	     	81,assembly,shaft                                  	1798,part,shaft_section         	                                                                   
+283   	ordered_assembly  	1    	102,assembly,rolling_bearing_with_catalog_geometry 	1484,part,rolling_bearing_row   	                                                                   	|	415   	ordered_assembly  	1    	102,assembly,rolling_bearing_with_catalog_geometry 	1484,part,rolling_bearing_row   	                                                                   
+284   	ordered_assembly  	1    	103,assembly,rolling_bearing_with_catalog_geometry 	1485,part,rolling_bearing_row   	                                                                   	|	416   	ordered_assembly  	1    	103,assembly,rolling_bearing_with_catalog_geometry 	1485,part,rolling_bearing_row   	                                                                   
+285   	ordered_assembly  	1    	104,assembly,rolling_bearing_with_detailed_geometry	1486,part,rolling_bearing_row   	                                                                   	|	417   	ordered_assembly  	1    	104,assembly,rolling_bearing_with_detailed_geometry	1486,part,rolling_bearing_row   	                                                                   
+286   	ordered_assembly  	1    	1486,assembly,rolling_bearing_row                  	1518,part,rolling_element       	                                                                   	|	418   	ordered_assembly  	1    	1486,assembly,rolling_bearing_row                  	1722,part,rolling_element       	                                                                   
+287   	ordered_assembly  	2    	1486,assembly,rolling_bearing_row                  	1519,part,rolling_element       	                                                                   	|	419   	ordered_assembly  	2    	1486,assembly,rolling_bearing_row                  	1723,part,rolling_element       	                                                                   
+288   	ordered_assembly  	3    	1486,assembly,rolling_bearing_row                  	1520,part,rolling_element       	                                                                   	|	420   	ordered_assembly  	3    	1486,assembly,rolling_bearing_row                  	1724,part,rolling_element       	                                                                   
+289   	ordered_assembly  	4    	1486,assembly,rolling_bearing_row                  	1521,part,rolling_element       	                                                                   	|	421   	ordered_assembly  	4    	1486,assembly,rolling_bearing_row                  	1725,part,rolling_element       	                                                                   
+290   	ordered_assembly  	5    	1486,assembly,rolling_bearing_row                  	1522,part,rolling_element       	                                                                   	|	422   	ordered_assembly  	5    	1486,assembly,rolling_bearing_row                  	1726,part,rolling_element       	                                                                   
+291   	ordered_assembly  	6    	1486,assembly,rolling_bearing_row                  	1523,part,rolling_element       	                                                                   	|	423   	ordered_assembly  	6    	1486,assembly,rolling_bearing_row                  	1727,part,rolling_element       	                                                                   
+292   	ordered_assembly  	7    	1486,assembly,rolling_bearing_row                  	1524,part,rolling_element       	                                                                   	|	424   	ordered_assembly  	7    	1486,assembly,rolling_bearing_row                  	1728,part,rolling_element       	                                                                   
+293   	ordered_assembly  	8    	1486,assembly,rolling_bearing_row                  	1525,part,rolling_element       	                                                                   	|	425   	ordered_assembly  	8    	1486,assembly,rolling_bearing_row                  	1729,part,rolling_element       	                                                                   
+294   	ordered_assembly  	9    	1486,assembly,rolling_bearing_row                  	1526,part,rolling_element       	                                                                   	|	426   	ordered_assembly  	9    	1486,assembly,rolling_bearing_row                  	1730,part,rolling_element       	                                                                   
+295   	ordered_assembly  	10   	1486,assembly,rolling_bearing_row                  	1527,part,rolling_element       	                                                                   	|	427   	ordered_assembly  	10   	1486,assembly,rolling_bearing_row                  	1731,part,rolling_element       	                                                                   
+296   	ordered_assembly  	11   	1486,assembly,rolling_bearing_row                  	1528,part,rolling_element       	                                                                   	|	428   	ordered_assembly  	11   	1486,assembly,rolling_bearing_row                  	1732,part,rolling_element       	                                                                   
+297   	ordered_assembly  	12   	1486,assembly,rolling_bearing_row                  	1529,part,rolling_element       	                                                                   	|	429   	ordered_assembly  	12   	1486,assembly,rolling_bearing_row                  	1733,part,rolling_element       	                                                                   
+298   	ordered_assembly  	13   	1486,assembly,rolling_bearing_row                  	1530,part,rolling_element       	                                                                   	|	430   	ordered_assembly  	13   	1486,assembly,rolling_bearing_row                  	1734,part,rolling_element       	                                                                   
+299   	ordered_assembly  	14   	1486,assembly,rolling_bearing_row                  	1531,part,rolling_element       	                                                                   	|	431   	ordered_assembly  	14   	1486,assembly,rolling_bearing_row                  	1735,part,rolling_element       	                                                                   
+300   	ordered_assembly  	15   	1486,assembly,rolling_bearing_row                  	1532,part,rolling_element       	                                                                   	|	432   	ordered_assembly  	15   	1486,assembly,rolling_bearing_row                  	1736,part,rolling_element       	                                                                   
+301   	ordered_assembly  	1    	107,assembly,rolling_bearing_with_catalog_geometry 	1487,part,rolling_bearing_row   	                                                                   	|	433   	ordered_assembly  	1    	107,assembly,rolling_bearing_with_catalog_geometry 	1487,part,rolling_bearing_row   	                                                                   
+302   	ordered_assembly  	1    	108,assembly,rolling_bearing_with_catalog_geometry 	1488,part,rolling_bearing_row   	                                                                   	|	434   	ordered_assembly  	1    	108,assembly,rolling_bearing_with_catalog_geometry 	1488,part,rolling_bearing_row   	                                                                   
+303   	ordered_assembly  	1    	109,assembly,rolling_bearing_with_detailed_geometry	1489,part,rolling_bearing_row   	                                                                   	|	435   	ordered_assembly  	1    	109,assembly,rolling_bearing_with_detailed_geometry	1489,part,rolling_bearing_row   	                                                                   
+304   	ordered_assembly  	1    	1489,assembly,rolling_bearing_row                  	1533,part,rolling_element       	                                                                   	|	436   	ordered_assembly  	1    	1489,assembly,rolling_bearing_row                  	1737,part,rolling_element       	                                                                   
+305   	ordered_assembly  	2    	1489,assembly,rolling_bearing_row                  	1534,part,rolling_element       	                                                                   	|	437   	ordered_assembly  	2    	1489,assembly,rolling_bearing_row                  	1738,part,rolling_element       	                                                                   
+306   	ordered_assembly  	3    	1489,assembly,rolling_bearing_row                  	1535,part,rolling_element       	                                                                   	|	438   	ordered_assembly  	3    	1489,assembly,rolling_bearing_row                  	1739,part,rolling_element       	                                                                   
+307   	ordered_assembly  	4    	1489,assembly,rolling_bearing_row                  	1536,part,rolling_element       	                                                                   	|	439   	ordered_assembly  	4    	1489,assembly,rolling_bearing_row                  	1740,part,rolling_element       	                                                                   
+308   	ordered_assembly  	5    	1489,assembly,rolling_bearing_row                  	1537,part,rolling_element       	                                                                   	|	440   	ordered_assembly  	5    	1489,assembly,rolling_bearing_row                  	1741,part,rolling_element       	                                                                   
+309   	ordered_assembly  	6    	1489,assembly,rolling_bearing_row                  	1538,part,rolling_element       	                                                                   	|	441   	ordered_assembly  	6    	1489,assembly,rolling_bearing_row                  	1742,part,rolling_element       	                                                                   
+310   	ordered_assembly  	7    	1489,assembly,rolling_bearing_row                  	1539,part,rolling_element       	                                                                   	|	442   	ordered_assembly  	7    	1489,assembly,rolling_bearing_row                  	1743,part,rolling_element       	                                                                   
+311   	ordered_assembly  	8    	1489,assembly,rolling_bearing_row                  	1540,part,rolling_element       	                                                                   	|	443   	ordered_assembly  	8    	1489,assembly,rolling_bearing_row                  	1744,part,rolling_element       	                                                                   
+312   	ordered_assembly  	1    	110,assembly,rolling_bearing_with_catalog_geometry 	1490,part,rolling_bearing_row   	                                                                   	|	444   	ordered_assembly  	1    	110,assembly,rolling_bearing_with_catalog_geometry 	1490,part,rolling_bearing_row   	                                                                   
+313   	ordered_assembly  	1    	113,assembly,rolling_bearing_with_catalog_geometry 	1491,part,rolling_bearing_row   	                                                                   	|	445   	ordered_assembly  	1    	113,assembly,rolling_bearing_with_catalog_geometry 	1491,part,rolling_bearing_row   	                                                                   
+314   	ordered_assembly  	1    	116,assembly,rolling_bearing_with_catalog_geometry 	1492,part,rolling_bearing_row   	                                                                   	|	446   	ordered_assembly  	1    	116,assembly,rolling_bearing_with_catalog_geometry 	1492,part,rolling_bearing_row   	                                                                   
+315   	ordered_assembly  	1    	119,assembly,rolling_bearing_with_catalog_geometry 	1493,part,rolling_bearing_row   	                                                                   	|	447   	ordered_assembly  	1    	119,assembly,rolling_bearing_with_catalog_geometry 	1493,part,rolling_bearing_row   	                                                                   
+316   	ordered_assembly  	1    	121,assembly,rolling_bearing_with_catalog_geometry 	1494,part,rolling_bearing_row   	                                                                   	|	448   	ordered_assembly  	1    	121,assembly,rolling_bearing_with_catalog_geometry 	1494,part,rolling_bearing_row   	                                                                   
+317   	ordered_assembly  	1    	123,assembly,rolling_bearing_with_catalog_geometry 	1495,part,rolling_bearing_row   	                                                                   	|	449   	ordered_assembly  	1    	123,assembly,rolling_bearing_with_catalog_geometry 	1495,part,rolling_bearing_row   	                                                                   
+318   	ordered_assembly  	1    	125,assembly,rolling_bearing_with_catalog_geometry 	1496,part,rolling_bearing_row   	                                                                   	|	450   	ordered_assembly  	1    	125,assembly,rolling_bearing_with_catalog_geometry 	1496,part,rolling_bearing_row   	                                                                   
+328   	ordered_assembly  	1    	127,assembly,rolling_bearing_with_catalog_geometry 	1498,part,rolling_bearing_row   	                                                                   	|	451   	ordered_assembly  	1    	127,assembly,rolling_bearing_with_catalog_geometry 	1498,part,rolling_bearing_row   	                                                                   
+329   	ordered_assembly  	1    	128,assembly,rolling_bearing_with_detailed_geometry	1499,part,rolling_bearing_row   	                                                                   	|	452   	ordered_assembly  	1    	128,assembly,rolling_bearing_with_detailed_geometry	1499,part,rolling_bearing_row   	                                                                   
+330   	ordered_assembly  	1    	1499,assembly,rolling_bearing_row                  	1549,part,rolling_element       	                                                                   	|	453   	ordered_assembly  	1    	1499,assembly,rolling_bearing_row                  	1745,part,rolling_element       	                                                                   
+331   	ordered_assembly  	2    	1499,assembly,rolling_bearing_row                  	1550,part,rolling_element       	                                                                   	|	454   	ordered_assembly  	2    	1499,assembly,rolling_bearing_row                  	1746,part,rolling_element       	                                                                   
+332   	ordered_assembly  	3    	1499,assembly,rolling_bearing_row                  	1551,part,rolling_element       	                                                                   	|	455   	ordered_assembly  	3    	1499,assembly,rolling_bearing_row                  	1747,part,rolling_element       	                                                                   
+333   	ordered_assembly  	4    	1499,assembly,rolling_bearing_row                  	1552,part,rolling_element       	                                                                   	|	456   	ordered_assembly  	4    	1499,assembly,rolling_bearing_row                  	1748,part,rolling_element       	                                                                   
+334   	ordered_assembly  	5    	1499,assembly,rolling_bearing_row                  	1553,part,rolling_element       	                                                                   	|	457   	ordered_assembly  	5    	1499,assembly,rolling_bearing_row                  	1749,part,rolling_element       	                                                                   
+335   	ordered_assembly  	6    	1499,assembly,rolling_bearing_row                  	1554,part,rolling_element       	                                                                   	|	458   	ordered_assembly  	6    	1499,assembly,rolling_bearing_row                  	1750,part,rolling_element       	                                                                   
+336   	ordered_assembly  	7    	1499,assembly,rolling_bearing_row                  	1555,part,rolling_element       	                                                                   	|	459   	ordered_assembly  	7    	1499,assembly,rolling_bearing_row                  	1751,part,rolling_element       	                                                                   
+337   	ordered_assembly  	8    	1499,assembly,rolling_bearing_row                  	1556,part,rolling_element       	                                                                   	|	460   	ordered_assembly  	8    	1499,assembly,rolling_bearing_row                  	1752,part,rolling_element       	                                                                   
+338   	ordered_assembly  	1    	129,assembly,rolling_bearing_with_catalog_geometry 	1500,part,rolling_bearing_row   	                                                                   	|	461   	ordered_assembly  	1    	129,assembly,rolling_bearing_with_catalog_geometry 	1500,part,rolling_bearing_row   	                                                                   
+339   	ordered_assembly  	1    	130,assembly,rolling_bearing_with_catalog_geometry 	1501,part,rolling_bearing_row   	                                                                   	|	462   	ordered_assembly  	1    	130,assembly,rolling_bearing_with_catalog_geometry 	1501,part,rolling_bearing_row   	                                                                   
+340   	flank             	     	8,gear,cylindrical_gear                            	1603,left,cylindrical_gear_flank	1604,right,cylindrical_gear_flank                                  	|	463   	flank             	     	8,gear,cylindrical_gear                            	1800,left,cylindrical_gear_flank	1801,right,cylindrical_gear_flank                                  
+341   	flank             	     	9,gear,cylindrical_gear                            	1605,left,cylindrical_gear_flank	1606,right,cylindrical_gear_flank                                  	|	464   	flank             	     	9,gear,cylindrical_gear                            	1802,left,cylindrical_gear_flank	1803,right,cylindrical_gear_flank                                  
+342   	flank             	     	23,gear,cylindrical_gear                           	1607,left,cylindrical_gear_flank	1608,right,cylindrical_gear_flank                                  	|	465   	flank             	     	23,gear,cylindrical_gear                           	1804,left,cylindrical_gear_flank	1805,right,cylindrical_gear_flank                                  
+343   	flank             	     	24,gear,cylindrical_gear                           	1609,left,cylindrical_gear_flank	1610,right,cylindrical_gear_flank                                  	|	466   	flank             	     	24,gear,cylindrical_gear                           	1806,left,cylindrical_gear_flank	1807,right,cylindrical_gear_flank                                  
+344   	flank             	     	30,gear,cylindrical_gear                           	1611,left,cylindrical_gear_flank	1612,right,cylindrical_gear_flank                                  	|	467   	flank             	     	30,gear,cylindrical_gear                           	1808,left,cylindrical_gear_flank	1809,right,cylindrical_gear_flank                                  
+345   	flank             	     	31,gear,cylindrical_gear                           	1613,left,cylindrical_gear_flank	1614,right,cylindrical_gear_flank                                  	|	468   	flank             	     	31,gear,cylindrical_gear                           	1810,left,cylindrical_gear_flank	1811,right,cylindrical_gear_flank                                  
+346   	flank             	     	40,gear,cylindrical_gear                           	1615,left,cylindrical_gear_flank	1616,right,cylindrical_gear_flank                                  	|	469   	flank             	     	40,gear,cylindrical_gear                           	1812,left,cylindrical_gear_flank	1813,right,cylindrical_gear_flank                                  
+347   	flank             	     	52,gear,cylindrical_gear                           	1617,left,cylindrical_gear_flank	1618,right,cylindrical_gear_flank                                  	|	470   	flank             	     	52,gear,cylindrical_gear                           	1814,left,cylindrical_gear_flank	1815,right,cylindrical_gear_flank                                  
+348   	flank             	     	73,gear,cylindrical_gear                           	1619,left,cylindrical_gear_flank	1620,right,cylindrical_gear_flank                                  	|	471   	flank             	     	73,gear,cylindrical_gear                           	1816,left,cylindrical_gear_flank	1817,right,cylindrical_gear_flank                                  
+349   	flank             	     	83,gear,cylindrical_gear                           	1621,left,cylindrical_gear_flank	1622,right,cylindrical_gear_flank                                  	|	472   	flank             	     	83,gear,cylindrical_gear                           	1818,left,cylindrical_gear_flank	1819,right,cylindrical_gear_flank                                  
+350   	manufacturing_step	1    	1603,workpiece,cylindrical_gear_flank              	95,tool,rack_shaped_tool        	1623,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	477   	manufacturing_step	1    	1800,workpiece,cylindrical_gear_flank              	95,tool,rack_shaped_tool        	1828,manufacturing_settings,cylindrical_gear_manufacturing_settings
+351   	manufacturing_step	1    	1604,workpiece,cylindrical_gear_flank              	95,tool,rack_shaped_tool        	1623,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	478   	manufacturing_step	1    	1801,workpiece,cylindrical_gear_flank              	95,tool,rack_shaped_tool        	1828,manufacturing_settings,cylindrical_gear_manufacturing_settings
+352   	manufacturing_step	2    	1603,workpiece,cylindrical_gear_flank              	97,tool,rack_shaped_tool        	1624,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	479   	manufacturing_step	2    	1800,workpiece,cylindrical_gear_flank              	97,tool,rack_shaped_tool        	1829,manufacturing_settings,cylindrical_gear_manufacturing_settings
+353   	manufacturing_step	2    	1604,workpiece,cylindrical_gear_flank              	97,tool,rack_shaped_tool        	1624,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	480   	manufacturing_step	2    	1801,workpiece,cylindrical_gear_flank              	97,tool,rack_shaped_tool        	1829,manufacturing_settings,cylindrical_gear_manufacturing_settings
+354   	manufacturing_step	1    	1605,workpiece,cylindrical_gear_flank              	95,tool,rack_shaped_tool        	1625,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	481   	manufacturing_step	1    	1802,workpiece,cylindrical_gear_flank              	95,tool,rack_shaped_tool        	1830,manufacturing_settings,cylindrical_gear_manufacturing_settings
+355   	manufacturing_step	1    	1606,workpiece,cylindrical_gear_flank              	95,tool,rack_shaped_tool        	1625,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	482   	manufacturing_step	1    	1803,workpiece,cylindrical_gear_flank              	95,tool,rack_shaped_tool        	1830,manufacturing_settings,cylindrical_gear_manufacturing_settings
+356   	manufacturing_step	2    	1605,workpiece,cylindrical_gear_flank              	97,tool,rack_shaped_tool        	1626,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	483   	manufacturing_step	2    	1802,workpiece,cylindrical_gear_flank              	97,tool,rack_shaped_tool        	1831,manufacturing_settings,cylindrical_gear_manufacturing_settings
+357   	manufacturing_step	2    	1606,workpiece,cylindrical_gear_flank              	97,tool,rack_shaped_tool        	1626,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	484   	manufacturing_step	2    	1803,workpiece,cylindrical_gear_flank              	97,tool,rack_shaped_tool        	1831,manufacturing_settings,cylindrical_gear_manufacturing_settings
+358   	manufacturing_step	1    	1607,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1627,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	485   	manufacturing_step	1    	1804,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1832,manufacturing_settings,cylindrical_gear_manufacturing_settings
+359   	manufacturing_step	1    	1608,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1627,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	486   	manufacturing_step	1    	1805,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1832,manufacturing_settings,cylindrical_gear_manufacturing_settings
+360   	manufacturing_step	2    	1607,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1628,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	487   	manufacturing_step	2    	1804,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1833,manufacturing_settings,cylindrical_gear_manufacturing_settings
+361   	manufacturing_step	2    	1608,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1628,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	488   	manufacturing_step	2    	1805,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1833,manufacturing_settings,cylindrical_gear_manufacturing_settings
+362   	manufacturing_step	1    	1609,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1629,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	489   	manufacturing_step	1    	1806,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1834,manufacturing_settings,cylindrical_gear_manufacturing_settings
+363   	manufacturing_step	1    	1610,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1629,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	490   	manufacturing_step	1    	1807,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1834,manufacturing_settings,cylindrical_gear_manufacturing_settings
+364   	manufacturing_step	2    	1609,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1630,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	491   	manufacturing_step	2    	1806,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1835,manufacturing_settings,cylindrical_gear_manufacturing_settings
+365   	manufacturing_step	2    	1610,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1630,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	492   	manufacturing_step	2    	1807,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1835,manufacturing_settings,cylindrical_gear_manufacturing_settings
+366   	manufacturing_step	1    	1611,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1631,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	493   	manufacturing_step	1    	1808,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1836,manufacturing_settings,cylindrical_gear_manufacturing_settings
+367   	manufacturing_step	1    	1612,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1631,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	494   	manufacturing_step	1    	1809,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1836,manufacturing_settings,cylindrical_gear_manufacturing_settings
+368   	manufacturing_step	2    	1611,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1632,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	495   	manufacturing_step	2    	1808,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1837,manufacturing_settings,cylindrical_gear_manufacturing_settings
+369   	manufacturing_step	2    	1612,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1632,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	496   	manufacturing_step	2    	1809,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1837,manufacturing_settings,cylindrical_gear_manufacturing_settings
+370   	manufacturing_step	1    	1613,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1633,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	497   	manufacturing_step	1    	1810,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1838,manufacturing_settings,cylindrical_gear_manufacturing_settings
+371   	manufacturing_step	1    	1614,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1633,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	498   	manufacturing_step	1    	1811,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1838,manufacturing_settings,cylindrical_gear_manufacturing_settings
+372   	manufacturing_step	2    	1613,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1634,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	499   	manufacturing_step	2    	1810,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1839,manufacturing_settings,cylindrical_gear_manufacturing_settings
+373   	manufacturing_step	2    	1614,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1634,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	500   	manufacturing_step	2    	1811,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1839,manufacturing_settings,cylindrical_gear_manufacturing_settings
+374   	manufacturing_step	1    	1615,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1635,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	501   	manufacturing_step	1    	1812,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1840,manufacturing_settings,cylindrical_gear_manufacturing_settings
+375   	manufacturing_step	1    	1616,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1635,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	502   	manufacturing_step	1    	1813,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1840,manufacturing_settings,cylindrical_gear_manufacturing_settings
+376   	manufacturing_step	2    	1615,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1636,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	503   	manufacturing_step	2    	1812,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1841,manufacturing_settings,cylindrical_gear_manufacturing_settings
+377   	manufacturing_step	2    	1616,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1636,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	504   	manufacturing_step	2    	1813,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1841,manufacturing_settings,cylindrical_gear_manufacturing_settings
+378   	manufacturing_step	1    	1617,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1637,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	505   	manufacturing_step	1    	1814,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1842,manufacturing_settings,cylindrical_gear_manufacturing_settings
+379   	manufacturing_step	1    	1618,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1637,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	506   	manufacturing_step	1    	1815,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1842,manufacturing_settings,cylindrical_gear_manufacturing_settings
+380   	manufacturing_step	2    	1617,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1638,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	507   	manufacturing_step	2    	1814,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1843,manufacturing_settings,cylindrical_gear_manufacturing_settings
+381   	manufacturing_step	2    	1618,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1638,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	508   	manufacturing_step	2    	1815,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1843,manufacturing_settings,cylindrical_gear_manufacturing_settings
+382   	manufacturing_step	1    	1619,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1639,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	509   	manufacturing_step	1    	1816,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1844,manufacturing_settings,cylindrical_gear_manufacturing_settings
+383   	manufacturing_step	1    	1620,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1639,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	510   	manufacturing_step	1    	1817,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1844,manufacturing_settings,cylindrical_gear_manufacturing_settings
+384   	manufacturing_step	2    	1619,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1640,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	511   	manufacturing_step	2    	1816,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1845,manufacturing_settings,cylindrical_gear_manufacturing_settings
+385   	manufacturing_step	2    	1620,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1640,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	512   	manufacturing_step	2    	1817,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1845,manufacturing_settings,cylindrical_gear_manufacturing_settings
+386   	manufacturing_step	1    	1621,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1641,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	513   	manufacturing_step	1    	1818,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1846,manufacturing_settings,cylindrical_gear_manufacturing_settings
+387   	manufacturing_step	1    	1622,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1641,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	514   	manufacturing_step	1    	1819,workpiece,cylindrical_gear_flank              	96,tool,rack_shaped_tool        	1846,manufacturing_settings,cylindrical_gear_manufacturing_settings
+388   	manufacturing_step	2    	1621,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1642,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	515   	manufacturing_step	2    	1818,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1847,manufacturing_settings,cylindrical_gear_manufacturing_settings
+389   	manufacturing_step	2    	1622,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1642,manufacturing_settings,cylindrical_gear_manufacturing_settings	|	516   	manufacturing_step	2    	1819,workpiece,cylindrical_gear_flank              	98,tool,rack_shaped_tool        	1847,manufacturing_settings,cylindrical_gear_manufacturing_settings
+390   	reference         	     	1603,origin,cylindrical_gear_flank                 	1643,referenced,helix_crowning  	                                                                   	|	526   	reference         	     	1800,origin,cylindrical_gear_flank                 	1853,referenced,helix_crowning  	                                                                   
+391   	reference         	     	1603,origin,cylindrical_gear_flank                 	1644,referenced,tip_relief      	                                                                   	|	527   	reference         	     	1800,origin,cylindrical_gear_flank                 	1854,referenced,tip_relief      	                                                                   
+392   	reference         	     	1603,origin,cylindrical_gear_flank                 	1645,referenced,root_relief     	                                                                   	|	528   	reference         	     	1800,origin,cylindrical_gear_flank                 	1855,referenced,root_relief     	                                                                   
+393   	reference         	     	1603,origin,cylindrical_gear_flank                 	1646,referenced,helix_slope     	                                                                   	|	525   	reference         	     	1800,origin,cylindrical_gear_flank                 	1852,referenced,helix_slope     	                                                                   
+397   	reference         	     	1604,origin,cylindrical_gear_flank                 	1647,referenced,helix_slope     	                                                                   	|	529   	reference         	     	1801,origin,cylindrical_gear_flank                 	1856,referenced,helix_slope     	                                                                   
+
+ 
+The unmatched relations from the first data model are: 
+Rel_ID	Rel_Type        
+87    	side            
+90    	side            
+143   	side            
+173   	reference       
+174   	reference       
+188   	reference       
+265   	ordered_assembly
+266   	ordered_assembly
+267   	ordered_assembly
+268   	ordered_assembly
+269   	ordered_assembly
+270   	ordered_assembly
+271   	ordered_assembly
+272   	ordered_assembly
+273   	ordered_assembly
+274   	ordered_assembly
+275   	ordered_assembly
+276   	ordered_assembly
+277   	ordered_assembly
+278   	ordered_assembly
+279   	ordered_assembly
+280   	ordered_assembly
+281   	ordered_assembly
+282   	ordered_assembly
+319   	ordered_assembly
+320   	ordered_assembly
+321   	ordered_assembly
+322   	ordered_assembly
+323   	ordered_assembly
+324   	ordered_assembly
+325   	ordered_assembly
+326   	ordered_assembly
+327   	ordered_assembly
+394   	reference       
+395   	reference       
+396   	reference       
+
+ 
+The unmatched relations from the second data model are: 
+Rel_ID	Rel_Type          
+296   	assembly          
+299   	assembly          
+300   	assembly          
+301   	stage             
+302   	stage_gear_data   
+303   	stage_gear_data   
+307   	assembly          
+308   	assembly          
+309   	stage             
+310   	stage_gear_data   
+311   	stage_gear_data   
+317   	side              
+343   	reference         
+344   	reference         
+355   	reference         
+356   	reference         
+357   	reference         
+358   	reference         
+367   	reference         
+414   	assembly          
+473   	flank             
+474   	flank             
+475   	flank             
+476   	flank             
+517   	manufacturing_step
+518   	manufacturing_step
+519   	manufacturing_step
+520   	manufacturing_step
+521   	manufacturing_step
+522   	manufacturing_step
+523   	manufacturing_step
+524   	manufacturing_step
+530   	reference         
+531   	reference         
+532   	reference         
+
+ 
+ScipOpt has produced the following output: 
+feasible solution found by trivial heuristic after 1.0 seconds, objective value 0.000000e+00
+presolving:
+(round 1, fast)       124393 del vars, 150296 del conss, 0 add conss, 74135 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 24017 clqs
+(round 2, fast)       128825 del vars, 154588 del conss, 0 add conss, 74135 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 19726 clqs
+   (1.0s) running MILP presolver
+   (1.0s) MILP presolver found nothing
+(round 3, exhaustive) 128825 del vars, 154588 del conss, 0 add conss, 74135 chg bounds, 0 chg sides, 0 chg coeffs, 19726 upgd conss, 0 impls, 19726 clqs
+   (6.0s) probing: 1000/14787 (6.8%) - 0 fixings, 0 aggregations, 293038 implications, 0 bound changes
+   (6.0s) probing: 1001/14787 (6.8%) - 0 fixings, 0 aggregations, 293159 implications, 0 bound changes
+   (6.0s) probing aborted: 1000/1000 successive useless probings
+   (6.0s) symmetry computation started: requiring (bin +, int -, cont +), (fixed: bin -, int +, cont -)
+   (7.0s) symmetry computation finished: 21 generators found (max: 1500, log10 of symmetry group size: 11.1)
+presolving (4 rounds: 4 fast, 2 medium, 2 exhaustive):
+ 128826 deleted vars, 154588 deleted constraints, 1 added constraints, 74135 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 312843 cliques
+presolved problem has 14786 variables (14786 bin, 0 int, 0 impl, 0 cont) and 19727 constraints
+  19726 constraints of type <setppc>
+      1 constraints of type <orbitope>
+Presolving Time: 6.00
+transformed 1/1 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p 7.0s|     1 |     0 |     0 |     - |  clique|   0 |  14k|  19k|  19k|   0 |  0 |   0 |   0 | 1.148911e+04 | 1.372285e+02 |8272.25%| unknown
+p 7.0s|     1 |     0 |     0 |     - | vbounds|   0 |  14k|  19k|  19k|   0 |  0 |   0 |   0 | 1.148911e+04 | 3.125219e+02 |3576.26%| unknown
+ 19.0s|     1 |     0 | 30382 |     - |   673M |   0 |  14k|  19k|  19k|   0 |  0 |  11 |   0 | 4.506715e+02 | 3.125219e+02 |  44.20%| unknown
+r19.0s|     1 |     0 | 30382 |     - |randroun|   0 |  14k|  19k|  19k|   0 |  0 |  11 |   0 | 4.506715e+02 | 4.381715e+02 |   2.85%| unknown
+r19.0s|     1 |     0 | 35349 |     - |rounding|   0 |  14k|  19k|  19k|   0 |  0 |  11 |   0 | 4.506715e+02 | 4.384215e+02 |   2.79%| unknown
+i19.0s|     1 |     0 | 35349 |     - |  oneopt|   0 |  14k|  19k|  19k|   0 |  0 |  11 |   0 | 4.506715e+02 | 4.484215e+02 |   0.50%| unknown
+ 22.0s|     1 |     0 | 38242 |     - |   685M |   0 |  14k|  19k|  19k|   6 |  1 |  11 |   0 | 4.484215e+02 | 4.484215e+02 |   0.00%| unknown
+ 22.0s|     1 |     0 | 38242 |     - |   685M |   0 |  14k|  19k|  19k|   6 |  1 |  11 |   0 | 4.484215e+02 | 4.484215e+02 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 22.00
+Solving Nodes      : 1
+Primal Bound       : +4.48421512104980e+02 (6 solutions)
+Dual Bound         : +4.48421512104980e+02
+Gap                : 0.00 %
+
+The objective value of the optimization model is: 448.42151210497985 
+
+ 
+The parameters and functions were set to the following values: 
+f_c: [[1.         0.         0.         ... 0.         0.         0.        ]
+ [0.         1.         0.         ... 0.         0.         0.        ]
+ [0.         0.         0.80645161 ... 0.         0.         0.        ]
+ ...
+ [0.         0.         0.         ... 0.         0.         1.        ]
+ [0.         0.         0.         ... 0.         0.         0.        ]
+ [0.         0.         0.         ... 0.         0.         0.        ]] 
+g_r: [[1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ ...
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]] 
+gamma_c: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] 
+gamma_c_prime: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] 
+delta_r: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.] 
+delta_r_prime: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0.] 
+epsilon: 15 
