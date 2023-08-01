@@ -5,7 +5,7 @@ import time
 import numpy as np
 
 
-def model_optimize_np(components:list, relations:list, components_prime:list, relations_prime:list, gamma_c:list, gamma_c_prime:list, delta_r:list, delta_r_prime:list, epsilon, f_c, g_r, outputfile_runtime):
+def model_optimize_2(components:list, relations:list, components_prime:list, relations_prime:list, gamma_c:list, gamma_c_prime:list, delta_r:list, delta_r_prime:list, epsilon, f_c, g_r, outputfile_runtime):
 
     start_time = time.time()
     
@@ -278,7 +278,7 @@ def model_optimize_np(components:list, relations:list, components_prime:list, re
     print(line18)
     
     with open(outputfile_runtime, "w") as file:
-        file.write("model_optimize was used.")
+        file.write("model_optimize_2 was used.")
         file.write("\n \n")
         file.write(line1)
         file.write("\n")
@@ -368,7 +368,7 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
         for j in range(x_cols):
             if f_c[i][j] != 0:
                 T1 += f_c[i][j] * x[i][j]
-    # T1 = sum(f_c[i][j] * x[i][j] for i in range(x_rows) for j in range(i, x_cols)) # Reward term 1 for the components
+    
 
     end_time = time.time()
     delta_time = end_time - start_time
@@ -382,7 +382,7 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
         for l in range(z_cols):
             if g_r[k][l] != 0:
                 T2 += g_r[k][l] * z[k][l]
-    # T2 = sum(g_r[k][l] * z[k][l] for k in range(z_rows) for l in range(k, z_cols)) 
+    
 
     end_time = time.time()
     delta_time = end_time - start_time
@@ -396,7 +396,7 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
         if gamma_c[i] != 0:
             T3 += gamma_c[i] * (1 - sum(x[i][j] for j in range(x_cols)))
 
-    # T3 = sum(gamma_c[i] * (1 - sum(x[i][j] for j in range(i, x_cols))) for i in range(x_rows))
+    
 
     end_time = time.time()
     delta_time = end_time - start_time
@@ -410,8 +410,7 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
         if gamma_c_prime[j] != 0:
             T4 += gamma_c_prime[j] * (1- sum(x[i][j] for i in range(x_rows)))
 
-    # T4 = sum(gamma_c_prime[j] * (1- sum(x[i][j] for i in range(j, x_rows))) for j in range(x_cols)) 
-
+    
     end_time = time.time()
     delta_time = end_time - start_time
     line5= f"Preparing part T4 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
@@ -424,7 +423,6 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
         if delta_r[k] != 0:
             T5 += delta_r[k] * (1 - sum(z[k][l] for l in range(z_cols)))
 
-    # T5 = sum(delta_r[k] * (1 - sum(z[k][l] for l in range(k, z_cols))) for k in range(z_rows)) 
 
     end_time = time.time()
     delta_time = end_time - start_time
@@ -438,7 +436,6 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
         if delta_r_prime[l] != 0:
             T6 += delta_r_prime[l] * (1 - sum(z[k][l] for k in range(z_rows)))
 
-    # T6 = sum(delta_r_prime[l] * (1 - sum(z[k][l] for k in range(l, z_rows))) for l in range(z_cols))
 
     end_time = time.time()
     delta_time = end_time - start_time

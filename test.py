@@ -21,16 +21,16 @@ start_time = time.time()
 #################################################
 # Define file paths                             #
 #################################################
-# C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\REXS-Database\FVA_2-stage_industry-gearbox\fva_2-stage_industry-gearbox_1-2.rexsj
+
 
 # Define path of the import files, must be a json-file
-input_file = "Sample_Data/REXS-Database/FVA_Planetenstufe_Minusgetriebe/fva_planetenstufe_minusgetriebe_1-1.rexsj" # data of the first model
-input_file_prime = "Sample_Data/REXS-Database/FVA_Planetenstufe_Minusgetriebe/fva_planetenstufe_minusgetriebe_1-2.rexsj" # data of the second model
+input_file = "Sample_Data/REXS-Database/BEARINX_37_LKW-Planetengetriebe\Bearinx_37_LKW-Planetengetriebe_rexs_1_4.rexsj" # data of the first model
+input_file_prime = "Sample_Data/REXS-Database/BEARINX_37_LKW-Planetengetriebe\Bearinx_37_LKW-Planetengetriebe_rexs_1_4_mod.rexsj" # data of the second model
 
 # Define the path and name for the output file
-current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-output_file = f"output/output_{current_datetime}.txt"
-output_file_json = f"output/output_{current_datetime}.json"
+# current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+# output_file = f"output/output_{current_datetime}.txt"
+# output_file_json = f"output/output_{current_datetime}.json"
 
 
 
@@ -55,11 +55,11 @@ components_prime, relations_prime = import_data(input_file_prime, relations_role
 # print(f"component_prime, 212: {components_prime[find_index(212, components_prime)]}")
 # print(f"component_prime, 213: {components_prime[find_index(213, components_prime)]}")
 
-# print(f"relations, 257: {relations[find_index(257, relations)]}")
-print(f"relations_prime, 127: {relations_prime[find_index(127, relations_prime)]}")
+# print(f"relations, 396: {relations[find_index(396, relations)]}")
+# print(f"relations_prime, 550: {relations_prime[find_index(550, relations_prime)]}")
 
-id = 56
-print(f"Component {id} is in relations {which_relations(id, relations_prime)}")
+# id = 1880
+# print(f"Component {id} is in relations {which_relations(id, relations_prime)}")
 
 # Set the parameters and functions of the model #
 #################################################
@@ -74,10 +74,10 @@ f_c_matrix = f_c(components, components_prime) # distance function of the compon
 # delta_r_prime = np.zeros(len(relations_prime)).tolist() # penalty for unmatched relations of data model 2
 # epsilon = 5 # penalty for matched components with different types
 
-# id= 228
-# id_prime = 33
-# f= f_c_matrix[find_index(id, components)][find_index(id_prime, components_prime)]
-# print(f)
+id= 4
+id_prime = 4
+f= f_c_matrix[find_index(id, components)][find_index(id_prime, components_prime)]
+print(f"The similarity of component {id} and component {id_prime} is {f}")
 
 
 #################################################
@@ -106,6 +106,6 @@ f_c_matrix = f_c(components, components_prime) # distance function of the compon
 # wrong_matches(sol_x, sol_z, components, relations, components_prime, relations_prime)
 
 # Stop the timer and print the time it took to run the script
-end_time = time.time()
-delta_time = end_time - start_time
-print("This script took", time.strftime("%Hh %Mm %Ss", time.gmtime(delta_time)))
+# end_time = time.time()
+# delta_time = end_time - start_time
+# print("This script took", time.strftime("%Hh %Mm %Ss", time.gmtime(delta_time)))
