@@ -1,18 +1,20 @@
 # This file is the main file of the project.
-# In this file the all the functions of this project are called.
+# In this file the all the functions of this project are called and executed.
 
 #################################################
 # Import the necessary functions and packages   #
 #################################################
 from import_data import import_data
-from model_optimize import model_optimize
+from model_optimize import model_optimize, model_optimize_2
 from output_data import output_data
 from output_function import output_function
 from f_c import f_c
 from add_runtime import add_runtime
+
 import time
 from datetime import datetime
 import numpy as np
+import os
 
 
 # Start timer to record the runtime of the script
@@ -22,20 +24,30 @@ start_time_script = time.time()
 # Define file paths                             #
 #################################################
 
-# FVA_manual_transmission/fva_manual_transmission_1-3.rexsj
+# C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\REXS-Database\BEARINX_37_LKW-Planetengetriebe\Bearinx_37_LKW-Planetengetriebe_rexs_1_4_mod.rexsj
 
-# Define path of the import file
-input_file = "Sample_Data/REXS-Database/FVA_manual_transmission/fva_manual_transmission_1-3.rexsj" # data of the first model
-input_file_prime = "Sample_Data/REXS-Database/FVA_manual_transmission/fva_manual_transmission_edit_1-5.rexsj" # data of the second model
+### Define path of the import files
+input_file = "Sample_Data/REXS-Database/BEARINX_37_LKW-Planetengetriebe\Bearinx_37_LKW-Planetengetriebe_rexs_1_4.rexsj" # data of the first model
+input_file_prime = "Sample_Data/REXS-Database/BEARINX_37_LKW-Planetengetriebe\Bearinx_37_LKW-Planetengetriebe_rexs_1_4_export.rexsj" # data of the second model
 
-# Define the path and name for the output file
+### Define the path and name for the output file
 current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-output_file = f"output/FVA_manual_transmission/{current_datetime}_output.txt"
-output_file_json = f"output/FVA_manual_transmission/{current_datetime}_output.json"
-output_file_runtime = f"output/FVA_manual_transmission/{current_datetime}_runtime.txt"
+foldername = "BEARINX_37_LKW-Planetengetriebe" # change this to the name of the folder you want to save the output files in
+
+# Check if the folder exists and create it if it doesn't
+path_exists = os.path.exists(f"output/{foldername}")
+if not path_exists:
+    os.makedirs(f"output/{foldername}")
+
+# Output files paths
+os.makedirs(f"output/{foldername}/{current_datetime}")
+
+output_file = f"output/{foldername}/{current_datetime}/{current_datetime}_output.txt"
+output_file_json = f"output/{foldername}/{current_datetime}/{current_datetime}_output.json"
+output_file_runtime = f"output/{foldername}/{current_datetime}/{current_datetime}_runtime.txt"
 
 
-# Define the role ordering of the relations
+### Define the role ordering of the relations
 relations_roles = ["assembly", "part", "stage", "gear_1", "gear_2", "gear", "stage_gear_data", "inner_part", "outer_part", "left", "right", "origin", "referenced", "workpiece", "tool", "manufacturing_settings", "planetary_stage", "shaft", "side_1", "side_2"]
 
 
@@ -62,7 +74,8 @@ gamma_c = np.zeros(len(components)) # penalty for unmatched components of data m
 gamma_c_prime = np.zeros(len(components_prime)) # penalty for unmatched components of data model 2
 delta_r = np.zeros(len(relations)) # penalty for unmatched relations of data model 1
 delta_r_prime = np.zeros(len(relations_prime)) # penalty for unmatched relations of data model 2
-epsilon = 15 # penalty for matched components with different types
+epsilon = 0 # penalty for matched components with different types
+
 
 end_time = time.time()
 delta_time = end_time - start_time
@@ -81,19 +94,7 @@ delta_time = end_time - start_time
 line3=f"Optimizing the model took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))}."
 print(line3)
 start_time = time.time()
-# account for numerical errors
-for i in range(len(sol_x)):
-    for j in range(len(sol_x[0])):
-        if sol_x[i][j] > 0.9999999:
-            sol_x[i][j] = 1
-        else:
-            sol_x[i][j] = 0
-for i in range(len(sol_z)):
-    for j in range(len(sol_z[0])):
-        if sol_z[i][j] > 0.9999999:
-            sol_z[i][j] = 1
-        else:
-            sol_z[i][j] = 0
+
             
 #################################################
 # Output the data                               #
