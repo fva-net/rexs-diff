@@ -24,15 +24,15 @@ start_time_script = time.time()
 # Define file paths                             #
 #################################################
 
-# C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\REXS-Database\BEARINX_37_LKW-Planetengetriebe\Bearinx_37_LKW-Planetengetriebe_rexs_1_4_mod.rexsj
+# C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\REXS-Database\FVA_cylindrical-interference-fit\fva_cylindrical-interference-fit_1-4_export.rexsj
 
 ### Define path of the import files
-input_file = "Sample_Data/REXS-Database/BEARINX_37_LKW-Planetengetriebe\Bearinx_37_LKW-Planetengetriebe_rexs_1_4.rexsj" # data of the first model
-input_file_prime = "Sample_Data/REXS-Database/BEARINX_37_LKW-Planetengetriebe\Bearinx_37_LKW-Planetengetriebe_rexs_1_4_export.rexsj" # data of the second model
+input_file = "Sample_Data/REXS-Database/FVA_cylindrical-interference-fit/fva_cylindrical-interference-fit_1-4_mod.rexsj" # data of the first model
+input_file_prime = "Sample_Data/REXS-Database/FVA_cylindrical-interference-fit/fva_cylindrical-interference-fit_1-4_mod_2.rexsj" # data of the second model
 
 ### Define the path and name for the output file
 current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-foldername = "BEARINX_37_LKW-Planetengetriebe" # change this to the name of the folder you want to save the output files in
+foldername = "FVA_cylindrical-interference-fit" # change this to the name of the folder you want to save the output files in
 
 # Check if the folder exists and create it if it doesn't
 path_exists = os.path.exists(f"output/{foldername}")
