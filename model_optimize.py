@@ -45,26 +45,25 @@ def model_optimize_2(components:list, relations:list, components_prime:list, rel
     for i, j in zip(indices_f[0], indices_f[1]):
         T1 += f_c[i][j] * x[i][j]
     
-    # T1 = sum(f_c[i][j] * x[i][j] for i in range(x_rows) for j in range(i, x_cols)) # Reward term 1 for the components
+    
 
     end_time = time.time()
     delta_time = end_time - start_time
-    line2= f"Preparing part T1 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
+    line2= f"Preparing part T1 of the objective function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line2)
     start_time = time.time()
 
-    # T2 = np.sum(np.multiply(g_r, z))
+    
     # Reward term 2 for the relations
     T2=0
     indices_g = np.where(g_r != 0)
     for k, l in zip(indices_g[0], indices_g[1]):
         T2 += g_r[k][l] * z[k][l]
 
-    # T2 = sum(g_r[k][l] * z[k][l] for k in range(z_rows) for l in range(k, z_cols)) 
-
+     
     end_time = time.time()
     delta_time = end_time - start_time
-    line3= f"Preparing part T2 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
+    line3= f"Preparing part T2 of the objective function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line3)
     start_time = time.time()
 
@@ -74,11 +73,10 @@ def model_optimize_2(components:list, relations:list, components_prime:list, rel
     for i in zip(indices_gamma_c[0]):
         T3 += gamma_c[i] * (1 - sum(x[i][j] for j in range(x_cols)))
 
-    # T3 = sum(gamma_c[i] * (1 - sum(x[i][j] for j in range(i, x_cols))) for i in range(x_rows))
 
     end_time = time.time()
     delta_time = end_time - start_time
-    line4= f"Preparing part T3 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
+    line4= f"Preparing part T3 of the objective function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line4)
     start_time = time.time()
 
@@ -88,11 +86,9 @@ def model_optimize_2(components:list, relations:list, components_prime:list, rel
     for i in zip(indices_gamma_c_prime[0]):
         T4 += gamma_c_prime[j] * (1- sum(x[i][j] for i in range(x_rows)))
 
-    # T4 = sum(gamma_c_prime[j] * (1- sum(x[i][j] for i in range(j, x_rows))) for j in range(x_cols)) 
-
     end_time = time.time()
     delta_time = end_time - start_time
-    line5= f"Preparing part T4 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
+    line5= f"Preparing part T4 of the objective function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line5)
     start_time = time.time()
 
@@ -102,11 +98,9 @@ def model_optimize_2(components:list, relations:list, components_prime:list, rel
     for k in zip(indices_delta_r[0]):
         T5 += delta_r[k] * (1 - sum(z[k][l] for l in range(z_cols)))
 
-    # T5 = sum(delta_r[k] * (1 - sum(z[k][l] for l in range(k, z_cols))) for k in range(z_rows)) 
-
     end_time = time.time()
     delta_time = end_time - start_time
-    line6= f"Preparing part T5 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
+    line6= f"Preparing part T5 of the objective function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line6)
     start_time = time.time()
 
@@ -115,12 +109,10 @@ def model_optimize_2(components:list, relations:list, components_prime:list, rel
     indices_delta_r_prime = np.where(delta_r_prime != 0)
     for k in zip(indices_delta_r_prime[0]):
         T6 += delta_r_prime[l] * (1 - sum(z[k][l] for k in range(z_rows)))
-        
-    # T6 = sum(delta_r_prime[l] * (1 - sum(z[k][l] for k in range(l, z_rows))) for l in range(z_cols))
 
     end_time = time.time()
     delta_time = end_time - start_time
-    line7= f"Preparing part T6 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
+    line7= f"Preparing part T6 of the objective function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line7)
     start_time = time.time()
     
@@ -133,7 +125,7 @@ def model_optimize_2(components:list, relations:list, components_prime:list, rel
 
     end_time = time.time()
     delta_time = end_time - start_time
-    line8= f"Preparing part T7 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
+    line8= f"Preparing part T7 of the objective function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
     print(line8)
     start_time = time.time()
 
@@ -383,7 +375,7 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
             if g_r[k][l] != 0:
                 T2 += g_r[k][l] * z[k][l]
     
-
+    
     end_time = time.time()
     delta_time = end_time - start_time
     line3= f"Preparing part T2 of the objectve function took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))} to run."
