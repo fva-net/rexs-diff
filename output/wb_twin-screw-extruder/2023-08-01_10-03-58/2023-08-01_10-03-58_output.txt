@@ -1,4 +1,4 @@
-We have attempted to match the data in Sample_Data/REXS-Database/Workbench/Workbench_Twin-screw-extruder/Twin_screw-extruder.rexsj to the data in Sample_Data/REXS-Database/Workbench/Workbench_Twin-screw-extruder/Twin_screw-extruder_mod.rexsj. 
+We have attempted to match the data in Sample_Data/REXS-Database/Workbench/wb_twin-screw-extruder/Twin_screw-extruder.rexsj to the data in Sample_Data/REXS-Database/Workbench/wb_twin-screw-extruder/Twin_screw-extruder_mod.rexsj. 
 238/238 components and 292/295 relations from the first data model were matched. 
 238/268 components and 292/326 relations from the second data model were matched. 
  
