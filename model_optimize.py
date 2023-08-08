@@ -5,7 +5,7 @@ import time
 import numpy as np
 
 
-def model_optimize_2(components:list, relations:list, components_prime:list, relations_prime:list, gamma_c:list, gamma_c_prime:list, delta_r:list, delta_r_prime:list, epsilon, f_c, g_r, outputfile_runtime):
+def model_optimize_2(components:list, relations:list, components_prime:list, relations_prime:list, gamma_c:list, gamma_c_prime:list, delta_r:list, delta_r_prime:list, epsilon: float, f_c: list, g_r: list, outputfile_runtime: str):
 
     start_time = time.time()
     
@@ -313,14 +313,7 @@ def model_optimize_2(components:list, relations:list, components_prime:list, rel
 
 
 
-
-
-
-
-
-
-
-def model_optimize(components:list, relations:list, components_prime:list, relations_prime:list, gamma_c:list, gamma_c_prime:list, delta_r:list, delta_r_prime:list, epsilon, f_c, g_r, outputfile_runtime):
+def model_optimize(components:list, relations:list, components_prime:list, relations_prime:list, gamma_c:list, gamma_c_prime:list, delta_r:list, delta_r_prime:list, epsilon: float, f_c: list, g_r: list, outputfile_runtime: str):
 
     start_time = time.time()
     

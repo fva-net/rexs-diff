@@ -1,5 +1,5 @@
 import time
-def add_runtime(outputfile, line5, line1, line2):
+def add_runtime(outputfile: str, line5: str, line1: str, line2: str):
     with open(outputfile, "r") as file:
         original_output = file.read()
     with open(outputfile, "w") as file:

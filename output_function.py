@@ -1,7 +1,7 @@
 import json
 
 
-def output_function(components, components_prime, sol_x, sol_z, output_file_json= "output/output.json"):
+def output_function(components: list, components_prime: list, sol_x: list, sol_z: list, output_file_json= "output/output.json"):
     """"
     This function gives the resulting matching in a json format.
     It oputputs a jsonfile with the name "output.json" in the folder "output" if not specified otherwise

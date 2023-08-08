@@ -24,15 +24,15 @@ start_time_script = time.time()
 # Define file paths                             #
 #################################################
 
-# C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\REXS-Database\FVA_wind-turbine/fva_wind-turbine_1-2_export.rexsj
+# C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\Workbench\wb_multiple_interference_fit\multiple_interference_fit_mod.rexsj
 
 ### Define path of the import files
-input_file = "Sample_Data/REXS-Database/FVA_wind-turbine/fva_wind-turbine_1-4.rexsj" # data of the first model
-input_file_prime = "Sample_Data/REXS-Database/FVA_wind-turbine/fva_wind-turbine_1-4_export.rexsj" # data of the second model
+input_file = "Sample_Data/REXS-Database/FVA_Planetenstufe_Minusgetriebe/fva_planetenstufe_minusgetriebe_1-4.rexsj" # data of the first model
+input_file_prime = "Sample_Data/REXS-Database/FVA_Planetenstufe_Minusgetriebe/fva_planetenstufe_minusgetriebe_1-4_export.rexsj" # data of the second model
 
 ### Define the path and name for the output file
 current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-foldername = "FVA_wind-turbine" # change this to the name of the folder you want to save the output files in
+foldername = "FVA_Planetenstufe_Minusgetriebe" # change this to the name of the folder you want to save the output files in
 
 # Check if the folder exists and create it if it doesn't
 path_exists = os.path.exists(f"output/{foldername}")
@@ -74,7 +74,7 @@ gamma_c = np.zeros(len(components)) # penalty for unmatched components of data m
 gamma_c_prime = np.zeros(len(components_prime)) # penalty for unmatched components of data model 2
 delta_r = np.zeros(len(relations)) # penalty for unmatched relations of data model 1
 delta_r_prime = np.zeros(len(relations_prime)) # penalty for unmatched relations of data model 2
-epsilon = 0 # penalty for matched components with different types
+epsilon = 1 # penalty for matched components with different types
 
 
 end_time = time.time()
@@ -94,6 +94,20 @@ delta_time = end_time - start_time
 line3=f"Optimizing the model took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))}."
 print(line3)
 start_time = time.time()
+
+# account for numerical errors
+# for i in range(len(sol_x)):
+#     for j in range(len(sol_x[0])):
+#         if sol_x[i][j] > 0.9999999:
+#             sol_x[i][j] = 1
+#         else:
+#             sol_x[i][j] = 0
+# for i in range(len(sol_z)):
+#     for j in range(len(sol_z[0])):
+#         if sol_z[i][j] > 0.9999999:
+#             sol_z[i][j] = 1
+#         else:
+#             sol_z[i][j] = 0
 
             
 #################################################

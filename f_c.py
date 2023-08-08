@@ -1,6 +1,6 @@
 import numpy as np
 
-def f_c(components, components_prime):
+def f_c(components: list , components_prime: list):
     """
     This functions tells us how similar two components are.
     Output: matrix of dimension len(components) x len(components_prime)

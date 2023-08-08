@@ -1,7 +1,7 @@
 import os
 from find_index import find_index
 
-def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, components_prime:list, relations:list, relations_prime:list, gamma_c:list, gamma_c_prime:list, delta_r:list, delta_r_prime:list, epsilon, f_c, g_r,input_file: str, input_file_prime: str, outputfile: str, log_file="output/log.txt"):
+def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, components_prime:list, relations:list, relations_prime:list, gamma_c:list, gamma_c_prime:list, delta_r:list, delta_r_prime:list, epsilon: float, f_c: list, g_r: list,input_file: str, input_file_prime: str, outputfile: str, log_file="output/log.txt"):
     """
     This restructures the output of the optimization model to a more readable format.
     """
@@ -107,10 +107,10 @@ def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, component
                     if order == None:
                         order = ""
                     refs = relations[i].refs
-                    ref_1 = [str(refs[0].id), refs[0].role, str(components[find_index(refs[0].id, components)].type)]
-                    ref_2 = [str(refs[1].id), refs[1].role, str(components[find_index(refs[1].id, components)].type)]
+                    ref_1 = [str(refs[0].id), str(components[find_index(refs[0].id, components)].type)]
+                    ref_2 = [str(refs[1].id), str(components[find_index(refs[1].id, components)].type)]
                     if len(refs) == 3:
-                        ref_3 = [str(refs[2].id), refs[2].role, str(components[find_index(refs[2].id, components)].type)]
+                        ref_3 = [str(refs[2].id), str(components[find_index(refs[2].id, components)].type)]
                     else:
                         ref_3 = [""]
                     ref_1 = ",".join(ref_1)
@@ -123,10 +123,10 @@ def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, component
                     if order_prime == None:
                         order_prime = ""
                     refs_prime = relations_prime[j].refs
-                    ref_1_prime = [str(refs_prime[0].id), refs_prime[0].role, str(components_prime[find_index(refs_prime[0].id, components_prime)].type)]
-                    ref_2_prime = [str(refs_prime[1].id), refs_prime[1].role, str(components_prime[find_index(refs_prime[1].id, components_prime)].type)]
+                    ref_1_prime = [str(refs_prime[0].id), str(components_prime[find_index(refs_prime[0].id, components_prime)].type)]
+                    ref_2_prime = [str(refs_prime[1].id), str(components_prime[find_index(refs_prime[1].id, components_prime)].type)]
                     if len(refs_prime) == 3:
-                        ref_3_prime = [str(refs_prime[2].id), refs_prime[2].role, str(components_prime[find_index(refs_prime[2].id, components_prime)].type)]
+                        ref_3_prime = [str(refs_prime[2].id), str(components_prime[find_index(refs_prime[2].id, components_prime)].type)]
                     else:
                         ref_3_prime = [""]
                     ref_1_prime = ",".join(ref_1_prime)
@@ -147,7 +147,7 @@ def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, component
         # unmatched relations
         # Data model 1
         file.write("The unmatched relations from the first data model are: \n")
-        table_relations=[["Rel_ID", "Rel_Type"]]
+        table_relations=[["Rel_ID", "Rel_Type", "Order", "Ref 1", "Ref 2", "Ref 3"]]
         for i in range(len(sol_z)):
             match_found = False
             for j in range(len(sol_z[0])):
@@ -157,7 +157,20 @@ def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, component
             if not match_found:
                 id = str(relations[i].id)
                 type = relations[i].type
-                list_relations=[id, type]
+                order = relations[i].order
+                if order == None:
+                    order = ""
+                refs = relations[i].refs
+                ref_1 = [str(refs[0].id), str(components[find_index(refs[0].id, components)].type)]
+                ref_2 = [str(refs[1].id), str(components[find_index(refs[1].id, components)].type)]
+                if len(refs) == 3:
+                    ref_3 = [str(refs[2].id), str(components[find_index(refs[2].id, components)].type)]
+                else:
+                    ref_3 = [""]
+                ref_1 = ",".join(ref_1)
+                ref_2 = ",".join(ref_2)
+                ref_3 = ",".join(ref_3)
+                list_relations=[id, type, order, ref_1, ref_2, ref_3]
                 table_relations.append(list_relations)
         
         # Add table of unmatched relations
@@ -173,7 +186,7 @@ def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, component
 
         # Data model 2
         file.write("The unmatched relations from the second data model are: \n")
-        table_relations_prime=[["Rel_ID", "Rel_Type"]]
+        table_relations_prime=[["Rel_ID", "Rel_Type", "Order", "Ref 1", "Ref 2", "Ref 3"]]
         for j in range(len(sol_z[0])):
             match_found = False
             for i in range(len(sol_z)):
@@ -183,7 +196,20 @@ def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, component
             if not match_found:
                 id = str(relations_prime[j].id)
                 type = relations_prime[j].type
-                list_relations_prime=[id, type]
+                order = relations_prime[j].order
+                if order == None:
+                    order = ""
+                refs = relations_prime[j].refs
+                ref_1 = [str(refs[0].id), str(components_prime[find_index(refs[0].id, components_prime)].type)]
+                ref_2 = [str(refs[1].id), str(components_prime[find_index(refs[1].id, components_prime)].type)]
+                if len(refs) == 3:
+                    ref_3 = [str(refs[2].id), str(components_prime[find_index(refs[2].id, components_prime)].type)]
+                else:
+                    ref_3 = [""]
+                ref_1 = ",".join(ref_1)
+                ref_2 = ",".join(ref_2)
+                ref_3 = ",".join(ref_3)
+                list_relations_prime=[id, type, order, ref_1, ref_2, ref_3]
                 table_relations_prime.append(list_relations_prime)
 
         # Add table of unmatched relations
@@ -211,6 +237,9 @@ def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, component
         file.write(f"delta_r: {delta_r.tolist()} \n")
         file.write(f"delta_r_prime: {delta_r_prime.tolist()} \n")
         file.write(f"epsilon: {epsilon} \n")
+        file.write(f"sol_x: {sol_x} \n")
+        file.write(f"sol_z: {sol_z} \n")
+
     # Delete the log file
     os.remove(log_file)
     # os.remove("output/model.lp")
