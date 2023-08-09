@@ -10,6 +10,7 @@ from find_index import find_index
 from output_function import output_function
 from obj_func import obj_func
 from which_relations import which_relations
+from check_unique_ids import check_unique_ids
 import time
 from datetime import datetime
 import numpy as np
@@ -27,6 +28,7 @@ start_time = time.time()
 # Define path of the import files, must be a json-file
 input_file = "Sample_Data/REXS-Database/FVA_Planetenstufe_Minusgetriebe/fva_planetenstufe_minusgetriebe_1-4.rexsj" # data of the first model
 input_file_prime = "Sample_Data/REXS-Database/FVA_Planetenstufe_Minusgetriebe/fva_planetenstufe_minusgetriebe_1-4_export.rexsj" # data of the second model
+
 
 # Define the path and name for the output file
 # current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -58,19 +60,41 @@ relations_roles = ["assembly", "part", "stage", "gear_1", "gear_2", "gear", "sta
 components, relations = import_data(input_file, relations_roles) # components and relations of the first model
 components_prime, relations_prime = import_data(input_file_prime, relations_roles) # components and relations of the second model
 
+# Check for double IDs in the components and relations
+components_unique, components_double = check_unique_ids(components, "component")
+relations_unique, relations_double = check_unique_ids(relations, "relation")
+components_prime_unique, components_prime_double = check_unique_ids(components_prime, "component")
+relations_prime_unique, relations_prime_double = check_unique_ids(relations_prime, "relation")
+
+if components_unique == False:
+    print(f"ERRORR: The IDs of the components in {input_file} are not unique. \n The non-unique IDs are: {components_double}")
+
+if relations_unique == False:
+    print(f"ERRORR: The IDs of the relations in {input_file} are not unique. \n The non-unique IDs are: {relations_double}")
+
+if components_prime_unique == False:
+    print(f"ERRORR: The IDs of the components in {input_file_prime} are not unique. \n The non-unique IDs are: {components_prime_double}")
+
+if relations_prime_unique == False:
+    print(f"ERRORR: The IDs of the relations in {input_file_prime} are not unique. \n The non-unique IDs are: {relations_prime_double}")
+
+if components_unique == False or relations_unique == False or components_prime_unique == False or relations_prime_unique == False:
+    print("Please fix the non-unique IDs and try again.")
+    exit()
+
 
 print(f"component, 36: {components[find_index(36, components)]}")
-print(f"component, 91: {components[find_index(91, components)]}")
+# print(f"component, 91: {components[find_index(91, components)]}")
 # print(f"component, 212: {components[find_index(212, components)]}") 
 # print(f"component, 213: {components[find_index(213, components)]}")
 
-print(f"component_prime, 36: {components_prime[find_index(36, components_prime)]}")
-print(f"component_prime, 91: {components_prime[find_index(91, components_prime)]}")
+# print(f"component_prime, 36: {components_prime[find_index(36, components_prime)]}")
+# print(f"component_prime, 91: {components_prime[find_index(91, components_prime)]}")
 # print(f"component_prime, 212: {components_prime[find_index(212, components_prime)]}")
 # print(f"component_prime, 213: {components_prime[find_index(213, components_prime)]}")
 
-print(f"relations, 178: {relations[find_index(178, relations)]}")
-print(f"relations_prime, 269: {relations_prime[find_index(269, relations_prime)]}")
+# print(f"relations, 178: {relations[find_index(178, relations)]}")
+# print(f"relations_prime, 269: {relations_prime[find_index(269, relations_prime)]}")
 
 # id = 1880
 # print(f"Component {id} is in relations {which_relations(id, relations_prime)}")
@@ -81,18 +105,18 @@ print(f"relations_prime, 269: {relations_prime[find_index(269, relations_prime)]
 
 
 
-f_c_matrix = f_c(components, components_prime) # distance function of the components
-g_r = np.ones((len(relations), len(relations_prime))) # distance function of the relations
-gamma_c = np.zeros(len(components)) # penalty for unmatched components of data model 1
-gamma_c_prime = np.zeros(len(components_prime)) # penalty for unmatched components of data model 2
-delta_r = np.zeros(len(relations)) # penalty for unmatched relations of data model 1
-delta_r_prime = np.zeros(len(relations_prime)) # penalty for unmatched relations of data model 2
-epsilon = 5 # penalty for matched components with different types
+# f_c_matrix = f_c(components, components_prime) # distance function of the components
+# g_r = np.ones((len(relations), len(relations_prime))) # distance function of the relations
+# gamma_c = np.zeros(len(components)) # penalty for unmatched components of data model 1
+# gamma_c_prime = np.zeros(len(components_prime)) # penalty for unmatched components of data model 2
+# delta_r = np.zeros(len(relations)) # penalty for unmatched relations of data model 1
+# delta_r_prime = np.zeros(len(relations_prime)) # penalty for unmatched relations of data model 2
+# epsilon = 5 # penalty for matched components with different types
 
-id= 91
-id_prime = 91
-f= f_c_matrix[find_index(id, components)][find_index(id_prime, components_prime)]
-print(f"The similarity of component {id} and component {id_prime} is {f}")
+# id= 91
+# id_prime = 91
+# f= f_c_matrix[find_index(id, components)][find_index(id_prime, components_prime)]
+# print(f"The similarity of component {id} and component {id_prime} is {f}")
 # id_rel= 178
 # id_prime_rel = 269
 # g= g_r[find_index(id_rel, relations)][find_index(id_prime_rel, relations_prime)]

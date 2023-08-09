@@ -1,7 +1,7 @@
 import json
 
 
-def output_function(components: list, components_prime: list, sol_x: list, sol_z: list, output_file_json= "output/output.json"):
+def output_function(components: list, components_prime: list, sol_x: list, sol_z: list, input_file, input_file_prime, output_file_json, components_unique, relations_unique, components_prime_unique, relations_prime_unique):
     """"
     This function gives the resulting matching in a json format.
     It oputputs a jsonfile with the name "output.json" in the folder "output" if not specified otherwise
@@ -9,6 +9,7 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
     component_matches = []
     components_only_a = []
     components_only_b = []
+    warnings = []
 
     for i in range(len(sol_x)):
         for j in range(len(sol_x[0])):
@@ -80,7 +81,7 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
                          "component_a": component_a, 
                          "component_b": component_b, 
                          "attributes": attributes_list}
-                component_matches.append(match)#
+                component_matches.append(match)
     
     for i in range(len(components)):
         match_found = False
@@ -122,9 +123,26 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
                        "attributes": attributes_list}
             components_only_b.append(component)
 
+    if components_unique == False:
+        warning = {"warning": f"The IDs of the components in {input_file} are not unique."}
+        warnings.append(warning)
+    
+    if relations_unique == False:
+        warning = {"warning": f"The IDs of the relations in {input_file} are not unique."}
+        warnings.append(warning)
+
+    if components_prime_unique == False:
+        warning = {"warning": f"The IDs of the components in {input_file_prime} are not unique."}
+        warnings.append(warning)
+    
+    if relations_prime_unique == False:
+        warning = {"warning": f"The IDs of the relations in {input_file_prime} are not unique."}
+        warnings.append(warning)
+        
     output_dict = {"component_matches": component_matches,
             "components_only_a": components_only_a,
-            "components_only_b": components_only_b}
+            "components_only_b": components_only_b,
+            "warnings": warnings}
     
     json_object = json.dumps(output_dict, indent = 3)
 

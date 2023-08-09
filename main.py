@@ -10,41 +10,46 @@ from output_data import output_data
 from output_function import output_function
 from f_c import f_c
 from add_runtime import add_runtime
+from check_unique_ids import check_unique_ids
 
 import time
 from datetime import datetime
 import numpy as np
 import os
+import configparser
 
 
 # Start timer to record the runtime of the script
 start_time = time.time()
 start_time_script = time.time()
+
+# Get the config file
+config = configparser.ConfigParser()
+config.read("settings.ini")
+
 #################################################
 # Define file paths                             #
 #################################################
 
-# C:\DATEN\Masterarbeit\rexs-diff\Sample_Data\Workbench\wb_multiple_interference_fit\multiple_interference_fit_mod.rexsj
-
 ### Define path of the import files
-input_file = "Sample_Data/REXS-Database/FVA_Planetenstufe_Minusgetriebe/fva_planetenstufe_minusgetriebe_1-4.rexsj" # data of the first model
-input_file_prime = "Sample_Data/REXS-Database/FVA_Planetenstufe_Minusgetriebe/fva_planetenstufe_minusgetriebe_1-4_export.rexsj" # data of the second model
+input_file = config["InputFiles"]["input_file_1"] # data of the first model
+input_file_prime = config["InputFiles"]["input_file_2"] # data of the second model
 
 ### Define the path and name for the output file
 current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-foldername = "FVA_Planetenstufe_Minusgetriebe" # change this to the name of the folder you want to save the output files in
+outputfolder = config["OutputFiles"]["output_dir"] #name of the folder to save the output files in
 
 # Check if the folder exists and create it if it doesn't
-path_exists = os.path.exists(f"output/{foldername}")
+path_exists = os.path.exists(outputfolder)
 if not path_exists:
-    os.makedirs(f"output/{foldername}")
+    os.makedirs(outputfolder)
 
 # Output files paths
-os.makedirs(f"output/{foldername}/{current_datetime}")
+os.makedirs(f"{outputfolder}/{current_datetime}")
 
-output_file = f"output/{foldername}/{current_datetime}/{current_datetime}_output.txt"
-output_file_json = f"output/{foldername}/{current_datetime}/{current_datetime}_output.json"
-output_file_runtime = f"output/{foldername}/{current_datetime}/{current_datetime}_runtime.txt"
+output_file = f"{outputfolder}/{current_datetime}/{current_datetime}_output.txt"
+output_file_json = f"{outputfolder}/{current_datetime}/{current_datetime}_output.json"
+output_file_runtime = f"{outputfolder}/{current_datetime}/{current_datetime}_runtime.txt"
 
 
 ### Define the role ordering of the relations
@@ -65,6 +70,37 @@ print(line1)
 start_time = time.time()
 
 #################################################
+# Check for double IDs                          #
+#################################################
+
+components_unique, components_double = check_unique_ids(components, "component")
+relations_unique, relations_double = check_unique_ids(relations, "relation")
+components_prime_unique, components_prime_double = check_unique_ids(components_prime, "component")
+relations_prime_unique, relations_prime_double = check_unique_ids(relations_prime, "relation")
+
+if components_unique == False:
+    print(f"WARNING: The IDs of the components in {input_file} are not unique. \n The non-unique IDs are: {components_double}")
+
+if relations_unique == False:
+    print(f"WARNING: The IDs of the relations in {input_file} are not unique. \n The non-unique IDs are: {relations_double}")
+
+if components_prime_unique == False:
+    print(f"WARNING: The IDs of the components in {input_file_prime} are not unique. \n The non-unique IDs are: {components_prime_double}")
+
+if relations_prime_unique == False:
+    print(f"WARNING: The IDs of the relations in {input_file_prime} are not unique. \n The non-unique IDs are: {relations_prime_double}")
+
+if components_unique == False or relations_unique == False or components_prime_unique == False or relations_prime_unique == False:
+    print("Please fix the non-unique IDs and try again.")
+    # exit()
+
+end_time = time.time()
+delta_time = end_time - start_time
+line1_5=f"Checking if the IDs are unique took {time.strftime('%Hh %Mm %Ss', time.gmtime(delta_time))}."
+print(line1_5)
+start_time = time.time()
+
+#################################################
 # Set the parameters and functions of the model #
 #################################################
 
@@ -74,7 +110,7 @@ gamma_c = np.zeros(len(components)) # penalty for unmatched components of data m
 gamma_c_prime = np.zeros(len(components_prime)) # penalty for unmatched components of data model 2
 delta_r = np.zeros(len(relations)) # penalty for unmatched relations of data model 1
 delta_r_prime = np.zeros(len(relations_prime)) # penalty for unmatched relations of data model 2
-epsilon = 1 # penalty for matched components with different types
+epsilon = 0 # penalty for matched components with different types
 
 
 end_time = time.time()
@@ -114,8 +150,13 @@ start_time = time.time()
 # Output the data                               #
 #################################################
 
+# TODO: at the end, alles aufräumen für die Abgabe
+# # Outputfile path
+# output_file_json = f"output/{outputfolder}/{current_datetime}/{current_datetime}_output.json"
+
+
 output_data(sol_x, sol_z, objective_value, components, components_prime, relations, relations_prime, gamma_c, gamma_c_prime, delta_r, delta_r_prime, epsilon, f_c_matrix, g_r, input_file, input_file_prime, output_file)
-output_function(components, components_prime, sol_x, sol_z, output_file_json)
+output_function(components, components_prime, sol_x, sol_z, input_file, input_file_prime, output_file_json, components_unique, relations_unique, components_prime_unique, relations_prime_unique)
 
 end_time = time.time()
 delta_time = end_time - start_time
@@ -134,4 +175,4 @@ with open(output_file_runtime, "a") as file:
     file.write("\n")
     file.write(line4)
     file.write("\n")
-add_runtime(output_file_runtime, line5, line1, line2)
+add_runtime(output_file_runtime, line5, line1, line1_5, line2)
