@@ -1,0 +1,113 @@
+We have attempted to match the data in Sample_Data/REXS-Database/FVA_Shaft-with-additional-mass/fva_shaft-with-additional-mass.rexsj to the data in Sample_Data/REXS-Database/FVA_Shaft-with-additional-mass/fva_shaft-with-additional-mass_export.rexsj. 
+14/14 components and 15/15 relations from the first data model were matched. 
+14/14 components and 15/15 relations from the second data model were matched. 
+ 
+ 
+The following matching of components and relations was poduced: 
+Components are matched as follows: 
+ID	Type                                 	|	ID	Type                                 
+1 	gear_unit                            	|	1 	gear_unit                            
+2 	gear_casing                          	|	2 	gear_casing                          
+3 	shaft                                	|	3 	shaft                                
+6 	material                             	|	6 	material                             
+7 	additional_mass                      	|	7 	additional_mass                      
+8 	rolling_bearing_with_catalog_geometry	|	8 	rolling_bearing_with_catalog_geometry
+9 	rolling_bearing_with_catalog_geometry	|	9 	rolling_bearing_with_catalog_geometry
+10	external_load                        	|	10	external_load                        
+11	external_load                        	|	11	external_load                        
+18	lubricant                            	|	18	lubricant                            
+25	rolling_bearing_row                  	|	25	rolling_bearing_row                  
+26	rolling_bearing_row                  	|	26	rolling_bearing_row                  
+27	rolling_bearing_row                  	|	27	rolling_bearing_row                  
+28	shaft_section                        	|	28	shaft_section                        
+
+
+The unmatched components from the first data model are: 
+ID	Type
+
+
+The unmatched components from the second data model are: 
+ID	Type
+
+Relations are matched as follows: 
+Rel_ID	Rel_Type        	Order	Ref 1                                  	Ref 2                 	Ref 3        	|	Rel_ID	Rel_Type        	Order	Ref 1                                  	Ref 2                 	Ref 3        
+2     	assembly        	     	1,gear_unit                            	2,gear_casing         	             	|	1     	assembly        	     	1,gear_unit                            	2,gear_casing         	             
+3     	assembly        	     	3,shaft                                	10,external_load      	             	|	2     	assembly        	     	3,shaft                                	10,external_load      	             
+4     	assembly        	     	3,shaft                                	11,external_load      	             	|	3     	assembly        	     	3,shaft                                	11,external_load      	             
+5     	assembly        	     	1,gear_unit                            	3,shaft               	             	|	4     	assembly        	     	1,gear_unit                            	3,shaft               	             
+6     	assembly        	     	3,shaft                                	7,additional_mass     	             	|	5     	assembly        	     	3,shaft                                	7,additional_mass     	             
+7     	side            	     	8,rolling_bearing_with_catalog_geometry	3,shaft               	2,gear_casing	|	7     	side            	     	8,rolling_bearing_with_catalog_geometry	3,shaft               	2,gear_casing
+8     	side            	     	9,rolling_bearing_with_catalog_geometry	3,shaft               	2,gear_casing	|	8     	side            	     	9,rolling_bearing_with_catalog_geometry	3,shaft               	2,gear_casing
+9     	reference       	     	8,rolling_bearing_with_catalog_geometry	18,lubricant          	             	|	9     	reference       	     	8,rolling_bearing_with_catalog_geometry	18,lubricant          	             
+10    	reference       	     	9,rolling_bearing_with_catalog_geometry	18,lubricant          	             	|	10    	reference       	     	9,rolling_bearing_with_catalog_geometry	18,lubricant          	             
+11    	reference       	     	2,gear_casing                          	18,lubricant          	             	|	11    	reference       	     	2,gear_casing                          	18,lubricant          	             
+12    	reference       	     	3,shaft                                	6,material            	             	|	12    	reference       	     	3,shaft                                	6,material            	             
+13    	assembly        	     	3,shaft                                	28,shaft_section      	             	|	13    	assembly        	     	3,shaft                                	28,shaft_section      	             
+14    	ordered_assembly	1    	8,rolling_bearing_with_catalog_geometry	25,rolling_bearing_row	             	|	14    	ordered_assembly	1    	8,rolling_bearing_with_catalog_geometry	25,rolling_bearing_row	             
+15    	ordered_assembly	1    	9,rolling_bearing_with_catalog_geometry	26,rolling_bearing_row	             	|	15    	ordered_assembly	1    	9,rolling_bearing_with_catalog_geometry	26,rolling_bearing_row	             
+16    	ordered_assembly	2    	9,rolling_bearing_with_catalog_geometry	27,rolling_bearing_row	             	|	16    	ordered_assembly	2    	9,rolling_bearing_with_catalog_geometry	27,rolling_bearing_row	             
+
+ 
+The unmatched relations from the first data model are: 
+Rel_ID	Rel_Type	Order	Ref 1	Ref 2	Ref 3
+
+ 
+The unmatched relations from the second data model are: 
+Rel_ID	Rel_Type	Order	Ref 1	Ref 2	Ref 3
+
+ 
+ScipOpt has produced the following output: 
+feasible solution found by trivial heuristic after 0.0 seconds, objective value 0.000000e+00
+presolving:
+(round 1, fast)       330 del vars, 360 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 148 clqs
+(round 2, fast)       364 del vars, 402 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 106 clqs
+(round 3, fast)       368 del vars, 406 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 102 clqs
+(round 4, fast)       371 del vars, 412 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 96 clqs
+   (0.0s) running MILP presolver
+   (0.0s) MILP presolver found nothing
+(round 5, exhaustive) 371 del vars, 412 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 96 upgd conss, 0 impls, 96 clqs
+(round 6, fast)       375 del vars, 417 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 96 upgd conss, 0 impls, 84 clqs
+(round 7, fast)       377 del vars, 426 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 96 upgd conss, 0 impls, 79 clqs
+(round 8, fast)       383 del vars, 443 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 96 upgd conss, 0 impls, 58 clqs
+(round 9, fast)       385 del vars, 456 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 96 upgd conss, 0 impls, 52 clqs
+(round 10, fast)       387 del vars, 456 del conss, 0 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 96 upgd conss, 0 impls, 52 clqs
+   (0.0s) running MILP presolver
+   (0.0s) MILP presolver found nothing
+   (0.0s) probing cycle finished: starting next cycle
+   (0.0s) symmetry computation started: requiring (bin +, int -, cont +), (fixed: bin -, int +, cont -)
+   (0.0s) symmetry computation finished: 3 generators found (max: 1500, log10 of symmetry group size: 0.9)
+(round 11, exhaustive) 387 del vars, 456 del conss, 3 add conss, 164 chg bounds, 0 chg sides, 0 chg coeffs, 96 upgd conss, 0 impls, 94 clqs
+presolving (12 rounds: 12 fast, 3 medium, 3 exhaustive):
+ 387 deleted vars, 456 deleted constraints, 3 added constraints, 164 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 94 cliques
+presolved problem has 34 variables (34 bin, 0 int, 0 impl, 0 cont) and 55 constraints
+     52 constraints of type <setppc>
+      3 constraints of type <orbitope>
+Presolving Time: 0.00
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+t 0.0s|     1 |     0 |     0 |     - | trivial|   0 |  34 |  55 |   0 |   0 |  0 |   0 |   0 | 4.162001e+01 | 1.290000e+01 | 222.64%| unknown
+p 0.0s|     1 |     0 |     0 |     - |  clique|   0 |  34 |  55 |  52 |   0 |  0 |   0 |   0 | 4.162001e+01 | 2.446046e+01 |  70.15%| unknown
+p 0.0s|     1 |     0 |     0 |     - | vbounds|   0 |  34 |  55 |  52 |   0 |  0 |   0 |   0 | 4.162001e+01 | 2.839289e+01 |  46.59%| unknown
+  0.0s|     1 |     0 |    23 |     - |  3294k |   0 |  34 |  55 |  52 |   0 |  0 |   0 |   0 | 2.839289e+01 | 2.839289e+01 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.00
+Solving Nodes      : 1
+Primal Bound       : +2.83928876244666e+01 (4 solutions)
+Dual Bound         : +2.83928876244666e+01
+Gap                : 0.00 %
+
+The objective value of the optimization model is: 28.392887624466574 
+
+ 
+The parameters and functions were set to the following values: 
+f_c: [[1.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0], [-10.0, 1.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0], [-10.0, -10.0, 1.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0], [-10.0, -10.0, -10.0, 1.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0], [-10.0, -10.0, -10.0, -10.0, 0.9, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0], [-10.0, -10.0, -10.0, -10.0, -10.0, 0.7297297297297297, 0.2631578947368421, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0], [-10.0, -10.0, -10.0, -10.0, -10.0, 0.2972972972972973, 0.7631578947368421, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0], [-10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, 1.0, 0.6666666666666666, -10.0, -10.0, -10.0, -10.0, -10.0], [-10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, 0.6666666666666666, 1.0, -10.0, -10.0, -10.0, -10.0, -10.0], [-10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, 1.0, -10.0, -10.0, -10.0, -10.0], [-10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, 1.0, 0.6666666666666666, 0.3333333333333333, -10.0], [-10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, 0.6666666666666666, 1.0, 0.6666666666666666, -10.0], [-10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, 0.3333333333333333, 0.6666666666666666, 1.0, -10.0], [-10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, 1.0]] 
+g_r: [[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]] 
+gamma_c: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+gamma_c_prime: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+delta_r: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+delta_r_prime: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+epsilon: 0 
+sol_x: [[1.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0], [-0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, -0.0, -0.0, -0.0, 0.0], [-0.0, 0.0, 1.0, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, -0.0, -0.0, -0.0, 0.0], [-0.0, -0.0, -0.0, 1.0, -0.0, -0.0, -0.0, -0.0, -0.0, 0.0, -0.0, -0.0, -0.0, -0.0], [-0.0, 0.0, 0.0, -0.0, 1.0, -0.0, -0.0, 0.0, 0.0, -0.0, -0.0, -0.0, -0.0, 0.0], [-0.0, 0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0], [-0.0, 0.0, 0.0, -0.0, -0.0, 0.0, 1.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0], [-0.0, 0.0, 0.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -0.0, -0.0, -0.0, -0.0, 0.0], [-0.0, 0.0, 0.0, -0.0, 0.0, -0.0, -0.0, 0.0, 1.0, -0.0, -0.0, -0.0, -0.0, 0.0], [-0.0, -0.0, -0.0, 0.0, -0.0, -0.0, -0.0, -0.0, -0.0, 1.0, -0.0, -0.0, -0.0, -0.0], [-0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, 1.0, 0.0, 0.0, -0.0], [-0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, 0.0, 1.0, 0.0, -0.0], [-0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, 0.0, 0.0, 1.0, -0.0], [-0.0, 0.0, 0.0, -0.0, 0.0, -0.0, -0.0, 0.0, 0.0, -0.0, -0.0, -0.0, -0.0, 1.0]] 
+sol_z: [[1.0, -0.0, -0.0, 0.0, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0, 0.0], [-0.0, 1.0, 0.0, -0.0, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0, 0.0], [-0.0, 0.0, 1.0, -0.0, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0, 0.0], [0.0, -0.0, -0.0, 1.0, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0, 0.0], [-0.0, -0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, -0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.0, -0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.0, -0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0], [-0.0, -0.0, -0.0, -0.0, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]] 
