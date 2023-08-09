@@ -33,7 +33,7 @@ def f_c(components: list , components_prime: list):
                                     number_attributes_equal += 1
                     f_c_matrix[c][c_prime] = number_attributes_equal/total_number_attributes
             else:
-                f_c_matrix[c][c_prime] = 0
+                f_c_matrix[c][c_prime] = -10
 
     return f_c_matrix
 
