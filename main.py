@@ -132,18 +132,18 @@ print(line3)
 start_time = time.time()
 
 # account for numerical errors
-# for i in range(len(sol_x)):
-#     for j in range(len(sol_x[0])):
-#         if sol_x[i][j] > 0.9999999:
-#             sol_x[i][j] = 1
-#         else:
-#             sol_x[i][j] = 0
-# for i in range(len(sol_z)):
-#     for j in range(len(sol_z[0])):
-#         if sol_z[i][j] > 0.9999999:
-#             sol_z[i][j] = 1
-#         else:
-#             sol_z[i][j] = 0
+for i in range(len(sol_x)):
+    for j in range(len(sol_x[0])):
+        if sol_x[i][j] > 0.5:
+            sol_x[i][j] = 1
+        else:
+            sol_x[i][j] = 0
+for i in range(len(sol_z)):
+    for j in range(len(sol_z[0])):
+        if sol_z[i][j] > 0.5:
+            sol_z[i][j] = 1
+        else:
+            sol_z[i][j] = 0
 
             
 #################################################
