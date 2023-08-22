@@ -5,7 +5,7 @@
 # Import the necessary functions and packages   #
 #################################################
 from import_data import import_data
-from model_optimize import model_optimize, model_optimize_2
+from model_optimize import model_optimize
 from output_data import output_data
 from output_function import output_function
 from f_c import f_c
