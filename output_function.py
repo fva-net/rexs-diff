@@ -18,10 +18,16 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
                 type = components[i].type
                 comp_a_id = components[i].id
                 comp_a_name = components[i].name
-                component_a = {"id": comp_a_id, "name": comp_a_name}
+                if comp_a_name == None:
+                    component_a = {"id": comp_a_id}
+                else:
+                    component_a = {"id": comp_a_id, "name": comp_a_name}
                 comp_b_id = components_prime[j].id
                 comp_b_name = components_prime[j].name
-                component_b = {"id": comp_b_id, "name": comp_b_name}
+                if comp_b_name == None:
+                    component_b = {"id": comp_b_id}
+                else:
+                    component_b = {"id": comp_b_id, "name": comp_b_name}
                 attributes_comp_a = components[i].attributes
                 attributes_comp_b = components_prime[j].attributes
                 attributes_list =[]
@@ -97,8 +103,13 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
                     "unit": attribute_a.unit,
                     attribute_a.param_type: attribute_a.param_value}
                 attributes_list.append(attribute)
-            component={"type": components[i].type, 
-                       "id": components[i].id, 
+            if components[i].name == None:
+                component={"type": components[i].type, 
+                           "id": components[i].id, 
+                           "attributes": attributes_list}
+            else:
+                component={"type": components[i].type, 
+                        "id": components[i].id, 
                        "name": components[i].name,
                        "attributes": attributes_list}
             components_only_a.append(component)
@@ -117,7 +128,12 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
                     "unit": attribute_b.unit,
                     attribute_b.param_type: attribute_b.param_value}
                 attributes_list.append(attribute)
-            component={"type": components_prime[j].type, 
+            if components_prime[j].name == None:
+                component={"type": components_prime[j].type, 
+                           "id": components_prime[j].id, 
+                           "attributes": attributes_list}
+            else:
+                component={"type": components_prime[j].type, 
                        "id": components_prime[j].id, 
                        "name": components_prime[j].name,
                        "attributes": attributes_list}
@@ -144,8 +160,9 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
             "components_only_b": components_only_b,
             "warnings": warnings}
     
-    json_object = json.dumps(output_dict, indent = 3)
+    #json_object = json.dumps(output_dict, ensure_ascii=False, indent = 3)
 
-    with open(output_file_json, "w") as outfile:
-        outfile.write(json_object)
+    with open(output_file_json, "w", encoding= "utf-8") as outputfile:
+        # outputfile.write(json_object)
+        json.dump(output_dict, outputfile, ensure_ascii=False, indent = 3)
     
