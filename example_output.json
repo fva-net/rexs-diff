@@ -1,0 +1,209 @@
+{
+   "component_matches": [
+      {
+         "type": "side_plate",
+         "component_a": {
+            "id": 34,
+            "name": "Wange [34]"
+         },
+         "component_b": {
+            "id": 34,
+            "name": "Wange [34]"
+         },
+         "attributes": [
+            {
+               "result": "values_different",
+               "id": "displacement_u_of_nodes",
+               "component_a": {
+                  "unit": "mum",
+                  "floating_point_array": [
+                     -6.656564066652319e-09,
+                     -6.656564066652319e-09,
+                     -6.656564066652319e-09
+                  ]
+               },
+               "component_b": {
+                  "unit": "mum",
+                  "floating_point_array": [
+                     -6.65656406665232e-09,
+                     -6.65656406665232e-09,
+                     -6.65656406665232e-09
+                  ]
+               }
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_detailed_geometry",
+         "component_a": {
+            "id": 81,
+            "name": "Wälzlager [81]"
+         },
+         "component_b": {
+            "id": 81,
+            "name": "Wälzlager [81]"
+         },
+         "attributes": [
+            {
+               "result": "values_different",
+               "id": "angular_deflection_in_v",
+               "component_a": {
+                  "unit": "rad",
+                  "floating_point": -1.2152300000000002e-05
+               },
+               "component_b": {
+                  "unit": "rad",
+                  "floating_point": -1.2152300000000004e-05
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 1.5696797349148892e-11
+            },
+            {
+               "result": "values_different",
+               "id": "operating_point_stiffness_f_v_d_w",
+               "component_a": {
+                  "unit": "N / m",
+                  "floating_point": -2238977.3792383005
+               },
+               "component_b": {
+                  "unit": "N / m",
+                  "floating_point": -2238977.379238301
+               }
+            },
+            {
+               "result": "values_different",
+               "id": "axial_stiffness",
+               "component_a": {
+                  "unit": "N / m",
+                  "floating_point": 1114054390.6771584
+               },
+               "component_b": {
+                  "unit": "N / m",
+                  "floating_point": 1114054390.6771586
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "component_a": {
+            "id": 1928,
+            "name": "Individuelle Lagerreihe [1928]"
+         },
+         "component_b": {
+            "id": 3404
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "enum": "negative"
+            },
+            {
+               "result": "values_equal",
+               "id": "pressure_angle",
+               "unit": "°",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "number_of_rolling_elements",
+               "unit": "none",
+               "integer": 20
+            },
+            {
+               "result": "values_equal",
+               "id": "position_of_rolling_elements",
+               "unit": "none",
+               "enum": "one_rolling_element_on_v_axis"
+            },
+            {
+               "result": "only_a",
+               "id": "reference_diameter",
+               "unit": "mm",
+               "floating_point": 350.0
+            }
+         ]
+      }
+   ],
+   "components_only_a": [
+      {
+         "type": "rolling_element",
+         "id": 2964,
+         "attributes": [
+            {
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 78.54574571105579
+            },
+            {
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 44.066884095312275
+            }
+         ]
+      }
+   ],
+   "components_only_b": [
+      {
+         "type": "rolling_bearing_row",
+         "id": 3406,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "enum": "positive"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "°",
+               "floating_point": 0.0
+            },
+            {
+               "id": "position_of_rolling_elements",
+               "unit": "none",
+               "enum": "one_rolling_element_on_v_axis"
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 3407,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "enum": "positive"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "°",
+               "floating_point": 0.0
+            },
+            {
+               "id": "position_of_rolling_elements",
+               "unit": "none",
+               "enum": "one_rolling_element_on_v_axis"
+            }
+         ]
+      }
+   ],
+   "warnings": []
+}
