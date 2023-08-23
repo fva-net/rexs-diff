@@ -59,7 +59,7 @@
                 "component_a": {
                   "type": "object",
                   "description": "the attribute unit and value of the component in model b",
-                  "items": {
+                  "properties": {
                     "unit": {
                       "type": "string",
                       "description": "the unit of the attribute"
@@ -186,7 +186,7 @@
                 "component_b": {
                     "type": "object",
                     "description": "the attribute unit and value of the component in model b",
-                    "items": {
+                    "properties": {
                       "unit": {
                         "type": "string",
                         "description": "the unit of the attribute"
