@@ -239,7 +239,7 @@ def model_optimize(components:list, relations:list, components_prime:list, relat
     print(line17)
     start_time = time.time()
     
-    #model.writeProblem("output/model.lp")
+    model.writeProblem("output/model.lp")
     
 
     if model.getStatus() == "optimal":
