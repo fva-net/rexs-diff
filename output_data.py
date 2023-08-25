@@ -242,6 +242,6 @@ def output_data(sol_x:list, sol_z:list, obj_val:list, components:list, component
 
     # Delete the log file
     os.remove(log_file)
-    # os.remove("output/model.lp")
+    os.remove("output/model.lp")
     os.remove("output/solutions.txt")
 
