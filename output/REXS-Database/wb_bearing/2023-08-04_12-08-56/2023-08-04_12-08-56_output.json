@@ -1,0 +1,1615 @@
+{
+   "component_matches": [
+      {
+         "type": "gear_unit",
+         "component_a": {
+            "id": 1,
+            "name": "Getriebeeinheit [1]"
+         },
+         "component_b": {
+            "id": 1,
+            "name": "Getriebeeinheit [1]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "operating_time_vdi_2736_2014",
+               "unit": "h",
+               "floating_point": 100000.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "direction_vector_gravity_u",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "direction_vector_gravity_v",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "values_equal",
+               "id": "direction_vector_gravity_w",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_nodes_in_mesh_width_for_loaddistribution",
+               "unit": "none",
+               "integer": 18
+            },
+            {
+               "result": "values_equal",
+               "id": "account_for_gravity",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "values_equal",
+               "id": "account_for_shear_deformation",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_gears",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "gravitational_acceleration",
+               "unit": "m / s^2",
+               "floating_point": 9.81
+            },
+            {
+               "result": "values_equal",
+               "id": "gear_shift_index",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "operating_time",
+               "unit": "h",
+               "floating_point": 100000.0
+            },
+            {
+               "result": "values_equal",
+               "id": "support_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  0.0
+               ]
+            }
+         ]
+      },
+      {
+         "type": "gear_casing",
+         "component_a": {
+            "id": 2,
+            "name": "Geh\u00e4use [2]"
+         },
+         "component_b": {
+            "id": 2,
+            "name": "Geh\u00e4use [2]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "type_of_gear_casing_construction_vdi_2736_2014",
+               "unit": "none",
+               "enum": "closed"
+            },
+            {
+               "result": "values_equal",
+               "id": "temperature_lubricant",
+               "unit": "C",
+               "floating_point": 60.0
+            }
+         ]
+      },
+      {
+         "type": "shaft",
+         "component_a": {
+            "id": 3,
+            "name": "Welle [3]"
+         },
+         "component_b": {
+            "id": 3,
+            "name": "Welle [3]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "rotational_speed",
+               "unit": "1 / min",
+               "floating_point": -1500.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "defines_speed",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "values_equal",
+               "id": "support_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  0.0
+               ]
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_detailed_geometry",
+         "component_a": {
+            "id": 5,
+            "name": "W\u00e4lzlager [5]"
+         },
+         "component_b": {
+            "id": 5,
+            "name": "W\u00e4lzlager [5]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 12.8
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_force_in_v",
+               "unit": "kN",
+               "floating_point": 8.0
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_force_in_w",
+               "unit": "kN",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "angular_deflection_in_v",
+               "unit": "rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "start_up_time",
+               "unit": "s",
+               "floating_point": 3.0
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "angular_deflection_in_w",
+               "unit": "rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "33108"
+            },
+            {
+               "result": "values_equal",
+               "id": "torque_around_the_v_axis",
+               "unit": "N m",
+               "floating_point": -10.0
+            },
+            {
+               "result": "values_equal",
+               "id": "temperature_lubricant",
+               "unit": "C",
+               "floating_point": 60.0
+            },
+            {
+               "result": "values_equal",
+               "id": "manufacturer",
+               "unit": "none",
+               "string": "FVA"
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 40.0
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption",
+               "unit": "none",
+               "enum": "negative"
+            },
+            {
+               "result": "values_equal",
+               "id": "depth_of_immersion_in_oil",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.4
+            },
+            {
+               "result": "values_equal",
+               "id": "has_outer_ring",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 50.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 25.0
+               }
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     50.0,
+                     0.0,
+                     0.0
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     25.0,
+                     0.0,
+                     0.0
+                  ]
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "speed_inner_ring",
+               "unit": "1 / min",
+               "floating_point": 1000.0
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_static_load_rating",
+               "unit": "kN",
+               "floating_point": 103.0
+            },
+            {
+               "result": "values_equal",
+               "id": "operating_axial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "torque_around_the_w_axis",
+               "unit": "N m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 75.0
+            },
+            {
+               "result": "values_equal",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.36
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_deflection",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_tapered_roller_bearing"
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force",
+               "unit": "kN",
+               "floating_point": 3.0
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_dynamic_load_rating",
+               "unit": "kN",
+               "floating_point": 78.0
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 50.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 25.0
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 26.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.9
+            },
+            {
+               "result": "values_equal",
+               "id": "lubrication_type",
+               "unit": "none",
+               "enum": "grease"
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_deflection_in_w",
+               "unit": "mum",
+               "floating_point": 23.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 1.69
+            },
+            {
+               "result": "values_equal",
+               "id": "radial_deflection_in_v",
+               "unit": "mum",
+               "floating_point": 10.0
+            },
+            {
+               "result": "values_equal",
+               "id": "has_inner_ring",
+               "unit": "none",
+               "boolean": true
+            }
+         ]
+      },
+      {
+         "type": "lubricant",
+         "component_a": {
+            "id": 6,
+            "name": "ISO-VG-100 [6]"
+         },
+         "component_b": {
+            "id": 6,
+            "name": "ISO-VG-100 [6]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "density_at_15_degree_celsius",
+               "unit": "kg / dm^3",
+               "floating_point": 0.879
+            },
+            {
+               "result": "values_equal",
+               "id": "viscosity_at_100_degree_celsius",
+               "unit": "mm^2 / s",
+               "floating_point": 10.7
+            },
+            {
+               "result": "values_equal",
+               "id": "name",
+               "unit": "none",
+               "string": "ISO-VG-95"
+            },
+            {
+               "result": "values_equal",
+               "id": "viscosity_at_40_degree_celsius",
+               "unit": "mm^2 / s",
+               "floating_point": 95.0
+            },
+            {
+               "result": "values_equal",
+               "id": "lubricant_type_iso_6336_2006",
+               "unit": "none",
+               "enum": "mineral_oil"
+            }
+         ]
+      },
+      {
+         "type": "external_load",
+         "component_a": {
+            "id": 7,
+            "name": "Belastung [7]"
+         },
+         "component_b": {
+            "id": 7,
+            "name": "Belastung [7]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "torque_around_u_axis",
+               "unit": "N m",
+               "floating_point": -100.0
+            },
+            {
+               "result": "values_equal",
+               "id": "force_v_direction",
+               "unit": "N",
+               "floating_point": 4000.0
+            },
+            {
+               "result": "values_equal",
+               "id": "defines_torque",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 1.0
+            },
+            {
+               "result": "values_equal",
+               "id": "transmits_torque",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "values_equal",
+               "id": "force_u_direction",
+               "unit": "N",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "external_load",
+         "component_a": {
+            "id": 8,
+            "name": "Belastung [8]"
+         },
+         "component_b": {
+            "id": 8,
+            "name": "Belastung [8]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "force_v_direction",
+               "unit": "N",
+               "floating_point": 4000.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 99.0
+            },
+            {
+               "result": "values_equal",
+               "id": "transmits_torque",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "values_equal",
+               "id": "force_u_direction",
+               "unit": "N",
+               "floating_point": -6000.0
+            }
+         ]
+      },
+      {
+         "type": "material",
+         "component_a": {
+            "id": 15,
+            "name": "EN-GJL-250 [15]"
+         },
+         "component_b": {
+            "id": 15,
+            "name": "EN-GJL-250 [15]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "material_type_fkm_2012",
+               "unit": "none",
+               "enum": "cast_iron_with_lamellar_graphite"
+            },
+            {
+               "result": "values_equal",
+               "id": "elastic_modulus",
+               "unit": "N / mm^2",
+               "floating_point": 100000.0
+            },
+            {
+               "result": "values_equal",
+               "id": "material_designation",
+               "unit": "none",
+               "string": "EN-GJL-250"
+            },
+            {
+               "result": "values_equal",
+               "id": "thermal_expansion_coefficient_plus",
+               "unit": "1e-6 / C",
+               "floating_point": 11.0
+            },
+            {
+               "result": "values_equal",
+               "id": "fatigue_limit_torsion",
+               "unit": "MPa",
+               "floating_point": 126.0
+            },
+            {
+               "result": "values_equal",
+               "id": "yield_strength",
+               "unit": "N / mm^2",
+               "floating_point": 165.0
+            },
+            {
+               "result": "values_equal",
+               "id": "surface_hardness_vickers",
+               "unit": "HV",
+               "floating_point": 750.0
+            },
+            {
+               "result": "values_equal",
+               "id": "fatigue_limit_bending",
+               "unit": "MPa",
+               "floating_point": 126.0
+            },
+            {
+               "result": "values_equal",
+               "id": "thermal_capacity",
+               "unit": "J / (kg K)",
+               "floating_point": 430.0
+            },
+            {
+               "result": "values_equal",
+               "id": "fatigue_limit_compression_tension",
+               "unit": "MPa",
+               "floating_point": 85.0
+            },
+            {
+               "result": "values_equal",
+               "id": "is_material_austenitic_and_solution_annealed_fkm_2012",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "values_equal",
+               "id": "endurance_limit_flank",
+               "unit": "N / mm^2",
+               "floating_point": 333.43499999999995
+            },
+            {
+               "result": "values_equal",
+               "id": "is_material_austenitic_steel_fkm_2012",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "values_equal",
+               "id": "poisson_ratio",
+               "unit": "none",
+               "floating_point": 0.3
+            },
+            {
+               "result": "values_equal",
+               "id": "thermal_expansion_coefficient_minus",
+               "unit": "1e-6 / C",
+               "floating_point": 8.0
+            },
+            {
+               "result": "values_equal",
+               "id": "core_hardness_vickers",
+               "unit": "HV",
+               "floating_point": 550.0
+            },
+            {
+               "result": "values_equal",
+               "id": "material_type_din_743_2012",
+               "unit": "none",
+               "enum": "structural_steel"
+            },
+            {
+               "result": "values_equal",
+               "id": "density",
+               "unit": "kg / dm^3",
+               "floating_point": 7.85
+            },
+            {
+               "result": "values_equal",
+               "id": "surface_hardness_brinell",
+               "unit": "HB",
+               "floating_point": 195.0
+            },
+            {
+               "result": "values_equal",
+               "id": "material_hardening_method_fkm_2012",
+               "unit": "none",
+               "enum": "unhardened"
+            },
+            {
+               "result": "values_equal",
+               "id": "is_material_hardable_fkm_2012",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "values_equal",
+               "id": "heat_treated_material_type_iso_6336_2006",
+               "unit": "none",
+               "enum": "grey_cast_iron"
+            },
+            {
+               "result": "values_equal",
+               "id": "material_category_vdi_2736_2014",
+               "unit": "none",
+               "enum": "steel"
+            },
+            {
+               "result": "values_equal",
+               "id": "endurance_limit_root",
+               "unit": "N / mm^2",
+               "floating_point": 57.92
+            },
+            {
+               "result": "values_equal",
+               "id": "tensile_strength",
+               "unit": "N / mm^2",
+               "floating_point": 250.0
+            },
+            {
+               "result": "values_equal",
+               "id": "thermal_conductivity",
+               "unit": "W / (m K)",
+               "floating_point": 40.0
+            },
+            {
+               "result": "values_equal",
+               "id": "deformation_behaviour",
+               "unit": "none",
+               "enum": "brittle"
+            }
+         ]
+      },
+      {
+         "type": "material",
+         "component_a": {
+            "id": 16,
+            "name": "42CrMo4 [16]"
+         },
+         "component_b": {
+            "id": 16,
+            "name": "42CrMo4 [16]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "material_type_fkm_2012",
+               "unit": "none",
+               "enum": "heat_treatable_steel_quenched_tempered_condition"
+            },
+            {
+               "result": "values_equal",
+               "id": "elastic_modulus",
+               "unit": "N / mm^2",
+               "floating_point": 210000.0
+            },
+            {
+               "result": "values_equal",
+               "id": "material_designation",
+               "unit": "none",
+               "string": "42CrMo4"
+            },
+            {
+               "result": "values_equal",
+               "id": "thermal_expansion_coefficient_plus",
+               "unit": "1e-6 / C",
+               "floating_point": 11.0
+            },
+            {
+               "result": "values_equal",
+               "id": "fatigue_limit_torsion",
+               "unit": "MPa",
+               "floating_point": 315.0
+            },
+            {
+               "result": "values_equal",
+               "id": "yield_strength",
+               "unit": "N / mm^2",
+               "floating_point": 900.0
+            },
+            {
+               "result": "values_equal",
+               "id": "surface_hardness_vickers",
+               "unit": "HV",
+               "floating_point": 750.0
+            },
+            {
+               "result": "values_equal",
+               "id": "fatigue_limit_bending",
+               "unit": "MPa",
+               "floating_point": 525.0
+            },
+            {
+               "result": "values_equal",
+               "id": "thermal_capacity",
+               "unit": "J / (kg K)",
+               "floating_point": 430.0
+            },
+            {
+               "result": "values_equal",
+               "id": "fatigue_limit_compression_tension",
+               "unit": "MPa",
+               "floating_point": 495.0
+            },
+            {
+               "result": "values_equal",
+               "id": "is_material_austenitic_and_solution_annealed_fkm_2012",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "values_equal",
+               "id": "endurance_limit_flank",
+               "unit": "N / mm^2",
+               "floating_point": 740.64
+            },
+            {
+               "result": "values_equal",
+               "id": "is_material_austenitic_steel_fkm_2012",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "values_equal",
+               "id": "poisson_ratio",
+               "unit": "none",
+               "floating_point": 0.3
+            },
+            {
+               "result": "values_equal",
+               "id": "thermal_expansion_coefficient_minus",
+               "unit": "1e-6 / C",
+               "floating_point": 8.0
+            },
+            {
+               "result": "values_equal",
+               "id": "core_hardness_vickers",
+               "unit": "HV",
+               "floating_point": 550.0
+            },
+            {
+               "result": "values_equal",
+               "id": "material_type_din_743_2012",
+               "unit": "none",
+               "enum": "quenched_and_tempered_steel"
+            },
+            {
+               "result": "values_equal",
+               "id": "density",
+               "unit": "kg / dm^3",
+               "floating_point": 7.85
+            },
+            {
+               "result": "values_equal",
+               "id": "surface_hardness_brinell",
+               "unit": "HB",
+               "floating_point": 266.0
+            },
+            {
+               "result": "values_equal",
+               "id": "material_hardening_method_fkm_2012",
+               "unit": "none",
+               "enum": "unhardened"
+            },
+            {
+               "result": "values_equal",
+               "id": "is_material_hardable_fkm_2012",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "values_equal",
+               "id": "heat_treated_material_type_iso_6336_2006",
+               "unit": "none",
+               "enum": "through_hardened_wrought_steel"
+            },
+            {
+               "result": "values_equal",
+               "id": "material_category_vdi_2736_2014",
+               "unit": "none",
+               "enum": "steel"
+            },
+            {
+               "result": "values_equal",
+               "id": "endurance_limit_root",
+               "unit": "N / mm^2",
+               "floating_point": 306.0
+            },
+            {
+               "result": "values_equal",
+               "id": "tensile_strength",
+               "unit": "N / mm^2",
+               "floating_point": 1100.0
+            },
+            {
+               "result": "values_equal",
+               "id": "thermal_conductivity",
+               "unit": "W / (m K)",
+               "floating_point": 40.0
+            },
+            {
+               "result": "values_equal",
+               "id": "deformation_behaviour",
+               "unit": "none",
+               "enum": "brittle"
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "component_a": {
+            "id": 17,
+            "name": "Lagerreihe [17]"
+         },
+         "component_b": {
+            "id": 17,
+            "name": "Lagerreihe [17]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "enum": "negative"
+            },
+            {
+               "result": "values_equal",
+               "id": "pressure_angle",
+               "unit": "deg",
+               "floating_point": 11.7
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_rolling_elements",
+               "unit": "none",
+               "integer": 16
+            },
+            {
+               "result": "values_equal",
+               "id": "position_of_rolling_elements",
+               "unit": "none",
+               "enum": "one_rolling_element_on_v_axis"
+            },
+            {
+               "result": "values_equal",
+               "id": "raceway_radius_of_inner_ring",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "raceway_radius_of_outer_ring",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_diameter",
+               "unit": "mm",
+               "floating_point": 57.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 18,
+            "name": null
+         },
+         "component_b": {
+            "id": 18,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 19,
+            "name": null
+         },
+         "component_b": {
+            "id": 19,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 20,
+            "name": null
+         },
+         "component_b": {
+            "id": 20,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 21,
+            "name": null
+         },
+         "component_b": {
+            "id": 21,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 22,
+            "name": null
+         },
+         "component_b": {
+            "id": 22,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 23,
+            "name": null
+         },
+         "component_b": {
+            "id": 23,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 24,
+            "name": null
+         },
+         "component_b": {
+            "id": 24,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 25,
+            "name": null
+         },
+         "component_b": {
+            "id": 25,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 26,
+            "name": null
+         },
+         "component_b": {
+            "id": 26,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 27,
+            "name": null
+         },
+         "component_b": {
+            "id": 27,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 28,
+            "name": null
+         },
+         "component_b": {
+            "id": 28,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 29,
+            "name": null
+         },
+         "component_b": {
+            "id": 29,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 30,
+            "name": null
+         },
+         "component_b": {
+            "id": 30,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 31,
+            "name": null
+         },
+         "component_b": {
+            "id": 31,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 32,
+            "name": null
+         },
+         "component_b": {
+            "id": 32,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "rolling_element",
+         "component_a": {
+            "id": 33,
+            "name": null
+         },
+         "component_b": {
+            "id": 33,
+            "name": null
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 20.1
+            },
+            {
+               "result": "values_equal",
+               "id": "diameter_of_rolling_element",
+               "unit": "mm",
+               "floating_point": 8.5
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 34,
+            "name": "section [34]"
+         },
+         "component_b": {
+            "id": 34,
+            "name": "section [34]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 40.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "length",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 100.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 50.0
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 40.0
+            }
+         ]
+      }
+   ],
+   "components_only_a": [],
+   "components_only_b": []
+}
