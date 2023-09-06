@@ -1,0 +1,1796 @@
+﻿{
+  "model" : {
+    "version" : "1.5",
+    "applicationId" : "FVA Workbench",
+    "applicationVersion" : "8.1.0",
+    "date" : "2023-08-04T15:09:07+02:00",
+    "relations" : [ {
+      "id" : 45,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 35,
+        "role" : "part",
+        "hint" : "Kegelradstufe [35]"
+      } ]
+    }, {
+      "id" : 46,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 36,
+        "role" : "part",
+        "hint" : "Welle [36]"
+      } ]
+    }, {
+      "id" : 49,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 36,
+        "role" : "assembly",
+        "hint" : "Welle [36]"
+      }, {
+        "id" : 38,
+        "role" : "part",
+        "hint" : "Kegelrad [38]"
+      } ]
+    }, {
+      "id" : 50,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "gear_1",
+        "hint" : "Kegelrad [9]"
+      }, {
+        "id" : 35,
+        "role" : "stage",
+        "hint" : "Kegelradstufe [35]"
+      }, {
+        "id" : 38,
+        "role" : "gear_2",
+        "hint" : "Kegelrad [38]"
+      } ]
+    }, {
+      "id" : 51,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "gear",
+        "hint" : "Kegelrad [9]"
+      }, {
+        "id" : 35,
+        "role" : "stage",
+        "hint" : "Kegelradstufe [35]"
+      }, {
+        "id" : 40,
+        "role" : "stage_gear_data",
+        "hint" : "Zahnraddaten (Kegelräder) [40]"
+      } ]
+    }, {
+      "id" : 52,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 35,
+        "role" : "stage",
+        "hint" : "Kegelradstufe [35]"
+      }, {
+        "id" : 38,
+        "role" : "gear",
+        "hint" : "Kegelrad [38]"
+      }, {
+        "id" : 41,
+        "role" : "stage_gear_data",
+        "hint" : "Zahnraddaten (Kegelräder) [41]"
+      } ]
+    }, {
+      "id" : 10,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "assembly",
+        "hint" : "Welle [4]"
+      }, {
+        "id" : 8,
+        "role" : "part",
+        "hint" : "Kegelrad [8]"
+      } ]
+    }, {
+      "id" : 11,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "assembly",
+        "hint" : "Welle [6]"
+      }, {
+        "id" : 9,
+        "role" : "part",
+        "hint" : "Kegelrad [9]"
+      } ]
+    }, {
+      "id" : 12,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "stage",
+        "hint" : "Kegelradstufe [3]"
+      }, {
+        "id" : 8,
+        "role" : "gear_1",
+        "hint" : "Kegelrad [8]"
+      }, {
+        "id" : 9,
+        "role" : "gear_2",
+        "hint" : "Kegelrad [9]"
+      } ]
+    }, {
+      "id" : 2,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 2,
+        "role" : "part",
+        "hint" : "Gehäuse [2]"
+      } ]
+    }, {
+      "id" : 3,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 3,
+        "role" : "part",
+        "hint" : "Kegelradstufe [3]"
+      } ]
+    }, {
+      "id" : 6,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 4,
+        "role" : "part",
+        "hint" : "Welle [4]"
+      } ]
+    }, {
+      "id" : 9,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 6,
+        "role" : "part",
+        "hint" : "Welle [6]"
+      } ]
+    }, {
+      "id" : 21,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "assembly",
+        "hint" : "Welle [4]"
+      }, {
+        "id" : 21,
+        "role" : "part",
+        "hint" : "Belastung [21]"
+      } ]
+    }, {
+      "id" : 22,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "assembly",
+        "hint" : "Welle [6]"
+      }, {
+        "id" : 22,
+        "role" : "part",
+        "hint" : "Belastung [22]"
+      } ]
+    }, {
+      "id" : 25,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 4,
+        "role" : "inner_part",
+        "hint" : "Welle [4]"
+      }, {
+        "id" : 23,
+        "role" : "assembly",
+        "hint" : "Wälzlager [23]"
+      } ]
+    }, {
+      "id" : 28,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 4,
+        "role" : "inner_part",
+        "hint" : "Welle [4]"
+      }, {
+        "id" : 24,
+        "role" : "assembly",
+        "hint" : "Wälzlager [24]"
+      } ]
+    }, {
+      "id" : 35,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "stage",
+        "hint" : "Kegelradstufe [3]"
+      }, {
+        "id" : 8,
+        "role" : "gear",
+        "hint" : "Kegelrad [8]"
+      }, {
+        "id" : 27,
+        "role" : "stage_gear_data",
+        "hint" : "Zahnraddaten (Kegelräder) [27]"
+      } ]
+    }, {
+      "id" : 36,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "stage",
+        "hint" : "Kegelradstufe [3]"
+      }, {
+        "id" : 9,
+        "role" : "gear",
+        "hint" : "Kegelrad [9]"
+      }, {
+        "id" : 28,
+        "role" : "stage_gear_data",
+        "hint" : "Zahnraddaten (Kegelräder) [28]"
+      } ]
+    }, {
+      "id" : 53,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 23,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 20,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 54,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 24,
+        "role" : "origin",
+        "hint" : "rolling_bearing_with_detailed_geometry"
+      }, {
+        "id" : 20,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 55,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "origin",
+        "hint" : "gear_casing"
+      }, {
+        "id" : 20,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 56,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "origin",
+        "hint" : "bevel_stage"
+      }, {
+        "id" : 20,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 57,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 35,
+        "role" : "origin",
+        "hint" : "bevel_stage"
+      }, {
+        "id" : 20,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 58,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "origin",
+        "hint" : "gear_casing"
+      }, {
+        "id" : 31,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 59,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 8,
+        "role" : "origin",
+        "hint" : "bevel_gear"
+      }, {
+        "id" : 19,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 60,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "origin",
+        "hint" : "bevel_gear"
+      }, {
+        "id" : 19,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 61,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 38,
+        "role" : "origin",
+        "hint" : "bevel_gear"
+      }, {
+        "id" : 46,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 62,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 30,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 63,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 30,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 64,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 36,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 46,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 65,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 47,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 66,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 48,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 67,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 36,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 49,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 68,
+      "type" : "flank",
+      "refs" : [ {
+        "id" : 8,
+        "role" : "gear",
+        "hint" : "bevel_gear"
+      }, {
+        "id" : 50,
+        "role" : "left",
+        "hint" : "bevel_gear_flank"
+      }, {
+        "id" : 51,
+        "role" : "right",
+        "hint" : "bevel_gear_flank"
+      } ]
+    }, {
+      "id" : 69,
+      "type" : "flank",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "gear",
+        "hint" : "bevel_gear"
+      }, {
+        "id" : 52,
+        "role" : "left",
+        "hint" : "bevel_gear_flank"
+      }, {
+        "id" : 53,
+        "role" : "right",
+        "hint" : "bevel_gear_flank"
+      } ]
+    }, {
+      "id" : 70,
+      "type" : "flank",
+      "refs" : [ {
+        "id" : 38,
+        "role" : "gear",
+        "hint" : "bevel_gear"
+      }, {
+        "id" : 54,
+        "role" : "left",
+        "hint" : "bevel_gear_flank"
+      }, {
+        "id" : 55,
+        "role" : "right",
+        "hint" : "bevel_gear_flank"
+      } ]
+    } ],
+    "components" : [ {
+      "id" : 1,
+      "type" : "gear_unit",
+      "name" : "Getriebeeinheit [1]",
+      "attributes" : [ {
+        "id" : "operating_time_vdi_2736_2014",
+        "unit" : "h",
+        "floating_point" : 10000.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "direction_vector_gravity_u",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "direction_vector_gravity_v",
+        "unit" : "none",
+        "floating_point" : 1.0
+      }, {
+        "id" : "direction_vector_gravity_w",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "number_of_nodes_in_mesh_width_for_loaddistribution",
+        "unit" : "none",
+        "integer" : 18
+      }, {
+        "id" : "account_for_gravity",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "account_for_shear_deformation",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "number_of_gears",
+        "unit" : "none",
+        "integer" : 1
+      }, {
+        "id" : "gravitational_acceleration",
+        "unit" : "m / s^2",
+        "floating_point" : 9.81
+      }, {
+        "id" : "gear_shift_index",
+        "unit" : "none",
+        "integer" : 1
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "operating_time",
+        "unit" : "h",
+        "floating_point" : 10000.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 2,
+      "type" : "gear_casing",
+      "name" : "Gehäuse [2]",
+      "attributes" : [ {
+        "id" : "type_of_gear_casing_construction_vdi_2736_2014",
+        "unit" : "none",
+        "enum" : "closed"
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 70.0
+      } ]
+    }, {
+      "id" : 3,
+      "type" : "bevel_stage",
+      "name" : "Kegelradstufe [3]",
+      "attributes" : [ {
+        "id" : "generated_pressure_angle_drive",
+        "unit" : "deg",
+        "floating_point" : 20.0
+      }, {
+        "id" : "hypoid_offset",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "crowning_of_the_mating_flanks",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "generated_pressure_angle_coast",
+        "unit" : "deg",
+        "floating_point" : 20.0
+      }, {
+        "id" : "number_of_blade_groups",
+        "unit" : "none",
+        "integer" : 5
+      }, {
+        "id" : "cutter_radius",
+        "unit" : "mm",
+        "floating_point" : 100.0
+      }, {
+        "id" : "rotating_angle_around_pos_u_axis",
+        "unit" : "deg",
+        "floating_point" : 0.0
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 70.0
+      }, {
+        "id" : "shaft_angle",
+        "unit" : "deg",
+        "floating_point" : 90.0
+      } ]
+    }, {
+      "id" : 4,
+      "type" : "shaft",
+      "name" : "Welle [4]",
+      "attributes" : [ {
+        "id" : "rotational_speed",
+        "unit" : "1 / min",
+        "floating_point" : 500.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "defines_speed",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 6,
+      "type" : "shaft",
+      "name" : "Welle [6]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, -1.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ -100.713534330376, 0.0, -61.038505654773 ]
+      } ]
+    }, {
+      "id" : 8,
+      "type" : "bevel_gear",
+      "name" : "Kegelrad [8]",
+      "attributes" : [ {
+        "id" : "bevel_cone_orientation",
+        "unit" : "none",
+        "enum" : "negative"
+      }, {
+        "id" : "outer_whole_depth",
+        "unit" : "mm",
+        "floating_point" : 11.25
+      }, {
+        "id" : "mean_spiral_angle",
+        "unit" : "deg",
+        "floating_point" : -34.9997
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "outer_dedendum",
+        "unit" : "mm",
+        "floating_point" : 5.400003744495294
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "number_of_teeth",
+        "unit" : "none",
+        "integer" : 20
+      }, {
+        "id" : "root_angle",
+        "unit" : "deg",
+        "floating_point" : 31.2184
+      }, {
+        "id" : "basic_dedendum_coefficient",
+        "unit" : "none",
+        "floating_point" : 1.2500007488990588
+      }, {
+        "id" : "root_apex_beyond_crossing_point",
+        "unit" : "mm",
+        "floating_point" : 10.41857
+      }, {
+        "id" : "face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "face_apex_beyond_crossing_point",
+        "unit" : "mm",
+        "floating_point" : -11.28694
+      }, {
+        "id" : "mean_cone_distance",
+        "unit" : "mm",
+        "floating_point" : 117.7664
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 0.0 ]
+      }, {
+        "id" : "mean_normal_module",
+        "unit" : "mm",
+        "floating_point" : 5.0
+      }, {
+        "id" : "profile_shift_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.17
+      }, {
+        "id" : "pitch_angle",
+        "unit" : "deg",
+        "floating_point" : 31.2184
+      }, {
+        "id" : "thickness_modification_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.015
+      }, {
+        "id" : "basic_addendum_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.9999996883203511
+      }, {
+        "id" : "face_angle",
+        "unit" : "deg",
+        "floating_point" : 31.2184
+      }, {
+        "id" : "spiral_angle_pitch_direction",
+        "unit" : "none",
+        "enum" : "left"
+      }, {
+        "id" : "outer_addendum",
+        "unit" : "mm",
+        "floating_point" : 5.849998441601755
+      }, {
+        "id" : "pitch_apex_beyond_crossing_point",
+        "unit" : "mm",
+        "floating_point" : -8.0E-5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "mean_normal_circular_thickness",
+        "unit" : "mm",
+        "floating_point" : 8.622731032227026
+      } ]
+    }, {
+      "id" : 9,
+      "type" : "bevel_gear",
+      "name" : "Kegelrad [9]",
+      "attributes" : [ {
+        "id" : "bevel_cone_orientation",
+        "unit" : "none",
+        "enum" : "negative"
+      }, {
+        "id" : "outer_whole_depth",
+        "unit" : "mm",
+        "floating_point" : 11.25
+      }, {
+        "id" : "mean_spiral_angle",
+        "unit" : "deg",
+        "floating_point" : 34.9997
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "outer_dedendum",
+        "unit" : "mm",
+        "floating_point" : 7.099997988800817
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "number_of_teeth",
+        "unit" : "none",
+        "integer" : 33
+      }, {
+        "id" : "root_angle",
+        "unit" : "deg",
+        "floating_point" : 58.7816
+      }, {
+        "id" : "basic_dedendum_coefficient",
+        "unit" : "none",
+        "floating_point" : 1.2499995977601635
+      }, {
+        "id" : "root_apex_beyond_crossing_point",
+        "unit" : "mm",
+        "floating_point" : 8.30215
+      }, {
+        "id" : "face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "face_apex_beyond_crossing_point",
+        "unit" : "mm",
+        "floating_point" : -4.8527
+      }, {
+        "id" : "mean_cone_distance",
+        "unit" : "mm",
+        "floating_point" : 117.7664
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ -100.713534330376, 0.0, -61.038505654773 ]
+      }, {
+        "id" : "mean_normal_module",
+        "unit" : "mm",
+        "floating_point" : 5.0
+      }, {
+        "id" : "profile_shift_coefficient",
+        "unit" : "none",
+        "floating_point" : -0.17
+      }, {
+        "id" : "pitch_angle",
+        "unit" : "deg",
+        "floating_point" : 58.7816
+      }, {
+        "id" : "thickness_modification_coefficient",
+        "unit" : "none",
+        "floating_point" : -0.02
+      }, {
+        "id" : "basic_addendum_coefficient",
+        "unit" : "none",
+        "floating_point" : 1.0000003069147934
+      }, {
+        "id" : "face_angle",
+        "unit" : "deg",
+        "floating_point" : 58.7816
+      }, {
+        "id" : "spiral_angle_pitch_direction",
+        "unit" : "none",
+        "enum" : "right"
+      }, {
+        "id" : "outer_addendum",
+        "unit" : "mm",
+        "floating_point" : 4.150001534573967
+      }, {
+        "id" : "pitch_apex_beyond_crossing_point",
+        "unit" : "mm",
+        "floating_point" : -2.0E-5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, -1.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "mean_normal_circular_thickness",
+        "unit" : "mm",
+        "floating_point" : 7.035232235721939
+      } ]
+    }, {
+      "id" : 19,
+      "type" : "material",
+      "name" : "ISO_MQ3 [19]",
+      "attributes" : [ {
+        "id" : "core_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 380.0
+      }, {
+        "id" : "material_type_din_743_2012",
+        "unit" : "none",
+        "enum" : "case_hardening_steel"
+      }, {
+        "id" : "density",
+        "unit" : "kg / dm^3",
+        "floating_point" : 7.85
+      }, {
+        "id" : "elastic_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 206000.0
+      }, {
+        "id" : "material_hardening_method_fkm_2012",
+        "unit" : "none",
+        "enum" : "unhardened"
+      }, {
+        "id" : "is_material_hardable_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "material_designation",
+        "unit" : "none",
+        "string" : "ISO_MQ3"
+      }, {
+        "id" : "thermal_expansion_coefficient_plus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 11.0
+      }, {
+        "id" : "heat_treated_material_type_iso_6336_2006",
+        "unit" : "none",
+        "enum" : "case_hardened_wrought_steel"
+      }, {
+        "id" : "material_category_vdi_2736_2014",
+        "unit" : "none",
+        "enum" : "steel"
+      }, {
+        "id" : "yield_strength",
+        "unit" : "N / mm^2",
+        "floating_point" : 1100.0
+      }, {
+        "id" : "surface_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 750.0
+      }, {
+        "id" : "thermal_capacity",
+        "unit" : "J / (kg K)",
+        "floating_point" : 430.0
+      }, {
+        "id" : "is_material_austenitic_and_solution_annealed_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "endurance_limit_flank",
+        "unit" : "N / mm^2",
+        "floating_point" : 1500.0
+      }, {
+        "id" : "is_material_austenitic_steel_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "poisson_ratio",
+        "unit" : "none",
+        "floating_point" : 0.3
+      }, {
+        "id" : "thermal_conductivity",
+        "unit" : "W / (m K)",
+        "floating_point" : 40.0
+      }, {
+        "id" : "deformation_behaviour",
+        "unit" : "none",
+        "enum" : "brittle"
+      }, {
+        "id" : "basic_strength_root",
+        "unit" : "N / mm^2",
+        "floating_point" : 1000.0
+      }, {
+        "id" : "thermal_expansion_coefficient_minus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 8.0
+      } ]
+    }, {
+      "id" : 20,
+      "type" : "lubricant",
+      "name" : "ISO-VG-150 [20]",
+      "attributes" : [ {
+        "id" : "density_at_15_degree_celsius",
+        "unit" : "kg / dm^3",
+        "floating_point" : 0.89
+      }, {
+        "id" : "viscosity_at_100_degree_celsius",
+        "unit" : "mm^2 / s",
+        "floating_point" : 15.0
+      }, {
+        "id" : "name",
+        "unit" : "none",
+        "string" : "ISO-VG-150"
+      }, {
+        "id" : "viscosity_at_40_degree_celsius",
+        "unit" : "mm^2 / s",
+        "floating_point" : 150.0
+      }, {
+        "id" : "lubricant_type_iso_6336_2006",
+        "unit" : "none",
+        "enum" : "mineral_oil"
+      } ]
+    }, {
+      "id" : 21,
+      "type" : "external_load",
+      "name" : "Belastung [21]",
+      "attributes" : [ {
+        "id" : "torque_around_u_axis",
+        "unit" : "N m",
+        "floating_point" : 1500.0
+      }, {
+        "id" : "defines_torque",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "transmits_torque",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "force_u_direction",
+        "unit" : "N",
+        "floating_point" : 0.0
+      } ]
+    }, {
+      "id" : 22,
+      "type" : "external_load",
+      "name" : "Belastung [22]",
+      "attributes" : [ {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "transmits_torque",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "force_u_direction",
+        "unit" : "N",
+        "floating_point" : 0.0
+      } ]
+    }, {
+      "id" : 23,
+      "type" : "concept_bearing",
+      "name" : "Wälzlager [23]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "preload_distance",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 30.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "both_directions"
+      }, {
+        "id" : "width",
+        "unit" : "mm",
+        "floating_point" : 7.5
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 30.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 30.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 24,
+      "type" : "rolling_bearing_with_detailed_geometry",
+      "name" : "Wälzlager [24]",
+      "attributes" : [ {
+        "id" : "speed_inner_ring",
+        "unit" : "1 / min",
+        "floating_point" : 0.0
+      }, {
+        "id" : "operating_axial_bearing_clearance",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "distance_between_bearing_rows",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "preload_distance",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 70.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 90.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "no_direction"
+      }, {
+        "id" : "width",
+        "unit" : "mm",
+        "floating_point" : 7.5
+      }, {
+        "id" : "contamination_factor_according_to_iso_281_2007",
+        "unit" : "none",
+        "floating_point" : 0.5
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "has_outer_ring",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 90.0
+      }, {
+        "id" : "lubrication_type",
+        "unit" : "none",
+        "enum" : "oil_bath"
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 90.0, 0.0, 0.0 ]
+      }, {
+        "id" : "has_inner_ring",
+        "unit" : "none",
+        "boolean" : true
+      } ]
+    }, {
+      "id" : 27,
+      "type" : "bevel_stage_gear_data",
+      "name" : "Zahnraddaten (Kegelräder) [27]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 28,
+      "type" : "bevel_stage_gear_data",
+      "name" : "Zahnraddaten (Kegelräder) [28]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 30,
+      "type" : "material",
+      "name" : "42CrMo4 [30]",
+      "attributes" : [ {
+        "id" : "material_type_fkm_2012",
+        "unit" : "none",
+        "enum" : "heat_treatable_steel_quenched_tempered_condition"
+      }, {
+        "id" : "elastic_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 210000.0
+      }, {
+        "id" : "material_designation",
+        "unit" : "none",
+        "string" : "42CrMo4"
+      }, {
+        "id" : "thermal_expansion_coefficient_plus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 11.0
+      }, {
+        "id" : "fatigue_limit_torsion",
+        "unit" : "MPa",
+        "floating_point" : 315.0
+      }, {
+        "id" : "yield_strength",
+        "unit" : "N / mm^2",
+        "floating_point" : 900.0
+      }, {
+        "id" : "surface_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 750.0
+      }, {
+        "id" : "fatigue_limit_bending",
+        "unit" : "MPa",
+        "floating_point" : 525.0
+      }, {
+        "id" : "thermal_capacity",
+        "unit" : "J / (kg K)",
+        "floating_point" : 430.0
+      }, {
+        "id" : "fatigue_limit_compression_tension",
+        "unit" : "MPa",
+        "floating_point" : 495.0
+      }, {
+        "id" : "is_material_austenitic_and_solution_annealed_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "endurance_limit_flank",
+        "unit" : "N / mm^2",
+        "floating_point" : 740.64
+      }, {
+        "id" : "is_material_austenitic_steel_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "poisson_ratio",
+        "unit" : "none",
+        "floating_point" : 0.3
+      }, {
+        "id" : "thermal_expansion_coefficient_minus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 8.0
+      }, {
+        "id" : "core_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 550.0
+      }, {
+        "id" : "material_type_din_743_2012",
+        "unit" : "none",
+        "enum" : "quenched_and_tempered_steel"
+      }, {
+        "id" : "density",
+        "unit" : "kg / dm^3",
+        "floating_point" : 7.85
+      }, {
+        "id" : "surface_hardness_brinell",
+        "unit" : "HB",
+        "floating_point" : 266.0
+      }, {
+        "id" : "material_hardening_method_fkm_2012",
+        "unit" : "none",
+        "enum" : "unhardened"
+      }, {
+        "id" : "is_material_hardable_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "heat_treated_material_type_iso_6336_2006",
+        "unit" : "none",
+        "enum" : "through_hardened_wrought_steel"
+      }, {
+        "id" : "material_category_vdi_2736_2014",
+        "unit" : "none",
+        "enum" : "steel"
+      }, {
+        "id" : "endurance_limit_root",
+        "unit" : "N / mm^2",
+        "floating_point" : 306.0
+      }, {
+        "id" : "tensile_strength",
+        "unit" : "N / mm^2",
+        "floating_point" : 1100.0
+      }, {
+        "id" : "thermal_conductivity",
+        "unit" : "W / (m K)",
+        "floating_point" : 40.0
+      }, {
+        "id" : "deformation_behaviour",
+        "unit" : "none",
+        "enum" : "brittle"
+      } ]
+    }, {
+      "id" : 31,
+      "type" : "material",
+      "name" : "EN-GJL-250 [31]",
+      "attributes" : [ {
+        "id" : "material_type_fkm_2012",
+        "unit" : "none",
+        "enum" : "cast_iron_with_lamellar_graphite"
+      }, {
+        "id" : "elastic_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 100000.0
+      }, {
+        "id" : "material_designation",
+        "unit" : "none",
+        "string" : "EN-GJL-250"
+      }, {
+        "id" : "thermal_expansion_coefficient_plus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 11.0
+      }, {
+        "id" : "fatigue_limit_torsion",
+        "unit" : "MPa",
+        "floating_point" : 126.0
+      }, {
+        "id" : "yield_strength",
+        "unit" : "N / mm^2",
+        "floating_point" : 165.0
+      }, {
+        "id" : "surface_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 750.0
+      }, {
+        "id" : "fatigue_limit_bending",
+        "unit" : "MPa",
+        "floating_point" : 126.0
+      }, {
+        "id" : "thermal_capacity",
+        "unit" : "J / (kg K)",
+        "floating_point" : 430.0
+      }, {
+        "id" : "fatigue_limit_compression_tension",
+        "unit" : "MPa",
+        "floating_point" : 85.0
+      }, {
+        "id" : "is_material_austenitic_and_solution_annealed_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "endurance_limit_flank",
+        "unit" : "N / mm^2",
+        "floating_point" : 333.43499999999995
+      }, {
+        "id" : "is_material_austenitic_steel_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "poisson_ratio",
+        "unit" : "none",
+        "floating_point" : 0.3
+      }, {
+        "id" : "thermal_expansion_coefficient_minus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 8.0
+      }, {
+        "id" : "core_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 550.0
+      }, {
+        "id" : "material_type_din_743_2012",
+        "unit" : "none",
+        "enum" : "structural_steel"
+      }, {
+        "id" : "density",
+        "unit" : "kg / dm^3",
+        "floating_point" : 7.85
+      }, {
+        "id" : "surface_hardness_brinell",
+        "unit" : "HB",
+        "floating_point" : 195.0
+      }, {
+        "id" : "material_hardening_method_fkm_2012",
+        "unit" : "none",
+        "enum" : "unhardened"
+      }, {
+        "id" : "is_material_hardable_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "heat_treated_material_type_iso_6336_2006",
+        "unit" : "none",
+        "enum" : "grey_cast_iron"
+      }, {
+        "id" : "material_category_vdi_2736_2014",
+        "unit" : "none",
+        "enum" : "steel"
+      }, {
+        "id" : "endurance_limit_root",
+        "unit" : "N / mm^2",
+        "floating_point" : 57.92
+      }, {
+        "id" : "tensile_strength",
+        "unit" : "N / mm^2",
+        "floating_point" : 250.0
+      }, {
+        "id" : "thermal_conductivity",
+        "unit" : "W / (m K)",
+        "floating_point" : 40.0
+      }, {
+        "id" : "deformation_behaviour",
+        "unit" : "none",
+        "enum" : "brittle"
+      } ]
+    }, {
+      "id" : 35,
+      "type" : "bevel_stage",
+      "name" : "Kegelradstufe [35]",
+      "attributes" : [ {
+        "id" : "generated_pressure_angle_drive",
+        "unit" : "deg",
+        "floating_point" : 20.0
+      }, {
+        "id" : "hypoid_offset",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "crowning_of_the_mating_flanks",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "generated_pressure_angle_coast",
+        "unit" : "deg",
+        "floating_point" : 20.0
+      }, {
+        "id" : "number_of_blade_groups",
+        "unit" : "none",
+        "integer" : 0
+      }, {
+        "id" : "rotating_angle_around_pos_u_axis",
+        "unit" : "deg",
+        "floating_point" : 0.0
+      }, {
+        "id" : "shaft_angle",
+        "unit" : "deg",
+        "floating_point" : 90.0
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 70.0
+      } ]
+    }, {
+      "id" : 36,
+      "type" : "shaft",
+      "name" : "Welle [36]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ -1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, -1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 90.0, 0.0, 39.675028675603 ]
+      } ]
+    }, {
+      "id" : 38,
+      "type" : "bevel_gear",
+      "name" : "Kegelrad [38]",
+      "attributes" : [ {
+        "id" : "bevel_cone_orientation",
+        "unit" : "none",
+        "enum" : "positive"
+      }, {
+        "id" : "profile_shift_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "mean_spiral_angle",
+        "unit" : "deg",
+        "floating_point" : -34.9997
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 90.0
+      }, {
+        "id" : "number_of_teeth",
+        "unit" : "none",
+        "integer" : 33
+      }, {
+        "id" : "thickness_modification_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "basic_dedendum_coefficient",
+        "unit" : "none",
+        "floating_point" : 1.25
+      }, {
+        "id" : "basic_addendum_coefficient",
+        "unit" : "none",
+        "floating_point" : 1.0
+      }, {
+        "id" : "spiral_angle_pitch_direction",
+        "unit" : "none",
+        "enum" : "left"
+      }, {
+        "id" : "face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ -1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, -1.0 ]
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 39.675028675603 ]
+      }, {
+        "id" : "mean_normal_module",
+        "unit" : "mm",
+        "floating_point" : 5.0
+      } ]
+    }, {
+      "id" : 40,
+      "type" : "bevel_stage_gear_data",
+      "name" : "Zahnraddaten (Kegelräder) [40]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 41,
+      "type" : "bevel_stage_gear_data",
+      "name" : "Zahnraddaten (Kegelräder) [41]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 46,
+      "type" : "material",
+      "name" : "Werkstoff [46]",
+      "attributes" : [ {
+        "id" : "core_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 550.0
+      }, {
+        "id" : "material_type_din_743_2012",
+        "unit" : "none",
+        "enum" : "structural_steel"
+      }, {
+        "id" : "density",
+        "unit" : "kg / dm^3",
+        "floating_point" : 7.85
+      }, {
+        "id" : "elastic_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 210000.0
+      }, {
+        "id" : "material_hardening_method_fkm_2012",
+        "unit" : "none",
+        "enum" : "unhardened"
+      }, {
+        "id" : "is_material_hardable_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "material_designation",
+        "unit" : "none",
+        "string" : "Material"
+      }, {
+        "id" : "thermal_expansion_coefficient_plus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 11.0
+      }, {
+        "id" : "surface_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 750.0
+      }, {
+        "id" : "thermal_capacity",
+        "unit" : "J / (kg K)",
+        "floating_point" : 430.0
+      }, {
+        "id" : "is_material_austenitic_and_solution_annealed_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "is_material_austenitic_steel_fkm_2012",
+        "unit" : "none",
+        "boolean" : false
+      }, {
+        "id" : "poisson_ratio",
+        "unit" : "none",
+        "floating_point" : 0.3
+      }, {
+        "id" : "thermal_conductivity",
+        "unit" : "W / (m K)",
+        "floating_point" : 40.0
+      }, {
+        "id" : "deformation_behaviour",
+        "unit" : "none",
+        "enum" : "brittle"
+      }, {
+        "id" : "thermal_expansion_coefficient_minus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 8.0
+      } ]
+    }, {
+      "id" : 47,
+      "type" : "shaft_section",
+      "name" : "section [47]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 100.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      } ]
+    }, {
+      "id" : 48,
+      "type" : "shaft_section",
+      "name" : "section [48]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 80.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 100.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 80.0
+      } ]
+    }, {
+      "id" : 49,
+      "type" : "shaft_section",
+      "name" : "section [49]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 30.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 100.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 30.0
+      } ]
+    }, {
+      "id" : 50,
+      "type" : "bevel_gear_flank",
+      "attributes" : [ {
+        "id" : "remaining_protuberance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tool_edge_radius",
+        "unit" : "mm",
+        "floating_point" : 1.5
+      } ]
+    }, {
+      "id" : 51,
+      "type" : "bevel_gear_flank",
+      "attributes" : [ {
+        "id" : "remaining_protuberance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tool_edge_radius",
+        "unit" : "mm",
+        "floating_point" : 1.5
+      } ]
+    }, {
+      "id" : 52,
+      "type" : "bevel_gear_flank",
+      "attributes" : [ {
+        "id" : "remaining_protuberance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tool_edge_radius",
+        "unit" : "mm",
+        "floating_point" : 1.5
+      } ]
+    }, {
+      "id" : 53,
+      "type" : "bevel_gear_flank",
+      "attributes" : [ {
+        "id" : "remaining_protuberance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tool_edge_radius",
+        "unit" : "mm",
+        "floating_point" : 1.5
+      } ]
+    }, {
+      "id" : 54,
+      "type" : "bevel_gear_flank",
+      "attributes" : [ {
+        "id" : "remaining_protuberance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      } ]
+    }, {
+      "id" : 55,
+      "type" : "bevel_gear_flank",
+      "attributes" : [ {
+        "id" : "remaining_protuberance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      } ]
+    } ]
+  }
+}

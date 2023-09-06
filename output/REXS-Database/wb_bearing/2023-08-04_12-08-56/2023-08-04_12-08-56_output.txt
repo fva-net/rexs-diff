@@ -1,0 +1,127 @@
+We have attempted to match the data in Sample_Data/Workbench/wb_bearing/bearing.rexsj to the data in Sample_Data/Workbench/wb_bearing/bearing_mod.rexsj. 
+27/27 components and 27/27 relations from the first data model were matched. 
+27/27 components and 27/27 relations from the second data model were matched. 
+ 
+ 
+The following matching of components and relations was poduced: 
+Components are matched as follows: 
+ID	Type                                  	|	ID	Type                                  
+1 	gear_unit                             	|	1 	gear_unit                             
+2 	gear_casing                           	|	2 	gear_casing                           
+3 	shaft                                 	|	3 	shaft                                 
+5 	rolling_bearing_with_detailed_geometry	|	5 	rolling_bearing_with_detailed_geometry
+6 	lubricant                             	|	6 	lubricant                             
+7 	external_load                         	|	7 	external_load                         
+8 	external_load                         	|	8 	external_load                         
+15	material                              	|	15	material                              
+16	material                              	|	16	material                              
+17	rolling_bearing_row                   	|	17	rolling_bearing_row                   
+18	rolling_element                       	|	18	rolling_element                       
+19	rolling_element                       	|	19	rolling_element                       
+20	rolling_element                       	|	20	rolling_element                       
+21	rolling_element                       	|	21	rolling_element                       
+22	rolling_element                       	|	22	rolling_element                       
+23	rolling_element                       	|	23	rolling_element                       
+24	rolling_element                       	|	24	rolling_element                       
+25	rolling_element                       	|	25	rolling_element                       
+26	rolling_element                       	|	26	rolling_element                       
+27	rolling_element                       	|	27	rolling_element                       
+28	rolling_element                       	|	28	rolling_element                       
+29	rolling_element                       	|	29	rolling_element                       
+30	rolling_element                       	|	30	rolling_element                       
+31	rolling_element                       	|	31	rolling_element                       
+32	rolling_element                       	|	32	rolling_element                       
+33	rolling_element                       	|	33	rolling_element                       
+34	shaft_section                         	|	34	shaft_section                         
+
+
+The unmatched components from the first data model are: 
+ID	Type
+
+
+The unmatched components from the second data model are: 
+ID	Type
+
+Relations are matched as follows: 
+Rel_ID	Rel_Type        	Order	Ref 1                                            	Ref 2                      	Ref 3                   	|	Rel_ID	Rel_Type        	Order	Ref 1                                            	Ref 2                      	Ref 3                   
+2     	assembly        	     	1,assembly,gear_unit                             	2,part,gear_casing         	                        	|	2     	assembly        	     	1,assembly,gear_unit                             	2,part,gear_casing         	                        
+4     	assembly        	     	1,assembly,gear_unit                             	3,part,shaft               	                        	|	4     	assembly        	     	1,assembly,gear_unit                             	3,part,shaft               	                        
+7     	side            	     	5,assembly,rolling_bearing_with_detailed_geometry	3,inner_part,shaft         	2,outer_part,gear_casing	|	7     	side            	     	5,assembly,rolling_bearing_with_detailed_geometry	3,inner_part,shaft         	2,outer_part,gear_casing
+8     	assembly        	     	3,assembly,shaft                                 	7,part,external_load       	                        	|	8     	assembly        	     	3,assembly,shaft                                 	7,part,external_load       	                        
+9     	assembly        	     	3,assembly,shaft                                 	8,part,external_load       	                        	|	9     	assembly        	     	3,assembly,shaft                                 	8,part,external_load       	                        
+10    	reference       	     	5,origin,rolling_bearing_with_detailed_geometry  	6,referenced,lubricant     	                        	|	10    	reference       	     	5,origin,rolling_bearing_with_detailed_geometry  	6,referenced,lubricant     	                        
+11    	reference       	     	2,origin,gear_casing                             	6,referenced,lubricant     	                        	|	11    	reference       	     	2,origin,gear_casing                             	6,referenced,lubricant     	                        
+12    	reference       	     	2,origin,gear_casing                             	15,referenced,material     	                        	|	12    	reference       	     	2,origin,gear_casing                             	15,referenced,material     	                        
+13    	reference       	     	3,origin,shaft                                   	16,referenced,material     	                        	|	13    	reference       	     	3,origin,shaft                                   	16,referenced,material     	                        
+14    	assembly        	     	3,assembly,shaft                                 	34,part,shaft_section      	                        	|	14    	assembly        	     	3,assembly,shaft                                 	34,part,shaft_section      	                        
+15    	ordered_assembly	1    	5,assembly,rolling_bearing_with_detailed_geometry	17,part,rolling_bearing_row	                        	|	15    	ordered_assembly	1    	5,assembly,rolling_bearing_with_detailed_geometry	17,part,rolling_bearing_row	                        
+16    	ordered_assembly	1    	17,assembly,rolling_bearing_row                  	18,part,rolling_element    	                        	|	16    	ordered_assembly	1    	17,assembly,rolling_bearing_row                  	18,part,rolling_element    	                        
+17    	ordered_assembly	2    	17,assembly,rolling_bearing_row                  	19,part,rolling_element    	                        	|	17    	ordered_assembly	2    	17,assembly,rolling_bearing_row                  	19,part,rolling_element    	                        
+18    	ordered_assembly	3    	17,assembly,rolling_bearing_row                  	20,part,rolling_element    	                        	|	18    	ordered_assembly	3    	17,assembly,rolling_bearing_row                  	20,part,rolling_element    	                        
+19    	ordered_assembly	4    	17,assembly,rolling_bearing_row                  	21,part,rolling_element    	                        	|	19    	ordered_assembly	4    	17,assembly,rolling_bearing_row                  	21,part,rolling_element    	                        
+20    	ordered_assembly	5    	17,assembly,rolling_bearing_row                  	22,part,rolling_element    	                        	|	20    	ordered_assembly	5    	17,assembly,rolling_bearing_row                  	22,part,rolling_element    	                        
+21    	ordered_assembly	6    	17,assembly,rolling_bearing_row                  	23,part,rolling_element    	                        	|	21    	ordered_assembly	6    	17,assembly,rolling_bearing_row                  	23,part,rolling_element    	                        
+22    	ordered_assembly	7    	17,assembly,rolling_bearing_row                  	24,part,rolling_element    	                        	|	22    	ordered_assembly	7    	17,assembly,rolling_bearing_row                  	24,part,rolling_element    	                        
+23    	ordered_assembly	8    	17,assembly,rolling_bearing_row                  	25,part,rolling_element    	                        	|	23    	ordered_assembly	8    	17,assembly,rolling_bearing_row                  	25,part,rolling_element    	                        
+24    	ordered_assembly	9    	17,assembly,rolling_bearing_row                  	26,part,rolling_element    	                        	|	24    	ordered_assembly	9    	17,assembly,rolling_bearing_row                  	26,part,rolling_element    	                        
+25    	ordered_assembly	10   	17,assembly,rolling_bearing_row                  	27,part,rolling_element    	                        	|	25    	ordered_assembly	10   	17,assembly,rolling_bearing_row                  	27,part,rolling_element    	                        
+26    	ordered_assembly	11   	17,assembly,rolling_bearing_row                  	28,part,rolling_element    	                        	|	26    	ordered_assembly	11   	17,assembly,rolling_bearing_row                  	28,part,rolling_element    	                        
+27    	ordered_assembly	12   	17,assembly,rolling_bearing_row                  	29,part,rolling_element    	                        	|	27    	ordered_assembly	12   	17,assembly,rolling_bearing_row                  	29,part,rolling_element    	                        
+28    	ordered_assembly	13   	17,assembly,rolling_bearing_row                  	30,part,rolling_element    	                        	|	28    	ordered_assembly	13   	17,assembly,rolling_bearing_row                  	30,part,rolling_element    	                        
+29    	ordered_assembly	14   	17,assembly,rolling_bearing_row                  	31,part,rolling_element    	                        	|	29    	ordered_assembly	14   	17,assembly,rolling_bearing_row                  	31,part,rolling_element    	                        
+30    	ordered_assembly	15   	17,assembly,rolling_bearing_row                  	32,part,rolling_element    	                        	|	30    	ordered_assembly	15   	17,assembly,rolling_bearing_row                  	32,part,rolling_element    	                        
+31    	ordered_assembly	16   	17,assembly,rolling_bearing_row                  	33,part,rolling_element    	                        	|	31    	ordered_assembly	16   	17,assembly,rolling_bearing_row                  	33,part,rolling_element    	                        
+
+ 
+The unmatched relations from the first data model are: 
+Rel_ID	Rel_Type
+
+ 
+The unmatched relations from the second data model are: 
+Rel_ID	Rel_Type
+
+ 
+ScipOpt has produced the following output: 
+feasible solution found by trivial heuristic after 0.0 seconds, objective value 0.000000e+00
+presolving:
+(round 1, fast)       1116 del vars, 1120 del conss, 0 add conss, 668 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 176 clqs
+   (0.0s) running MILP presolver
+   (0.0s) MILP presolver (4 rounds): 0 aggregations, 3 fixings, 0 bound changes
+(round 2, medium)     1119 del vars, 1120 del conss, 0 add conss, 668 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 154 clqs
+(round 3, fast)       1134 del vars, 1158 del conss, 0 add conss, 668 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 139 clqs
+(round 4, fast)       1136 del vars, 1160 del conss, 0 add conss, 668 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 137 clqs
+(round 5, exhaustive) 1136 del vars, 1160 del conss, 0 add conss, 668 chg bounds, 0 chg sides, 0 chg coeffs, 137 upgd conss, 0 impls, 137 clqs
+   (0.0s) probing: 75/322 (23.3%) - 0 fixings, 0 aggregations, 208 implications, 0 bound changes
+   (0.0s) probing aborted: 50/50 successive totally useless probings
+   (0.0s) symmetry computation started: requiring (bin +, int -, cont +), (fixed: bin -, int +, cont -)
+   (0.0s) symmetry computation finished: 11 generators found (max: 1500, log10 of symmetry group size: 14.2)
+presolving (6 rounds: 6 fast, 3 medium, 2 exhaustive):
+ 1202 deleted vars, 1265 deleted constraints, 0 added constraints, 668 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 32 cliques
+presolved problem has 256 variables (256 bin, 0 int, 0 impl, 0 cont) and 32 constraints
+     32 constraints of type <setppc>
+Presolving Time: 0.00
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+t 0.0s|     1 |     0 |     0 |     - | trivial|   0 | 256 |  32 |   0 |   0 |  0 |   0 |   0 | 2.937681e+02 | 2.176812e+01 |1249.53%| unknown
+p 0.0s|     1 |     0 |     0 |     - |  clique|   0 | 256 |  32 |  32 |   0 |  0 |   0 |   0 | 2.937681e+02 | 5.376812e+01 | 446.36%| unknown
+  0.0s|     1 |     0 |    16 |     - |    11M |   0 | 256 |  32 |  32 |   0 |  0 |   0 |   0 | 5.376812e+01 | 5.376812e+01 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.00
+Solving Nodes      : 1
+Primal Bound       : +5.37681159420290e+01 (3 solutions)
+Dual Bound         : +5.37681159420290e+01
+Gap                : 0.00 %
+
+The objective value of the optimization model is: 53.768115942028984 
+
+ 
+The parameters and functions were set to the following values: 
+f_c: [[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.9347826086956522, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.3333333333333333, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.3333333333333333, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.5185185185185185, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5185185185185185, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8333333333333334]] 
+g_r: [[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]] 
+gamma_c: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+gamma_c_prime: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+delta_r: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+delta_r_prime: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+epsilon: 0 

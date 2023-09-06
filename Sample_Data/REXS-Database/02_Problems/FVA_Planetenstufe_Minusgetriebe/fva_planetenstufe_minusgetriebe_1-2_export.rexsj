@@ -1,0 +1,5218 @@
+﻿{
+  "model" : {
+    "version" : "1.2",
+    "applicationId" : "FVA Workbench",
+    "applicationVersion" : "8.1.0",
+    "date" : "2023-08-03T10:25:03+02:00",
+    "relations" : [ {
+      "id" : 88,
+      "type" : "central_shaft",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 34,
+        "role" : "shaft",
+        "hint" : "Sonnenwelle [34]"
+      } ]
+    }, {
+      "id" : 89,
+      "type" : "central_shaft",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 62,
+        "role" : "shaft",
+        "hint" : "Hohlradwelle [62]"
+      } ]
+    }, {
+      "id" : 90,
+      "type" : "planet_carrier_shaft",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "shaft",
+        "hint" : "Steg [4]"
+      }, {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      } ]
+    }, {
+      "id" : 91,
+      "type" : "planet_carrier_shaft",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "shaft",
+        "hint" : "Steg [6]"
+      }, {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      } ]
+    }, {
+      "id" : 10,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 6,
+        "role" : "part",
+        "hint" : "Steg [6]"
+      } ]
+    }, {
+      "id" : 11,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 9,
+        "role" : "part",
+        "hint" : "Planetenstufe [9]"
+      } ]
+    }, {
+      "id" : 12,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 34,
+        "role" : "part",
+        "hint" : "Sonnenwelle [34]"
+      } ]
+    }, {
+      "id" : 221,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 165,
+        "role" : "part",
+        "hint" : "Individuelle Planetenwelle [165]"
+      } ]
+    }, {
+      "id" : 222,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 166,
+        "role" : "part",
+        "hint" : "Individuelle Planetenwelle [166]"
+      } ]
+    }, {
+      "id" : 223,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 167,
+        "role" : "part",
+        "hint" : "Individuelle Planetenwelle [167]"
+      } ]
+    }, {
+      "id" : 16,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 62,
+        "role" : "part",
+        "hint" : "Hohlradwelle [62]"
+      } ]
+    }, {
+      "id" : 17,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 4,
+        "role" : "part",
+        "hint" : "Steg [4]"
+      } ]
+    }, {
+      "id" : 224,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "assembly",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 147,
+        "role" : "part",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [147]"
+      } ]
+    }, {
+      "id" : 225,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "assembly",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 148,
+        "role" : "part",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [148]"
+      } ]
+    }, {
+      "id" : 226,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "assembly",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 149,
+        "role" : "part",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [149]"
+      } ]
+    }, {
+      "id" : 1,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 2,
+        "role" : "part",
+        "hint" : "Gehäuse [2]"
+      } ]
+    }, {
+      "id" : 2,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "assembly",
+        "hint" : "Steg [4]"
+      }, {
+        "id" : 61,
+        "role" : "part",
+        "hint" : "Belastung [61]"
+      } ]
+    }, {
+      "id" : 3,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 34,
+        "role" : "assembly",
+        "hint" : "Sonnenwelle [34]"
+      }, {
+        "id" : 38,
+        "role" : "part",
+        "hint" : "Belastung [38]"
+      } ]
+    }, {
+      "id" : 227,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "assembly",
+        "hint" : "Zweiwangiger Planetenträger [3]"
+      }, {
+        "id" : 171,
+        "role" : "part",
+        "hint" : "Individueller Bolzen [171]"
+      } ]
+    }, {
+      "id" : 228,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "assembly",
+        "hint" : "Zweiwangiger Planetenträger [3]"
+      }, {
+        "id" : 172,
+        "role" : "part",
+        "hint" : "Individueller Bolzen [172]"
+      } ]
+    }, {
+      "id" : 229,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "assembly",
+        "hint" : "Zweiwangiger Planetenträger [3]"
+      }, {
+        "id" : 173,
+        "role" : "part",
+        "hint" : "Individueller Bolzen [173]"
+      } ]
+    }, {
+      "id" : 7,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "assembly",
+        "hint" : "Zweiwangiger Planetenträger [3]"
+      }, {
+        "id" : 6,
+        "role" : "part",
+        "hint" : "Steg [6]"
+      } ]
+    }, {
+      "id" : 8,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "assembly",
+        "hint" : "Zweiwangiger Planetenträger [3]"
+      }, {
+        "id" : 67,
+        "role" : "part",
+        "hint" : "Wange [67]"
+      } ]
+    }, {
+      "id" : 9,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "assembly",
+        "hint" : "Zweiwangiger Planetenträger [3]"
+      }, {
+        "id" : 68,
+        "role" : "part",
+        "hint" : "Wange [68]"
+      } ]
+    }, {
+      "id" : 230,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "assembly",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 156,
+        "role" : "part",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [156]"
+      } ]
+    }, {
+      "id" : 231,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "assembly",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 157,
+        "role" : "part",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [157]"
+      } ]
+    }, {
+      "id" : 232,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "assembly",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 158,
+        "role" : "part",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [158]"
+      } ]
+    }, {
+      "id" : 24,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "part",
+        "hint" : "Zweiwangiger Planetenträger [3]"
+      }, {
+        "id" : 9,
+        "role" : "assembly",
+        "hint" : "Planetenstufe [9]"
+      } ]
+    }, {
+      "id" : 25,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 34,
+        "role" : "assembly",
+        "hint" : "Sonnenwelle [34]"
+      }, {
+        "id" : 53,
+        "role" : "part",
+        "hint" : "Sonnenrad [53]"
+      } ]
+    }, {
+      "id" : 233,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 165,
+        "role" : "assembly",
+        "hint" : "Individuelle Planetenwelle [165]"
+      }, {
+        "id" : 183,
+        "role" : "part",
+        "hint" : "Individuelles Planetenrad [183]"
+      } ]
+    }, {
+      "id" : 234,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 166,
+        "role" : "assembly",
+        "hint" : "Individuelle Planetenwelle [166]"
+      }, {
+        "id" : 184,
+        "role" : "part",
+        "hint" : "Individuelles Planetenrad [184]"
+      } ]
+    }, {
+      "id" : 235,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 167,
+        "role" : "assembly",
+        "hint" : "Individuelle Planetenwelle [167]"
+      }, {
+        "id" : 185,
+        "role" : "part",
+        "hint" : "Individuelles Planetenrad [185]"
+      } ]
+    }, {
+      "id" : 29,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 65,
+        "role" : "part",
+        "hint" : "Koppelung [65]"
+      } ]
+    }, {
+      "id" : 30,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 66,
+        "role" : "part",
+        "hint" : "Koppelung [66]"
+      } ]
+    }, {
+      "id" : 31,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 58,
+        "role" : "part",
+        "hint" : "Hohlrad [58]"
+      }, {
+        "id" : 62,
+        "role" : "assembly",
+        "hint" : "Hohlradwelle [62]"
+      } ]
+    }, {
+      "id" : 32,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 3,
+        "role" : "assembly",
+        "hint" : "Zweiwangiger Planetenträger [3]"
+      }, {
+        "id" : 4,
+        "role" : "part",
+        "hint" : "Steg [4]"
+      } ]
+    }, {
+      "id" : 236,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 147,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [147]"
+      }, {
+        "id" : 53,
+        "role" : "gear_1",
+        "hint" : "Sonnenrad [53]"
+      }, {
+        "id" : 183,
+        "role" : "gear_2",
+        "hint" : "Individuelles Planetenrad [183]"
+      } ]
+    }, {
+      "id" : 237,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 148,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [148]"
+      }, {
+        "id" : 53,
+        "role" : "gear_1",
+        "hint" : "Sonnenrad [53]"
+      }, {
+        "id" : 184,
+        "role" : "gear_2",
+        "hint" : "Individuelles Planetenrad [184]"
+      } ]
+    }, {
+      "id" : 238,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 149,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [149]"
+      }, {
+        "id" : 53,
+        "role" : "gear_1",
+        "hint" : "Sonnenrad [53]"
+      }, {
+        "id" : 185,
+        "role" : "gear_2",
+        "hint" : "Individuelles Planetenrad [185]"
+      } ]
+    }, {
+      "id" : 239,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 156,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [156]"
+      }, {
+        "id" : 183,
+        "role" : "gear_1",
+        "hint" : "Individuelles Planetenrad [183]"
+      }, {
+        "id" : 58,
+        "role" : "gear_2",
+        "hint" : "Hohlrad [58]"
+      } ]
+    }, {
+      "id" : 240,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 157,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [157]"
+      }, {
+        "id" : 184,
+        "role" : "gear_1",
+        "hint" : "Individuelles Planetenrad [184]"
+      }, {
+        "id" : 58,
+        "role" : "gear_2",
+        "hint" : "Hohlrad [58]"
+      } ]
+    }, {
+      "id" : 241,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 158,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [158]"
+      }, {
+        "id" : 185,
+        "role" : "gear_1",
+        "hint" : "Individuelles Planetenrad [185]"
+      }, {
+        "id" : 58,
+        "role" : "gear_2",
+        "hint" : "Hohlrad [58]"
+      } ]
+    }, {
+      "id" : 242,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 156,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [156]"
+      }, {
+        "id" : 159,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [159]"
+      }, {
+        "id" : 183,
+        "role" : "gear",
+        "hint" : "Individuelles Planetenrad [183]"
+      } ]
+    }, {
+      "id" : 243,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 157,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [157]"
+      }, {
+        "id" : 160,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [160]"
+      }, {
+        "id" : 184,
+        "role" : "gear",
+        "hint" : "Individuelles Planetenrad [184]"
+      } ]
+    }, {
+      "id" : 244,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 158,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [158]"
+      }, {
+        "id" : 161,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [161]"
+      }, {
+        "id" : 185,
+        "role" : "gear",
+        "hint" : "Individuelles Planetenrad [185]"
+      } ]
+    }, {
+      "id" : 245,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 156,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [156]"
+      }, {
+        "id" : 162,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [162]"
+      }, {
+        "id" : 58,
+        "role" : "gear",
+        "hint" : "Hohlrad [58]"
+      } ]
+    }, {
+      "id" : 246,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 157,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [157]"
+      }, {
+        "id" : 163,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [163]"
+      }, {
+        "id" : 58,
+        "role" : "gear",
+        "hint" : "Hohlrad [58]"
+      } ]
+    }, {
+      "id" : 247,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 158,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [158]"
+      }, {
+        "id" : 164,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [164]"
+      }, {
+        "id" : 58,
+        "role" : "gear",
+        "hint" : "Hohlrad [58]"
+      } ]
+    }, {
+      "id" : 248,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 147,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [147]"
+      }, {
+        "id" : 150,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [150]"
+      }, {
+        "id" : 53,
+        "role" : "gear",
+        "hint" : "Sonnenrad [53]"
+      } ]
+    }, {
+      "id" : 249,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 148,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [148]"
+      }, {
+        "id" : 151,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [151]"
+      }, {
+        "id" : 53,
+        "role" : "gear",
+        "hint" : "Sonnenrad [53]"
+      } ]
+    }, {
+      "id" : 250,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 149,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [149]"
+      }, {
+        "id" : 152,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [152]"
+      }, {
+        "id" : 53,
+        "role" : "gear",
+        "hint" : "Sonnenrad [53]"
+      } ]
+    }, {
+      "id" : 251,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 147,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [147]"
+      }, {
+        "id" : 153,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [153]"
+      }, {
+        "id" : 183,
+        "role" : "gear",
+        "hint" : "Individuelles Planetenrad [183]"
+      } ]
+    }, {
+      "id" : 252,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 148,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [148]"
+      }, {
+        "id" : 154,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [154]"
+      }, {
+        "id" : 184,
+        "role" : "gear",
+        "hint" : "Individuelles Planetenrad [184]"
+      } ]
+    }, {
+      "id" : 253,
+      "type" : "stage_gear_data",
+      "refs" : [ {
+        "id" : 149,
+        "role" : "stage",
+        "hint" : "Individueller Zahneingriff in der Planetenstufe [149]"
+      }, {
+        "id" : 155,
+        "role" : "stage_gear_data",
+        "hint" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [155]"
+      }, {
+        "id" : 185,
+        "role" : "gear",
+        "hint" : "Individuelles Planetenrad [185]"
+      } ]
+    }, {
+      "id" : 63,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 34,
+        "role" : "inner_part",
+        "hint" : "Sonnenwelle [34]"
+      }, {
+        "id" : 36,
+        "role" : "assembly",
+        "hint" : "Wälzlager [36]"
+      } ]
+    }, {
+      "id" : 64,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 34,
+        "role" : "inner_part",
+        "hint" : "Sonnenwelle [34]"
+      }, {
+        "id" : 37,
+        "role" : "assembly",
+        "hint" : "Wälzlager [37]"
+      } ]
+    }, {
+      "id" : 65,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 4,
+        "role" : "inner_part",
+        "hint" : "Steg [4]"
+      }, {
+        "id" : 59,
+        "role" : "assembly",
+        "hint" : "Wälzlager [59]"
+      } ]
+    }, {
+      "id" : 66,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 4,
+        "role" : "inner_part",
+        "hint" : "Steg [4]"
+      }, {
+        "id" : 60,
+        "role" : "assembly",
+        "hint" : "Wälzlager [60]"
+      } ]
+    }, {
+      "id" : 254,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 165,
+        "role" : "outer_part",
+        "hint" : "Individuelle Planetenwelle [165]"
+      }, {
+        "id" : 168,
+        "role" : "assembly",
+        "hint" : "Individuelles Planetenlager [168]"
+      }, {
+        "id" : 171,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [171]"
+      } ]
+    }, {
+      "id" : 255,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 166,
+        "role" : "outer_part",
+        "hint" : "Individuelle Planetenwelle [166]"
+      }, {
+        "id" : 169,
+        "role" : "assembly",
+        "hint" : "Individuelles Planetenlager [169]"
+      }, {
+        "id" : 172,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [172]"
+      } ]
+    }, {
+      "id" : 256,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 167,
+        "role" : "outer_part",
+        "hint" : "Individuelle Planetenwelle [167]"
+      }, {
+        "id" : 170,
+        "role" : "assembly",
+        "hint" : "Individuelles Planetenlager [170]"
+      }, {
+        "id" : 173,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [173]"
+      } ]
+    }, {
+      "id" : 257,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 165,
+        "role" : "outer_part",
+        "hint" : "Individuelle Planetenwelle [165]"
+      }, {
+        "id" : 180,
+        "role" : "assembly",
+        "hint" : "Individuelles Planetenlager [180]"
+      }, {
+        "id" : 171,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [171]"
+      } ]
+    }, {
+      "id" : 258,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 166,
+        "role" : "outer_part",
+        "hint" : "Individuelle Planetenwelle [166]"
+      }, {
+        "id" : 181,
+        "role" : "assembly",
+        "hint" : "Individuelles Planetenlager [181]"
+      }, {
+        "id" : 172,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [172]"
+      } ]
+    }, {
+      "id" : 259,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 167,
+        "role" : "outer_part",
+        "hint" : "Individuelle Planetenwelle [167]"
+      }, {
+        "id" : 182,
+        "role" : "assembly",
+        "hint" : "Individuelles Planetenlager [182]"
+      }, {
+        "id" : 173,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [173]"
+      } ]
+    }, {
+      "id" : 73,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "inner_part",
+        "hint" : "Steg [4]"
+      }, {
+        "id" : 67,
+        "role" : "outer_part",
+        "hint" : "Wange [67]"
+      }, {
+        "id" : 69,
+        "role" : "assembly",
+        "hint" : "Koppelung [69]"
+      } ]
+    }, {
+      "id" : 74,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "inner_part",
+        "hint" : "Steg [6]"
+      }, {
+        "id" : 68,
+        "role" : "outer_part",
+        "hint" : "Wange [68]"
+      }, {
+        "id" : 70,
+        "role" : "assembly",
+        "hint" : "Koppelung [70]"
+      } ]
+    }, {
+      "id" : 260,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 67,
+        "role" : "outer_part",
+        "hint" : "Wange [67]"
+      }, {
+        "id" : 171,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [171]"
+      }, {
+        "id" : 174,
+        "role" : "assembly",
+        "hint" : "Individuelle Koppelung in der Planetenstufe [174]"
+      } ]
+    }, {
+      "id" : 261,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 67,
+        "role" : "outer_part",
+        "hint" : "Wange [67]"
+      }, {
+        "id" : 172,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [172]"
+      }, {
+        "id" : 175,
+        "role" : "assembly",
+        "hint" : "Individuelle Koppelung in der Planetenstufe [175]"
+      } ]
+    }, {
+      "id" : 262,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 67,
+        "role" : "outer_part",
+        "hint" : "Wange [67]"
+      }, {
+        "id" : 173,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [173]"
+      }, {
+        "id" : 176,
+        "role" : "assembly",
+        "hint" : "Individuelle Koppelung in der Planetenstufe [176]"
+      } ]
+    }, {
+      "id" : 263,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 68,
+        "role" : "outer_part",
+        "hint" : "Wange [68]"
+      }, {
+        "id" : 171,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [171]"
+      }, {
+        "id" : 177,
+        "role" : "assembly",
+        "hint" : "Individuelle Koppelung in der Planetenstufe [177]"
+      } ]
+    }, {
+      "id" : 264,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 68,
+        "role" : "outer_part",
+        "hint" : "Wange [68]"
+      }, {
+        "id" : 172,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [172]"
+      }, {
+        "id" : 178,
+        "role" : "assembly",
+        "hint" : "Individuelle Koppelung in der Planetenstufe [178]"
+      } ]
+    }, {
+      "id" : 265,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 68,
+        "role" : "outer_part",
+        "hint" : "Wange [68]"
+      }, {
+        "id" : 173,
+        "role" : "inner_part",
+        "hint" : "Individueller Bolzen [173]"
+      }, {
+        "id" : 179,
+        "role" : "assembly",
+        "hint" : "Individuelle Koppelung in der Planetenstufe [179]"
+      } ]
+    }, {
+      "id" : 81,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 62,
+        "role" : "inner_part",
+        "hint" : "Hohlradwelle [62]"
+      }, {
+        "id" : 65,
+        "role" : "assembly",
+        "hint" : "Koppelung [65]"
+      } ]
+    }, {
+      "id" : 82,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 62,
+        "role" : "inner_part",
+        "hint" : "Hohlradwelle [62]"
+      }, {
+        "id" : 66,
+        "role" : "assembly",
+        "hint" : "Koppelung [66]"
+      } ]
+    }, {
+      "id" : 266,
+      "type" : "planet_shaft",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 165,
+        "role" : "shaft",
+        "hint" : "Individuelle Planetenwelle [165]"
+      } ]
+    }, {
+      "id" : 267,
+      "type" : "planet_shaft",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 166,
+        "role" : "shaft",
+        "hint" : "Individuelle Planetenwelle [166]"
+      } ]
+    }, {
+      "id" : 268,
+      "type" : "planet_shaft",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 167,
+        "role" : "shaft",
+        "hint" : "Individuelle Planetenwelle [167]"
+      } ]
+    }, {
+      "id" : 269,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 36,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 270,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 37,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 271,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 59,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 272,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 60,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 273,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 168,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 274,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 169,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 275,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 170,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 276,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 180,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 277,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 181,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 278,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 182,
+        "role" : "origin",
+        "hint" : "concept_bearing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 279,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "origin",
+        "hint" : "gear_casing"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 280,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 147,
+        "role" : "origin",
+        "hint" : "cylindrical_stage"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 281,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 148,
+        "role" : "origin",
+        "hint" : "cylindrical_stage"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 282,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 149,
+        "role" : "origin",
+        "hint" : "cylindrical_stage"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 283,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 156,
+        "role" : "origin",
+        "hint" : "cylindrical_stage"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 284,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 157,
+        "role" : "origin",
+        "hint" : "cylindrical_stage"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 285,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 158,
+        "role" : "origin",
+        "hint" : "cylindrical_stage"
+      }, {
+        "id" : 91,
+        "role" : "referenced",
+        "hint" : "lubricant"
+      } ]
+    }, {
+      "id" : 286,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "origin",
+        "hint" : "gear_casing"
+      }, {
+        "id" : 94,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 287,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 53,
+        "role" : "origin",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 96,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 288,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 58,
+        "role" : "origin",
+        "hint" : "ring_gear"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 289,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 183,
+        "role" : "origin",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 96,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 290,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 184,
+        "role" : "origin",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 96,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 291,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 185,
+        "role" : "origin",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 96,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 292,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 293,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 294,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 34,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 295,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 62,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 296,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 165,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 297,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 166,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 298,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 167,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 299,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 171,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 300,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 172,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 301,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 173,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 95,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 302,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 67,
+        "role" : "origin",
+        "hint" : "side_plate"
+      }, {
+        "id" : 94,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 303,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 68,
+        "role" : "origin",
+        "hint" : "side_plate"
+      }, {
+        "id" : 94,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 304,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 189,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 305,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 190,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 306,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 34,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 191,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 307,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 165,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 192,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 308,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 166,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 193,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 309,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 167,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 194,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 310,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 62,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 195,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 311,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "gear_unit"
+      }, {
+        "id" : 196,
+        "role" : "part",
+        "hint" : "shaft"
+      } ]
+    }, {
+      "id" : 312,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 196,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 197,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 313,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 196,
+        "role" : "origin",
+        "hint" : "shaft"
+      }, {
+        "id" : 198,
+        "role" : "referenced",
+        "hint" : "material"
+      } ]
+    }, {
+      "id" : 314,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 199,
+        "role" : "assembly",
+        "hint" : "coupling"
+      }, {
+        "id" : 4,
+        "role" : "inner_part",
+        "hint" : "shaft"
+      }, {
+        "id" : 196,
+        "role" : "outer_part",
+        "hint" : "shaft"
+      } ]
+    }, {
+      "id" : 315,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 200,
+        "role" : "assembly",
+        "hint" : "coupling"
+      }, {
+        "id" : 6,
+        "role" : "inner_part",
+        "hint" : "shaft"
+      }, {
+        "id" : 196,
+        "role" : "outer_part",
+        "hint" : "shaft"
+      } ]
+    }, {
+      "id" : 269,
+      "type" : "planet_pin",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 171,
+        "role" : "shaft",
+        "hint" : "Individueller Bolzen [171]"
+      } ]
+    }, {
+      "id" : 316,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 171,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 186,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 270,
+      "type" : "planet_pin",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 172,
+        "role" : "shaft",
+        "hint" : "Individueller Bolzen [172]"
+      } ]
+    }, {
+      "id" : 317,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 172,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 187,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 271,
+      "type" : "planet_pin",
+      "refs" : [ {
+        "id" : 9,
+        "role" : "planetary_stage",
+        "hint" : "Planetenstufe [9]"
+      }, {
+        "id" : 173,
+        "role" : "shaft",
+        "hint" : "Individueller Bolzen [173]"
+      } ]
+    }, {
+      "id" : 318,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 173,
+        "role" : "assembly",
+        "hint" : "shaft"
+      }, {
+        "id" : 188,
+        "role" : "part",
+        "hint" : "shaft_section"
+      } ]
+    }, {
+      "id" : 319,
+      "type" : "flank",
+      "refs" : [ {
+        "id" : 53,
+        "role" : "gear",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 201,
+        "role" : "left",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 202,
+        "role" : "right",
+        "hint" : "flank_geometry"
+      } ]
+    }, {
+      "id" : 320,
+      "type" : "flank",
+      "refs" : [ {
+        "id" : 58,
+        "role" : "gear",
+        "hint" : "ring_gear"
+      }, {
+        "id" : 203,
+        "role" : "left",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 204,
+        "role" : "right",
+        "hint" : "flank_geometry"
+      } ]
+    }, {
+      "id" : 321,
+      "type" : "flank",
+      "refs" : [ {
+        "id" : 183,
+        "role" : "gear",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 205,
+        "role" : "left",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 206,
+        "role" : "right",
+        "hint" : "flank_geometry"
+      } ]
+    }, {
+      "id" : 322,
+      "type" : "flank",
+      "refs" : [ {
+        "id" : 184,
+        "role" : "gear",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 207,
+        "role" : "left",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 208,
+        "role" : "right",
+        "hint" : "flank_geometry"
+      } ]
+    }, {
+      "id" : 323,
+      "type" : "flank",
+      "refs" : [ {
+        "id" : 185,
+        "role" : "gear",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 209,
+        "role" : "left",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 210,
+        "role" : "right",
+        "hint" : "flank_geometry"
+      } ]
+    }, {
+      "id" : 324,
+      "type" : "ordered_reference",
+      "order" : 1,
+      "refs" : [ {
+        "id" : 53,
+        "role" : "origin",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 83,
+        "role" : "referenced",
+        "hint" : "rack_shaped_tool"
+      } ]
+    }, {
+      "id" : 325,
+      "type" : "ordered_reference",
+      "order" : 1,
+      "refs" : [ {
+        "id" : 58,
+        "role" : "origin",
+        "hint" : "ring_gear"
+      }, {
+        "id" : 85,
+        "role" : "referenced",
+        "hint" : "cutter_wheel_tool"
+      } ]
+    }, {
+      "id" : 326,
+      "type" : "ordered_reference",
+      "order" : 1,
+      "refs" : [ {
+        "id" : 183,
+        "role" : "origin",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 84,
+        "role" : "referenced",
+        "hint" : "rack_shaped_tool"
+      } ]
+    }, {
+      "id" : 327,
+      "type" : "ordered_reference",
+      "order" : 1,
+      "refs" : [ {
+        "id" : 184,
+        "role" : "origin",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 84,
+        "role" : "referenced",
+        "hint" : "rack_shaped_tool"
+      } ]
+    }, {
+      "id" : 328,
+      "type" : "ordered_reference",
+      "order" : 1,
+      "refs" : [ {
+        "id" : 185,
+        "role" : "origin",
+        "hint" : "cylindrical_gear"
+      }, {
+        "id" : 84,
+        "role" : "referenced",
+        "hint" : "rack_shaped_tool"
+      } ]
+    }, {
+      "id" : 329,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 201,
+        "role" : "origin",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 211,
+        "role" : "referenced",
+        "hint" : "helix_slope"
+      } ]
+    }, {
+      "id" : 330,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 201,
+        "role" : "origin",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 212,
+        "role" : "referenced",
+        "hint" : "helix_crowning"
+      } ]
+    }, {
+      "id" : 331,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 201,
+        "role" : "origin",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 213,
+        "role" : "referenced",
+        "hint" : "profile_crowning"
+      } ]
+    }, {
+      "id" : 332,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 202,
+        "role" : "origin",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 214,
+        "role" : "referenced",
+        "hint" : "helix_slope"
+      } ]
+    }, {
+      "id" : 333,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 202,
+        "role" : "origin",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 215,
+        "role" : "referenced",
+        "hint" : "helix_crowning"
+      } ]
+    }, {
+      "id" : 334,
+      "type" : "reference",
+      "refs" : [ {
+        "id" : 202,
+        "role" : "origin",
+        "hint" : "flank_geometry"
+      }, {
+        "id" : 216,
+        "role" : "referenced",
+        "hint" : "profile_crowning"
+      } ]
+    } ],
+    "components" : [ {
+      "id" : 1,
+      "type" : "gear_unit",
+      "name" : "Getriebeeinheit [1]",
+      "attributes" : [ {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "direction_vector_gravity_u",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "direction_vector_gravity_v",
+        "unit" : "none",
+        "floating_point" : 1.0
+      }, {
+        "id" : "direction_vector_gravity_w",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "number_of_nodes_in_mesh_width_for_loaddistribution",
+        "unit" : "none",
+        "integer" : 18
+      }, {
+        "id" : "account_for_gravity",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "account_for_shear_deformation",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "number_of_gears",
+        "unit" : "none",
+        "integer" : 1
+      }, {
+        "id" : "gravitational_acceleration",
+        "unit" : "m / s^2",
+        "floating_point" : 9.81
+      }, {
+        "id" : "gear_shift_index",
+        "unit" : "none",
+        "integer" : 1
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 2,
+      "type" : "gear_casing",
+      "name" : "Gehäuse [2]",
+      "attributes" : [ {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 80.0
+      } ]
+    }, {
+      "id" : 3,
+      "type" : "planet_carrier",
+      "name" : "Zweiwangiger Planetenträger [3]",
+      "attributes" : [ {
+        "id" : "strut_radius_planet_recess",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "strut_inner_diameter",
+        "unit" : "mm",
+        "floating_point" : 110.0
+      } ]
+    }, {
+      "id" : 4,
+      "type" : "shaft",
+      "name" : "Steg [4]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 6,
+      "type" : "shaft",
+      "name" : "Steg [6]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 150.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 9,
+      "type" : "planetary_stage",
+      "name" : "Planetenstufe [9]",
+      "attributes" : [ ]
+    }, {
+      "id" : 34,
+      "type" : "shaft",
+      "name" : "Sonnenwelle [34]",
+      "attributes" : [ {
+        "id" : "rotational_speed",
+        "unit" : "1 / min",
+        "floating_point" : 1500.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "defines_speed",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 100.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 36,
+      "type" : "concept_bearing",
+      "name" : "Wälzlager [36]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 75.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "both_directions"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 75.0
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 175.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 37,
+      "type" : "concept_bearing",
+      "name" : "Wälzlager [37]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 127.5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "no_direction"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 127.5
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 227.5, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 38,
+      "type" : "external_load",
+      "name" : "Belastung [38]",
+      "attributes" : [ {
+        "id" : "defines_torque",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "force_v_direction",
+        "unit" : "N",
+        "floating_point" : 0.0
+      }, {
+        "id" : "torque_around_w_axis",
+        "unit" : "N m",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 150.0
+      }, {
+        "id" : "force_w_direction",
+        "unit" : "N",
+        "floating_point" : 0.0
+      }, {
+        "id" : "transmits_torque",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "torque_around_v_axis",
+        "unit" : "N m",
+        "floating_point" : 0.0
+      }, {
+        "id" : "power",
+        "unit" : "kW",
+        "floating_point" : 100.0
+      }, {
+        "id" : "force_u_direction",
+        "unit" : "N",
+        "floating_point" : 0.0
+      } ]
+    }, {
+      "id" : 53,
+      "type" : "cylindrical_gear",
+      "name" : "Sonnenrad [53]",
+      "attributes" : [ {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      }, {
+        "id" : "number_of_teeth",
+        "unit" : "none",
+        "integer" : 17
+      }, {
+        "id" : "tooth_thickness_deviation_tolerance_series_din_3967_1978",
+        "unit" : "none",
+        "enum" : "c25"
+      }, {
+        "id" : "chamfer_at_tooth_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "endurance_limit_root",
+        "unit" : "N / mm^2",
+        "floating_point" : 461.0
+      }, {
+        "id" : "face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, -0.18374951781657034, 0.9829730996839018 ]
+      }, {
+        "id" : "endurance_limit_flank",
+        "unit" : "N / mm^2",
+        "floating_point" : 1500.0
+      }, {
+        "id" : "helix_angle_reference_diameter",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_module",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "datum_face_orientation",
+        "unit" : "none",
+        "enum" : "negative"
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 125.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 58,
+      "type" : "ring_gear",
+      "name" : "Hohlrad [58]",
+      "attributes" : [ {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      }, {
+        "id" : "number_of_teeth",
+        "unit" : "none",
+        "integer" : 61
+      }, {
+        "id" : "tooth_thickness_deviation_tolerance_series_din_3967_1978",
+        "unit" : "none",
+        "enum" : "c25"
+      }, {
+        "id" : "chamfer_at_tooth_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "endurance_limit_root",
+        "unit" : "N / mm^2",
+        "floating_point" : 306.0
+      }, {
+        "id" : "face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, -0.9057022630804714, 0.42391439070986076 ]
+      }, {
+        "id" : "endurance_limit_flank",
+        "unit" : "N / mm^2",
+        "floating_point" : 740.64
+      }, {
+        "id" : "helix_angle_reference_diameter",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_module",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "datum_face_orientation",
+        "unit" : "none",
+        "enum" : "negative"
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 125.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 59,
+      "type" : "concept_bearing",
+      "name" : "Wälzlager [59]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "both_directions"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 25.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 60,
+      "type" : "concept_bearing",
+      "name" : "Wälzlager [60]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 75.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "no_direction"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 75.0
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 75.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 61,
+      "type" : "external_load",
+      "name" : "Belastung [61]",
+      "attributes" : [ {
+        "id" : "force_v_direction",
+        "unit" : "N",
+        "floating_point" : 0.0
+      }, {
+        "id" : "torque_around_w_axis",
+        "unit" : "N m",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "force_w_direction",
+        "unit" : "N",
+        "floating_point" : 0.0
+      }, {
+        "id" : "transmits_torque",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "torque_around_v_axis",
+        "unit" : "N m",
+        "floating_point" : 0.0
+      }, {
+        "id" : "force_u_direction",
+        "unit" : "N",
+        "floating_point" : 0.0
+      } ]
+    }, {
+      "id" : 62,
+      "type" : "shaft",
+      "name" : "Hohlradwelle [62]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 100.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 65,
+      "type" : "switchable_coupling",
+      "name" : "Koppelung [65]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 12.5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 12.5
+      }, {
+        "id" : "is_engaged",
+        "unit" : "none",
+        "boolean_array" : [ true ]
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 112.5, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 66,
+      "type" : "switchable_coupling",
+      "name" : "Koppelung [66]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 37.5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 37.5
+      }, {
+        "id" : "is_engaged",
+        "unit" : "none",
+        "boolean_array" : [ true ]
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 137.5, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 67,
+      "type" : "side_plate",
+      "name" : "Wange [67]",
+      "attributes" : [ {
+        "id" : "inner_diameter",
+        "unit" : "mm",
+        "floating_point" : 80.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 8.0
+      }, {
+        "id" : "outer_diameter",
+        "unit" : "mm",
+        "floating_point" : 219.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 92.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 68,
+      "type" : "side_plate",
+      "name" : "Wange [68]",
+      "attributes" : [ {
+        "id" : "inner_diameter",
+        "unit" : "mm",
+        "floating_point" : 99.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 8.0
+      }, {
+        "id" : "outer_diameter",
+        "unit" : "mm",
+        "floating_point" : 219.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 150.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 69,
+      "type" : "coupling",
+      "name" : "Koppelung [69]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 96.0
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 96.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 70,
+      "type" : "coupling",
+      "name" : "Koppelung [70]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 154.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 83,
+      "type" : "rack_shaped_tool",
+      "name" : "Werkzeug [83]",
+      "attributes" : [ {
+        "id" : "tip_radius_factor",
+        "unit" : "none",
+        "floating_point" : 0.25
+      }, {
+        "id" : "dedendum_coefficient_reference_profile",
+        "unit" : "none",
+        "floating_point" : 1.3
+      }, {
+        "id" : "addendum_coefficient_reference_profile",
+        "unit" : "none",
+        "floating_point" : 1.25
+      } ]
+    }, {
+      "id" : 84,
+      "type" : "rack_shaped_tool",
+      "name" : "Werkzeug [84]",
+      "attributes" : [ {
+        "id" : "tip_radius_factor",
+        "unit" : "none",
+        "floating_point" : 0.25
+      }, {
+        "id" : "dedendum_coefficient_reference_profile",
+        "unit" : "none",
+        "floating_point" : 1.3
+      }, {
+        "id" : "addendum_coefficient_reference_profile",
+        "unit" : "none",
+        "floating_point" : 1.25
+      } ]
+    }, {
+      "id" : 85,
+      "type" : "cutter_wheel_tool",
+      "name" : "Werkzeug [85]",
+      "attributes" : [ {
+        "id" : "tip_radius_factor",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "number_of_teeth",
+        "unit" : "none",
+        "integer" : 45
+      }, {
+        "id" : "dedendum_coefficient_reference_profile",
+        "unit" : "none",
+        "floating_point" : 1.3
+      }, {
+        "id" : "addendum_coefficient_reference_profile",
+        "unit" : "none",
+        "floating_point" : 1.25
+      } ]
+    }, {
+      "id" : 91,
+      "type" : "lubricant",
+      "name" : "ISO-VG-100 [91]",
+      "attributes" : [ {
+        "id" : "density_at_15_degree_celsius",
+        "unit" : "kg / dm^3",
+        "floating_point" : 0.88
+      }, {
+        "id" : "viscosity_at_100_degree_celsius",
+        "unit" : "mm^2 / s",
+        "floating_point" : 11.0
+      }, {
+        "id" : "name",
+        "unit" : "none",
+        "string" : "ISO-VG-100"
+      }, {
+        "id" : "viscosity_at_40_degree_celsius",
+        "unit" : "mm^2 / s",
+        "floating_point" : 100.0
+      } ]
+    }, {
+      "id" : 94,
+      "type" : "material",
+      "name" : "EN-GJL-250 [94]",
+      "attributes" : [ {
+        "id" : "core_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 550.0
+      }, {
+        "id" : "density",
+        "unit" : "kg / dm^3",
+        "floating_point" : 7.85
+      }, {
+        "id" : "surface_hardness_brinell",
+        "unit" : "HB",
+        "floating_point" : 195.0
+      }, {
+        "id" : "elastic_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 100000.0
+      }, {
+        "id" : "material_designation",
+        "unit" : "none",
+        "string" : "EN-GJL-250"
+      }, {
+        "id" : "thermal_expansion_coefficient_plus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 11.0
+      }, {
+        "id" : "fatigue_limit_torsion",
+        "unit" : "MPa",
+        "floating_point" : 126.0
+      }, {
+        "id" : "surface_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 750.0
+      }, {
+        "id" : "fatigue_limit_bending",
+        "unit" : "MPa",
+        "floating_point" : 126.0
+      }, {
+        "id" : "thermal_capacity",
+        "unit" : "J / (kg K)",
+        "floating_point" : 430.0
+      }, {
+        "id" : "fatigue_limit_compression_tension",
+        "unit" : "MPa",
+        "floating_point" : 85.0
+      }, {
+        "id" : "poisson_ratio",
+        "unit" : "none",
+        "floating_point" : 0.3
+      }, {
+        "id" : "tensile_strength",
+        "unit" : "N / mm^2",
+        "floating_point" : 250.0
+      }, {
+        "id" : "thermal_conductivity",
+        "unit" : "W / (m K)",
+        "floating_point" : 40.0
+      }, {
+        "id" : "thermal_expansion_coefficient_minus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 8.0
+      } ]
+    }, {
+      "id" : 95,
+      "type" : "material",
+      "name" : "42CrMo4 [95]",
+      "attributes" : [ {
+        "id" : "core_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 550.0
+      }, {
+        "id" : "density",
+        "unit" : "kg / dm^3",
+        "floating_point" : 7.85
+      }, {
+        "id" : "surface_hardness_brinell",
+        "unit" : "HB",
+        "floating_point" : 266.0
+      }, {
+        "id" : "elastic_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 210000.0
+      }, {
+        "id" : "material_designation",
+        "unit" : "none",
+        "string" : "42CrMo4"
+      }, {
+        "id" : "thermal_expansion_coefficient_plus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 11.0
+      }, {
+        "id" : "fatigue_limit_torsion",
+        "unit" : "MPa",
+        "floating_point" : 315.0
+      }, {
+        "id" : "surface_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 750.0
+      }, {
+        "id" : "fatigue_limit_bending",
+        "unit" : "MPa",
+        "floating_point" : 525.0
+      }, {
+        "id" : "thermal_capacity",
+        "unit" : "J / (kg K)",
+        "floating_point" : 430.0
+      }, {
+        "id" : "fatigue_limit_compression_tension",
+        "unit" : "MPa",
+        "floating_point" : 495.0
+      }, {
+        "id" : "poisson_ratio",
+        "unit" : "none",
+        "floating_point" : 0.3
+      }, {
+        "id" : "tensile_strength",
+        "unit" : "N / mm^2",
+        "floating_point" : 1100.0
+      }, {
+        "id" : "thermal_conductivity",
+        "unit" : "W / (m K)",
+        "floating_point" : 40.0
+      }, {
+        "id" : "thermal_expansion_coefficient_minus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 8.0
+      } ]
+    }, {
+      "id" : 96,
+      "type" : "material",
+      "name" : "18CrNiMo7-6 [96]",
+      "attributes" : [ {
+        "id" : "core_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 550.0
+      }, {
+        "id" : "density",
+        "unit" : "kg / dm^3",
+        "floating_point" : 7.85
+      }, {
+        "id" : "surface_hardness_brinell",
+        "unit" : "HB",
+        "floating_point" : 693.5
+      }, {
+        "id" : "elastic_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 210000.0
+      }, {
+        "id" : "material_designation",
+        "unit" : "none",
+        "string" : "18CrNiMo7-6"
+      }, {
+        "id" : "thermal_expansion_coefficient_plus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 11.0
+      }, {
+        "id" : "fatigue_limit_torsion",
+        "unit" : "MPa",
+        "floating_point" : 305.0
+      }, {
+        "id" : "surface_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 750.0
+      }, {
+        "id" : "fatigue_limit_bending",
+        "unit" : "MPa",
+        "floating_point" : 510.0
+      }, {
+        "id" : "thermal_capacity",
+        "unit" : "J / (kg K)",
+        "floating_point" : 430.0
+      }, {
+        "id" : "fatigue_limit_compression_tension",
+        "unit" : "MPa",
+        "floating_point" : 480.0
+      }, {
+        "id" : "poisson_ratio",
+        "unit" : "none",
+        "floating_point" : 0.3
+      }, {
+        "id" : "tensile_strength",
+        "unit" : "N / mm^2",
+        "floating_point" : 1200.0
+      }, {
+        "id" : "thermal_conductivity",
+        "unit" : "W / (m K)",
+        "floating_point" : 40.0
+      }, {
+        "id" : "thermal_expansion_coefficient_minus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 8.0
+      } ]
+    }, {
+      "id" : 109,
+      "type" : "material",
+      "name" : "Werkstoff [109]",
+      "attributes" : [ {
+        "id" : "core_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 550.0
+      }, {
+        "id" : "thermal_capacity",
+        "unit" : "J / (kg K)",
+        "floating_point" : 430.0
+      }, {
+        "id" : "poisson_ratio",
+        "unit" : "none",
+        "floating_point" : 0.3
+      }, {
+        "id" : "elastic_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 2.26721970371735008E17
+      }, {
+        "id" : "thermal_conductivity",
+        "unit" : "W / (m K)",
+        "floating_point" : 40.0
+      }, {
+        "id" : "thermal_expansion_coefficient_plus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 11.0
+      }, {
+        "id" : "thermal_expansion_coefficient_minus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 8.0
+      }, {
+        "id" : "shear_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 8.7200757835282688E16
+      }, {
+        "id" : "surface_hardness_vickers",
+        "unit" : "HV",
+        "floating_point" : 750.0
+      } ]
+    }, {
+      "id" : 147,
+      "type" : "cylindrical_stage",
+      "name" : "Individueller Zahneingriff in der Planetenstufe [147]",
+      "attributes" : [ {
+        "id" : "center_distance",
+        "unit" : "mm",
+        "floating_point" : 78.0
+      }, {
+        "id" : "flag_designation_addendum_modification",
+        "unit" : "none",
+        "enum" : "entry_of_addendum_modification_coefficient"
+      }, {
+        "id" : "rotating_angle_around_neg_u_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "common_face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
+        "unit" : "N / (mm mum)",
+        "floating_point" : 20.0
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 80.0
+      }, {
+        "id" : "center_distance_tolerance_field_din_3964_1980",
+        "unit" : "none",
+        "enum" : "7"
+      } ]
+    }, {
+      "id" : 148,
+      "type" : "cylindrical_stage",
+      "name" : "Individueller Zahneingriff in der Planetenstufe [148]",
+      "attributes" : [ {
+        "id" : "center_distance",
+        "unit" : "mm",
+        "floating_point" : 78.0
+      }, {
+        "id" : "flag_designation_addendum_modification",
+        "unit" : "none",
+        "enum" : "entry_of_addendum_modification_coefficient"
+      }, {
+        "id" : "rotating_angle_around_neg_u_axis",
+        "unit" : "°",
+        "floating_point" : 119.99999999999999
+      }, {
+        "id" : "common_face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
+        "unit" : "N / (mm mum)",
+        "floating_point" : 20.0
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 80.0
+      }, {
+        "id" : "center_distance_tolerance_field_din_3964_1980",
+        "unit" : "none",
+        "enum" : "7"
+      } ]
+    }, {
+      "id" : 149,
+      "type" : "cylindrical_stage",
+      "name" : "Individueller Zahneingriff in der Planetenstufe [149]",
+      "attributes" : [ {
+        "id" : "center_distance",
+        "unit" : "mm",
+        "floating_point" : 78.0
+      }, {
+        "id" : "flag_designation_addendum_modification",
+        "unit" : "none",
+        "enum" : "entry_of_addendum_modification_coefficient"
+      }, {
+        "id" : "rotating_angle_around_neg_u_axis",
+        "unit" : "°",
+        "floating_point" : 239.99999999999997
+      }, {
+        "id" : "common_face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
+        "unit" : "N / (mm mum)",
+        "floating_point" : 20.0
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 80.0
+      }, {
+        "id" : "center_distance_tolerance_field_din_3964_1980",
+        "unit" : "none",
+        "enum" : "7"
+      } ]
+    }, {
+      "id" : 150,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [150]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 151,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [151]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 152,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [152]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 153,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [153]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 154,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [154]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 155,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [155]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 156,
+      "type" : "cylindrical_stage",
+      "name" : "Individueller Zahneingriff in der Planetenstufe [156]",
+      "attributes" : [ {
+        "id" : "center_distance",
+        "unit" : "mm",
+        "floating_point" : 78.0
+      }, {
+        "id" : "flag_designation_addendum_modification",
+        "unit" : "none",
+        "enum" : "entry_of_addendum_modification_coefficient"
+      }, {
+        "id" : "rotating_angle_around_neg_u_axis",
+        "unit" : "°",
+        "floating_point" : 180.0
+      }, {
+        "id" : "common_face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
+        "unit" : "N / (mm mum)",
+        "floating_point" : 20.0
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 80.0
+      }, {
+        "id" : "center_distance_tolerance_field_din_3964_1980",
+        "unit" : "none",
+        "enum" : "7"
+      } ]
+    }, {
+      "id" : 157,
+      "type" : "cylindrical_stage",
+      "name" : "Individueller Zahneingriff in der Planetenstufe [157]",
+      "attributes" : [ {
+        "id" : "center_distance",
+        "unit" : "mm",
+        "floating_point" : 78.0
+      }, {
+        "id" : "flag_designation_addendum_modification",
+        "unit" : "none",
+        "enum" : "entry_of_addendum_modification_coefficient"
+      }, {
+        "id" : "rotating_angle_around_neg_u_axis",
+        "unit" : "°",
+        "floating_point" : 300.0
+      }, {
+        "id" : "common_face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
+        "unit" : "N / (mm mum)",
+        "floating_point" : 20.0
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 80.0
+      }, {
+        "id" : "center_distance_tolerance_field_din_3964_1980",
+        "unit" : "none",
+        "enum" : "7"
+      } ]
+    }, {
+      "id" : 158,
+      "type" : "cylindrical_stage",
+      "name" : "Individueller Zahneingriff in der Planetenstufe [158]",
+      "attributes" : [ {
+        "id" : "center_distance",
+        "unit" : "mm",
+        "floating_point" : 78.0
+      }, {
+        "id" : "flag_designation_addendum_modification",
+        "unit" : "none",
+        "enum" : "entry_of_addendum_modification_coefficient"
+      }, {
+        "id" : "rotating_angle_around_neg_u_axis",
+        "unit" : "°",
+        "floating_point" : 420.0
+      }, {
+        "id" : "common_face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
+        "unit" : "N / (mm mum)",
+        "floating_point" : 20.0
+      }, {
+        "id" : "temperature_lubricant",
+        "unit" : "C",
+        "floating_point" : 80.0
+      }, {
+        "id" : "center_distance_tolerance_field_din_3964_1980",
+        "unit" : "none",
+        "enum" : "7"
+      } ]
+    }, {
+      "id" : 159,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [159]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 160,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [160]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 161,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [161]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 162,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [162]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 163,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [163]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 164,
+      "type" : "stage_gear_data",
+      "name" : "Individuelle eingriffsbezogene Raddaten in der Planetenstufe [164]",
+      "attributes" : [ {
+        "id" : "is_driving_gear",
+        "unit" : "none",
+        "boolean" : false
+      } ]
+    }, {
+      "id" : 165,
+      "type" : "shaft",
+      "name" : "Individuelle Planetenwelle [165]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 100.0, 0.0, 78.0 ]
+      } ]
+    }, {
+      "id" : 166,
+      "type" : "shaft",
+      "name" : "Individuelle Planetenwelle [166]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 100.0, 67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 167,
+      "type" : "shaft",
+      "name" : "Individuelle Planetenwelle [167]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 100.0, -67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 168,
+      "type" : "concept_bearing",
+      "name" : "Individuelles Planetenlager [168]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 12.5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "both_directions"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 20.5
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 112.5, 0.0, 78.0 ]
+      } ]
+    }, {
+      "id" : 169,
+      "type" : "concept_bearing",
+      "name" : "Individuelles Planetenlager [169]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 12.5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "both_directions"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 20.5
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 112.5, 67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 170,
+      "type" : "concept_bearing",
+      "name" : "Individuelles Planetenlager [170]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 12.5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "both_directions"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 20.5
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 112.5, -67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 171,
+      "type" : "shaft",
+      "name" : "Individueller Bolzen [171]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 92.0, 0.0, 78.0 ]
+      } ]
+    }, {
+      "id" : 172,
+      "type" : "shaft",
+      "name" : "Individueller Bolzen [172]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 92.0, 67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 173,
+      "type" : "shaft",
+      "name" : "Individueller Bolzen [173]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 92.0, -67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 174,
+      "type" : "coupling",
+      "name" : "Individuelle Koppelung in der Planetenstufe [174]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 96.0, 0.0, 78.0 ]
+      } ]
+    }, {
+      "id" : 175,
+      "type" : "coupling",
+      "name" : "Individuelle Koppelung in der Planetenstufe [175]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 96.0, 67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 176,
+      "type" : "coupling",
+      "name" : "Individuelle Koppelung in der Planetenstufe [176]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 96.0, -67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 177,
+      "type" : "coupling",
+      "name" : "Individuelle Koppelung in der Planetenstufe [177]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 62.0
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 154.0, 0.0, 78.0 ]
+      } ]
+    }, {
+      "id" : 178,
+      "type" : "coupling",
+      "name" : "Individuelle Koppelung in der Planetenstufe [178]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 62.0
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 154.0, 67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 179,
+      "type" : "coupling",
+      "name" : "Individuelle Koppelung in der Planetenstufe [179]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 9.999999999999999E22
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 62.0
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 154.0, -67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 180,
+      "type" : "concept_bearing",
+      "name" : "Individuelles Planetenlager [180]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 37.5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "no_direction"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 45.5
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 137.5, 0.0, 78.0 ]
+      } ]
+    }, {
+      "id" : 181,
+      "type" : "concept_bearing",
+      "name" : "Individuelles Planetenlager [181]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 37.5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "no_direction"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 45.5
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 137.5, 67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 182,
+      "type" : "concept_bearing",
+      "name" : "Individuelles Planetenlager [182]",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 0.0
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "angular_misalignment_around_w_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "misalignment_in_v_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_outer_side",
+        "unit" : "mm",
+        "floating_point" : 37.5
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "radial_force_absorption",
+        "unit" : "none",
+        "boolean" : true
+      }, {
+        "id" : "axial_force_absorption",
+        "unit" : "none",
+        "enum" : "no_direction"
+      }, {
+        "id" : "misalignment_in_w_direction",
+        "unit" : "mum",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft_inner_side",
+        "unit" : "mm",
+        "floating_point" : 45.5
+      }, {
+        "id" : "angular_misalignment_around_v_axis",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 137.5, -67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 183,
+      "type" : "cylindrical_gear",
+      "name" : "Individuelles Planetenrad [183]",
+      "attributes" : [ {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      }, {
+        "id" : "number_of_teeth",
+        "unit" : "none",
+        "integer" : 22
+      }, {
+        "id" : "tooth_thickness_deviation_tolerance_series_din_3967_1978",
+        "unit" : "none",
+        "enum" : "c25"
+      }, {
+        "id" : "chamfer_at_tooth_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "endurance_limit_root",
+        "unit" : "N / mm^2",
+        "floating_point" : 461.0
+      }, {
+        "id" : "face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.2817325568414294, -0.9594929736144975 ]
+      }, {
+        "id" : "endurance_limit_flank",
+        "unit" : "N / mm^2",
+        "floating_point" : 1500.0
+      }, {
+        "id" : "helix_angle_reference_diameter",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_module",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "datum_face_orientation",
+        "unit" : "none",
+        "enum" : "negative"
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 125.0, 0.0, 78.0 ]
+      } ]
+    }, {
+      "id" : 184,
+      "type" : "cylindrical_gear",
+      "name" : "Individuelles Planetenrad [184]",
+      "attributes" : [ {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      }, {
+        "id" : "number_of_teeth",
+        "unit" : "none",
+        "integer" : 22
+      }, {
+        "id" : "tooth_thickness_deviation_tolerance_series_din_3967_1978",
+        "unit" : "none",
+        "enum" : "c25"
+      }, {
+        "id" : "chamfer_at_tooth_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "endurance_limit_root",
+        "unit" : "N / mm^2",
+        "floating_point" : 461.0
+      }, {
+        "id" : "face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.9898214418809327, -0.14231483827328523 ]
+      }, {
+        "id" : "endurance_limit_flank",
+        "unit" : "N / mm^2",
+        "floating_point" : 1500.0
+      }, {
+        "id" : "helix_angle_reference_diameter",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_module",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "datum_face_orientation",
+        "unit" : "none",
+        "enum" : "negative"
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 125.0, 67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 185,
+      "type" : "cylindrical_gear",
+      "name" : "Individuelles Planetenrad [185]",
+      "attributes" : [ {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      }, {
+        "id" : "number_of_teeth",
+        "unit" : "none",
+        "integer" : 22
+      }, {
+        "id" : "tooth_thickness_deviation_tolerance_series_din_3967_1978",
+        "unit" : "none",
+        "enum" : "c25"
+      }, {
+        "id" : "chamfer_at_tooth_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "endurance_limit_root",
+        "unit" : "N / mm^2",
+        "floating_point" : 461.0
+      }, {
+        "id" : "face_width",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, -0.7557495743542585, 0.6548607339452849 ]
+      }, {
+        "id" : "endurance_limit_flank",
+        "unit" : "N / mm^2",
+        "floating_point" : 1500.0
+      }, {
+        "id" : "helix_angle_reference_diameter",
+        "unit" : "°",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_module",
+        "unit" : "mm",
+        "floating_point" : 4.0
+      }, {
+        "id" : "datum_face_orientation",
+        "unit" : "none",
+        "enum" : "negative"
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 125.0, -67.549981495186, -39.0 ]
+      } ]
+    }, {
+      "id" : 186,
+      "type" : "shaft_section",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 43.2
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 66.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 43.2
+      } ]
+    }, {
+      "id" : 187,
+      "type" : "shaft_section",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 43.2
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 66.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 43.2
+      } ]
+    }, {
+      "id" : 188,
+      "type" : "shaft_section",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 43.2
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 66.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 43.2
+      } ]
+    }, {
+      "id" : 189,
+      "type" : "shaft_section",
+      "name" : "section [189]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 60.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 80.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 60.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 100.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 80.0
+      } ]
+    }, {
+      "id" : 190,
+      "type" : "shaft_section",
+      "name" : "section [190]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 88.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 99.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 88.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 8.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 99.0
+      } ]
+    }, {
+      "id" : 191,
+      "type" : "shaft_section",
+      "name" : "section [191]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 34.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 150.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 34.0
+      } ]
+    }, {
+      "id" : 192,
+      "type" : "shaft_section",
+      "name" : "section [192]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 57.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 58.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 57.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 58.0
+      } ]
+    }, {
+      "id" : 193,
+      "type" : "shaft_section",
+      "name" : "section [193]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 57.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 58.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 57.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 58.0
+      } ]
+    }, {
+      "id" : 194,
+      "type" : "shaft_section",
+      "name" : "section [194]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 57.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 58.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 57.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 58.0
+      } ]
+    }, {
+      "id" : 195,
+      "type" : "shaft_section",
+      "name" : "section [195]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 265.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 280.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 265.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 280.0
+      } ]
+    }, {
+      "id" : 196,
+      "type" : "shaft",
+      "name" : "Shaft [196]",
+      "attributes" : [ {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 96.0, 0.0, 0.0 ]
+      } ]
+    }, {
+      "id" : 197,
+      "type" : "shaft_section",
+      "name" : "proxyShaftSection",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 109.5
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 164.25
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 109.5
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 58.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 164.25
+      } ]
+    }, {
+      "id" : 198,
+      "type" : "material",
+      "name" : "proxyMaterial",
+      "attributes" : [ {
+        "id" : "thermal_capacity",
+        "unit" : "J / (kg K)",
+        "floating_point" : 430.0
+      }, {
+        "id" : "poisson_ratio",
+        "unit" : "none",
+        "floating_point" : 0.3
+      }, {
+        "id" : "elastic_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 2.6299748563121264E17
+      }, {
+        "id" : "thermal_conductivity",
+        "unit" : "W / (m K)",
+        "floating_point" : 40.0
+      }, {
+        "id" : "thermal_expansion_coefficient_plus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 11.0
+      }, {
+        "id" : "thermal_expansion_coefficient_minus",
+        "unit" : "1e-6 / C",
+        "floating_point" : 8.0
+      }, {
+        "id" : "shear_modulus",
+        "unit" : "N / mm^2",
+        "floating_point" : 1.01152879088927936E17
+      } ]
+    }, {
+      "id" : 199,
+      "type" : "coupling",
+      "name" : "proxyCoupling1",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 96.0, 0.0, 0.0 ]
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      } ]
+    }, {
+      "id" : 200,
+      "type" : "coupling",
+      "name" : "proxyCoupling2",
+      "attributes" : [ {
+        "id" : "bending_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "u_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 1.0, 0.0, 0.0 ]
+      }, {
+        "id" : "w_axis_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 0.0, 0.0, 1.0 ]
+      }, {
+        "id" : "reference_component_for_position",
+        "unit" : "none",
+        "reference_component" : 1
+      }, {
+        "id" : "radial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "axial_stiffness",
+        "unit" : "N / m",
+        "floating_point" : 1.0E20
+      }, {
+        "id" : "support_vector",
+        "unit" : "mm",
+        "floating_point_array" : [ 154.0, 0.0, 0.0 ]
+      }, {
+        "id" : "rotational_stiffness",
+        "unit" : "N mm / rad",
+        "floating_point" : 1.0E20
+      } ]
+    }, {
+      "id" : 201,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 202,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 203,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.5
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 204,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.5
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 205,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "addendum_modification_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 206,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "addendum_modification_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 207,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "addendum_modification_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 208,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "addendum_modification_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 209,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "addendum_modification_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 210,
+      "type" : "flank_geometry",
+      "attributes" : [ {
+        "id" : "machining_allowance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "addendum_modification_coefficient",
+        "unit" : "none",
+        "floating_point" : 0.0
+      }, {
+        "id" : "tooth_tip_chamfer",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "machining_allowance_tolerance",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "normal_pressure_angle",
+        "unit" : "°",
+        "floating_point" : 20.0
+      } ]
+    }, {
+      "id" : 211,
+      "type" : "helix_slope",
+      "name" : "helix_slope",
+      "attributes" : [ {
+        "id" : "helix_slope",
+        "unit" : "mm",
+        "floating_point" : -0.006
+      }, {
+        "id" : "helix_evaluation_start",
+        "unit" : "mm",
+        "floating_point" : -25.0
+      }, {
+        "id" : "helix_evaluation_reference",
+        "unit" : "none",
+        "enum" : "helix_evaluation_length"
+      }, {
+        "id" : "helix_evaluation_end",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      } ]
+    }, {
+      "id" : 212,
+      "type" : "helix_crowning",
+      "name" : "helix_crowning",
+      "attributes" : [ {
+        "id" : "helix_crowning_amount_datum_face",
+        "unit" : "mm",
+        "floating_point" : 0.004999999999999999
+      }, {
+        "id" : "coordinate_where_helix_crowning_is_specified_non_datum_face",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      }, {
+        "id" : "coordinate_where_helix_crowning_is_specified_datum_face",
+        "unit" : "mm",
+        "floating_point" : -25.0
+      }, {
+        "id" : "shape_of_helix_crowning",
+        "unit" : "none",
+        "enum" : "circular"
+      }, {
+        "id" : "helix_crowning_amount_non_datum_face",
+        "unit" : "mm",
+        "floating_point" : 0.004999999999999999
+      } ]
+    }, {
+      "id" : 213,
+      "type" : "profile_crowning",
+      "name" : "profile_crowning",
+      "attributes" : [ {
+        "id" : "profile_crowning_at_tip",
+        "unit" : "mm",
+        "floating_point" : 0.004999999999999999
+      }, {
+        "id" : "diameter_where_profile_crowning_tip_is_specified",
+        "unit" : "mm",
+        "floating_point" : 76.0
+      }, {
+        "id" : "profile_crowning_at_root",
+        "unit" : "mm",
+        "floating_point" : 0.004999999999999999
+      }, {
+        "id" : "diameter_where_profile_crowning_root_is_specified",
+        "unit" : "mm",
+        "floating_point" : 64.06386045216821
+      }, {
+        "id" : "shape_of_profile_crowning",
+        "unit" : "none",
+        "enum" : "circular"
+      } ]
+    }, {
+      "id" : 214,
+      "type" : "helix_slope",
+      "name" : "helix_slope",
+      "attributes" : [ {
+        "id" : "helix_slope",
+        "unit" : "mm",
+        "floating_point" : -0.006
+      }, {
+        "id" : "helix_evaluation_start",
+        "unit" : "mm",
+        "floating_point" : -25.0
+      }, {
+        "id" : "helix_evaluation_reference",
+        "unit" : "none",
+        "enum" : "helix_evaluation_length"
+      }, {
+        "id" : "helix_evaluation_end",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      } ]
+    }, {
+      "id" : 215,
+      "type" : "helix_crowning",
+      "name" : "helix_crowning",
+      "attributes" : [ {
+        "id" : "helix_crowning_amount_datum_face",
+        "unit" : "mm",
+        "floating_point" : 0.004999999999999999
+      }, {
+        "id" : "coordinate_where_helix_crowning_is_specified_non_datum_face",
+        "unit" : "mm",
+        "floating_point" : 25.0
+      }, {
+        "id" : "coordinate_where_helix_crowning_is_specified_datum_face",
+        "unit" : "mm",
+        "floating_point" : -25.0
+      }, {
+        "id" : "shape_of_helix_crowning",
+        "unit" : "none",
+        "enum" : "circular"
+      }, {
+        "id" : "helix_crowning_amount_non_datum_face",
+        "unit" : "mm",
+        "floating_point" : 0.004999999999999999
+      } ]
+    }, {
+      "id" : 216,
+      "type" : "profile_crowning",
+      "name" : "profile_crowning",
+      "attributes" : [ {
+        "id" : "profile_crowning_at_tip",
+        "unit" : "mm",
+        "floating_point" : 0.004999999999999999
+      }, {
+        "id" : "diameter_where_profile_crowning_tip_is_specified",
+        "unit" : "mm",
+        "floating_point" : 76.0
+      }, {
+        "id" : "profile_crowning_at_root",
+        "unit" : "mm",
+        "floating_point" : 0.004999999999999999
+      }, {
+        "id" : "diameter_where_profile_crowning_root_is_specified",
+        "unit" : "mm",
+        "floating_point" : 64.06386045216821
+      }, {
+        "id" : "shape_of_profile_crowning",
+        "unit" : "none",
+        "enum" : "circular"
+      } ]
+    } ]
+  }
+}

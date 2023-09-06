@@ -1,0 +1,763 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "component_matches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "description": "a component match is a component that was matched",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "the type of component that was matched"
+          },
+          "component_a": {
+            "type": "object",
+            "description": "the component in model a",
+            "properties": {
+              "id": {
+                "type": "integer",
+                "description": "the id of the component in model a"
+              },
+              "name": {
+                "type": "string",
+                "description": "the name of the component in model a"
+              }
+            },
+            "required": ["id", "name"]
+          },
+          "component_b": {
+            "type": "object",
+            "description": "the component in model b",
+            "properties": {
+              "id": {
+                "type": "integer",
+                "description": "the id of the component in model b"
+              },
+              "name": {
+                "type": "string",
+                "description": "the name of the component in model b"
+              }
+            },
+            "required": ["id", "name"]
+          },
+          "attributes": {
+            "type": "array",
+            "description": "list of the attributes of both components",
+            "items": {
+              "type": "object",
+              "properties": {
+                "result": {
+                  "type": "string",
+                  "description": "the result of the comparison of the attribute. possible values are: 'values_equal', 'values_different', 'only_a', 'only_b'"
+                },
+                "id": {
+                  "type": "string",
+                  "description": "the id of the attribute"
+                },
+                "component_a": {
+                  "type": "object",
+                  "description": "the attribute unit and value of the component in model b",
+                  "properties": {
+                    "unit": {
+                      "type": "string",
+                      "description": "the unit of the attribute"
+                    },
+                    "boolean": {
+                      "type": "boolean",
+                      "description": "value of the attribute"
+                    },
+                    "string": {
+                      "type": "string",
+                      "description": "value of the attribute"
+                    },
+                    "integer": {
+                      "type": "integer",
+                      "description": "value of the attribute"
+                    },
+                    "floating_point": {
+                      "type": "number",
+                      "description": "value of the attribute"
+                    },
+                    "enum":{
+                      "type": "string",
+                      "description": "value of the attribute"
+                    },
+                    "file_reference": {
+                      "type": "string",
+                      "description": "reference to file or folder"
+                    },
+                    "reference_component":{
+                      "type": "integer",
+                      "description": "id of the component that is referenced"
+                    },
+                    "date_time": {
+                      "type": "string",
+                      "description": "vDate and time nach ISO 8601"
+                    },
+                    "floating_point_array": {
+                      "type": "array",
+                      "items": {
+                        "type": "number",
+                        "description": "value of the attribute"
+                      }
+                    },
+                    "integer_array": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer",
+                        "description": "value of the attribute"
+                      }
+                    },
+                    "boolean_array": {
+                      "type": "array",
+                      "items": {
+                        "type": "boolean",
+                        "description": "value of the attribute"
+                      }
+                    },
+                    "string_array": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "description": "value of the attribute"
+                      }
+                    },
+                    "enum_array": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "description": "value of the attribute"
+                      }
+                    },
+                    "floating_point_matrix": {
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "number",
+                          "description": "value of the attribute"
+                        }
+                      }
+                    },
+                    "integer_matrix": {
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "description": "value of the attribute"
+                        }
+                      }
+                    },
+                    "boolean_matrix": {
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "boolean",
+                          "description": "value of the attribute"
+                        }
+                      }
+                    },
+                    "string_matrix": {
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "description": "value of the attribute"
+                        }
+                      }
+                    },
+                    "array_of_integer_arrays": {
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "description": "value of the attribute"
+                        }
+                      }
+                    }
+                  }
+                },
+                "component_b": {
+                    "type": "object",
+                    "description": "the attribute unit and value of the component in model b",
+                    "properties": {
+                      "unit": {
+                        "type": "string",
+                        "description": "the unit of the attribute"
+                      },
+                      "boolean": {
+                        "type": "boolean",
+                        "description": "value of the attribute"
+                      },
+                      "string": {
+                        "type": "string",
+                        "description": "value of the attribute"
+                      },
+                      "integer": {
+                        "type": "integer",
+                        "description": "value of the attribute"
+                      },
+                      "floating_point": {
+                        "type": "number",
+                        "description": "value of the attribute"
+                      },
+                      "enum": {
+                        "type": "string",
+                        "description": "value of the attribute"
+                      },
+                      "file_reference": {
+                        "type": "string",
+                        "description": "reference to file or folder"
+                      },
+                      "reference_component":{
+                        "type": "integer",
+                        "description": "id of the component that is referenced"
+                      },
+                      "date_time": {
+                        "type": "string",
+                        "description": "vDate and time nach ISO 8601"
+                      },
+                      "floating_point_array": {
+                        "type": "array",
+                        "items": {
+                          "type": "number",
+                          "description": "value of the attribute"
+                        }
+                      },
+                      "integer_array": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "description": "value of the attribute"
+                        }
+                      },
+                      "boolean_array": {
+                        "type": "array",
+                        "items": {
+                          "type": "boolean",
+                          "description": "value of the attribute"
+                        }
+                      },
+                      "string_array": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "description": "value of the attribute"
+                        }
+                      },
+                      "enum_array": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "description": "value of the attribute"
+                        }
+                      },
+                      "floating_point_matrix": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "number",
+                            "description": "value of the attribute"
+                          }
+                        }
+                      },
+                      "integer_matrix": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "integer",
+                            "description": "value of the attribute"
+                          }
+                        }
+                      },
+                      "boolean_matrix": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "boolean",
+                            "description": "value of the attribute"
+                          }
+                        }
+                      },
+                      "string_matrix": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "description": "value of the attribute"
+                          }
+                        }
+                      },
+                      "array_of_integer_arrays": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "integer",
+                            "description": "value of the attribute"
+                          }
+                        }
+                      }
+                    }
+                },
+                "unit": {
+                  "type": "string",
+                  "description": "the unit of the attribute"
+                },
+                "boolean": {
+                  "type": "boolean",
+                  "description": "value of the attribute"
+                },
+                "string": {
+                  "type": "string",
+                  "description": "value of the attribute"
+                },
+                "integer": {
+                  "type": "integer",
+                  "description": "value of the attribute"
+                },
+                "floating_point": {
+                  "type": "number",
+                  "description": "value of the attribute"
+                },
+                "enum":{
+                  "type": "string",
+                  "description": "value of the attribute"
+                },
+                "file_reference": {
+                  "type": "string",
+                  "description": "reference to file or folder"
+                },
+                "reference_component":{
+                  "type": "integer",
+                  "description": "id of the component that is referenced"
+                },
+                "date_time": {
+                  "type": "string",
+                  "description": "date and time nach ISO 8601"
+                },
+                "floating_point_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "description": "value of the attribute"
+                  }
+                },
+                "integer_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "description": "value of the attribute"
+                  }
+                },
+                "boolean_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "boolean",
+                    "description": "value of the attribute"
+                  }
+                },
+                "string_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "description": "value of the attribute"
+                  }
+                },
+                "enum_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "description": "value of the attribute"
+                  }
+                },
+                "floating_point_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "number",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "integer_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "boolean_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "boolean",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "string_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "array_of_integer_arrays": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "description": "value of the attribute"
+                    }
+                  }
+                }
+              },
+              "required": ["result", "id"]
+            }
+          }
+        },
+        "required": ["type", "component_a", "component_b", "attributes"]
+      }
+    },
+    "components_only_a": {
+      "type": "array",
+      "description": "list of components from model a taht were not matched",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "the type of component"
+          },
+          "id": {
+            "type": "integer",
+            "description": "the id of the component"
+          },
+          "attributes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "description": "list of the attributes of the component",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "the id of the attribute"
+                },
+                "unit": {
+                  "type": "string",
+                    "description": "the unit of the attribute"
+                },
+                "boolean": {
+                  "type": "boolean",
+                  "description": "value of the attribute"
+                },
+                "string": {
+                  "type": "string",
+                  "description": "value of the attribute"
+                },
+                "integer": {
+                  "type": "integer",
+                  "description": "value of the attribute"
+                },
+                "floating_point": {
+                  "type": "number",
+                  "description": "value of the attribute"
+                },
+                "enum":{
+                  "type": "string",
+                  "description": "value of the attribute"
+                },
+                "file_reference": {
+                  "type": "string",
+                  "description": "reference to file or folder"
+                },
+                "reference_component":{
+                  "type": "integer",
+                  "description": "id of the component that is referenced"
+                },
+                "date_time": {
+                  "type": "string",
+                  "description": "vDate and time nach ISO 8601"
+                },
+                "floating_point_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "description": "value of the attribute"
+                  }
+                },
+                "integer_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "description": "value of the attribute"
+                  }
+                },
+                "boolean_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "boolean",
+                    "description": "value of the attribute"
+                  }
+                },
+                "string_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "description": "value of the attribute"
+                  }
+                },
+                "enum_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "description": "value of the attribute"
+                  }
+                },
+                "floating_point_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "number",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "integer_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "boolean_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "boolean",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "string_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "array_of_integer_arrays": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "description": "value of the attribute"
+                    }
+                  }
+                }
+              },
+              "required": ["id", "unit"]
+            }
+          }
+        },
+        "required": ["type", "id", "attributes"]
+      }
+    },
+    "components_only_b": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "description": "list of components from model b that were not matched",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "the type of component"
+          },
+          "id": {
+            "type": "integer",
+            "description": "the id of the component"
+          },
+          "attributes": {
+            "type": "array",
+            "description": "list of the attributes of the component",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "the id of the attribute"
+                },
+                "unit": {
+                  "type": "string",
+                  "description": "the unit of the attribute"
+                },
+                "boolean": {
+                  "type": "boolean",
+                  "description": "value of the attribute"
+                },
+                "string": {
+                  "type": "string",
+                  "description": "value of the attribute"
+                },
+                "integer": {
+                  "type": "integer",
+                  "description": "value of the attribute"
+                },
+                "floating_point": {
+                  "type": "number",
+                  "description": "value of the attribute"
+                },
+                "enum":{
+                  "type": "string",
+                  "description": "value of the attribute"
+                },
+                "file_reference": {
+                  "type": "string",
+                  "description": "reference to file or folder"
+                },
+                "reference_component":{
+                  "type": "integer",
+                  "description": "id of the component that is referenced"
+                },
+                "date_time": {
+                  "type": "string",
+                  "description": "vDate and time nach ISO 8601"
+                },
+                "floating_point_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "description": "value of the attribute"
+                  }
+                },
+                "integer_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "description": "value of the attribute"
+                  }
+                },
+                "boolean_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "boolean",
+                    "description": "value of the attribute"
+                  }
+                },
+                "string_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "description": "value of the attribute"
+                  }
+                },
+                "enum_array": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "description": "value of the attribute"
+                  }
+                },
+                "floating_point_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "number",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "integer_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "boolean_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "boolean",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "string_matrix": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "description": "value of the attribute"
+                    }
+                  }
+                },
+                "array_of_integer_arrays": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "description": "value of the attribute"
+                    }
+                  }
+                }
+              },
+              "required": ["id", "unit"]
+            }
+          }
+        },
+        "required": ["type", "id", "attributes"]
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "description": "list of warnings",
+      "items": {
+        "type": "object",
+        "properties": {
+            "warning": {
+            "type": "string",
+            "description": "the warning"
+            }
+        }
+    }
+  }
+},
+"required": ["component_matches", "components_only_a", "components_only_b", "warnings"]
+}

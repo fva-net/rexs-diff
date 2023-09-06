@@ -1,0 +1,6231 @@
+{
+   "component_matches": [
+      {
+         "type": "gear_unit",
+         "component_a": {
+            "id": 1,
+            "name": "Gear unit [1]"
+         },
+         "component_b": {
+            "id": 1,
+            "name": "Getriebeeinheit [1]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "gear_shift_index",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_gears",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "support_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "only_b",
+               "id": "reference_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            },
+            {
+               "result": "only_b",
+               "id": "EIGENGEWICHT",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "only_b",
+               "id": "custom_bearinx_account_for_centrifugal_forces",
+               "unit": "none",
+               "boolean": false
+            }
+         ]
+      },
+      {
+         "type": "gear_casing",
+         "component_a": {
+            "id": 2,
+            "name": "Casing [2]"
+         },
+         "component_b": {
+            "id": 2,
+            "name": "Geh\u00e4use [2]"
+         },
+         "attributes": []
+      },
+      {
+         "type": "shaft",
+         "component_a": {
+            "id": 4,
+            "name": "ANW [4]"
+         },
+         "component_b": {
+            "id": 12,
+            "name": "ANW [4]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "rotational_speed",
+               "unit": "1 / min",
+               "floating_point": 1400.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_equal",
+               "id": "defines_speed",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "values_equal",
+               "id": "support_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "only_b",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "shaft",
+         "component_a": {
+            "id": 5,
+            "name": "RW3 [5]"
+         },
+         "component_b": {
+            "id": 13,
+            "name": "RW3 [5]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     137.5,
+                     47.02148907341676,
+                     -24.45362069957225
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     137.5,
+                     47.022,
+                     -24.454
+                  ]
+               }
+            },
+            {
+               "result": "only_b",
+               "id": "defines_speed",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "only_b",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_stage",
+         "component_a": {
+            "id": 6,
+            "name": "Stirnradstufe"
+         },
+         "component_b": {
+            "id": 24,
+            "name": "Stirnradstufe [6]"
+         },
+         "attributes": [
+            {
+               "result": "values_different",
+               "id": "center_distance",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 53.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 51.962
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "din_3964_center_distance_tolerance_field",
+               "unit": "none",
+               "enum": "7"
+            },
+            {
+               "result": "values_equal",
+               "id": "flag_designation_addendum_modification",
+               "unit": "none",
+               "enum": "entry_of_addendum_modification_coefficient"
+            },
+            {
+               "result": "values_different",
+               "id": "rotating_angle_around_neg_u_axis",
+               "component_a": {
+                  "unit": "\u00b0",
+                  "floating_point": 117.47677801890632
+               },
+               "component_b": {
+                  "unit": "\u00b0",
+                  "floating_point": 117.477
+               }
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_catalog_geometry",
+         "component_a": {
+            "id": 20,
+            "name": "Lager 6305-Z-J [20]"
+         },
+         "component_b": {
+            "id": 58,
+            "name": "6305-2Z (Lager 6305-Z-J [20])"
+         },
+         "attributes": [
+            {
+               "result": "only_a",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 0.75
+            },
+            {
+               "result": "only_a",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "only_a",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "only_a",
+               "id": "radial_stiffness",
+               "unit": "N / m",
+               "floating_point": 1e+23
+            },
+            {
+               "result": "only_a",
+               "id": "axial_stiffness",
+               "unit": "N / m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "manufacturer",
+               "unit": "none",
+               "string": "FAG"
+            },
+            {
+               "result": "only_a",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 25.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption",
+               "unit": "none",
+               "enum": "both_directions"
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.56
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_backlash",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "unit": "mm",
+               "floating_point": 65.5
+            },
+            {
+               "result": "values_equal",
+               "id": "support_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  65.5,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "bending_stiffness",
+               "unit": "N mm / rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 62.0
+            },
+            {
+               "result": "only_a",
+               "id": "dynamic_capacity",
+               "unit": "kN",
+               "floating_point": 22.400000000000002
+            },
+            {
+               "result": "only_a",
+               "id": "static_capacity",
+               "unit": "kN",
+               "floating_point": 11.4
+            },
+            {
+               "result": "only_a",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "contamination_factor_according_to_din_26281",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_grooved_ball_bearing"
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "unit": "mm",
+               "floating_point": 65.5
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "name",
+               "unit": "none",
+               "string": "6305-2Z"
+            },
+            {
+               "result": "only_a",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 17.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "preload_distance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_w_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "6305-2Z"
+            },
+            {
+               "result": "only_b",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_v_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_catalog_geometry",
+         "component_a": {
+            "id": 21,
+            "name": "Lager 6205-Z [21]"
+         },
+         "component_b": {
+            "id": 59,
+            "name": "6205 (Lager 6205-Z [21])"
+         },
+         "attributes": [
+            {
+               "result": "only_a",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 0.51
+            },
+            {
+               "result": "only_a",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "only_a",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "only_a",
+               "id": "radial_stiffness",
+               "unit": "N / m",
+               "floating_point": 1e+23
+            },
+            {
+               "result": "only_a",
+               "id": "axial_stiffness",
+               "unit": "N / m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "manufacturer",
+               "unit": "none",
+               "string": "FAG"
+            },
+            {
+               "result": "only_a",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 25.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption",
+               "unit": "none",
+               "enum": "no_direction"
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.56
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_backlash",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "unit": "mm",
+               "floating_point": 111.8
+            },
+            {
+               "result": "values_equal",
+               "id": "support_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  111.8,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "bending_stiffness",
+               "unit": "N mm / rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 52.0
+            },
+            {
+               "result": "only_a",
+               "id": "dynamic_capacity",
+               "unit": "kN",
+               "floating_point": 14.0
+            },
+            {
+               "result": "only_a",
+               "id": "static_capacity",
+               "unit": "kN",
+               "floating_point": 7.8
+            },
+            {
+               "result": "only_a",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "contamination_factor_according_to_din_26281",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_grooved_ball_bearing"
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "unit": "mm",
+               "floating_point": 111.8
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "name",
+               "unit": "none",
+               "string": "6205"
+            },
+            {
+               "result": "only_a",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 15.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "preload_distance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_w_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "6205"
+            },
+            {
+               "result": "only_b",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_v_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "external_load",
+         "component_a": {
+            "id": 22,
+            "name": "Last Wellenende E [22]"
+         },
+         "component_b": {
+            "id": 68,
+            "name": "Last Wellenende E [22]"
+         },
+         "attributes": [
+            {
+               "result": "values_different",
+               "id": "torque_around_u_axis",
+               "component_a": {
+                  "unit": "N m",
+                  "floating_point": 4.724562306435156
+               },
+               "component_b": {
+                  "unit": "N m",
+                  "floating_point": 4.72456
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "defines_torque",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "transmits_torque",
+               "unit": "none",
+               "boolean": true
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear",
+         "component_a": {
+            "id": 23,
+            "name": "Stirnrad pos=1 [23]"
+         },
+         "component_b": {
+            "id": 16,
+            "name": "Stirnrad pos=1 [23]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "face_width",
+               "unit": "mm",
+               "floating_point": 16.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 146.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 154.0
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_teeth",
+               "unit": "none",
+               "integer": 23
+            },
+            {
+               "result": "only_a",
+               "id": "din_3967_deviation_tolerance_series",
+               "unit": "none",
+               "enum": "c25"
+            },
+            {
+               "result": "only_a",
+               "id": "chamfer_at_tooth_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "helix_angle_reference_diameter",
+               "unit": "\u00b0",
+               "floating_point": 30.0
+            },
+            {
+               "result": "values_equal",
+               "id": "normal_module",
+               "unit": "mm",
+               "floating_point": 1.0
+            },
+            {
+               "result": "values_equal",
+               "id": "support_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  154.0,
+                  0.0,
+                  0.0
+               ]
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_catalog_geometry",
+         "component_a": {
+            "id": 32,
+            "name": "Lager 6202-J [32]"
+         },
+         "component_b": {
+            "id": 60,
+            "name": "6202 (Lager 6202-J [32])"
+         },
+         "attributes": [
+            {
+               "result": "only_a",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 0.22
+            },
+            {
+               "result": "only_a",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "only_a",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "only_a",
+               "id": "radial_stiffness",
+               "unit": "N / m",
+               "floating_point": 1e+23
+            },
+            {
+               "result": "only_a",
+               "id": "axial_stiffness",
+               "unit": "N / m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "manufacturer",
+               "unit": "none",
+               "string": "FAG"
+            },
+            {
+               "result": "only_a",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 15.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption",
+               "unit": "none",
+               "enum": "negative"
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.56
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_backlash",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "unit": "mm",
+               "floating_point": 6.5
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     144.0,
+                     47.02148907341676,
+                     -24.45362069957225
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     144.0,
+                     47.022,
+                     -24.454
+                  ]
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "bending_stiffness",
+               "unit": "N mm / rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 35.0
+            },
+            {
+               "result": "only_a",
+               "id": "dynamic_capacity",
+               "unit": "kN",
+               "floating_point": 7.8
+            },
+            {
+               "result": "only_a",
+               "id": "static_capacity",
+               "unit": "kN",
+               "floating_point": 3.75
+            },
+            {
+               "result": "only_a",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "contamination_factor_according_to_din_26281",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_grooved_ball_bearing"
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 6.5
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 144.0
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "name",
+               "unit": "none",
+               "string": "6202"
+            },
+            {
+               "result": "only_a",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 11.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "preload_distance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_w_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "6202"
+            },
+            {
+               "result": "only_b",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_v_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_catalog_geometry",
+         "component_a": {
+            "id": 33,
+            "name": "Lager 6202-J [33]"
+         },
+         "component_b": {
+            "id": 61,
+            "name": "6202 (Lager 6202-J [33])"
+         },
+         "attributes": [
+            {
+               "result": "only_a",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 0.22
+            },
+            {
+               "result": "only_a",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "only_a",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "only_a",
+               "id": "radial_stiffness",
+               "unit": "N / m",
+               "floating_point": 1e+23
+            },
+            {
+               "result": "only_a",
+               "id": "axial_stiffness",
+               "unit": "N / m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "manufacturer",
+               "unit": "none",
+               "string": "FAG"
+            },
+            {
+               "result": "only_a",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 15.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption",
+               "unit": "none",
+               "enum": "positive"
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.56
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_backlash",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "unit": "mm",
+               "floating_point": 54.5
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     192.0,
+                     47.02148907341676,
+                     -24.45362069957225
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     192.0,
+                     47.022,
+                     -24.454
+                  ]
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "bending_stiffness",
+               "unit": "N mm / rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 35.0
+            },
+            {
+               "result": "only_a",
+               "id": "dynamic_capacity",
+               "unit": "kN",
+               "floating_point": 7.8
+            },
+            {
+               "result": "only_a",
+               "id": "static_capacity",
+               "unit": "kN",
+               "floating_point": 3.75
+            },
+            {
+               "result": "only_a",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "contamination_factor_according_to_din_26281",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_grooved_ball_bearing"
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 54.5
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 192.0
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "name",
+               "unit": "none",
+               "string": "6202"
+            },
+            {
+               "result": "only_a",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 11.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "preload_distance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_w_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "6202"
+            },
+            {
+               "result": "only_b",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_v_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear",
+         "component_a": {
+            "id": 34,
+            "name": "Stirnrad pos=2 [34]"
+         },
+         "component_b": {
+            "id": 17,
+            "name": "Stirnrad pos=2 [34]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "face_width",
+               "unit": "mm",
+               "floating_point": 11.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 13.5
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 19.0
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_teeth",
+               "unit": "none",
+               "integer": 67
+            },
+            {
+               "result": "only_a",
+               "id": "din_3967_deviation_tolerance_series",
+               "unit": "none",
+               "enum": "c25"
+            },
+            {
+               "result": "only_a",
+               "id": "chamfer_at_tooth_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "helix_angle_reference_diameter",
+               "unit": "\u00b0",
+               "floating_point": -30.0
+            },
+            {
+               "result": "values_equal",
+               "id": "normal_module",
+               "unit": "mm",
+               "floating_point": 1.0
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     156.5,
+                     47.02148907341676,
+                     -24.45362069957225
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     156.5,
+                     47.022,
+                     -24.454
+                  ]
+               }
+            }
+         ]
+      },
+      {
+         "type": "shaft",
+         "component_a": {
+            "id": 36,
+            "name": "RW5 [36]"
+         },
+         "component_b": {
+            "id": 14,
+            "name": "RW5 [36]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     128.5,
+                     50.33350037591513,
+                     32.45007497243242
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     128.5,
+                     50.334,
+                     32.45
+                  ]
+               }
+            },
+            {
+               "result": "only_b",
+               "id": "defines_speed",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "only_b",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_stage",
+         "component_a": {
+            "id": 37,
+            "name": "Stirnradstufe [37]"
+         },
+         "component_b": {
+            "id": 22,
+            "name": "Stirnradstufe [37]"
+         },
+         "attributes": [
+            {
+               "result": "values_different",
+               "id": "center_distance",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 57.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 56.483
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "din_3964_center_distance_tolerance_field",
+               "unit": "none",
+               "enum": "7"
+            },
+            {
+               "result": "values_equal",
+               "id": "flag_designation_addendum_modification",
+               "unit": "none",
+               "enum": "entry_of_addendum_modification_coefficient"
+            },
+            {
+               "result": "values_different",
+               "id": "rotating_angle_around_neg_u_axis",
+               "component_a": {
+                  "unit": "\u00b0",
+                  "floating_point": 3.3310739238719993
+               },
+               "component_b": {
+                  "unit": "\u00b0",
+                  "floating_point": 3.33104
+               }
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear",
+         "component_a": {
+            "id": 38,
+            "name": "Stirnrad pos=3 [38]"
+         },
+         "component_b": {
+            "id": 18,
+            "name": "Stirnrad pos=3 [38]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "face_width",
+               "unit": "mm",
+               "floating_point": 23.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 26.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 37.5
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_teeth",
+               "unit": "none",
+               "integer": 13
+            },
+            {
+               "result": "only_a",
+               "id": "din_3967_deviation_tolerance_series",
+               "unit": "none",
+               "enum": "c25"
+            },
+            {
+               "result": "only_a",
+               "id": "chamfer_at_tooth_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "helix_angle_reference_diameter",
+               "unit": "\u00b0",
+               "floating_point": -10.0
+            },
+            {
+               "result": "values_equal",
+               "id": "normal_module",
+               "unit": "mm",
+               "floating_point": 1.25
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     175.0,
+                     47.02148907341676,
+                     -24.45362069957225
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     175.0,
+                     47.022,
+                     -24.454
+                  ]
+               }
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_catalog_geometry",
+         "component_a": {
+            "id": 49,
+            "name": "Lager 6302-J [49]"
+         },
+         "component_b": {
+            "id": 62,
+            "name": "6302 (Lager 6302-J [49])"
+         },
+         "attributes": [
+            {
+               "result": "only_a",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 0.35000000000000003
+            },
+            {
+               "result": "only_a",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "only_a",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "only_a",
+               "id": "radial_stiffness",
+               "unit": "N / m",
+               "floating_point": 1e+23
+            },
+            {
+               "result": "only_a",
+               "id": "axial_stiffness",
+               "unit": "N / m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "manufacturer",
+               "unit": "none",
+               "string": "FAG"
+            },
+            {
+               "result": "only_a",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 15.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption",
+               "unit": "none",
+               "enum": "negative"
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.56
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_backlash",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "unit": "mm",
+               "floating_point": 13.5
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     142.0,
+                     50.33350037591513,
+                     32.45007497243242
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     142.0,
+                     50.334,
+                     32.45
+                  ]
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "bending_stiffness",
+               "unit": "N mm / rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 42.0
+            },
+            {
+               "result": "only_a",
+               "id": "dynamic_capacity",
+               "unit": "kN",
+               "floating_point": 11.4
+            },
+            {
+               "result": "only_a",
+               "id": "static_capacity",
+               "unit": "kN",
+               "floating_point": 5.4
+            },
+            {
+               "result": "only_a",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "contamination_factor_according_to_din_26281",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_grooved_ball_bearing"
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 13.5
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 142.0
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "name",
+               "unit": "none",
+               "string": "6302"
+            },
+            {
+               "result": "only_a",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 13.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "preload_distance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_w_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "6302"
+            },
+            {
+               "result": "only_b",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_v_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_catalog_geometry",
+         "component_a": {
+            "id": 50,
+            "name": "Lager NUP204E [50]"
+         },
+         "component_b": {
+            "id": 63,
+            "name": "NUP204-E-XL-TVP2 (Lager NUP204E [50])"
+         },
+         "attributes": [
+            {
+               "result": "only_a",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 3.9
+            },
+            {
+               "result": "only_a",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "only_a",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "only_a",
+               "id": "radial_stiffness",
+               "unit": "N / m",
+               "floating_point": 1e+23
+            },
+            {
+               "result": "only_a",
+               "id": "axial_stiffness",
+               "unit": "N / m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "manufacturer",
+               "component_a": {
+                  "unit": "none",
+                  "string": "INA"
+               },
+               "component_b": {
+                  "unit": "none",
+                  "string": "FAG"
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption",
+               "unit": "none",
+               "enum": "no_direction"
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.92
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_backlash",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "unit": "mm",
+               "floating_point": 66.0
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     194.5,
+                     50.33350037591513,
+                     32.45007497243242
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     194.5,
+                     50.334,
+                     32.45
+                  ]
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "bending_stiffness",
+               "unit": "N mm / rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 47.0
+            },
+            {
+               "result": "only_a",
+               "id": "dynamic_capacity",
+               "unit": "kN",
+               "floating_point": 32.5
+            },
+            {
+               "result": "only_a",
+               "id": "static_capacity",
+               "unit": "kN",
+               "floating_point": 24.7
+            },
+            {
+               "result": "only_a",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.2
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "contamination_factor_according_to_din_26281",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_roller_bearing"
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 66.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 194.5
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "name",
+               "unit": "none",
+               "string": "NUP204-E-XL-TVP2"
+            },
+            {
+               "result": "only_a",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 14.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 0.6
+            },
+            {
+               "result": "only_b",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "preload_distance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_w_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "NUP204-E-XL-TVP2"
+            },
+            {
+               "result": "only_b",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_v_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_catalog_geometry",
+         "component_a": {
+            "id": 51,
+            "name": "Lager 6303-J [51]"
+         },
+         "component_b": {
+            "id": 64,
+            "name": "6303"
+         },
+         "attributes": [
+            {
+               "result": "only_a",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 0.44
+            },
+            {
+               "result": "only_a",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "only_a",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "only_a",
+               "id": "radial_stiffness",
+               "unit": "N / m",
+               "floating_point": 1e+23
+            },
+            {
+               "result": "only_a",
+               "id": "axial_stiffness",
+               "unit": "N / m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "manufacturer",
+               "component_a": {
+                  "unit": "none",
+                  "string": "INA"
+               },
+               "component_b": {
+                  "unit": "none",
+                  "string": "FAG"
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 17.0
+            },
+            {
+               "result": "values_different",
+               "id": "axial_force_absorption",
+               "component_a": {
+                  "unit": "none",
+                  "enum": "positive"
+               },
+               "component_b": {
+                  "unit": "none",
+                  "enum": "both_directions"
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.56
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_backlash",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "unit": "mm",
+               "floating_point": 135.0
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     263.5,
+                     50.33350037591513,
+                     32.45007497243242
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     263.5,
+                     50.334,
+                     32.45
+                  ]
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "bending_stiffness",
+               "unit": "N mm / rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 47.0
+            },
+            {
+               "result": "only_a",
+               "id": "dynamic_capacity",
+               "unit": "kN",
+               "floating_point": 15.0
+            },
+            {
+               "result": "only_a",
+               "id": "static_capacity",
+               "unit": "kN",
+               "floating_point": 6.5
+            },
+            {
+               "result": "only_a",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "contamination_factor_according_to_din_26281",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_grooved_ball_bearing"
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 135.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 263.5
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "name",
+               "unit": "none",
+               "string": "6303-C"
+            },
+            {
+               "result": "only_a",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 14.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 3.9
+            },
+            {
+               "result": "only_b",
+               "id": "preload_distance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_w_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "6303"
+            },
+            {
+               "result": "only_b",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_v_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear",
+         "component_a": {
+            "id": 52,
+            "name": "Stirnrad pos=4 [52]"
+         },
+         "component_b": {
+            "id": 19,
+            "name": "Stirnrad pos=4 [52]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "face_width",
+               "unit": "mm",
+               "floating_point": 15.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 41.5
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 49.0
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_teeth",
+               "unit": "none",
+               "integer": 76
+            },
+            {
+               "result": "only_a",
+               "id": "din_3967_deviation_tolerance_series",
+               "unit": "none",
+               "enum": "c25"
+            },
+            {
+               "result": "only_a",
+               "id": "chamfer_at_tooth_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "helix_angle_reference_diameter",
+               "unit": "\u00b0",
+               "floating_point": 10.0
+            },
+            {
+               "result": "values_equal",
+               "id": "normal_module",
+               "unit": "mm",
+               "floating_point": 1.25
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     177.5,
+                     50.33350037591513,
+                     32.45007497243242
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     177.5,
+                     50.334,
+                     32.45
+                  ]
+               }
+            }
+         ]
+      },
+      {
+         "type": "shaft",
+         "component_a": {
+            "id": 54,
+            "name": "ABW [54]"
+         },
+         "component_b": {
+            "id": 15,
+            "name": "ABW [54]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     182.7,
+                     -19.008575782311063,
+                     -1.026431327759056
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     182.7,
+                     -19.009,
+                     -1.026
+                  ]
+               }
+            },
+            {
+               "result": "only_b",
+               "id": "defines_speed",
+               "unit": "none",
+               "boolean": false
+            },
+            {
+               "result": "only_b",
+               "id": "mean_operating_temperature",
+               "unit": "C",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_stage",
+         "component_a": {
+            "id": 55,
+            "name": "Stirnradstufe [55]"
+         },
+         "component_b": {
+            "id": 23,
+            "name": "Stirnradstufe [55]"
+         },
+         "attributes": [
+            {
+               "result": "values_different",
+               "id": "center_distance",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 77.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 76.919
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "din_3964_center_distance_tolerance_field",
+               "unit": "none",
+               "enum": "7"
+            },
+            {
+               "result": "values_equal",
+               "id": "flag_designation_addendum_modification",
+               "unit": "none",
+               "enum": "entry_of_addendum_modification_coefficient"
+            },
+            {
+               "result": "values_different",
+               "id": "rotating_angle_around_neg_u_axis",
+               "component_a": {
+                  "unit": "\u00b0",
+                  "floating_point": -115.77001197095069
+               },
+               "component_b": {
+                  "unit": "\u00b0",
+                  "floating_point": -115.769
+               }
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear",
+         "component_a": {
+            "id": 56,
+            "name": "Stirnrad pos=5 [56]"
+         },
+         "component_b": {
+            "id": 20,
+            "name": "Stirnrad pos=5 [56]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "face_width",
+               "unit": "mm",
+               "floating_point": 41.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 78.0
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 98.5
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_teeth",
+               "unit": "none",
+               "integer": 14
+            },
+            {
+               "result": "only_a",
+               "id": "din_3967_deviation_tolerance_series",
+               "unit": "none",
+               "enum": "c25"
+            },
+            {
+               "result": "only_a",
+               "id": "chamfer_at_tooth_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "helix_angle_reference_diameter",
+               "unit": "\u00b0",
+               "floating_point": 10.0
+            },
+            {
+               "result": "values_equal",
+               "id": "normal_module",
+               "unit": "mm",
+               "floating_point": 1.5
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     227.0,
+                     50.33350037591513,
+                     32.45007497243242
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     227.0,
+                     50.334,
+                     32.45
+                  ]
+               }
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_catalog_geometry",
+         "component_a": {
+            "id": 66,
+            "name": "Lager 6207-J [66]"
+         },
+         "component_b": {
+            "id": 65,
+            "name": "6207 (Lager 6207-J [66])"
+         },
+         "attributes": [
+            {
+               "result": "only_a",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 0.92
+            },
+            {
+               "result": "only_a",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "only_a",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "only_a",
+               "id": "radial_stiffness",
+               "unit": "N / m",
+               "floating_point": 1e+23
+            },
+            {
+               "result": "only_a",
+               "id": "axial_stiffness",
+               "unit": "N / m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "manufacturer",
+               "unit": "none",
+               "string": "FAG"
+            },
+            {
+               "result": "only_a",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 35.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption",
+               "unit": "none",
+               "enum": "no_direction"
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.56
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_backlash",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 16.799999999999997
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 16.8
+               }
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     199.5,
+                     -19.008575782311063,
+                     -1.026431327759056
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     199.5,
+                     -19.009,
+                     -1.026
+                  ]
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "bending_stiffness",
+               "unit": "N mm / rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 72.0
+            },
+            {
+               "result": "only_a",
+               "id": "dynamic_capacity",
+               "unit": "kN",
+               "floating_point": 25.5
+            },
+            {
+               "result": "only_a",
+               "id": "static_capacity",
+               "unit": "kN",
+               "floating_point": 15.3
+            },
+            {
+               "result": "only_a",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "contamination_factor_according_to_din_26281",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_grooved_ball_bearing"
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 16.799999999999997
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 199.5
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "name",
+               "unit": "none",
+               "string": "6207"
+            },
+            {
+               "result": "only_a",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 17.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "preload_distance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_w_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "6207"
+            },
+            {
+               "result": "only_b",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_v_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_with_catalog_geometry",
+         "component_a": {
+            "id": 67,
+            "name": "Lager 6308-Z-J [67]"
+         },
+         "component_b": {
+            "id": 66,
+            "name": "6308-2Z (Lager 6308-Z-J [67])"
+         },
+         "attributes": [
+            {
+               "result": "only_a",
+               "id": "fatigue_limit_load",
+               "unit": "kN",
+               "floating_point": 1.6400000000000001
+            },
+            {
+               "result": "only_a",
+               "id": "speed_outer_ring",
+               "unit": "1 / min",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "only_a",
+               "id": "number_of_bearing_rows",
+               "unit": "none",
+               "integer": 1
+            },
+            {
+               "result": "only_a",
+               "id": "radial_stiffness",
+               "unit": "N / m",
+               "floating_point": 1e+23
+            },
+            {
+               "result": "only_a",
+               "id": "axial_stiffness",
+               "unit": "N / m",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "manufacturer",
+               "unit": "none",
+               "string": "FAG"
+            },
+            {
+               "result": "only_a",
+               "id": "inner_diameter",
+               "unit": "mm",
+               "floating_point": 40.0
+            },
+            {
+               "result": "values_equal",
+               "id": "axial_force_absorption",
+               "unit": "none",
+               "enum": "both_directions"
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_1",
+               "unit": "none",
+               "floating_point": 1.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_factor_x_2",
+               "unit": "none",
+               "floating_point": 0.56
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_w_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "radial_backlash",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft_inner_side",
+               "unit": "mm",
+               "floating_point": 119.5
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     302.2,
+                     -19.008575782311063,
+                     -1.026431327759056
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     302.2,
+                     -19.009,
+                     -1.026
+                  ]
+               }
+            },
+            {
+               "result": "only_a",
+               "id": "bending_stiffness",
+               "unit": "N mm / rad",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "distance_between_bearing_rows",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "outer_diameter",
+               "unit": "mm",
+               "floating_point": 90.0
+            },
+            {
+               "result": "only_a",
+               "id": "dynamic_capacity",
+               "unit": "kN",
+               "floating_point": 42.5
+            },
+            {
+               "result": "only_a",
+               "id": "static_capacity",
+               "unit": "kN",
+               "floating_point": 25.0
+            },
+            {
+               "result": "only_a",
+               "id": "catalogue_value_e",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "misalignment_in_v_direction",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "contamination_factor_according_to_din_26281",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "values_equal",
+               "id": "bearing_type",
+               "unit": "none",
+               "enum": "radial_grooved_ball_bearing"
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft_outer_side",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 119.5
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 302.2
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "only_a",
+               "id": "name",
+               "unit": "none",
+               "string": "6308-2Z"
+            },
+            {
+               "result": "only_a",
+               "id": "width",
+               "unit": "mm",
+               "floating_point": 23.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_1",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_0",
+               "unit": "none",
+               "floating_point": 0.5
+            },
+            {
+               "result": "only_a",
+               "id": "axial_factor_y_2",
+               "unit": "none",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "operating_radial_bearing_clearance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "preload_distance",
+               "unit": "mum",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_w_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            },
+            {
+               "result": "only_b",
+               "id": "catalogue_designation",
+               "unit": "none",
+               "string": "6308-2Z"
+            },
+            {
+               "result": "only_b",
+               "id": "radial_force_absorption",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "angular_misalignment_around_v_axis",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "external_load",
+         "component_a": {
+            "id": 68,
+            "name": "Last Wellenende A [68]"
+         },
+         "component_b": {
+            "id": 69,
+            "name": "Last Wellenende A [68]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 185.0
+            },
+            {
+               "result": "values_equal",
+               "id": "transmits_torque",
+               "unit": "none",
+               "boolean": true
+            },
+            {
+               "result": "only_b",
+               "id": "defines_torque",
+               "unit": "none",
+               "boolean": false
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear",
+         "component_a": {
+            "id": 69,
+            "name": "Stirnrad pos=6 [69]"
+         },
+         "component_b": {
+            "id": 21,
+            "name": "Stirnrad pos=6 [69]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "face_width",
+               "unit": "mm",
+               "floating_point": 36.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  1.0,
+                  0.0,
+                  0.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "w_axis_vector",
+               "unit": "mm",
+               "floating_point_array": [
+                  0.0,
+                  0.0,
+                  1.0
+               ]
+            },
+            {
+               "result": "values_equal",
+               "id": "reference_component_for_position",
+               "unit": "none",
+               "reference_component": 1
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 26.299999999999997
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 44.3
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "number_of_teeth",
+               "unit": "none",
+               "integer": 87
+            },
+            {
+               "result": "only_a",
+               "id": "din_3967_deviation_tolerance_series",
+               "unit": "none",
+               "enum": "c25"
+            },
+            {
+               "result": "only_a",
+               "id": "chamfer_at_tooth_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "helix_angle_reference_diameter",
+               "unit": "\u00b0",
+               "floating_point": -10.0
+            },
+            {
+               "result": "values_equal",
+               "id": "normal_module",
+               "unit": "mm",
+               "floating_point": 1.5
+            },
+            {
+               "result": "values_different",
+               "id": "support_vector",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     227.0,
+                     -19.008575782311063,
+                     -1.026431327759056
+                  ]
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point_array": [
+                     227.0,
+                     -19.009,
+                     -1.026
+                  ]
+               }
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 382,
+            "name": "section [382]"
+         },
+         "component_b": {
+            "id": 25,
+            "name": "section [502]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 19.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 40.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 19.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 383,
+            "name": "section [383]"
+         },
+         "component_b": {
+            "id": 26,
+            "name": "section [503]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 22.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 40.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 11.5
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 22.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 384,
+            "name": "section [384]"
+         },
+         "component_b": {
+            "id": 27,
+            "name": "section [504]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 25.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 51.5
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "length",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 2.299999999999997
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 2.3
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 25.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 385,
+            "name": "section [385]"
+         },
+         "component_b": {
+            "id": 28,
+            "name": "section [505]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 23.9
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 53.8
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "length",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 1.2999999999999972
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 1.3
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 23.9
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 386,
+            "name": "section [386]"
+         },
+         "component_b": {
+            "id": 29,
+            "name": "section [506]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 25.0
+            },
+            {
+               "result": "values_different",
+               "id": "u_coordinate_on_shaft",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 55.099999999999994
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 55.1
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "length",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 18.900000000000006
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 18.9
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 25.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 387,
+            "name": "section [387]"
+         },
+         "component_b": {
+            "id": 30,
+            "name": "section [507]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 30.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 74.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "length",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 30.299999999999997
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 30.3
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 30.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 388,
+            "name": "section [388]"
+         },
+         "component_b": {
+            "id": 31,
+            "name": "section [508]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 25.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 104.3
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "length",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 15.200000000000003
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 15.2
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 25.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 389,
+            "name": "section [389]"
+         },
+         "component_b": {
+            "id": 32,
+            "name": "section [509]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 22.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 119.5
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 22.5
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 22.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 390,
+            "name": "section [390]"
+         },
+         "component_b": {
+            "id": 33,
+            "name": "section [510]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 14.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 142.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 4.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 14.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 391,
+            "name": "section [391]"
+         },
+         "component_b": {
+            "id": 34,
+            "name": "section [511]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 10.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 146.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "length",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 15.900000000000006
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 15.9
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 10.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 392,
+            "name": "section [392]"
+         },
+         "component_b": {
+            "id": 35,
+            "name": "section [512]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 9.6
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 161.9
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "length",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 1.0999999999999943
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 1.1
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 9.6
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 393,
+            "name": "section [393]"
+         },
+         "component_b": {
+            "id": 36,
+            "name": "section [513]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 10.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 163.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 1.5
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 10.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 394,
+            "name": "section [394]"
+         },
+         "component_b": {
+            "id": 37,
+            "name": "section [514]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 14.8
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 2.5
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 14.8
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 395,
+            "name": "section [395]"
+         },
+         "component_b": {
+            "id": 38,
+            "name": "section [515]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 15.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 2.5
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 10.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 15.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 396,
+            "name": "section [396]"
+         },
+         "component_b": {
+            "id": 39,
+            "name": "section [516]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 16.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 12.5
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 13.5
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 16.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 397,
+            "name": "section [397]"
+         },
+         "component_b": {
+            "id": 40,
+            "name": "section [517]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 14.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 26.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 23.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 14.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 398,
+            "name": "section [398]"
+         },
+         "component_b": {
+            "id": 41,
+            "name": "section [518]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 15.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 49.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 10.5
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 15.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 399,
+            "name": "section [399]"
+         },
+         "component_b": {
+            "id": 42,
+            "name": "section [519]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 14.6
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 7.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 14.6
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 400,
+            "name": "section [400]"
+         },
+         "component_b": {
+            "id": 43,
+            "name": "section [520]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 15.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 7.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 14.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 15.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 401,
+            "name": "section [401]"
+         },
+         "component_b": {
+            "id": 44,
+            "name": "section [521]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 20.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 21.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 52.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 402,
+            "name": "section [402]"
+         },
+         "component_b": {
+            "id": 45,
+            "name": "section [522]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 25.91
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 73.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 5.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 25.91
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 403,
+            "name": "section [403]"
+         },
+         "component_b": {
+            "id": 46,
+            "name": "section [523]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 18.403
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 78.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 41.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 18.403
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 404,
+            "name": "section [404]"
+         },
+         "component_b": {
+            "id": 47,
+            "name": "section [524]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 25.91
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 119.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 9.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 25.91
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 405,
+            "name": "section [405]"
+         },
+         "component_b": {
+            "id": 48,
+            "name": "section [525]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 17.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 128.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 12.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 17.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 406,
+            "name": "section [406]"
+         },
+         "component_b": {
+            "id": 49,
+            "name": "section [526]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 16.8
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 140.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 3.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 16.8
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 407,
+            "name": "section [407]"
+         },
+         "component_b": {
+            "id": 50,
+            "name": "section [527]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 35.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 4.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 35.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 408,
+            "name": "section [408]"
+         },
+         "component_b": {
+            "id": 51,
+            "name": "section [528]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 33.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 4.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_different",
+               "id": "length",
+               "component_a": {
+                  "unit": "mm",
+                  "floating_point": 1.5999999999999996
+               },
+               "component_b": {
+                  "unit": "mm",
+                  "floating_point": 1.6
+               }
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 33.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 409,
+            "name": "section [409]"
+         },
+         "component_b": {
+            "id": 52,
+            "name": "section [529]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 35.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 5.6
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 20.4
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 35.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 410,
+            "name": "section [410]"
+         },
+         "component_b": {
+            "id": 53,
+            "name": "section [530]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 40.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 26.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 39.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 40.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 411,
+            "name": "section [411]"
+         },
+         "component_b": {
+            "id": 54,
+            "name": "section [531]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 39.5
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 65.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 44.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 39.5
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 412,
+            "name": "section [412]"
+         },
+         "component_b": {
+            "id": 55,
+            "name": "section [532]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 40.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 109.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 22.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 40.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 413,
+            "name": "section [413]"
+         },
+         "component_b": {
+            "id": 56,
+            "name": "section [533]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 47.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 131.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 19.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 47.0
+            }
+         ]
+      },
+      {
+         "type": "shaft_section",
+         "component_a": {
+            "id": 414,
+            "name": "section [414]"
+         },
+         "component_b": {
+            "id": 57,
+            "name": "section [534]"
+         },
+         "attributes": [
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_end",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_end",
+               "unit": "mm",
+               "floating_point": 35.0
+            },
+            {
+               "result": "values_equal",
+               "id": "u_coordinate_on_shaft",
+               "unit": "mm",
+               "floating_point": 150.0
+            },
+            {
+               "result": "values_equal",
+               "id": "inner_diameter_begin",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "result": "values_equal",
+               "id": "length",
+               "unit": "mm",
+               "floating_point": 70.0
+            },
+            {
+               "result": "values_equal",
+               "id": "outer_diameter_begin",
+               "unit": "mm",
+               "floating_point": 35.0
+            }
+         ]
+      }
+   ],
+   "components_only_a": [
+      {
+         "type": "stage_gear_data",
+         "id": 136,
+         "name": "Zahnraddaten [136]",
+         "attributes": []
+      },
+      {
+         "type": "stage_gear_data",
+         "id": 137,
+         "name": "Zahnraddaten [137]",
+         "attributes": []
+      },
+      {
+         "type": "stage_gear_data",
+         "id": 138,
+         "name": "Zahnraddaten [138]",
+         "attributes": []
+      },
+      {
+         "type": "stage_gear_data",
+         "id": 139,
+         "name": "Zahnraddaten [139]",
+         "attributes": []
+      },
+      {
+         "type": "stage_gear_data",
+         "id": 140,
+         "name": "Zahnraddaten [140]",
+         "attributes": []
+      },
+      {
+         "type": "stage_gear_data",
+         "id": 141,
+         "name": "Zahnraddaten [141]",
+         "attributes": []
+      },
+      {
+         "type": "flank_geometry",
+         "id": 361,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.1
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.581
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 362,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.1
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.581
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 363,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.1
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.5131000000000001
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 364,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.1
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.5131000000000001
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 365,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.108
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.521
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 366,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.108
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.521
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 367,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.108
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": -0.09400000000000003
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 368,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.108
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": -0.09400000000000003
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 369,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.114
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.536
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 370,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.114
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.536
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 371,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.114
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": -0.48150000000000004
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "flank_geometry",
+         "id": 372,
+         "name": null,
+         "attributes": [
+            {
+               "id": "machining_allowance",
+               "unit": "mm",
+               "floating_point": 0.114
+            },
+            {
+               "id": "grinding_allowance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": -0.48150000000000004
+            },
+            {
+               "id": "tooth_tip_chamfer",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "machining_allowance_tolerance",
+               "unit": "mm",
+               "floating_point": 0.0
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 373,
+         "name": null,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "string": "both_directions"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 374,
+         "name": null,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "string": "both_directions"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 375,
+         "name": null,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "string": "both_directions"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 376,
+         "name": null,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "string": "both_directions"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 377,
+         "name": null,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "string": "both_directions"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 378,
+         "name": null,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "string": "no_direction"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 379,
+         "name": null,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "string": "both_directions"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 380,
+         "name": null,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "string": "both_directions"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      },
+      {
+         "type": "rolling_bearing_row",
+         "id": 381,
+         "name": null,
+         "attributes": [
+            {
+               "id": "axial_force_absorption_of_row",
+               "unit": "none",
+               "string": "both_directions"
+            },
+            {
+               "id": "pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 0.0
+            }
+         ]
+      }
+   ],
+   "components_only_b": [
+      {
+         "type": "cylindrical_stage_gear_data",
+         "id": 70,
+         "name": "Stirnradstufe [6] data Stirnrad pos=1 [23]",
+         "attributes": []
+      },
+      {
+         "type": "cylindrical_stage_gear_data",
+         "id": 71,
+         "name": "Stirnradstufe [6] data Stirnrad pos=2 [34]",
+         "attributes": []
+      },
+      {
+         "type": "cylindrical_stage_gear_data",
+         "id": 72,
+         "name": "Stirnradstufe [37] data Stirnrad pos=3 [38]",
+         "attributes": []
+      },
+      {
+         "type": "cylindrical_stage_gear_data",
+         "id": 73,
+         "name": "Stirnradstufe [37] data Stirnrad pos=4 [52]",
+         "attributes": []
+      },
+      {
+         "type": "cylindrical_stage_gear_data",
+         "id": 74,
+         "name": "Stirnradstufe [55] data Stirnrad pos=5 [56]",
+         "attributes": []
+      },
+      {
+         "type": "cylindrical_stage_gear_data",
+         "id": 75,
+         "name": "Stirnradstufe [55] data Stirnrad pos=6 [69]",
+         "attributes": []
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 76,
+         "name": "Stirnrad pos=1 [23] (left flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.000237893
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 77,
+         "name": "Stirnrad pos=1 [23] (right flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.000237893
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 78,
+         "name": "Stirnrad pos=2 [34] (left flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.000237893
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 79,
+         "name": "Stirnrad pos=2 [34] (right flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.000237893
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 80,
+         "name": "Stirnrad pos=3 [38] (left flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": -4.21142e-05
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 81,
+         "name": "Stirnrad pos=3 [38] (right flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": -4.21142e-05
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 82,
+         "name": "Stirnrad pos=4 [52] (left flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": -4.21142e-05
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 83,
+         "name": "Stirnrad pos=4 [52] (right flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": -4.21142e-05
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 84,
+         "name": "Stirnrad pos=5 [56] (left flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.00014472
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 85,
+         "name": "Stirnrad pos=5 [56] (right flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.00014472
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 86,
+         "name": "Stirnrad pos=6 [69] (left flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.00014472
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "cylindrical_gear_flank",
+         "id": 87,
+         "name": "Stirnrad pos=6 [69] (right flank)",
+         "attributes": [
+            {
+               "id": "addendum_modification_coefficient",
+               "unit": "none",
+               "floating_point": 0.00014472
+            },
+            {
+               "id": "normal_pressure_angle",
+               "unit": "\u00b0",
+               "floating_point": 20.0
+            }
+         ]
+      },
+      {
+         "type": "material",
+         "id": 88,
+         "name": "Steel",
+         "attributes": [
+            {
+               "id": "density",
+               "unit": "kg / dm^3",
+               "floating_point": 7.81
+            },
+            {
+               "id": "poisson_ratio",
+               "unit": "none",
+               "floating_point": 0.3
+            },
+            {
+               "id": "elastic_modulus",
+               "unit": "N / mm^2",
+               "floating_point": 210000.0
+            },
+            {
+               "id": "tensile_strength",
+               "unit": "N / mm^2",
+               "floating_point": 330.0
+            },
+            {
+               "id": "material_designation",
+               "unit": "none",
+               "string": "Steel"
+            },
+            {
+               "id": "thermal_expansion_coefficient_plus",
+               "unit": "1e-6 / C",
+               "floating_point": 11.5
+            },
+            {
+               "id": "thermal_expansion_coefficient_minus",
+               "unit": "1e-6 / C",
+               "floating_point": -11.5
+            }
+         ]
+      }
+   ]
+}

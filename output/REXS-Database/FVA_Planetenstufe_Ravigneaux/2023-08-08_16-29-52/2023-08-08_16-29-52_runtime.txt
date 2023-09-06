@@ -1,0 +1,26 @@
+The script took 00h 00m 33s to run.
+
+Importing the data took 00h 00m 00s.
+Setting the parameters and functions of the model took 00h 00m 00s.
+model_optimize was used.
+ 
+Creating the variables took 00h 00m 02s to run.
+Preparing part T1 of the objectve function took 00h 00m 00s to run.
+Preparing part T2 of the objectve function took 00h 00m 02s to run.
+Preparing part T3 of the objectve function took 00h 00m 00s to run.
+Preparing part T4 of the objectve function took 00h 00m 00s to run.
+Preparing part T5 of the objectve function took 00h 00m 00s to run.
+Preparing part T6 of the objectve function took 00h 00m 00s to run.
+Preparing part T7 of the objectve function took 00h 00m 00s to run.
+Putting the objective function together took 00h 00m 00s to run.
+Setting the objective function took 00h 00m 00s to run.
+Preparing the constraint 1 took 00h 00m 09s to run.
+Preparing the constraint 2 took 00h 00m 00s to run.
+Preparing the constraint 3 took 00h 00m 00s to run.
+Preparing the constraint 4 took 00h 00m 00s to run.
+Preparing the constraint 5 took 00h 00m 00s to run.
+Preparing the constraint 6 took 00h 00m 01s to run.
+Solving the model took 00h 00m 12s to run.
+Getting the solution took 00h 00m 00s to run.
+Optimizing the model took 00h 00m 32s.
+Outputting the data took 00h 00m 00s.

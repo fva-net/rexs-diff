@@ -1,0 +1,7 @@
+The script took 07h 53m 32s to run.
+
+Importing the data took 00h 00m 00s.
+Setting the parameters and functions of the model took 00h 00m 00s.
+
+Optimizing the model took 07h 53m 30s.
+Outputting the data took 00h 00m 01s.

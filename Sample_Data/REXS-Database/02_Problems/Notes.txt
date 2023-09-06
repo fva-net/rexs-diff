@@ -1,0 +1,5 @@
+Planetengetriebe: Relations not matched eventhough the components are matched, always reference, with lubricants
+
+Bearinx_37_LKW: material instead of lubricant
+
+I think it is because of the non uniqueness of IDs
