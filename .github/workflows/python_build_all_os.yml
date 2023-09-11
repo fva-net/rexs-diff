@@ -1,0 +1,110 @@
+name: Python Package using Conda
+
+on: [push]
+env:
+  python_version: '3.10'
+defaults:
+  run:
+    shell: bash -l {0}
+jobs:
+  Run-on-ubuntu:
+    name: run on ubuntu
+    runs-on: ${{ matrix.config.os }}
+    strategy:
+      matrix: 
+        config:
+          - os: ubuntu-latest
+          - os: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{env.python_version}}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{env.python_version}}
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        miniconda-version: "latest"
+        channels: conda-forge, defaults
+        use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
+        auto-update-conda: true
+        auto-activate-base: true
+    - name: Install numpy
+      run: |
+        conda install --channel conda-forge numpy
+    - name: Install pydantic
+      run: |
+        conda install --channel conda-forge pydantic
+    - name: Install pyscipopt
+      run: |
+        conda install --channel conda-forge pyscipopt
+    - name: Install cx_freeze
+      run: |
+        conda install --channel conda-forge cx_freeze
+    - name: Build Files
+      run: |
+        python setup.py build
+        git status --porcelain
+    - name: check for difference
+      id: git_difference
+      run: |
+        if [ -n "$(git status --porcelain)"]; then 
+          echo "false" 
+        else 
+          echo "true" 
+        fi
+    - name: GIT commit and push all changed files
+      if: ${{steps.git_difference}} == "true"
+      env: 
+        CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
+        CI_COMMIT_AUTHOR: Continuous Integration
+      run: |
+        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+        git config --global user.email github-actions@github.com
+        git add build
+        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git push
+  Run-on-windows:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: PowerShell
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{env.python_version}}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{env.python_version}}
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        miniconda-version: "latest"
+        channels: conda-forge, defaults
+        use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
+        auto-update-conda: true
+        auto-activate-base: true
+    - name: Install numpy
+      run: |
+        conda install --channel conda-forge numpy
+    - name: Install pydantic
+      run: |
+        conda install --channel conda-forge pydantic
+    - name: Install pyscipopt
+      run: |
+        conda install --channel conda-forge pyscipopt
+    - name: Install cx_freeze
+      run: |
+        conda install --channel conda-forge cx_freeze
+    - name: Build Files
+      run: |
+        python setup.py build
+    - name: GIT commit and push all changed files
+      env: 
+        CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
+        CI_COMMIT_AUTHOR: Continuous Integration
+      run: |
+        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+        git config --global user.email github-actions@github.com
+        git add build
+        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git push
+
+    
