@@ -1,22 +1,22 @@
 name: Python Package using Conda
 
-on: [push]
+on: 
+  push:
+    tags:
+      - 'v*.*.*'  
 env:
   python_version: '3.10'
 defaults:
   run:
     shell: bash -l {0}
 jobs:
-  Run-on-ubuntu:
+  Run-on-ubuntu-and-mac:
     name: run on ubuntu
-    runs-on: ${{ matrix.config.os }}
-    strategy:
-      matrix: 
-        config:
-          - os: ubuntu-latest
-          - os: macos-latest
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Set up Python ${{env.python_version}}
       uses: actions/setup-python@v4
       with:
@@ -44,26 +44,60 @@ jobs:
       run: |
         python setup.py build
         git status --porcelain
-    - name: check for difference
-      id: git_difference
+    - name: Zip build folder
+      uses: montudor/action-zip@v1
+      with: 
+        args: zip -qq -r linux.zip build/exe.linux-x86_64-3.11
+    - name: Create GitHub Release
+      uses: ncipollo/release-action@v1.13.0
+      with:
+        artifacts: "linux.zip"
+        body: "TODO Document me!"
+        allowUpdates: true
+  Run-on-mac:
+    name: run on mac
+    permissions:
+      contents: write
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{env.python_version}}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{env.python_version}}
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        miniconda-version: "latest"
+        channels: conda-forge, defaults
+        use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
+        auto-update-conda: true
+        auto-activate-base: true
+    - name: Install numpy
       run: |
-        if [ -n "$(git status --porcelain)"]; then 
-          echo "false" 
-        else 
-          echo "true" 
-        fi
-    - name: GIT commit and push all changed files
-      if: ${{steps.git_difference}} == "true"
-      env: 
-        CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
-        CI_COMMIT_AUTHOR: Continuous Integration
+        conda install --channel conda-forge numpy
+    - name: Install pydantic
       run: |
-        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-        git config --global user.email github-actions@github.com
-        git add build
-        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
-        git push
+        conda install --channel conda-forge pydantic
+    - name: Install pyscipopt
+      run: |
+        conda install --channel conda-forge pyscipopt
+    - name: Install cx_freeze
+      run: |
+        conda install --channel conda-forge cx_freeze
+    - name: Build Files
+      run: |
+        python setup.py build
+        git status --porcelain
+    - name: Zip build folder
+      run: zip -r mac_os.zip build/exe.macosx-10.9-x86_64-3.11
+    - name: Create GitHub Release
+      uses: ncipollo/release-action@v1.13.0
+      with:
+        artifacts: "mac_os.zip"
+        body: "TODO Document me!"
+        allowUpdates: true
   Run-on-windows:
+    name: run on windows
     runs-on: windows-latest
     defaults:
       run:
@@ -96,15 +130,11 @@ jobs:
     - name: Build Files
       run: |
         python setup.py build
-    - name: GIT commit and push all changed files
-      env: 
-        CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
-        CI_COMMIT_AUTHOR: Continuous Integration
-      run: |
-        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-        git config --global user.email github-actions@github.com
-        git add build
-        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
-        git push
-
-    
+    - name: Zip build folder
+      run: Compress-Archive build/exe.win-amd64-3.11 windows.zip
+    - name: Create GitHub Release
+      uses: ncipollo/release-action@v1.13.0
+      with:
+        artifacts: "windows.zip"
+        body: "TODO Document me!"
+        allowUpdates: true
