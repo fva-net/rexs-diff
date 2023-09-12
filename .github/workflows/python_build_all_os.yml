@@ -11,6 +11,7 @@ defaults:
     shell: bash -l {0}
 jobs:
   Run-on-ubuntu-and-mac:
+    if: false
     name: run on ubuntu
     permissions:
       contents: write
@@ -55,6 +56,7 @@ jobs:
         body: "TODO Document me!"
         allowUpdates: true
   Run-on-mac:
+    if: false
     name: run on mac
     permissions:
       contents: write
@@ -99,6 +101,7 @@ jobs:
   Run-on-windows:
     name: run on windows
     runs-on: windows-latest
+    permissions: write-all
     defaults:
       run:
         shell: PowerShell
