@@ -4,8 +4,10 @@ from cx_Freeze import setup, Executable
 
 buildOptions = dict(
     include_files = [
-        'Sample_Data/'
-    ]
+        'Sample_Data/',
+        'settings.ini'
+    ],
+    silent_level = 0
 )
 def find_data_file(filename):
     if getattr(sys, 'frozen', False):
