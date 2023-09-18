@@ -22,7 +22,7 @@ import configparser
 # Start timer to record the runtime of the script
 start_time = time.time()
 start_time_script = time.time()
-
+print("Test")
 # Get the config file
 config = configparser.ConfigParser()
 config.read("settings.ini")
