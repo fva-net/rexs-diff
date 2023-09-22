@@ -9,7 +9,7 @@ def import_data(filename: str, relations_roles: list):
     """
     This function will import the provided data and turn it into classes. \n
     Input: 
-      - filename of a json file that inclueds the data
+      - filename of a json file that includes the data. \n
       - role_ordering: list of possible roles in the relations \n
     Output: 
       - components: list of components
@@ -112,6 +112,3 @@ def import_data(filename: str, relations_roles: list):
     relations = sort_refs(relations,relations_roles)
     
     return components, relations 
-
-
-
