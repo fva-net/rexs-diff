@@ -12,17 +12,17 @@ For solving this problem a integer optimization framework was used.
 2. Create a new environment.
 3. In the environment install:
     1. Pydantic version 1.8.2  
-        '''bash
+        ```bash
         conda install -c conda-forge pydantic=1.8.2
-        '''
+        ```
     2. Pyscipopt
-        '''bash
+        ```bash
         conda install --channel conda-forge pyscipopt
-        '''
+        ```
     3. All requirements in requirements.txt
-        '''bash
+        ```bash
         pip install -r requirements.txt
-        '''
+        ```
 
 
 ## Usage
