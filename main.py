@@ -24,8 +24,8 @@ config.read("settings.ini")
 #################################################
 
 ### Define path of the import files
-input_file = config["InputFiles"]["input_file_1"] # Data of the model A
-input_file_prime = config["InputFiles"]["input_file_2"] # Data of the model B
+input_file = config["InputFiles"]["input_file_A"] # Data of the model A
+input_file_prime = config["InputFiles"]["input_file_B"] # Data of the model B
 
 
 ### Define the role ordering of the relations
@@ -85,7 +85,7 @@ for i in range(len(sol_z)):
 #################################################
 
 # Outputfile path
-# TODO: mit Sarah absprechen: wohin abspeichern?
+# TODO: mit Sarah absprechen: wohin abspeichern? -> Readme anpassen
 output_file_json = f"output/output.json"
 
 # Output the data

@@ -26,3 +26,6 @@ For solving this problem a integer optimization framework was used.
 
 
 ## Usage
+1. In the settings.ini file provide the file paths for the REXS models to be matched. The REXS models must be given as a json-file.
+2. Execute the main.py file.
+3. The calculated matching will be saved in the folder output as a json file with the name output.json.
