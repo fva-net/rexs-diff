@@ -2,26 +2,10 @@
   "model" : {
     "version" : "1.5",
     "applicationId" : "FVA Workbench",
-    "applicationVersion" : "8.1.0",
-    "date" : "2023-08-01T09:56:40+02:00",
+    "applicationVersion" : "9.0.0 - DEV gültig bis 30.10.2023",
+    "date" : "2023-09-23T14:02:23+02:00",
     "relations" : [ {
       "id" : 110,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 38,
-        "role" : "inner_part",
-        "hint" : "Welle [38]"
-      }, {
-        "id" : 127,
-        "role" : "assembly",
-        "hint" : "Wälzlager [127]"
-      } ]
-    }, {
-      "id" : 111,
       "type" : "side",
       "refs" : [ {
         "id" : 2,
@@ -37,7 +21,7 @@
         "hint" : "Wälzlager [128]"
       } ]
     }, {
-      "id" : 112,
+      "id" : 111,
       "type" : "side",
       "refs" : [ {
         "id" : 2,
@@ -53,7 +37,7 @@
         "hint" : "Wälzlager [129]"
       } ]
     }, {
-      "id" : 113,
+      "id" : 112,
       "type" : "side",
       "refs" : [ {
         "id" : 2,
@@ -69,7 +53,7 @@
         "hint" : "Wälzlager [130]"
       } ]
     }, {
-      "id" : 114,
+      "id" : 113,
       "type" : "side",
       "refs" : [ {
         "id" : 2,
@@ -85,7 +69,7 @@
         "hint" : "Wälzlager [107]"
       } ]
     }, {
-      "id" : 115,
+      "id" : 114,
       "type" : "side",
       "refs" : [ {
         "id" : 2,
@@ -101,7 +85,7 @@
         "hint" : "Wälzlager [108]"
       } ]
     }, {
-      "id" : 116,
+      "id" : 115,
       "type" : "side",
       "refs" : [ {
         "id" : 2,
@@ -117,103 +101,71 @@
         "hint" : "Wälzlager [100]"
       } ]
     }, {
-      "id" : 10,
-      "type" : "assembly",
+      "id" : 116,
+      "type" : "side",
       "refs" : [ {
-        "id" : 21,
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 28,
+        "role" : "inner_part",
+        "hint" : "Welle [28]"
+      }, {
+        "id" : 109,
         "role" : "assembly",
+        "hint" : "Wälzlager [109]"
+      } ]
+    }, {
+      "id" : 117,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 21,
+        "role" : "inner_part",
         "hint" : "Welle [21]"
       }, {
-        "id" : 24,
-        "role" : "part",
-        "hint" : "Stirnrad [24]"
-      } ]
-    }, {
-      "id" : 11,
-      "type" : "assembly",
-      "refs" : [ {
-        "id" : 1,
+        "id" : 110,
         "role" : "assembly",
-        "hint" : "Getriebeeinheit [1]"
-      }, {
-        "id" : 27,
-        "role" : "part",
-        "hint" : "Stirnradstufe [27]"
+        "hint" : "Wälzlager [110]"
       } ]
     }, {
-      "id" : 12,
-      "type" : "assembly",
+      "id" : 118,
+      "type" : "side",
       "refs" : [ {
-        "id" : 1,
-        "role" : "assembly",
-        "hint" : "Getriebeeinheit [1]"
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
       }, {
-        "id" : 28,
-        "role" : "part",
-        "hint" : "Welle [28]"
-      } ]
-    }, {
-      "id" : 13,
-      "type" : "assembly",
-      "refs" : [ {
-        "id" : 6,
-        "role" : "assembly",
-        "hint" : "Welle [6]"
-      }, {
-        "id" : 30,
-        "role" : "part",
-        "hint" : "Stirnrad [30]"
-      } ]
-    }, {
-      "id" : 14,
-      "type" : "assembly",
-      "refs" : [ {
-        "id" : 28,
-        "role" : "assembly",
-        "hint" : "Welle [28]"
-      }, {
-        "id" : 31,
-        "role" : "part",
-        "hint" : "Stirnrad [31]"
-      } ]
-    }, {
-      "id" : 15,
-      "type" : "assembly",
-      "refs" : [ {
         "id" : 4,
-        "role" : "assembly",
+        "role" : "inner_part",
         "hint" : "Welle [4]"
       }, {
-        "id" : 36,
-        "role" : "part",
-        "hint" : "Belastung [36]"
-      } ]
-    }, {
-      "id" : 16,
-      "type" : "assembly",
-      "refs" : [ {
-        "id" : 1,
+        "id" : 101,
         "role" : "assembly",
-        "hint" : "Getriebeeinheit [1]"
-      }, {
-        "id" : 37,
-        "role" : "part",
-        "hint" : "Stirnradstufe [37]"
+        "hint" : "Wälzlager [101]"
       } ]
     }, {
-      "id" : 17,
-      "type" : "assembly",
+      "id" : 119,
+      "type" : "side",
       "refs" : [ {
-        "id" : 1,
-        "role" : "assembly",
-        "hint" : "Getriebeeinheit [1]"
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
       }, {
-        "id" : 38,
-        "role" : "part",
-        "hint" : "Welle [38]"
+        "id" : 21,
+        "role" : "inner_part",
+        "hint" : "Welle [21]"
+      }, {
+        "id" : 113,
+        "role" : "assembly",
+        "hint" : "Wälzlager [113]"
       } ]
     }, {
-      "id" : 18,
+      "id" : 10,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
@@ -225,7 +177,7 @@
         "hint" : "Stirnrad [40]"
       } ]
     }, {
-      "id" : 19,
+      "id" : 11,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
@@ -235,6 +187,134 @@
         "id" : 131,
         "role" : "part",
         "hint" : "Belastung [131]"
+      } ]
+    }, {
+      "id" : 12,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 4,
+        "role" : "assembly",
+        "hint" : "Welle [4]"
+      }, {
+        "id" : 8,
+        "role" : "part",
+        "hint" : "Stirnrad [8]"
+      } ]
+    }, {
+      "id" : 13,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "assembly",
+        "hint" : "Welle [6]"
+      }, {
+        "id" : 9,
+        "role" : "part",
+        "hint" : "Stirnrad [9]"
+      } ]
+    }, {
+      "id" : 14,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 3,
+        "role" : "part",
+        "hint" : "Stirnradstufe [3]"
+      } ]
+    }, {
+      "id" : 15,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 4,
+        "role" : "part",
+        "hint" : "Welle [4]"
+      } ]
+    }, {
+      "id" : 16,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 6,
+        "role" : "part",
+        "hint" : "Welle [6]"
+      } ]
+    }, {
+      "id" : 17,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 20,
+        "role" : "part",
+        "hint" : "Stirnradstufe [20]"
+      } ]
+    }, {
+      "id" : 18,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 21,
+        "role" : "part",
+        "hint" : "Welle [21]"
+      } ]
+    }, {
+      "id" : 19,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 6,
+        "role" : "assembly",
+        "hint" : "Welle [6]"
+      }, {
+        "id" : 23,
+        "role" : "part",
+        "hint" : "Stirnrad [23]"
+      } ]
+    }, {
+      "id" : 120,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 6,
+        "role" : "inner_part",
+        "hint" : "Welle [6]"
+      }, {
+        "id" : 102,
+        "role" : "assembly",
+        "hint" : "Wälzlager [102]"
+      } ]
+    }, {
+      "id" : 121,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 6,
+        "role" : "inner_part",
+        "hint" : "Welle [6]"
+      }, {
+        "id" : 103,
+        "role" : "assembly",
+        "hint" : "Wälzlager [103]"
       } ]
     }, {
       "id" : 1,
@@ -249,28 +329,76 @@
         "hint" : "Gehäuse [2]"
       } ]
     }, {
+      "id" : 122,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 6,
+        "role" : "inner_part",
+        "hint" : "Welle [6]"
+      }, {
+        "id" : 104,
+        "role" : "assembly",
+        "hint" : "Wälzlager [104]"
+      } ]
+    }, {
       "id" : 2,
       "type" : "assembly",
       "refs" : [ {
-        "id" : 4,
+        "id" : 21,
         "role" : "assembly",
-        "hint" : "Welle [4]"
+        "hint" : "Welle [21]"
       }, {
-        "id" : 8,
+        "id" : 24,
         "role" : "part",
-        "hint" : "Stirnrad [8]"
+        "hint" : "Stirnrad [24]"
+      } ]
+    }, {
+      "id" : 123,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 50,
+        "role" : "inner_part",
+        "hint" : "Welle [50]"
+      }, {
+        "id" : 116,
+        "role" : "assembly",
+        "hint" : "Wälzlager [116]"
       } ]
     }, {
       "id" : 3,
       "type" : "assembly",
       "refs" : [ {
-        "id" : 6,
+        "id" : 1,
         "role" : "assembly",
-        "hint" : "Welle [6]"
+        "hint" : "Getriebeeinheit [1]"
       }, {
-        "id" : 9,
+        "id" : 27,
         "role" : "part",
-        "hint" : "Stirnrad [9]"
+        "hint" : "Stirnradstufe [27]"
+      } ]
+    }, {
+      "id" : 124,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 50,
+        "role" : "inner_part",
+        "hint" : "Welle [50]"
+      }, {
+        "id" : 119,
+        "role" : "assembly",
+        "hint" : "Wälzlager [119]"
       } ]
     }, {
       "id" : 4,
@@ -280,45 +408,109 @@
         "role" : "assembly",
         "hint" : "Getriebeeinheit [1]"
       }, {
-        "id" : 3,
+        "id" : 28,
         "role" : "part",
-        "hint" : "Stirnradstufe [3]"
+        "hint" : "Welle [28]"
+      } ]
+    }, {
+      "id" : 125,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 71,
+        "role" : "inner_part",
+        "hint" : "Welle [71]"
+      }, {
+        "id" : 121,
+        "role" : "assembly",
+        "hint" : "Wälzlager [121]"
       } ]
     }, {
       "id" : 5,
       "type" : "assembly",
       "refs" : [ {
-        "id" : 1,
+        "id" : 6,
         "role" : "assembly",
-        "hint" : "Getriebeeinheit [1]"
+        "hint" : "Welle [6]"
       }, {
-        "id" : 4,
+        "id" : 30,
         "role" : "part",
-        "hint" : "Welle [4]"
+        "hint" : "Stirnrad [30]"
+      } ]
+    }, {
+      "id" : 126,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 71,
+        "role" : "inner_part",
+        "hint" : "Welle [71]"
+      }, {
+        "id" : 123,
+        "role" : "assembly",
+        "hint" : "Wälzlager [123]"
       } ]
     }, {
       "id" : 6,
       "type" : "assembly",
       "refs" : [ {
-        "id" : 1,
+        "id" : 28,
         "role" : "assembly",
-        "hint" : "Getriebeeinheit [1]"
+        "hint" : "Welle [28]"
       }, {
-        "id" : 6,
+        "id" : 31,
         "role" : "part",
-        "hint" : "Welle [6]"
+        "hint" : "Stirnrad [31]"
+      } ]
+    }, {
+      "id" : 127,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 38,
+        "role" : "inner_part",
+        "hint" : "Welle [38]"
+      }, {
+        "id" : 125,
+        "role" : "assembly",
+        "hint" : "Wälzlager [125]"
       } ]
     }, {
       "id" : 7,
       "type" : "assembly",
       "refs" : [ {
-        "id" : 1,
+        "id" : 4,
         "role" : "assembly",
-        "hint" : "Getriebeeinheit [1]"
+        "hint" : "Welle [4]"
       }, {
-        "id" : 20,
+        "id" : 36,
         "role" : "part",
-        "hint" : "Stirnradstufe [20]"
+        "hint" : "Belastung [36]"
+      } ]
+    }, {
+      "id" : 128,
+      "type" : "side",
+      "refs" : [ {
+        "id" : 2,
+        "role" : "outer_part",
+        "hint" : "Gehäuse [2]"
+      }, {
+        "id" : 38,
+        "role" : "inner_part",
+        "hint" : "Welle [38]"
+      }, {
+        "id" : 126,
+        "role" : "assembly",
+        "hint" : "Wälzlager [126]"
       } ]
     }, {
       "id" : 8,
@@ -328,21 +520,21 @@
         "role" : "assembly",
         "hint" : "Getriebeeinheit [1]"
       }, {
-        "id" : 21,
+        "id" : 37,
         "role" : "part",
-        "hint" : "Welle [21]"
+        "hint" : "Stirnradstufe [37]"
       } ]
     }, {
       "id" : 9,
       "type" : "assembly",
       "refs" : [ {
-        "id" : 6,
+        "id" : 1,
         "role" : "assembly",
-        "hint" : "Welle [6]"
+        "hint" : "Getriebeeinheit [1]"
       }, {
-        "id" : 23,
+        "id" : 38,
         "role" : "part",
-        "hint" : "Stirnrad [23]"
+        "hint" : "Welle [38]"
       } ]
     }, {
       "id" : 20,
@@ -465,7 +657,7 @@
         "hint" : "Belastung [94]"
       } ]
     }, {
-      "id" : 296,
+      "id" : 30,
       "type" : "assembly",
       "refs" : [ {
         "id" : 1,
@@ -477,7 +669,7 @@
         "hint" : "Welle [1707]"
       } ]
     }, {
-      "id" : 299,
+      "id" : 31,
       "type" : "assembly",
       "refs" : [ {
         "id" : 71,
@@ -489,7 +681,43 @@
         "hint" : "Stirnrad (linke Hälfte) [1709]"
       } ]
     }, {
-      "id" : 76,
+      "id" : 32,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1707,
+        "role" : "assembly",
+        "hint" : "Welle [1707]"
+      }, {
+        "id" : 1710,
+        "role" : "part",
+        "hint" : "Stirnrad (linke Hälfte) [1710]"
+      } ]
+    }, {
+      "id" : 33,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 71,
+        "role" : "assembly",
+        "hint" : "Welle [71]"
+      }, {
+        "id" : 1717,
+        "role" : "part",
+        "hint" : "Stirnrad (rechte Hälfte) [1717]"
+      } ]
+    }, {
+      "id" : 34,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1707,
+        "role" : "assembly",
+        "hint" : "Welle [1707]"
+      }, {
+        "id" : 1718,
+        "role" : "part",
+        "hint" : "Stirnrad (rechte Hälfte) [1718]"
+      } ]
+    }, {
+      "id" : 82,
       "type" : "stage",
       "refs" : [ {
         "id" : 3,
@@ -505,7 +733,7 @@
         "hint" : "Stirnrad [9]"
       } ]
     }, {
-      "id" : 77,
+      "id" : 83,
       "type" : "stage",
       "refs" : [ {
         "id" : 20,
@@ -521,7 +749,7 @@
         "hint" : "Stirnrad [24]"
       } ]
     }, {
-      "id" : 78,
+      "id" : 84,
       "type" : "stage",
       "refs" : [ {
         "id" : 27,
@@ -537,7 +765,7 @@
         "hint" : "Stirnrad [31]"
       } ]
     }, {
-      "id" : 79,
+      "id" : 85,
       "type" : "stage",
       "refs" : [ {
         "id" : 31,
@@ -553,7 +781,7 @@
         "hint" : "Stirnrad [40]"
       } ]
     }, {
-      "id" : 80,
+      "id" : 86,
       "type" : "stage",
       "refs" : [ {
         "id" : 24,
@@ -569,7 +797,7 @@
         "hint" : "Stirnrad [52]"
       } ]
     }, {
-      "id" : 81,
+      "id" : 87,
       "type" : "stage",
       "refs" : [ {
         "id" : 52,
@@ -585,7 +813,7 @@
         "hint" : "Stirnrad [73]"
       } ]
     }, {
-      "id" : 82,
+      "id" : 88,
       "type" : "stage",
       "refs" : [ {
         "id" : 73,
@@ -601,7 +829,63 @@
         "hint" : "Stirnrad [83]"
       } ]
     }, {
-      "id" : 83,
+      "id" : 89,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 1706,
+        "role" : "stage",
+        "hint" : "Stirnradstufe (linke Hälfte) [1706]"
+      }, {
+        "id" : 1709,
+        "role" : "gear_1",
+        "hint" : "Stirnrad (linke Hälfte) [1709]"
+      }, {
+        "id" : 1710,
+        "role" : "gear_2",
+        "hint" : "Stirnrad (linke Hälfte) [1710]"
+      } ]
+    }, {
+      "id" : 191,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 1706,
+        "role" : "part",
+        "hint" : "Stirnradstufe (linke Hälfte) [1706]"
+      } ]
+    }, {
+      "id" : 194,
+      "type" : "assembly",
+      "refs" : [ {
+        "id" : 1,
+        "role" : "assembly",
+        "hint" : "Getriebeeinheit [1]"
+      }, {
+        "id" : 1716,
+        "role" : "part",
+        "hint" : "Stirnradstufe (rechte Hälfte) [1716]"
+      } ]
+    }, {
+      "id" : 90,
+      "type" : "stage",
+      "refs" : [ {
+        "id" : 1716,
+        "role" : "stage",
+        "hint" : "Stirnradstufe (rechte Hälfte) [1716]"
+      }, {
+        "id" : 1717,
+        "role" : "gear_1",
+        "hint" : "Stirnrad (rechte Hälfte) [1717]"
+      }, {
+        "id" : 1718,
+        "role" : "gear_2",
+        "hint" : "Stirnrad (rechte Hälfte) [1718]"
+      } ]
+    }, {
+      "id" : 91,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 3,
@@ -617,7 +901,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [136]"
       } ]
     }, {
-      "id" : 84,
+      "id" : 92,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 3,
@@ -633,7 +917,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [137]"
       } ]
     }, {
-      "id" : 85,
+      "id" : 93,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 20,
@@ -649,7 +933,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [138]"
       } ]
     }, {
-      "id" : 86,
+      "id" : 94,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 20,
@@ -665,7 +949,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [139]"
       } ]
     }, {
-      "id" : 87,
+      "id" : 95,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 27,
@@ -681,7 +965,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [140]"
       } ]
     }, {
-      "id" : 88,
+      "id" : 96,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 27,
@@ -697,7 +981,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [141]"
       } ]
     }, {
-      "id" : 89,
+      "id" : 97,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 31,
@@ -713,7 +997,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [142]"
       } ]
     }, {
-      "id" : 90,
+      "id" : 98,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 37,
@@ -729,7 +1013,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [143]"
       } ]
     }, {
-      "id" : 91,
+      "id" : 99,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 24,
@@ -745,7 +1029,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [144]"
       } ]
     }, {
-      "id" : 92,
+      "id" : 100,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 49,
@@ -761,7 +1045,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [145]"
       } ]
     }, {
-      "id" : 93,
+      "id" : 101,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 52,
@@ -777,7 +1061,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [146]"
       } ]
     }, {
-      "id" : 94,
+      "id" : 102,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 70,
@@ -793,7 +1077,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [147]"
       } ]
     }, {
-      "id" : 95,
+      "id" : 103,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 73,
@@ -809,7 +1093,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [148]"
       } ]
     }, {
-      "id" : 96,
+      "id" : 104,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 80,
@@ -825,83 +1109,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [149]"
       } ]
     }, {
-      "id" : 97,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 28,
-        "role" : "inner_part",
-        "hint" : "Welle [28]"
-      }, {
-        "id" : 109,
-        "role" : "assembly",
-        "hint" : "Wälzlager [109]"
-      } ]
-    }, {
-      "id" : 98,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 21,
-        "role" : "inner_part",
-        "hint" : "Welle [21]"
-      }, {
-        "id" : 110,
-        "role" : "assembly",
-        "hint" : "Wälzlager [110]"
-      } ]
-    }, {
-      "id" : 99,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 4,
-        "role" : "inner_part",
-        "hint" : "Welle [4]"
-      }, {
-        "id" : 101,
-        "role" : "assembly",
-        "hint" : "Wälzlager [101]"
-      } ]
-    }, {
-      "id" : 300,
-      "type" : "assembly",
-      "refs" : [ {
-        "id" : 1707,
-        "role" : "assembly",
-        "hint" : "Welle [1707]"
-      }, {
-        "id" : 1710,
-        "role" : "part",
-        "hint" : "Stirnrad (linke Hälfte) [1710]"
-      } ]
-    }, {
-      "id" : 301,
-      "type" : "stage",
-      "refs" : [ {
-        "id" : 1706,
-        "role" : "stage",
-        "hint" : "Stirnradstufe (linke Hälfte) [1706]"
-      }, {
-        "id" : 1709,
-        "role" : "gear_1",
-        "hint" : "Stirnrad (linke Hälfte) [1709]"
-      }, {
-        "id" : 1710,
-        "role" : "gear_2",
-        "hint" : "Stirnrad (linke Hälfte) [1710]"
-      } ]
-    }, {
-      "id" : 302,
+      "id" : 105,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 1706,
@@ -917,7 +1125,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [1711]"
       } ]
     }, {
-      "id" : 303,
+      "id" : 106,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 1706,
@@ -933,47 +1141,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [1712]"
       } ]
     }, {
-      "id" : 307,
-      "type" : "assembly",
-      "refs" : [ {
-        "id" : 71,
-        "role" : "assembly",
-        "hint" : "Welle [71]"
-      }, {
-        "id" : 1717,
-        "role" : "part",
-        "hint" : "Stirnrad (rechte Hälfte) [1717]"
-      } ]
-    }, {
-      "id" : 308,
-      "type" : "assembly",
-      "refs" : [ {
-        "id" : 1707,
-        "role" : "assembly",
-        "hint" : "Welle [1707]"
-      }, {
-        "id" : 1718,
-        "role" : "part",
-        "hint" : "Stirnrad (rechte Hälfte) [1718]"
-      } ]
-    }, {
-      "id" : 309,
-      "type" : "stage",
-      "refs" : [ {
-        "id" : 1716,
-        "role" : "stage",
-        "hint" : "Stirnradstufe (rechte Hälfte) [1716]"
-      }, {
-        "id" : 1717,
-        "role" : "gear_1",
-        "hint" : "Stirnrad (rechte Hälfte) [1717]"
-      }, {
-        "id" : 1718,
-        "role" : "gear_2",
-        "hint" : "Stirnrad (rechte Hälfte) [1718]"
-      } ]
-    }, {
-      "id" : 310,
+      "id" : 107,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 1716,
@@ -989,7 +1157,7 @@
         "hint" : "Zahnraddaten (Stirnräder) [1719]"
       } ]
     }, {
-      "id" : 311,
+      "id" : 108,
       "type" : "stage_gear_data",
       "refs" : [ {
         "id" : 1716,
@@ -1005,150 +1173,6 @@
         "hint" : "Zahnraddaten (Stirnräder) [1720]"
       } ]
     }, {
-      "id" : 100,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 21,
-        "role" : "inner_part",
-        "hint" : "Welle [21]"
-      }, {
-        "id" : 113,
-        "role" : "assembly",
-        "hint" : "Wälzlager [113]"
-      } ]
-    }, {
-      "id" : 101,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 6,
-        "role" : "inner_part",
-        "hint" : "Welle [6]"
-      }, {
-        "id" : 102,
-        "role" : "assembly",
-        "hint" : "Wälzlager [102]"
-      } ]
-    }, {
-      "id" : 102,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 6,
-        "role" : "inner_part",
-        "hint" : "Welle [6]"
-      }, {
-        "id" : 103,
-        "role" : "assembly",
-        "hint" : "Wälzlager [103]"
-      } ]
-    }, {
-      "id" : 103,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 6,
-        "role" : "inner_part",
-        "hint" : "Welle [6]"
-      }, {
-        "id" : 104,
-        "role" : "assembly",
-        "hint" : "Wälzlager [104]"
-      } ]
-    }, {
-      "id" : 104,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 50,
-        "role" : "inner_part",
-        "hint" : "Welle [50]"
-      }, {
-        "id" : 116,
-        "role" : "assembly",
-        "hint" : "Wälzlager [116]"
-      } ]
-    }, {
-      "id" : 105,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 50,
-        "role" : "inner_part",
-        "hint" : "Welle [50]"
-      }, {
-        "id" : 119,
-        "role" : "assembly",
-        "hint" : "Wälzlager [119]"
-      } ]
-    }, {
-      "id" : 106,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 71,
-        "role" : "inner_part",
-        "hint" : "Welle [71]"
-      }, {
-        "id" : 121,
-        "role" : "assembly",
-        "hint" : "Wälzlager [121]"
-      } ]
-    }, {
-      "id" : 107,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 71,
-        "role" : "inner_part",
-        "hint" : "Welle [71]"
-      }, {
-        "id" : 123,
-        "role" : "assembly",
-        "hint" : "Wälzlager [123]"
-      } ]
-    }, {
-      "id" : 108,
-      "type" : "side",
-      "refs" : [ {
-        "id" : 2,
-        "role" : "outer_part",
-        "hint" : "Gehäuse [2]"
-      }, {
-        "id" : 38,
-        "role" : "inner_part",
-        "hint" : "Welle [38]"
-      }, {
-        "id" : 125,
-        "role" : "assembly",
-        "hint" : "Wälzlager [125]"
-      } ]
-    }, {
       "id" : 109,
       "type" : "side",
       "refs" : [ {
@@ -1160,12 +1184,12 @@
         "role" : "inner_part",
         "hint" : "Welle [38]"
       }, {
-        "id" : 126,
+        "id" : 127,
         "role" : "assembly",
-        "hint" : "Wälzlager [126]"
+        "hint" : "Wälzlager [127]"
       } ]
     }, {
-      "id" : 312,
+      "id" : 195,
       "type" : "reference",
       "refs" : [ {
         "id" : 100,
@@ -1177,7 +1201,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 313,
+      "id" : 196,
       "type" : "reference",
       "refs" : [ {
         "id" : 101,
@@ -1189,7 +1213,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 314,
+      "id" : 197,
       "type" : "reference",
       "refs" : [ {
         "id" : 102,
@@ -1201,7 +1225,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 315,
+      "id" : 198,
       "type" : "reference",
       "refs" : [ {
         "id" : 103,
@@ -1213,7 +1237,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 316,
+      "id" : 199,
       "type" : "reference",
       "refs" : [ {
         "id" : 104,
@@ -1225,7 +1249,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 317,
+      "id" : 200,
       "type" : "reference",
       "refs" : [ {
         "id" : 107,
@@ -1237,7 +1261,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 318,
+      "id" : 201,
       "type" : "reference",
       "refs" : [ {
         "id" : 108,
@@ -1249,7 +1273,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 319,
+      "id" : 202,
       "type" : "reference",
       "refs" : [ {
         "id" : 109,
@@ -1261,7 +1285,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 320,
+      "id" : 203,
       "type" : "reference",
       "refs" : [ {
         "id" : 110,
@@ -1273,7 +1297,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 321,
+      "id" : 204,
       "type" : "reference",
       "refs" : [ {
         "id" : 113,
@@ -1285,7 +1309,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 322,
+      "id" : 205,
       "type" : "reference",
       "refs" : [ {
         "id" : 116,
@@ -1297,7 +1321,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 323,
+      "id" : 206,
       "type" : "reference",
       "refs" : [ {
         "id" : 119,
@@ -1309,7 +1333,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 324,
+      "id" : 207,
       "type" : "reference",
       "refs" : [ {
         "id" : 121,
@@ -1321,7 +1345,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 325,
+      "id" : 208,
       "type" : "reference",
       "refs" : [ {
         "id" : 123,
@@ -1333,7 +1357,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 326,
+      "id" : 209,
       "type" : "reference",
       "refs" : [ {
         "id" : 125,
@@ -1345,7 +1369,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 327,
+      "id" : 210,
       "type" : "reference",
       "refs" : [ {
         "id" : 126,
@@ -1357,7 +1381,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 328,
+      "id" : 211,
       "type" : "reference",
       "refs" : [ {
         "id" : 127,
@@ -1369,7 +1393,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 329,
+      "id" : 212,
       "type" : "reference",
       "refs" : [ {
         "id" : 128,
@@ -1381,7 +1405,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 330,
+      "id" : 213,
       "type" : "reference",
       "refs" : [ {
         "id" : 129,
@@ -1393,7 +1417,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 331,
+      "id" : 214,
       "type" : "reference",
       "refs" : [ {
         "id" : 130,
@@ -1405,7 +1429,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 332,
+      "id" : 215,
       "type" : "reference",
       "refs" : [ {
         "id" : 2,
@@ -1417,7 +1441,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 333,
+      "id" : 216,
       "type" : "reference",
       "refs" : [ {
         "id" : 3,
@@ -1429,7 +1453,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 334,
+      "id" : 217,
       "type" : "reference",
       "refs" : [ {
         "id" : 20,
@@ -1441,7 +1465,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 335,
+      "id" : 218,
       "type" : "reference",
       "refs" : [ {
         "id" : 27,
@@ -1453,7 +1477,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 336,
+      "id" : 219,
       "type" : "reference",
       "refs" : [ {
         "id" : 37,
@@ -1465,7 +1489,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 337,
+      "id" : 220,
       "type" : "reference",
       "refs" : [ {
         "id" : 49,
@@ -1477,7 +1501,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 338,
+      "id" : 221,
       "type" : "reference",
       "refs" : [ {
         "id" : 70,
@@ -1489,7 +1513,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 339,
+      "id" : 222,
       "type" : "reference",
       "refs" : [ {
         "id" : 80,
@@ -1501,7 +1525,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 340,
+      "id" : 223,
       "type" : "reference",
       "refs" : [ {
         "id" : 1706,
@@ -1513,7 +1537,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 341,
+      "id" : 224,
       "type" : "reference",
       "refs" : [ {
         "id" : 1716,
@@ -1525,7 +1549,7 @@
         "hint" : "lubricant"
       } ]
     }, {
-      "id" : 342,
+      "id" : 225,
       "type" : "reference",
       "refs" : [ {
         "id" : 8,
@@ -1537,7 +1561,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 343,
+      "id" : 226,
       "type" : "reference",
       "refs" : [ {
         "id" : 9,
@@ -1549,7 +1573,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 344,
+      "id" : 227,
       "type" : "reference",
       "refs" : [ {
         "id" : 23,
@@ -1561,7 +1585,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 345,
+      "id" : 228,
       "type" : "reference",
       "refs" : [ {
         "id" : 24,
@@ -1573,7 +1597,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 346,
+      "id" : 229,
       "type" : "reference",
       "refs" : [ {
         "id" : 30,
@@ -1585,7 +1609,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 347,
+      "id" : 230,
       "type" : "reference",
       "refs" : [ {
         "id" : 31,
@@ -1597,7 +1621,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 348,
+      "id" : 231,
       "type" : "reference",
       "refs" : [ {
         "id" : 40,
@@ -1609,7 +1633,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 349,
+      "id" : 232,
       "type" : "reference",
       "refs" : [ {
         "id" : 52,
@@ -1621,7 +1645,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 350,
+      "id" : 233,
       "type" : "reference",
       "refs" : [ {
         "id" : 73,
@@ -1633,7 +1657,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 351,
+      "id" : 234,
       "type" : "reference",
       "refs" : [ {
         "id" : 83,
@@ -1645,7 +1669,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 352,
+      "id" : 235,
       "type" : "reference",
       "refs" : [ {
         "id" : 1709,
@@ -1657,7 +1681,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 353,
+      "id" : 236,
       "type" : "reference",
       "refs" : [ {
         "id" : 1710,
@@ -1669,7 +1693,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 354,
+      "id" : 237,
       "type" : "reference",
       "refs" : [ {
         "id" : 1717,
@@ -1681,7 +1705,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 355,
+      "id" : 238,
       "type" : "reference",
       "refs" : [ {
         "id" : 1718,
@@ -1693,7 +1717,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 356,
+      "id" : 239,
       "type" : "reference",
       "refs" : [ {
         "id" : 4,
@@ -1705,7 +1729,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 357,
+      "id" : 240,
       "type" : "reference",
       "refs" : [ {
         "id" : 6,
@@ -1717,7 +1741,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 358,
+      "id" : 241,
       "type" : "reference",
       "refs" : [ {
         "id" : 21,
@@ -1729,7 +1753,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 359,
+      "id" : 242,
       "type" : "reference",
       "refs" : [ {
         "id" : 28,
@@ -1741,7 +1765,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 360,
+      "id" : 243,
       "type" : "reference",
       "refs" : [ {
         "id" : 38,
@@ -1753,7 +1777,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 361,
+      "id" : 244,
       "type" : "reference",
       "refs" : [ {
         "id" : 50,
@@ -1765,7 +1789,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 362,
+      "id" : 245,
       "type" : "reference",
       "refs" : [ {
         "id" : 71,
@@ -1777,7 +1801,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 363,
+      "id" : 246,
       "type" : "reference",
       "refs" : [ {
         "id" : 81,
@@ -1789,7 +1813,7 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 364,
+      "id" : 247,
       "type" : "reference",
       "refs" : [ {
         "id" : 1707,
@@ -1801,571 +1825,571 @@
         "hint" : "material"
       } ]
     }, {
-      "id" : 365,
+      "id" : 248,
       "type" : "assembly",
       "refs" : [ {
         "id" : 4,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1776,
+        "id" : 1980,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 366,
+      "id" : 249,
       "type" : "assembly",
       "refs" : [ {
         "id" : 4,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1777,
+        "id" : 1981,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 367,
+      "id" : 250,
       "type" : "assembly",
       "refs" : [ {
         "id" : 4,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1778,
+        "id" : 1982,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 368,
+      "id" : 251,
       "type" : "assembly",
       "refs" : [ {
         "id" : 4,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1779,
+        "id" : 1983,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 369,
+      "id" : 252,
       "type" : "assembly",
       "refs" : [ {
         "id" : 4,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1780,
+        "id" : 1984,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 370,
+      "id" : 253,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1781,
+        "id" : 1985,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 371,
+      "id" : 254,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1782,
+        "id" : 1986,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 372,
+      "id" : 255,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1783,
+        "id" : 1987,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 373,
+      "id" : 256,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1784,
+        "id" : 1988,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 374,
+      "id" : 257,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1785,
+        "id" : 1989,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 375,
+      "id" : 258,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1786,
+        "id" : 1990,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 376,
+      "id" : 259,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1787,
+        "id" : 1991,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 377,
+      "id" : 260,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1788,
+        "id" : 1992,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 378,
+      "id" : 261,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1789,
+        "id" : 1993,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 379,
+      "id" : 262,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1790,
+        "id" : 1994,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 380,
+      "id" : 263,
       "type" : "assembly",
       "refs" : [ {
         "id" : 6,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1791,
+        "id" : 1995,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 381,
+      "id" : 264,
       "type" : "assembly",
       "refs" : [ {
         "id" : 21,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1792,
+        "id" : 1996,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 382,
+      "id" : 265,
       "type" : "assembly",
       "refs" : [ {
         "id" : 21,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1793,
+        "id" : 1997,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 383,
+      "id" : 266,
       "type" : "assembly",
       "refs" : [ {
         "id" : 21,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1794,
+        "id" : 1998,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 384,
+      "id" : 267,
       "type" : "assembly",
       "refs" : [ {
         "id" : 28,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1795,
+        "id" : 1999,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 385,
+      "id" : 268,
       "type" : "assembly",
       "refs" : [ {
         "id" : 28,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1796,
+        "id" : 2000,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 386,
+      "id" : 269,
       "type" : "assembly",
       "refs" : [ {
         "id" : 28,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1797,
+        "id" : 2001,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 387,
+      "id" : 270,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1798,
+        "id" : 2002,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 388,
+      "id" : 271,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1799,
+        "id" : 2003,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 389,
+      "id" : 272,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1800,
+        "id" : 2004,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 390,
+      "id" : 273,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1801,
+        "id" : 2005,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 391,
+      "id" : 274,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1802,
+        "id" : 2006,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 392,
+      "id" : 275,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1803,
+        "id" : 2007,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 393,
+      "id" : 276,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1804,
+        "id" : 2008,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 394,
+      "id" : 277,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1805,
+        "id" : 2009,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 395,
+      "id" : 278,
       "type" : "assembly",
       "refs" : [ {
         "id" : 38,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1806,
+        "id" : 2010,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 396,
+      "id" : 279,
       "type" : "assembly",
       "refs" : [ {
         "id" : 50,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1807,
+        "id" : 2011,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 397,
+      "id" : 280,
       "type" : "assembly",
       "refs" : [ {
         "id" : 50,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1808,
+        "id" : 2012,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 398,
+      "id" : 281,
       "type" : "assembly",
       "refs" : [ {
         "id" : 50,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1809,
+        "id" : 2013,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 399,
+      "id" : 282,
       "type" : "assembly",
       "refs" : [ {
         "id" : 71,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1810,
+        "id" : 2014,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 400,
+      "id" : 283,
       "type" : "assembly",
       "refs" : [ {
         "id" : 71,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1811,
+        "id" : 2015,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 401,
+      "id" : 284,
       "type" : "assembly",
       "refs" : [ {
         "id" : 71,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1812,
+        "id" : 2016,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 402,
+      "id" : 285,
       "type" : "assembly",
       "refs" : [ {
         "id" : 81,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1813,
+        "id" : 2017,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 403,
+      "id" : 286,
       "type" : "assembly",
       "refs" : [ {
         "id" : 81,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1814,
+        "id" : 2018,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 404,
+      "id" : 287,
       "type" : "assembly",
       "refs" : [ {
         "id" : 81,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1815,
+        "id" : 2019,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 405,
+      "id" : 288,
       "type" : "assembly",
       "refs" : [ {
         "id" : 81,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1816,
+        "id" : 2020,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 406,
+      "id" : 289,
       "type" : "assembly",
       "refs" : [ {
         "id" : 81,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1817,
+        "id" : 2021,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 407,
+      "id" : 290,
       "type" : "assembly",
       "refs" : [ {
         "id" : 81,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1818,
+        "id" : 2022,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 408,
+      "id" : 291,
       "type" : "assembly",
       "refs" : [ {
         "id" : 81,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1819,
+        "id" : 2023,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 409,
+      "id" : 292,
       "type" : "assembly",
       "refs" : [ {
         "id" : 81,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1820,
+        "id" : 2024,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 410,
+      "id" : 293,
       "type" : "assembly",
       "refs" : [ {
         "id" : 81,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1821,
+        "id" : 2025,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 411,
+      "id" : 294,
       "type" : "assembly",
       "refs" : [ {
         "id" : 1707,
         "role" : "assembly",
         "hint" : "shaft"
       }, {
-        "id" : 1822,
+        "id" : 2026,
         "role" : "part",
         "hint" : "shaft_section"
       } ]
     }, {
-      "id" : 412,
+      "id" : 295,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2378,7 +2402,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 413,
+      "id" : 296,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2386,12 +2410,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1721,
+        "id" : 1925,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 414,
+      "id" : 297,
       "type" : "ordered_assembly",
       "order" : 2,
       "refs" : [ {
@@ -2399,12 +2423,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1722,
+        "id" : 1926,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 415,
+      "id" : 298,
       "type" : "ordered_assembly",
       "order" : 3,
       "refs" : [ {
@@ -2412,12 +2436,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1723,
+        "id" : 1927,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 416,
+      "id" : 299,
       "type" : "ordered_assembly",
       "order" : 4,
       "refs" : [ {
@@ -2425,12 +2449,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1724,
+        "id" : 1928,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 417,
+      "id" : 300,
       "type" : "ordered_assembly",
       "order" : 5,
       "refs" : [ {
@@ -2438,12 +2462,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1725,
+        "id" : 1929,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 418,
+      "id" : 301,
       "type" : "ordered_assembly",
       "order" : 6,
       "refs" : [ {
@@ -2451,12 +2475,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1726,
+        "id" : 1930,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 419,
+      "id" : 302,
       "type" : "ordered_assembly",
       "order" : 7,
       "refs" : [ {
@@ -2464,12 +2488,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1727,
+        "id" : 1931,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 420,
+      "id" : 303,
       "type" : "ordered_assembly",
       "order" : 8,
       "refs" : [ {
@@ -2477,12 +2501,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1728,
+        "id" : 1932,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 421,
+      "id" : 304,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2495,7 +2519,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 422,
+      "id" : 305,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2503,12 +2527,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1729,
+        "id" : 1933,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 423,
+      "id" : 306,
       "type" : "ordered_assembly",
       "order" : 2,
       "refs" : [ {
@@ -2516,12 +2540,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1730,
+        "id" : 1934,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 424,
+      "id" : 307,
       "type" : "ordered_assembly",
       "order" : 3,
       "refs" : [ {
@@ -2529,12 +2553,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1731,
+        "id" : 1935,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 425,
+      "id" : 308,
       "type" : "ordered_assembly",
       "order" : 4,
       "refs" : [ {
@@ -2542,12 +2566,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1732,
+        "id" : 1936,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 426,
+      "id" : 309,
       "type" : "ordered_assembly",
       "order" : 5,
       "refs" : [ {
@@ -2555,12 +2579,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1733,
+        "id" : 1937,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 427,
+      "id" : 310,
       "type" : "ordered_assembly",
       "order" : 6,
       "refs" : [ {
@@ -2568,12 +2592,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1734,
+        "id" : 1938,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 428,
+      "id" : 311,
       "type" : "ordered_assembly",
       "order" : 7,
       "refs" : [ {
@@ -2581,12 +2605,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1735,
+        "id" : 1939,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 429,
+      "id" : 312,
       "type" : "ordered_assembly",
       "order" : 8,
       "refs" : [ {
@@ -2594,12 +2618,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1736,
+        "id" : 1940,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 430,
+      "id" : 313,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2612,7 +2636,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 431,
+      "id" : 314,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2625,7 +2649,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 432,
+      "id" : 315,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2638,7 +2662,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 433,
+      "id" : 316,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2646,12 +2670,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1737,
+        "id" : 1941,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 434,
+      "id" : 317,
       "type" : "ordered_assembly",
       "order" : 2,
       "refs" : [ {
@@ -2659,12 +2683,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1738,
+        "id" : 1942,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 435,
+      "id" : 318,
       "type" : "ordered_assembly",
       "order" : 3,
       "refs" : [ {
@@ -2672,12 +2696,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1739,
+        "id" : 1943,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 436,
+      "id" : 319,
       "type" : "ordered_assembly",
       "order" : 4,
       "refs" : [ {
@@ -2685,12 +2709,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1740,
+        "id" : 1944,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 437,
+      "id" : 320,
       "type" : "ordered_assembly",
       "order" : 5,
       "refs" : [ {
@@ -2698,12 +2722,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1741,
+        "id" : 1945,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 438,
+      "id" : 321,
       "type" : "ordered_assembly",
       "order" : 6,
       "refs" : [ {
@@ -2711,12 +2735,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1742,
+        "id" : 1946,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 439,
+      "id" : 322,
       "type" : "ordered_assembly",
       "order" : 7,
       "refs" : [ {
@@ -2724,12 +2748,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1743,
+        "id" : 1947,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 440,
+      "id" : 323,
       "type" : "ordered_assembly",
       "order" : 8,
       "refs" : [ {
@@ -2737,12 +2761,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1744,
+        "id" : 1948,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 441,
+      "id" : 324,
       "type" : "ordered_assembly",
       "order" : 9,
       "refs" : [ {
@@ -2750,12 +2774,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1745,
+        "id" : 1949,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 442,
+      "id" : 325,
       "type" : "ordered_assembly",
       "order" : 10,
       "refs" : [ {
@@ -2763,12 +2787,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1746,
+        "id" : 1950,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 443,
+      "id" : 326,
       "type" : "ordered_assembly",
       "order" : 11,
       "refs" : [ {
@@ -2776,12 +2800,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1747,
+        "id" : 1951,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 444,
+      "id" : 327,
       "type" : "ordered_assembly",
       "order" : 12,
       "refs" : [ {
@@ -2789,12 +2813,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1748,
+        "id" : 1952,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 445,
+      "id" : 328,
       "type" : "ordered_assembly",
       "order" : 13,
       "refs" : [ {
@@ -2802,12 +2826,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1749,
+        "id" : 1953,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 446,
+      "id" : 329,
       "type" : "ordered_assembly",
       "order" : 14,
       "refs" : [ {
@@ -2815,12 +2839,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1750,
+        "id" : 1954,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 447,
+      "id" : 330,
       "type" : "ordered_assembly",
       "order" : 15,
       "refs" : [ {
@@ -2828,12 +2852,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1751,
+        "id" : 1955,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 448,
+      "id" : 331,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2846,7 +2870,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 449,
+      "id" : 332,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2859,7 +2883,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 450,
+      "id" : 333,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2872,7 +2896,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 451,
+      "id" : 334,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2880,12 +2904,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1752,
+        "id" : 1956,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 452,
+      "id" : 335,
       "type" : "ordered_assembly",
       "order" : 2,
       "refs" : [ {
@@ -2893,12 +2917,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1753,
+        "id" : 1957,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 453,
+      "id" : 336,
       "type" : "ordered_assembly",
       "order" : 3,
       "refs" : [ {
@@ -2906,12 +2930,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1754,
+        "id" : 1958,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 454,
+      "id" : 337,
       "type" : "ordered_assembly",
       "order" : 4,
       "refs" : [ {
@@ -2919,12 +2943,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1755,
+        "id" : 1959,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 455,
+      "id" : 338,
       "type" : "ordered_assembly",
       "order" : 5,
       "refs" : [ {
@@ -2932,12 +2956,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1756,
+        "id" : 1960,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 456,
+      "id" : 339,
       "type" : "ordered_assembly",
       "order" : 6,
       "refs" : [ {
@@ -2945,12 +2969,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1757,
+        "id" : 1961,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 457,
+      "id" : 340,
       "type" : "ordered_assembly",
       "order" : 7,
       "refs" : [ {
@@ -2958,12 +2982,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1758,
+        "id" : 1962,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 458,
+      "id" : 341,
       "type" : "ordered_assembly",
       "order" : 8,
       "refs" : [ {
@@ -2971,12 +2995,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1759,
+        "id" : 1963,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 459,
+      "id" : 342,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -2989,7 +3013,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 460,
+      "id" : 343,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3002,7 +3026,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 461,
+      "id" : 344,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3015,7 +3039,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 462,
+      "id" : 345,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3028,7 +3052,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 463,
+      "id" : 346,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3041,7 +3065,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 464,
+      "id" : 347,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3054,7 +3078,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 465,
+      "id" : 348,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3067,7 +3091,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 466,
+      "id" : 349,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3080,7 +3104,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 467,
+      "id" : 350,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3088,12 +3112,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1760,
+        "id" : 1964,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 468,
+      "id" : 351,
       "type" : "ordered_assembly",
       "order" : 2,
       "refs" : [ {
@@ -3101,12 +3125,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1761,
+        "id" : 1965,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 469,
+      "id" : 352,
       "type" : "ordered_assembly",
       "order" : 3,
       "refs" : [ {
@@ -3114,12 +3138,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1762,
+        "id" : 1966,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 470,
+      "id" : 353,
       "type" : "ordered_assembly",
       "order" : 4,
       "refs" : [ {
@@ -3127,12 +3151,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1763,
+        "id" : 1967,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 471,
+      "id" : 354,
       "type" : "ordered_assembly",
       "order" : 5,
       "refs" : [ {
@@ -3140,12 +3164,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1764,
+        "id" : 1968,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 472,
+      "id" : 355,
       "type" : "ordered_assembly",
       "order" : 6,
       "refs" : [ {
@@ -3153,12 +3177,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1765,
+        "id" : 1969,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 473,
+      "id" : 356,
       "type" : "ordered_assembly",
       "order" : 7,
       "refs" : [ {
@@ -3166,12 +3190,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1766,
+        "id" : 1970,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 474,
+      "id" : 357,
       "type" : "ordered_assembly",
       "order" : 8,
       "refs" : [ {
@@ -3179,12 +3203,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1767,
+        "id" : 1971,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 475,
+      "id" : 358,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3197,7 +3221,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 476,
+      "id" : 359,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3210,7 +3234,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 477,
+      "id" : 360,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3218,12 +3242,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1768,
+        "id" : 1972,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 478,
+      "id" : 361,
       "type" : "ordered_assembly",
       "order" : 2,
       "refs" : [ {
@@ -3231,12 +3255,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1769,
+        "id" : 1973,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 479,
+      "id" : 362,
       "type" : "ordered_assembly",
       "order" : 3,
       "refs" : [ {
@@ -3244,12 +3268,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1770,
+        "id" : 1974,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 480,
+      "id" : 363,
       "type" : "ordered_assembly",
       "order" : 4,
       "refs" : [ {
@@ -3257,12 +3281,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1771,
+        "id" : 1975,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 481,
+      "id" : 364,
       "type" : "ordered_assembly",
       "order" : 5,
       "refs" : [ {
@@ -3270,12 +3294,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1772,
+        "id" : 1976,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 482,
+      "id" : 365,
       "type" : "ordered_assembly",
       "order" : 6,
       "refs" : [ {
@@ -3283,12 +3307,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1773,
+        "id" : 1977,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 483,
+      "id" : 366,
       "type" : "ordered_assembly",
       "order" : 7,
       "refs" : [ {
@@ -3296,12 +3320,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1774,
+        "id" : 1978,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 484,
+      "id" : 367,
       "type" : "ordered_assembly",
       "order" : 8,
       "refs" : [ {
@@ -3309,12 +3333,12 @@
         "role" : "assembly",
         "hint" : "rolling_bearing_row"
       }, {
-        "id" : 1775,
+        "id" : 1979,
         "role" : "part",
         "hint" : "rolling_element"
       } ]
     }, {
-      "id" : 485,
+      "id" : 368,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3327,7 +3351,7 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 486,
+      "id" : 369,
       "type" : "ordered_assembly",
       "order" : 1,
       "refs" : [ {
@@ -3340,235 +3364,235 @@
         "hint" : "rolling_bearing_row"
       } ]
     }, {
-      "id" : 487,
+      "id" : 370,
       "type" : "flank",
       "refs" : [ {
         "id" : 8,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1823,
+        "id" : 2027,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1824,
+        "id" : 2028,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 488,
+      "id" : 371,
       "type" : "flank",
       "refs" : [ {
         "id" : 9,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1825,
+        "id" : 2029,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1826,
+        "id" : 2030,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 489,
+      "id" : 372,
       "type" : "flank",
       "refs" : [ {
         "id" : 23,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1827,
+        "id" : 2031,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1828,
+        "id" : 2032,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 490,
+      "id" : 373,
       "type" : "flank",
       "refs" : [ {
         "id" : 24,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1829,
+        "id" : 2033,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1830,
+        "id" : 2034,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 491,
+      "id" : 374,
       "type" : "flank",
       "refs" : [ {
         "id" : 30,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1831,
+        "id" : 2035,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1832,
+        "id" : 2036,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 492,
+      "id" : 375,
       "type" : "flank",
       "refs" : [ {
         "id" : 31,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1833,
+        "id" : 2037,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1834,
+        "id" : 2038,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 493,
+      "id" : 376,
       "type" : "flank",
       "refs" : [ {
         "id" : 40,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1835,
+        "id" : 2039,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1836,
+        "id" : 2040,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 494,
+      "id" : 377,
       "type" : "flank",
       "refs" : [ {
         "id" : 52,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1837,
+        "id" : 2041,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1838,
+        "id" : 2042,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 495,
+      "id" : 378,
       "type" : "flank",
       "refs" : [ {
         "id" : 73,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1839,
+        "id" : 2043,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1840,
+        "id" : 2044,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 496,
+      "id" : 379,
       "type" : "flank",
       "refs" : [ {
         "id" : 83,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1841,
+        "id" : 2045,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1842,
+        "id" : 2046,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 497,
+      "id" : 380,
       "type" : "flank",
       "refs" : [ {
         "id" : 1709,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1843,
+        "id" : 2047,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1844,
+        "id" : 2048,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 498,
+      "id" : 381,
       "type" : "flank",
       "refs" : [ {
         "id" : 1710,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1845,
+        "id" : 2049,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1846,
+        "id" : 2050,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 499,
+      "id" : 382,
       "type" : "flank",
       "refs" : [ {
         "id" : 1717,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1847,
+        "id" : 2051,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1848,
+        "id" : 2052,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 500,
+      "id" : 383,
       "type" : "flank",
       "refs" : [ {
         "id" : 1718,
         "role" : "gear",
         "hint" : "cylindrical_gear"
       }, {
-        "id" : 1849,
+        "id" : 2053,
         "role" : "left",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1850,
+        "id" : 2054,
         "role" : "right",
         "hint" : "cylindrical_gear_flank"
       } ]
     }, {
-      "id" : 501,
+      "id" : 384,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1823,
+        "id" : 2027,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3576,16 +3600,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1851,
+        "id" : 2055,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 502,
+      "id" : 385,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1824,
+        "id" : 2028,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3593,16 +3617,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1851,
+        "id" : 2055,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 503,
+      "id" : 386,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1823,
+        "id" : 2027,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3610,16 +3634,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1852,
+        "id" : 2056,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 504,
+      "id" : 387,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1824,
+        "id" : 2028,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3627,16 +3651,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1852,
+        "id" : 2056,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 505,
+      "id" : 388,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1825,
+        "id" : 2029,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3644,16 +3668,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1853,
+        "id" : 2057,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 506,
+      "id" : 389,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1826,
+        "id" : 2030,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3661,16 +3685,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1853,
+        "id" : 2057,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 507,
+      "id" : 390,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1825,
+        "id" : 2029,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3678,16 +3702,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1854,
+        "id" : 2058,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 508,
+      "id" : 391,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1826,
+        "id" : 2030,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3695,16 +3719,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1854,
+        "id" : 2058,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 509,
+      "id" : 392,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1827,
+        "id" : 2031,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3712,16 +3736,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1855,
+        "id" : 2059,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 510,
+      "id" : 393,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1828,
+        "id" : 2032,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3729,16 +3753,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1855,
+        "id" : 2059,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 511,
+      "id" : 394,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1827,
+        "id" : 2031,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3746,16 +3770,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1856,
+        "id" : 2060,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 512,
+      "id" : 395,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1828,
+        "id" : 2032,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3763,16 +3787,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1856,
+        "id" : 2060,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 513,
+      "id" : 396,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1829,
+        "id" : 2033,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3780,16 +3804,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1857,
+        "id" : 2061,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 514,
+      "id" : 397,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1830,
+        "id" : 2034,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3797,16 +3821,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1857,
+        "id" : 2061,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 515,
+      "id" : 398,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1829,
+        "id" : 2033,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3814,16 +3838,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1858,
+        "id" : 2062,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 516,
+      "id" : 399,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1830,
+        "id" : 2034,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3831,16 +3855,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1858,
+        "id" : 2062,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 517,
+      "id" : 400,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1831,
+        "id" : 2035,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3848,16 +3872,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1859,
+        "id" : 2063,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 518,
+      "id" : 401,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1832,
+        "id" : 2036,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3865,16 +3889,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1859,
+        "id" : 2063,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 519,
+      "id" : 402,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1831,
+        "id" : 2035,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3882,16 +3906,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1860,
+        "id" : 2064,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 520,
+      "id" : 403,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1832,
+        "id" : 2036,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3899,16 +3923,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1860,
+        "id" : 2064,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 521,
+      "id" : 404,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1833,
+        "id" : 2037,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3916,16 +3940,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1861,
+        "id" : 2065,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 522,
+      "id" : 405,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1834,
+        "id" : 2038,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3933,16 +3957,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1861,
+        "id" : 2065,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 523,
+      "id" : 406,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1833,
+        "id" : 2037,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3950,16 +3974,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1862,
+        "id" : 2066,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 524,
+      "id" : 407,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1834,
+        "id" : 2038,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3967,16 +3991,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1862,
+        "id" : 2066,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 525,
+      "id" : 408,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1835,
+        "id" : 2039,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -3984,16 +4008,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1863,
+        "id" : 2067,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 526,
+      "id" : 409,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1836,
+        "id" : 2040,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4001,16 +4025,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1863,
+        "id" : 2067,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 527,
+      "id" : 410,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1835,
+        "id" : 2039,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4018,16 +4042,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1864,
+        "id" : 2068,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 528,
+      "id" : 411,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1836,
+        "id" : 2040,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4035,16 +4059,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1864,
+        "id" : 2068,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 529,
+      "id" : 412,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1837,
+        "id" : 2041,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4052,16 +4076,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1865,
+        "id" : 2069,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 530,
+      "id" : 413,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1838,
+        "id" : 2042,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4069,16 +4093,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1865,
+        "id" : 2069,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 531,
+      "id" : 414,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1837,
+        "id" : 2041,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4086,16 +4110,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1866,
+        "id" : 2070,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 532,
+      "id" : 415,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1838,
+        "id" : 2042,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4103,16 +4127,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1866,
+        "id" : 2070,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 533,
+      "id" : 416,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1839,
+        "id" : 2043,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4120,16 +4144,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1867,
+        "id" : 2071,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 534,
+      "id" : 417,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1840,
+        "id" : 2044,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4137,16 +4161,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1867,
+        "id" : 2071,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 535,
+      "id" : 418,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1839,
+        "id" : 2043,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4154,16 +4178,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1868,
+        "id" : 2072,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 536,
+      "id" : 419,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1840,
+        "id" : 2044,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4171,16 +4195,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1868,
+        "id" : 2072,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 537,
+      "id" : 420,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1841,
+        "id" : 2045,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4188,16 +4212,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1869,
+        "id" : 2073,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 538,
+      "id" : 421,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1842,
+        "id" : 2046,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4205,16 +4229,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1869,
+        "id" : 2073,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 539,
+      "id" : 422,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1841,
+        "id" : 2045,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4222,16 +4246,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1870,
+        "id" : 2074,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 540,
+      "id" : 423,
       "type" : "manufacturing_step",
       "order" : 2,
       "refs" : [ {
-        "id" : 1842,
+        "id" : 2046,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4239,16 +4263,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1870,
+        "id" : 2074,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 541,
+      "id" : 424,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1843,
+        "id" : 2047,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4256,16 +4280,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1871,
+        "id" : 2075,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 542,
+      "id" : 425,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1844,
+        "id" : 2048,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4273,16 +4297,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1871,
+        "id" : 2075,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 543,
+      "id" : 426,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1845,
+        "id" : 2049,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4290,16 +4314,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1872,
+        "id" : 2076,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 544,
+      "id" : 427,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1846,
+        "id" : 2050,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4307,16 +4331,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1872,
+        "id" : 2076,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 545,
+      "id" : 428,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1847,
+        "id" : 2051,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4324,16 +4348,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1873,
+        "id" : 2077,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 546,
+      "id" : 429,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1848,
+        "id" : 2052,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4341,16 +4365,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1873,
+        "id" : 2077,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 547,
+      "id" : 430,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1849,
+        "id" : 2053,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4358,16 +4382,16 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1874,
+        "id" : 2078,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 548,
+      "id" : 431,
       "type" : "manufacturing_step",
       "order" : 1,
       "refs" : [ {
-        "id" : 1850,
+        "id" : 2054,
         "role" : "workpiece",
         "hint" : "cylindrical_gear_flank"
       }, {
@@ -4375,103 +4399,103 @@
         "role" : "tool",
         "hint" : "rack_shaped_tool"
       }, {
-        "id" : 1874,
+        "id" : 2078,
         "role" : "manufacturing_settings",
         "hint" : "cylindrical_gear_manufacturing_settings"
       } ]
     }, {
-      "id" : 549,
+      "id" : 432,
       "type" : "reference",
       "refs" : [ {
-        "id" : 1823,
+        "id" : 2027,
         "role" : "origin",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1875,
+        "id" : 2079,
         "role" : "referenced",
         "hint" : "helix_slope"
       } ]
     }, {
-      "id" : 550,
+      "id" : 433,
       "type" : "reference",
       "refs" : [ {
-        "id" : 1823,
+        "id" : 2027,
         "role" : "origin",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1876,
+        "id" : 2080,
         "role" : "referenced",
         "hint" : "helix_crowning"
       } ]
     }, {
-      "id" : 551,
+      "id" : 434,
       "type" : "reference",
       "refs" : [ {
-        "id" : 1823,
+        "id" : 2027,
         "role" : "origin",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1877,
+        "id" : 2081,
         "role" : "referenced",
         "hint" : "tip_relief"
       } ]
     }, {
-      "id" : 552,
+      "id" : 435,
       "type" : "reference",
       "refs" : [ {
-        "id" : 1823,
+        "id" : 2027,
         "role" : "origin",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1878,
+        "id" : 2082,
         "role" : "referenced",
         "hint" : "root_relief"
       } ]
     }, {
-      "id" : 553,
+      "id" : 436,
       "type" : "reference",
       "refs" : [ {
-        "id" : 1824,
+        "id" : 2028,
         "role" : "origin",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1879,
+        "id" : 2083,
         "role" : "referenced",
         "hint" : "helix_slope"
       } ]
     }, {
-      "id" : 554,
+      "id" : 437,
       "type" : "reference",
       "refs" : [ {
-        "id" : 1824,
+        "id" : 2028,
         "role" : "origin",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1880,
+        "id" : 2084,
         "role" : "referenced",
         "hint" : "helix_crowning"
       } ]
     }, {
-      "id" : 555,
+      "id" : 438,
       "type" : "reference",
       "refs" : [ {
-        "id" : 1824,
+        "id" : 2028,
         "role" : "origin",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1881,
+        "id" : 2085,
         "role" : "referenced",
         "hint" : "tip_relief"
       } ]
     }, {
-      "id" : 556,
+      "id" : 439,
       "type" : "reference",
       "refs" : [ {
-        "id" : 1824,
+        "id" : 2028,
         "role" : "origin",
         "hint" : "cylindrical_gear_flank"
       }, {
-        "id" : 1882,
+        "id" : 2086,
         "role" : "referenced",
         "hint" : "root_relief"
       } ]
@@ -4586,10 +4610,6 @@
         "id" : "profile_modification_agma_925_a03",
         "unit" : "none",
         "enum" : "unmodified_profile"
-      }, {
-        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
-        "unit" : "N / (mm mum)",
-        "floating_point" : 20.0
       }, {
         "id" : "maximum_permissible_material_exposure_iso_6336_2019",
         "unit" : "none",
@@ -5024,10 +5044,6 @@
         "unit" : "none",
         "enum" : "unmodified_profile"
       }, {
-        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
-        "unit" : "N / (mm mum)",
-        "floating_point" : 20.0
-      }, {
         "id" : "maximum_permissible_material_exposure_iso_6336_2019",
         "unit" : "none",
         "floating_point" : 0.8
@@ -5427,10 +5443,6 @@
         "id" : "profile_modification_agma_925_a03",
         "unit" : "none",
         "enum" : "unmodified_profile"
-      }, {
-        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
-        "unit" : "N / (mm mum)",
-        "floating_point" : 20.0
       }, {
         "id" : "maximum_permissible_material_exposure_iso_6336_2019",
         "unit" : "none",
@@ -5877,10 +5889,6 @@
         "unit" : "none",
         "enum" : "unmodified_profile"
       }, {
-        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
-        "unit" : "N / (mm mum)",
-        "floating_point" : 20.0
-      }, {
         "id" : "maximum_permissible_material_exposure_iso_6336_2019",
         "unit" : "none",
         "floating_point" : 0.8
@@ -6151,10 +6159,6 @@
         "id" : "profile_modification_agma_925_a03",
         "unit" : "none",
         "enum" : "unmodified_profile"
-      }, {
-        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
-        "unit" : "N / (mm mum)",
-        "floating_point" : 20.0
       }, {
         "id" : "maximum_permissible_material_exposure_iso_6336_2019",
         "unit" : "none",
@@ -6427,10 +6431,6 @@
         "unit" : "none",
         "enum" : "unmodified_profile"
       }, {
-        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
-        "unit" : "N / (mm mum)",
-        "floating_point" : 20.0
-      }, {
         "id" : "maximum_permissible_material_exposure_iso_6336_2019",
         "unit" : "none",
         "floating_point" : 0.8
@@ -6701,10 +6701,6 @@
         "id" : "profile_modification_agma_925_a03",
         "unit" : "none",
         "enum" : "unmodified_profile"
-      }, {
-        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
-        "unit" : "N / (mm mum)",
-        "floating_point" : 20.0
       }, {
         "id" : "maximum_permissible_material_exposure_iso_6336_2019",
         "unit" : "none",
@@ -11241,6 +11237,10 @@
       "type" : "cylindrical_stage",
       "name" : "Stirnradstufe (linke Hälfte) [1706]",
       "attributes" : [ {
+        "id" : "lubrication_type_vdi_2736_2014",
+        "unit" : "none",
+        "enum" : "circulating_oil"
+      }, {
         "id" : "mesh_load_factor_iso_6336_2019",
         "unit" : "none",
         "floating_point" : 1.0
@@ -11264,10 +11264,6 @@
         "id" : "profile_modification_agma_925_a03",
         "unit" : "none",
         "enum" : "unmodified_profile"
-      }, {
-        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
-        "unit" : "N / (mm mum)",
-        "floating_point" : 20.0
       }, {
         "id" : "maximum_permissible_material_exposure_iso_6336_2019",
         "unit" : "none",
@@ -11566,7 +11562,7 @@
       }, {
         "id" : "helix_angle_reference_diameter",
         "unit" : "deg",
-        "floating_point" : -0.0
+        "floating_point" : 0.0
       }, {
         "id" : "normal_module",
         "unit" : "mm",
@@ -11743,7 +11739,7 @@
       }, {
         "id" : "deformation_behaviour",
         "unit" : "none",
-        "enum" : "brittle"
+        "enum" : "ductile"
       }, {
         "id" : "thermal_expansion_coefficient_minus",
         "unit" : "1e-6 / C",
@@ -11754,6 +11750,10 @@
       "type" : "cylindrical_stage",
       "name" : "Stirnradstufe (rechte Hälfte) [1716]",
       "attributes" : [ {
+        "id" : "lubrication_type_vdi_2736_2014",
+        "unit" : "none",
+        "enum" : "circulating_oil"
+      }, {
         "id" : "mesh_load_factor_iso_6336_2019",
         "unit" : "none",
         "floating_point" : 1.0
@@ -11777,10 +11777,6 @@
         "id" : "profile_modification_agma_925_a03",
         "unit" : "none",
         "enum" : "unmodified_profile"
-      }, {
-        "id" : "mesh_stiffness_for_load_distribution_along_face_width",
-        "unit" : "N / (mm mum)",
-        "floating_point" : 20.0
       }, {
         "id" : "maximum_permissible_material_exposure_iso_6336_2019",
         "unit" : "none",
@@ -11933,7 +11929,7 @@
       }, {
         "id" : "helix_angle_reference_diameter",
         "unit" : "deg",
-        "floating_point" : -0.0
+        "floating_point" : 0.0
       }, {
         "id" : "normal_module",
         "unit" : "mm",
@@ -12131,7 +12127,7 @@
         "boolean" : false
       } ]
     }, {
-      "id" : 1721,
+      "id" : 1925,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12144,10 +12140,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1722,
+      "id" : 1926,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12160,10 +12156,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1723,
+      "id" : 1927,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12176,10 +12172,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1724,
+      "id" : 1928,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12192,10 +12188,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1725,
+      "id" : 1929,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12208,10 +12204,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1726,
+      "id" : 1930,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12224,10 +12220,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1727,
+      "id" : 1931,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12240,10 +12236,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1728,
+      "id" : 1932,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12256,10 +12252,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1729,
+      "id" : 1933,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12272,10 +12268,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1730,
+      "id" : 1934,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12288,10 +12284,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1731,
+      "id" : 1935,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12304,10 +12300,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1732,
+      "id" : 1936,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12320,10 +12316,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1733,
+      "id" : 1937,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12336,10 +12332,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1734,
+      "id" : 1938,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12352,10 +12348,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1735,
+      "id" : 1939,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12368,10 +12364,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1736,
+      "id" : 1940,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12384,10 +12380,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1737,
+      "id" : 1941,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12400,10 +12396,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1738,
+      "id" : 1942,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12416,10 +12412,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1739,
+      "id" : 1943,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12432,10 +12428,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1740,
+      "id" : 1944,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12448,10 +12444,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1741,
+      "id" : 1945,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12464,10 +12460,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1742,
+      "id" : 1946,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12480,10 +12476,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1743,
+      "id" : 1947,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12496,10 +12492,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1744,
+      "id" : 1948,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12512,10 +12508,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1745,
+      "id" : 1949,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12528,10 +12524,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1746,
+      "id" : 1950,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12544,10 +12540,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1747,
+      "id" : 1951,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12560,10 +12556,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1748,
+      "id" : 1952,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12576,10 +12572,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1749,
+      "id" : 1953,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12592,10 +12588,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1750,
+      "id" : 1954,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12608,10 +12604,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1751,
+      "id" : 1955,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12624,10 +12620,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 15.080000000000005
+        "floating_point" : 15.08000000000001
       } ]
     }, {
-      "id" : 1752,
+      "id" : 1956,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12640,10 +12636,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1753,
+      "id" : 1957,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12656,10 +12652,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1754,
+      "id" : 1958,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12672,10 +12668,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1755,
+      "id" : 1959,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12688,10 +12684,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1756,
+      "id" : 1960,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12704,10 +12700,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1757,
+      "id" : 1961,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12720,10 +12716,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1758,
+      "id" : 1962,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12736,10 +12732,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1759,
+      "id" : 1963,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12752,10 +12748,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1760,
+      "id" : 1964,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12768,10 +12764,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1761,
+      "id" : 1965,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12784,10 +12780,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1762,
+      "id" : 1966,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12800,10 +12796,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1763,
+      "id" : 1967,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12816,10 +12812,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1764,
+      "id" : 1968,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12832,10 +12828,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1765,
+      "id" : 1969,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12848,10 +12844,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1766,
+      "id" : 1970,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12864,10 +12860,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1767,
+      "id" : 1971,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12880,10 +12876,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1768,
+      "id" : 1972,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12896,10 +12892,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1769,
+      "id" : 1973,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12912,10 +12908,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1770,
+      "id" : 1974,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12928,10 +12924,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1771,
+      "id" : 1975,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12944,10 +12940,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1772,
+      "id" : 1976,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12960,10 +12956,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1773,
+      "id" : 1977,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12976,10 +12972,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1774,
+      "id" : 1978,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -12992,10 +12988,10 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1775,
+      "id" : 1979,
       "type" : "rolling_element",
       "attributes" : [ {
         "id" : "mean_operating_temperature",
@@ -13008,12 +13004,12 @@
       }, {
         "id" : "diameter_of_rolling_element",
         "unit" : "mm",
-        "floating_point" : 22.229999999999997
+        "floating_point" : 22.229999999999993
       } ]
     }, {
-      "id" : 1776,
+      "id" : 1980,
       "type" : "shaft_section",
-      "name" : "section [1776]",
+      "name" : "section [1980]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13040,9 +13036,9 @@
         "floating_point" : 50.0
       } ]
     }, {
-      "id" : 1777,
+      "id" : 1981,
       "type" : "shaft_section",
-      "name" : "section [1777]",
+      "name" : "section [1981]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13069,9 +13065,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1778,
+      "id" : 1982,
       "type" : "shaft_section",
-      "name" : "section [1778]",
+      "name" : "section [1982]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13098,9 +13094,9 @@
         "floating_point" : 70.0
       } ]
     }, {
-      "id" : 1779,
+      "id" : 1983,
       "type" : "shaft_section",
-      "name" : "section [1779]",
+      "name" : "section [1983]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13127,9 +13123,9 @@
         "floating_point" : 80.0
       } ]
     }, {
-      "id" : 1780,
+      "id" : 1984,
       "type" : "shaft_section",
-      "name" : "section [1780]",
+      "name" : "section [1984]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13156,9 +13152,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1781,
+      "id" : 1985,
       "type" : "shaft_section",
-      "name" : "section [1781]",
+      "name" : "section [1985]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13185,9 +13181,9 @@
         "floating_point" : 100.0
       } ]
     }, {
-      "id" : 1782,
+      "id" : 1986,
       "type" : "shaft_section",
-      "name" : "section [1782]",
+      "name" : "section [1986]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13214,9 +13210,9 @@
         "floating_point" : 120.0
       } ]
     }, {
-      "id" : 1783,
+      "id" : 1987,
       "type" : "shaft_section",
-      "name" : "section [1783]",
+      "name" : "section [1987]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13243,9 +13239,9 @@
         "floating_point" : 130.0
       } ]
     }, {
-      "id" : 1784,
+      "id" : 1988,
       "type" : "shaft_section",
-      "name" : "section [1784]",
+      "name" : "section [1988]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13272,9 +13268,9 @@
         "floating_point" : 120.0
       } ]
     }, {
-      "id" : 1785,
+      "id" : 1989,
       "type" : "shaft_section",
-      "name" : "section [1785]",
+      "name" : "section [1989]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13301,9 +13297,9 @@
         "floating_point" : 120.0
       } ]
     }, {
-      "id" : 1786,
+      "id" : 1990,
       "type" : "shaft_section",
-      "name" : "section [1786]",
+      "name" : "section [1990]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13330,9 +13326,9 @@
         "floating_point" : 100.0
       } ]
     }, {
-      "id" : 1787,
+      "id" : 1991,
       "type" : "shaft_section",
-      "name" : "section [1787]",
+      "name" : "section [1991]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13359,9 +13355,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1788,
+      "id" : 1992,
       "type" : "shaft_section",
-      "name" : "section [1788]",
+      "name" : "section [1992]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13388,9 +13384,9 @@
         "floating_point" : 100.0
       } ]
     }, {
-      "id" : 1789,
+      "id" : 1993,
       "type" : "shaft_section",
-      "name" : "section [1789]",
+      "name" : "section [1993]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13417,9 +13413,9 @@
         "floating_point" : 120.0
       } ]
     }, {
-      "id" : 1790,
+      "id" : 1994,
       "type" : "shaft_section",
-      "name" : "section [1790]",
+      "name" : "section [1994]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13446,9 +13442,9 @@
         "floating_point" : 120.0
       } ]
     }, {
-      "id" : 1791,
+      "id" : 1995,
       "type" : "shaft_section",
-      "name" : "section [1791]",
+      "name" : "section [1995]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13475,9 +13471,9 @@
         "floating_point" : 100.0
       } ]
     }, {
-      "id" : 1792,
+      "id" : 1996,
       "type" : "shaft_section",
-      "name" : "section [1792]",
+      "name" : "section [1996]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13504,96 +13500,9 @@
         "floating_point" : 70.0
       } ]
     }, {
-      "id" : 1793,
+      "id" : 1997,
       "type" : "shaft_section",
-      "name" : "section [1793]",
-      "attributes" : [ {
-        "id" : "inner_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "outer_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 100.0
-      }, {
-        "id" : "inner_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "u_coordinate_on_shaft",
-        "unit" : "mm",
-        "floating_point" : 50.0
-      }, {
-        "id" : "length",
-        "unit" : "mm",
-        "floating_point" : 130.0
-      }, {
-        "id" : "outer_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 100.0
-      } ]
-    }, {
-      "id" : 1794,
-      "type" : "shaft_section",
-      "name" : "section [1794]",
-      "attributes" : [ {
-        "id" : "inner_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "outer_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 70.0
-      }, {
-        "id" : "inner_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "u_coordinate_on_shaft",
-        "unit" : "mm",
-        "floating_point" : 180.0
-      }, {
-        "id" : "length",
-        "unit" : "mm",
-        "floating_point" : 50.0
-      }, {
-        "id" : "outer_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 70.0
-      } ]
-    }, {
-      "id" : 1795,
-      "type" : "shaft_section",
-      "name" : "section [1795]",
-      "attributes" : [ {
-        "id" : "inner_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "outer_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 70.0
-      }, {
-        "id" : "inner_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "u_coordinate_on_shaft",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "length",
-        "unit" : "mm",
-        "floating_point" : 50.0
-      }, {
-        "id" : "outer_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 70.0
-      } ]
-    }, {
-      "id" : 1796,
-      "type" : "shaft_section",
-      "name" : "section [1796]",
+      "name" : "section [1997]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13620,9 +13529,9 @@
         "floating_point" : 100.0
       } ]
     }, {
-      "id" : 1797,
+      "id" : 1998,
       "type" : "shaft_section",
-      "name" : "section [1797]",
+      "name" : "section [1998]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13649,9 +13558,96 @@
         "floating_point" : 70.0
       } ]
     }, {
-      "id" : 1798,
+      "id" : 1999,
       "type" : "shaft_section",
-      "name" : "section [1798]",
+      "name" : "section [1999]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 70.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 70.0
+      } ]
+    }, {
+      "id" : 2000,
+      "type" : "shaft_section",
+      "name" : "section [2000]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 100.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 130.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 100.0
+      } ]
+    }, {
+      "id" : 2001,
+      "type" : "shaft_section",
+      "name" : "section [2001]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 70.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 180.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 70.0
+      } ]
+    }, {
+      "id" : 2002,
+      "type" : "shaft_section",
+      "name" : "section [2002]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13678,9 +13674,9 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1799,
+      "id" : 2003,
       "type" : "shaft_section",
-      "name" : "section [1799]",
+      "name" : "section [2003]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13707,9 +13703,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1800,
+      "id" : 2004,
       "type" : "shaft_section",
-      "name" : "section [1800]",
+      "name" : "section [2004]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13736,9 +13732,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1801,
+      "id" : 2005,
       "type" : "shaft_section",
-      "name" : "section [1801]",
+      "name" : "section [2005]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13765,9 +13761,9 @@
         "floating_point" : 30.0
       } ]
     }, {
-      "id" : 1802,
+      "id" : 2006,
       "type" : "shaft_section",
-      "name" : "section [1802]",
+      "name" : "section [2006]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13794,9 +13790,9 @@
         "floating_point" : 30.0
       } ]
     }, {
-      "id" : 1803,
+      "id" : 2007,
       "type" : "shaft_section",
-      "name" : "section [1803]",
+      "name" : "section [2007]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13823,9 +13819,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1804,
+      "id" : 2008,
       "type" : "shaft_section",
-      "name" : "section [1804]",
+      "name" : "section [2008]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13852,9 +13848,9 @@
         "floating_point" : 100.0
       } ]
     }, {
-      "id" : 1805,
+      "id" : 2009,
       "type" : "shaft_section",
-      "name" : "section [1805]",
+      "name" : "section [2009]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13881,9 +13877,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1806,
+      "id" : 2010,
       "type" : "shaft_section",
-      "name" : "section [1806]",
+      "name" : "section [2010]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13910,9 +13906,9 @@
         "floating_point" : 50.0
       } ]
     }, {
-      "id" : 1807,
+      "id" : 2011,
       "type" : "shaft_section",
-      "name" : "section [1807]",
+      "name" : "section [2011]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -13939,96 +13935,9 @@
         "floating_point" : 70.0
       } ]
     }, {
-      "id" : 1808,
+      "id" : 2012,
       "type" : "shaft_section",
-      "name" : "section [1808]",
-      "attributes" : [ {
-        "id" : "inner_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "outer_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 100.0
-      }, {
-        "id" : "inner_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "u_coordinate_on_shaft",
-        "unit" : "mm",
-        "floating_point" : 50.0
-      }, {
-        "id" : "length",
-        "unit" : "mm",
-        "floating_point" : 130.0
-      }, {
-        "id" : "outer_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 100.0
-      } ]
-    }, {
-      "id" : 1809,
-      "type" : "shaft_section",
-      "name" : "section [1809]",
-      "attributes" : [ {
-        "id" : "inner_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "outer_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 70.0
-      }, {
-        "id" : "inner_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "u_coordinate_on_shaft",
-        "unit" : "mm",
-        "floating_point" : 180.0
-      }, {
-        "id" : "length",
-        "unit" : "mm",
-        "floating_point" : 50.0
-      }, {
-        "id" : "outer_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 70.0
-      } ]
-    }, {
-      "id" : 1810,
-      "type" : "shaft_section",
-      "name" : "section [1810]",
-      "attributes" : [ {
-        "id" : "inner_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "outer_diameter_end",
-        "unit" : "mm",
-        "floating_point" : 70.0
-      }, {
-        "id" : "inner_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "u_coordinate_on_shaft",
-        "unit" : "mm",
-        "floating_point" : 0.0
-      }, {
-        "id" : "length",
-        "unit" : "mm",
-        "floating_point" : 50.0
-      }, {
-        "id" : "outer_diameter_begin",
-        "unit" : "mm",
-        "floating_point" : 70.0
-      } ]
-    }, {
-      "id" : 1811,
-      "type" : "shaft_section",
-      "name" : "section [1811]",
+      "name" : "section [2012]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14055,9 +13964,9 @@
         "floating_point" : 100.0
       } ]
     }, {
-      "id" : 1812,
+      "id" : 2013,
       "type" : "shaft_section",
-      "name" : "section [1812]",
+      "name" : "section [2013]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14084,9 +13993,96 @@
         "floating_point" : 70.0
       } ]
     }, {
-      "id" : 1813,
+      "id" : 2014,
       "type" : "shaft_section",
-      "name" : "section [1813]",
+      "name" : "section [2014]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 70.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 70.0
+      } ]
+    }, {
+      "id" : 2015,
+      "type" : "shaft_section",
+      "name" : "section [2015]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 100.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 130.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 100.0
+      } ]
+    }, {
+      "id" : 2016,
+      "type" : "shaft_section",
+      "name" : "section [2016]",
+      "attributes" : [ {
+        "id" : "inner_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "outer_diameter_end",
+        "unit" : "mm",
+        "floating_point" : 70.0
+      }, {
+        "id" : "inner_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 0.0
+      }, {
+        "id" : "u_coordinate_on_shaft",
+        "unit" : "mm",
+        "floating_point" : 180.0
+      }, {
+        "id" : "length",
+        "unit" : "mm",
+        "floating_point" : 50.0
+      }, {
+        "id" : "outer_diameter_begin",
+        "unit" : "mm",
+        "floating_point" : 70.0
+      } ]
+    }, {
+      "id" : 2017,
+      "type" : "shaft_section",
+      "name" : "section [2017]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14113,9 +14109,9 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1814,
+      "id" : 2018,
       "type" : "shaft_section",
-      "name" : "section [1814]",
+      "name" : "section [2018]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14142,9 +14138,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1815,
+      "id" : 2019,
       "type" : "shaft_section",
-      "name" : "section [1815]",
+      "name" : "section [2019]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14171,9 +14167,9 @@
         "floating_point" : 80.0
       } ]
     }, {
-      "id" : 1816,
+      "id" : 2020,
       "type" : "shaft_section",
-      "name" : "section [1816]",
+      "name" : "section [2020]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14200,9 +14196,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1817,
+      "id" : 2021,
       "type" : "shaft_section",
-      "name" : "section [1817]",
+      "name" : "section [2021]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14229,9 +14225,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1818,
+      "id" : 2022,
       "type" : "shaft_section",
-      "name" : "section [1818]",
+      "name" : "section [2022]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14258,9 +14254,9 @@
         "floating_point" : 50.0
       } ]
     }, {
-      "id" : 1819,
+      "id" : 2023,
       "type" : "shaft_section",
-      "name" : "section [1819]",
+      "name" : "section [2023]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14287,9 +14283,9 @@
         "floating_point" : 50.0
       } ]
     }, {
-      "id" : 1820,
+      "id" : 2024,
       "type" : "shaft_section",
-      "name" : "section [1820]",
+      "name" : "section [2024]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14316,9 +14312,9 @@
         "floating_point" : 60.0
       } ]
     }, {
-      "id" : 1821,
+      "id" : 2025,
       "type" : "shaft_section",
-      "name" : "section [1821]",
+      "name" : "section [2025]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14345,9 +14341,9 @@
         "floating_point" : 50.0
       } ]
     }, {
-      "id" : 1822,
+      "id" : 2026,
       "type" : "shaft_section",
-      "name" : "section [1822]",
+      "name" : "section [2026]",
       "attributes" : [ {
         "id" : "inner_diameter_end",
         "unit" : "mm",
@@ -14374,7 +14370,7 @@
         "floating_point" : 68.0
       } ]
     }, {
-      "id" : 1823,
+      "id" : 2027,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "tooth_tip_chamfer",
@@ -14386,7 +14382,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1824,
+      "id" : 2028,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "tooth_tip_chamfer",
@@ -14398,7 +14394,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1825,
+      "id" : 2029,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "tooth_tip_chamfer",
@@ -14410,7 +14406,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1826,
+      "id" : 2030,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "tooth_tip_chamfer",
@@ -14422,7 +14418,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1827,
+      "id" : 2031,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14438,7 +14434,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1828,
+      "id" : 2032,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14454,7 +14450,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1829,
+      "id" : 2033,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14470,7 +14466,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1830,
+      "id" : 2034,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14486,7 +14482,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1831,
+      "id" : 2035,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14502,7 +14498,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1832,
+      "id" : 2036,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14518,7 +14514,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1833,
+      "id" : 2037,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14534,7 +14530,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1834,
+      "id" : 2038,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14550,7 +14546,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1835,
+      "id" : 2039,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14566,7 +14562,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1836,
+      "id" : 2040,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14582,7 +14578,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1837,
+      "id" : 2041,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14598,7 +14594,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1838,
+      "id" : 2042,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14614,7 +14610,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1839,
+      "id" : 2043,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14630,7 +14626,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1840,
+      "id" : 2044,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14646,7 +14642,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1841,
+      "id" : 2045,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14662,7 +14658,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1842,
+      "id" : 2046,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14678,7 +14674,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1843,
+      "id" : 2047,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14694,7 +14690,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1844,
+      "id" : 2048,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14710,7 +14706,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1845,
+      "id" : 2049,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14726,7 +14722,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1846,
+      "id" : 2050,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14742,7 +14738,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1847,
+      "id" : 2051,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14758,7 +14754,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1848,
+      "id" : 2052,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14774,7 +14770,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1849,
+      "id" : 2053,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14790,7 +14786,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1850,
+      "id" : 2054,
       "type" : "cylindrical_gear_flank",
       "attributes" : [ {
         "id" : "addendum_modification_coefficient",
@@ -14806,7 +14802,7 @@
         "floating_point" : 20.0
       } ]
     }, {
-      "id" : 1851,
+      "id" : 2055,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14818,11 +14814,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1852,
+      "id" : 2056,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1853,
+      "id" : 2057,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14834,11 +14830,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1854,
+      "id" : 2058,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1855,
+      "id" : 2059,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14850,11 +14846,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1856,
+      "id" : 2060,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1857,
+      "id" : 2061,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14866,11 +14862,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1858,
+      "id" : 2062,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1859,
+      "id" : 2063,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14882,11 +14878,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1860,
+      "id" : 2064,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1861,
+      "id" : 2065,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14898,11 +14894,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1862,
+      "id" : 2066,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1863,
+      "id" : 2067,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14914,11 +14910,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1864,
+      "id" : 2068,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1865,
+      "id" : 2069,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14930,11 +14926,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1866,
+      "id" : 2070,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1867,
+      "id" : 2071,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14946,11 +14942,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1868,
+      "id" : 2072,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1869,
+      "id" : 2073,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14962,11 +14958,11 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1870,
+      "id" : 2074,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ ]
     }, {
-      "id" : 1871,
+      "id" : 2075,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14978,7 +14974,7 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1872,
+      "id" : 2076,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -14990,7 +14986,7 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1873,
+      "id" : 2077,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -15002,7 +14998,7 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1874,
+      "id" : 2078,
       "type" : "cylindrical_gear_manufacturing_settings",
       "attributes" : [ {
         "id" : "machining_allowance",
@@ -15014,7 +15010,7 @@
         "floating_point" : 0.0
       } ]
     }, {
-      "id" : 1875,
+      "id" : 2079,
       "type" : "helix_slope",
       "name" : "helix_slope",
       "attributes" : [ {
@@ -15035,7 +15031,7 @@
         "floating_point" : 65.0
       } ]
     }, {
-      "id" : 1876,
+      "id" : 2080,
       "type" : "helix_crowning",
       "name" : "helix_crowning",
       "attributes" : [ {
@@ -15060,7 +15056,7 @@
         "floating_point" : 0.004999999999999999
       } ]
     }, {
-      "id" : 1877,
+      "id" : 2081,
       "type" : "tip_relief",
       "name" : "tip_relief",
       "attributes" : [ {
@@ -15085,7 +15081,7 @@
         "boolean" : false
       } ]
     }, {
-      "id" : 1878,
+      "id" : 2082,
       "type" : "root_relief",
       "name" : "root_relief",
       "attributes" : [ {
@@ -15110,7 +15106,7 @@
         "floating_point" : 0.049999999999999996
       } ]
     }, {
-      "id" : 1879,
+      "id" : 2083,
       "type" : "helix_slope",
       "name" : "helix_slope",
       "attributes" : [ {
@@ -15131,7 +15127,7 @@
         "floating_point" : 65.0
       } ]
     }, {
-      "id" : 1880,
+      "id" : 2084,
       "type" : "helix_crowning",
       "name" : "helix_crowning",
       "attributes" : [ {
@@ -15156,7 +15152,7 @@
         "floating_point" : 0.004999999999999999
       } ]
     }, {
-      "id" : 1881,
+      "id" : 2085,
       "type" : "tip_relief",
       "name" : "tip_relief",
       "attributes" : [ {
@@ -15181,7 +15177,7 @@
         "boolean" : false
       } ]
     }, {
-      "id" : 1882,
+      "id" : 2086,
       "type" : "root_relief",
       "name" : "root_relief",
       "attributes" : [ {
