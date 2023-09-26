@@ -1,12 +1,11 @@
-def sort_refs(relations: list, role_ordering: list):
+def sort_refs(relations: list):
     """
-    This function sorts the refs of the relations according to the role_ordering defined in the main.py file. \n
+    This function sorts the refs of the relations alphabetically. \n
     Input: 
         - relations: list of relations. \n
-        - role_ordering: list of possible roles in the relations. \n
     Output:
         - list of relations with sorted refs.
     """
     for rel in relations:
-        rel.refs.sort(key=lambda x: role_ordering.index(x.role))
+        rel.refs.sort(key=lambda x: x.role)
     return relations

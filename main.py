@@ -28,16 +28,12 @@ input_file = config["InputFiles"]["input_file_A"] # Data of the model A
 input_file_prime = config["InputFiles"]["input_file_B"] # Data of the model B
 
 
-### Define the role ordering of the relations
-relations_roles = ["assembly", "part", "stage", "gear_1", "gear_2", "gear", "stage_gear_data", "inner_part", "outer_part", "left", "right", "origin", "referenced", "workpiece", "tool", "manufacturing_settings", "planetary_stage", "shaft", "side_1", "side_2"]
-
-
 #################################################
 # Import the data                               #
 #################################################
 
-components, relations = import_data(input_file, relations_roles) # Components and relations of model A
-components_prime, relations_prime = import_data(input_file_prime, relations_roles) # Components and relations of model B
+components, relations = import_data(input_file) # Components and relations of model A
+components_prime, relations_prime = import_data(input_file_prime) # Components and relations of model B
 
 
 #################################################

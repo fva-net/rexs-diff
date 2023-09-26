@@ -4,7 +4,7 @@ from sort_data import sort_data
 from pydantic import BaseModel, root_validator
 from typing import Any, Union
 
-def import_data(filename: str, relations_roles: list):
+def import_data(filename: str):
 
     """
     This function will import the provided data and turn it into classes. \n
@@ -109,6 +109,6 @@ def import_data(filename: str, relations_roles: list):
     relations = sort_data(relations)
 
     # Sort the refs in the relations by their role
-    relations = sort_refs(relations,relations_roles)
+    relations = sort_refs(relations)
     
     return components, relations 
