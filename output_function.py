@@ -33,13 +33,13 @@ def output_function(components: list, components_prime: list, sol_x: list, input
                 comp_a_id = components[i].id
                 comp_a_name = components[i].name
                 if comp_a_name == None:
-                    component_a = {"id": comp_a_id}
+                    component_a = {"id": comp_a_id, "name": ""}
                 else:
                     component_a = {"id": comp_a_id, "name": comp_a_name}
                 comp_b_id = components_prime[j].id
                 comp_b_name = components_prime[j].name
                 if comp_b_name == None:
-                    component_b = {"id": comp_b_id}
+                    component_b = {"id": comp_b_id, "name": ""}
                 else:
                     component_b = {"id": comp_b_id, "name": comp_b_name}
                 attributes_comp_a = components[i].attributes
@@ -121,6 +121,7 @@ def output_function(components: list, components_prime: list, sol_x: list, input
             if components[i].name == None:
                 component={"type": components[i].type, 
                            "id": components[i].id, 
+                           "name": "",
                            "attributes": attributes_list}
             else:
                 component={"type": components[i].type, 
@@ -147,6 +148,7 @@ def output_function(components: list, components_prime: list, sol_x: list, input
             if components_prime[j].name == None:
                 component={"type": components_prime[j].type, 
                            "id": components_prime[j].id, 
+                            "name": "",
                            "attributes": attributes_list}
             else:
                 component={"type": components_prime[j].type, 
