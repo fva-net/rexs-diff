@@ -1,23 +1,29 @@
-def check_unique_ids(list: list, type: str ):
-    """"
-    Check if there are any double IDs in the components/relations lists.\n
-    Can also be used for the relations list to ckeck if there are any double IDs in the relations.
+def check_unique_ids(components: list):
+    """
+    This function checks if there are any non unique IDs in the components/relations lists.\n
     Input: 
-        - list: list of components or relations\n
-        - type: string, either "component" or "relation"
+        components: list of components or relations.\n
+    Output: 
+        True/False: True, if all IDs are unique; False, if there are non unique IDs.\n
     """
     # Check if there are any double IDs 
-    ids = []
+
+    # Initialize lists for already ssen IDs and non unique IDs
+    ids = [] 
     doubles = []
-    for element in list:
+
+    # Go through every component and add its ID to doubles if it is already in ids or to ids if it is not
+    for element in components:
         if element.id in ids:
             doubles.append(element.id)
         
         else:
             ids.append(element.id)
+    
+    # Return True if there are no doubles and False if there are 
     if doubles != []:
-        return False, doubles       
+        return False      
     else:
-        return True, doubles
+        return True
     
     

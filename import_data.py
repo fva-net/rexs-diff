@@ -4,20 +4,21 @@ from sort_data import sort_data
 from pydantic import BaseModel, root_validator
 from typing import Any, Union
 
-def import_data(filename:str, relations_roles:list):
+def import_data(filename: str):
 
     """
     This function will import the provided data and turn it into classes. \n
     Input: 
-      - filename of a json file with the data
+      - filename of a json file that includes the data. \n
       - role_ordering: list of possible roles in the relations \n
     Output: 
       - components: list of components
       - relations: list of relations
-      - components_dict: dictionary of the components 
     """
+    # Parse the json file
     data = parse_json(filename)
 
+    # Get the components and relations
     relations = data["model"]["relations"]
     components = data["model"]["components"]
 
@@ -25,11 +26,11 @@ def import_data(filename:str, relations_roles:list):
     class Attribute(BaseModel):
         id: str
         unit: str
-        origin: Union[str , None]
+        origin: Union[str, None]
         param_type: Union[str, None]
         param_value: Union[Any, None]
         
-
+        # Extract the param_type and param_value from the data
         @root_validator(pre=True, allow_reuse = True)
         def extract_param_type_value(cls, values: dict[str, Any]) -> dict[str, Any]:
             # Get the set difference to find the key of the parameter
@@ -80,22 +81,22 @@ def import_data(filename:str, relations_roles:list):
     class Component(BaseModel):
         id: int
         type: str
-        name: Union[str , None]
-        attributes:list[Attribute]
+        name: Union[str, None]
+        attributes: list[Attribute]
 
 
     # Class for reference components for the relations
     class Ref(BaseModel):
         id: int
         role: str
-        hint: Union[str , None]
+        hint: Union[str, None]
 
 
     # Class for relations
     class Relation(BaseModel):
         id: int
         type: str
-        order: Union[int , None]
+        order: Union[int, None]
         refs: list[Ref]
 
 
@@ -108,9 +109,6 @@ def import_data(filename:str, relations_roles:list):
     relations = sort_data(relations)
 
     # Sort the refs in the relations by their role
-    relations = sort_refs(relations,relations_roles)
+    relations = sort_refs(relations)
     
     return components, relations 
-
-
-

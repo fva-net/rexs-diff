@@ -1,16 +1,30 @@
 import json
 
 
-def output_function(components: list, components_prime: list, sol_x: list, sol_z: list, input_file, input_file_prime, output_file_json, components_unique, relations_unique, components_prime_unique, relations_prime_unique):
+def output_function(components: list, components_prime: list, sol_x: list, input_file: str, input_file_prime: str, output_file_json: str, components_unique: bool, relations_unique: bool, components_prime_unique: bool, relations_prime_unique: bool):
     """"
-    This function gives the resulting matching in a json format.
-    It oputputs a jsonfile with the name "output.json" in the folder "output" if not specified otherwise
+    This function gives the resulting matching in a json format.\n
+    Input: \n
+        - components: list of components of model A.\n
+        - components_prime: list of components of model B.\n
+        - sol_x: solution of the optimization problem for the components as a list.\n
+        - input_file: name of the input file of model A.\n
+        - input_file_prime: name of the input file of model B.\n
+        - output_file_json: name of the output file.\n
+        - components_unique: boolean if the IDs of the components in model A are unique.\n
+        - relations_unique: boolean if the IDs of the relations in model A are unique.\n
+        - components_prime_unique: boolean if the IDs of the components in model B are unique.\n
+        - relations_prime_unique: boolean if the IDs of the relations in model B are unique.\n
+    Output: \n
+         json file with the resulting matching and possible warnings for further use.\n
     """
+    # Initialization of the ditoctionaries that will be transformed into the json file
     component_matches = []
     components_only_a = []
     components_only_b = []
     warnings = []
 
+    # Filling the dictionary with the resulting matching
     for i in range(len(sol_x)):
         for j in range(len(sol_x[0])):
             if sol_x[i][j]==1:
@@ -19,13 +33,13 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
                 comp_a_id = components[i].id
                 comp_a_name = components[i].name
                 if comp_a_name == None:
-                    component_a = {"id": comp_a_id}
+                    component_a = {"id": comp_a_id, "name": ""}
                 else:
                     component_a = {"id": comp_a_id, "name": comp_a_name}
                 comp_b_id = components_prime[j].id
                 comp_b_name = components_prime[j].name
                 if comp_b_name == None:
-                    component_b = {"id": comp_b_id}
+                    component_b = {"id": comp_b_id, "name": ""}
                 else:
                     component_b = {"id": comp_b_id, "name": comp_b_name}
                 attributes_comp_a = components[i].attributes
@@ -89,6 +103,7 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
                          "attributes": attributes_list}
                 component_matches.append(match)
     
+    # Filling the dictionary with the components that are only in model A
     for i in range(len(components)):
         match_found = False
         for j in range(len(components_prime)):
@@ -106,6 +121,7 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
             if components[i].name == None:
                 component={"type": components[i].type, 
                            "id": components[i].id, 
+                           "name": "",
                            "attributes": attributes_list}
             else:
                 component={"type": components[i].type, 
@@ -114,6 +130,7 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
                        "attributes": attributes_list}
             components_only_a.append(component)
 
+    # Filling the dictionary with the components that are only in model B
     for j in range(len(components_prime)):
         match_found = False
         for i in range(len(components)):
@@ -131,6 +148,7 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
             if components_prime[j].name == None:
                 component={"type": components_prime[j].type, 
                            "id": components_prime[j].id, 
+                            "name": "",
                            "attributes": attributes_list}
             else:
                 component={"type": components_prime[j].type, 
@@ -139,6 +157,7 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
                        "attributes": attributes_list}
             components_only_b.append(component)
 
+    # Filling the dictionary with the warnings
     if components_unique == False:
         warning = {"warning": f"The IDs of the components in {input_file} are not unique."}
         warnings.append(warning)
@@ -165,4 +184,3 @@ def output_function(components: list, components_prime: list, sol_x: list, sol_z
     with open(output_file_json, "w", encoding= "utf-8") as outputfile:
         # outputfile.write(json_object)
         json.dump(output_dict, outputfile, ensure_ascii=False, indent = 3)
-    
