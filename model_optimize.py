@@ -22,7 +22,7 @@ def model_optimize(components: list, relations: list, components_prime: list, re
     model = Model()
 
     # Write the console output to the outputfile
-    model.setLogfile("output/log.txt")
+    #model.setLogfile("output/log.txt")
 
     # Define auxiliary variables
     len_comp = len(components)
@@ -105,7 +105,7 @@ def model_optimize(components: list, relations: list, components_prime: list, re
     # Solve the model
     model.optimize()
 
-    model.writeProblem("output/model.lp")
+    #model.writeProblem("output/model.lp")
     
     # Get the solution 
     if model.getStatus() == "optimal":             
