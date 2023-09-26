@@ -1,5 +1,0 @@
-Install pydantic: version 1.8.2
-        conda install -c conda-forge pydantic=1.8.2
-Install pyscipopt:
-    Conda: In environment
-        conda install --channel conda-forge pyscipopt
