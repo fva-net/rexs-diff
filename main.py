@@ -5,6 +5,7 @@
 #################################################
 # Import the necessary functions and packages   #
 #################################################
+from eprint import eprint
 from import_data import import_data
 from model_optimize import model_optimize
 from output_function import output_function
@@ -12,22 +13,27 @@ from f_c import f_c
 from check_unique_ids import check_unique_ids
 
 import numpy as np
-import configparser
 import os
+import argparse
 
 
-# Get the config file
-config = configparser.ConfigParser()
-config.read("settings.ini")
+parser = argparse.ArgumentParser()
+parser.add_argument("--modelA","-a", type=str, required=True)
+parser.add_argument("--modelB", "-b", type=str, required=True)
+args = parser.parse_args()
+# if args.help:
+    # print("This is the helptext: \nKnown Arguments: ") # TODO 
+# print("Model "+args.modelA)
+# print("Compare "+args.modelB)
+    
+
 
 #################################################
 # Define file paths                             #
 #################################################
-
 ### Define path of the import files
-input_file = config["InputFiles"]["input_file_A"] # Data of the model A
-input_file_prime = config["InputFiles"]["input_file_B"] # Data of the model B
-
+input_file = args.modelA
+input_file_prime = args.modelB
 
 #################################################
 # Import the data                               #

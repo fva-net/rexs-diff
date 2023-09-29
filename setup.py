@@ -5,7 +5,7 @@ from cx_Freeze import setup, Executable
 buildOptions = dict(
     include_files = [
         'Sample_Data/',
-        'settings.ini'
+        'settings.cfg'
     ],
     silent_level = 0
 )

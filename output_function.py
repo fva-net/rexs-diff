@@ -1,4 +1,5 @@
 import json
+import sys
 
 
 def output_function(components: list, components_prime: list, sol_x: list, input_file: str, input_file_prime: str, output_file_json: str, components_unique: bool, relations_unique: bool, components_prime_unique: bool, relations_prime_unique: bool, infeasible: bool):

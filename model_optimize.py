@@ -1,3 +1,4 @@
+from eprint import eprint
 from find_index import find_index
 from pyscipopt import Model
 
@@ -21,7 +22,9 @@ def model_optimize(components: list, relations: list, components_prime: list, re
     
     # Initialize the model
     model = Model()
-
+    
+    model.hideOutput()
+    
     # Write the console output to the outputfile
     #model.setLogfile("output/log.txt")
 
