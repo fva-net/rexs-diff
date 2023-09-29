@@ -16,6 +16,7 @@ def model_optimize(components: list, relations: list, components_prime: list, re
         - sol_x: solution of the optimization problem for the components as a list.\n
         - sol_z: solution of the optimization problem for the relations as a list.\n
         - obj_val: objective value of the optimization problem as a float.\n
+        - infeasible: boolean if the optimization problem is infeasible.\n
     """
     
     # Initialize the model
@@ -113,7 +114,12 @@ def model_optimize(components: list, relations: list, components_prime: list, re
         obj_val = model.getObjVal()
         sol_x = [[model.getVal(x[i][j]) for j in range(x_cols)] for i in range(x_rows)]
         sol_z = [[model.getVal(z[i][j]) for j in range(z_cols)] for i in range(z_rows)]
+        infeasible = False
     elif model.getStatus() == "infeasible":
         print("The model is infeasible.")
+        sol_x = None
+        sol_z = None
+        obj_val = None
+        infeasible = True
     
-    return sol_x, sol_z, obj_val
+    return sol_x, sol_z, obj_val, infeasible

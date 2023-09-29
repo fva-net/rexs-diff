@@ -58,22 +58,22 @@ g_r = np.ones((len(relations), len(relations_prime))) # Similarity function of t
 # Optimize the model                            #
 #################################################
 
-sol_x, sol_z, objective_value = model_optimize(components, relations, components_prime, relations_prime, f_c_matrix, g_r)
-
+sol_x, sol_z, objective_value, infeasible = model_optimize(components, relations, components_prime, relations_prime, f_c_matrix, g_r)
 
 # account for numerical errors
-for i in range(len(sol_x)):
-    for j in range(len(sol_x[0])):
-        if sol_x[i][j] > 0.5:
-            sol_x[i][j] = 1
-        else:
-            sol_x[i][j] = 0
-for i in range(len(sol_z)):
-    for j in range(len(sol_z[0])):
-        if sol_z[i][j] > 0.5:
-            sol_z[i][j] = 1
-        else:
-            sol_z[i][j] = 0
+if infeasible == False:
+    for i in range(len(sol_x)):
+        for j in range(len(sol_x[0])):
+            if sol_x[i][j] > 0.5:
+                sol_x[i][j] = 1
+            else:
+                sol_x[i][j] = 0
+    for i in range(len(sol_z)):
+        for j in range(len(sol_z[0])):
+            if sol_z[i][j] > 0.5:
+                sol_z[i][j] = 1
+            else:
+                sol_z[i][j] = 0
 
             
 #################################################
@@ -85,4 +85,4 @@ for i in range(len(sol_z)):
 output_file_json = f"output/output.json"
 
 # Output the data
-output_function(components, components_prime, sol_x, input_file, input_file_prime, output_file_json, components_unique, relations_unique, components_prime_unique, relations_prime_unique)
+output_function(components, components_prime, sol_x, input_file, input_file_prime, output_file_json, components_unique, relations_unique, components_prime_unique, relations_prime_unique, infeasible)
