@@ -589,7 +589,7 @@
             }
           }
         },
-        "required": ["type", "id", "attributes"]
+        "required": ["type", "id", "name", "attributes"]
       }
     },
     "components_only_b": {
@@ -742,7 +742,7 @@
             }
           }
         },
-        "required": ["type", "id", "attributes"]
+        "required": ["type", "id", "name", "attributes"]
       }
     },
     "warnings": {

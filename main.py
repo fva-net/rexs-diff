@@ -13,6 +13,7 @@ from check_unique_ids import check_unique_ids
 
 import numpy as np
 import configparser
+import os
 
 
 # Get the config file
@@ -82,6 +83,11 @@ if infeasible == False:
 
 # Outputfile path
 # TODO: mit Sarah absprechen: wohin abspeichern? -> Readme anpassen
+# Check if the output folder exists and create it if it doesn't
+path_exists = os.path.exists("output")
+if not path_exists:
+    os.makedirs("output")
+
 output_file_json = f"output/output.json"
 
 # Output the data
