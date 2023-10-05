@@ -10,8 +10,7 @@ defaults:
   run:
     shell: bash -l {0}
 jobs:
-  Run-on-ubuntu-and-mac:
-    if: false
+  Run-on-ubuntu:
     name: run on ubuntu
     permissions:
       contents: write
@@ -56,7 +55,6 @@ jobs:
         body: "TODO Document me!"
         allowUpdates: true
   Run-on-mac:
-    if: false
     name: run on mac
     permissions:
       contents: write
