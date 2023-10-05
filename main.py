@@ -5,6 +5,7 @@
 #################################################
 # Import the necessary functions and packages   #
 #################################################
+import sys
 from eprint import eprint
 from import_data import import_data
 from model_optimize import model_optimize
@@ -13,7 +14,6 @@ from f_c import f_c
 from check_unique_ids import check_unique_ids
 
 import numpy as np
-import os
 import argparse
 
 
@@ -23,10 +23,7 @@ parser.add_argument("--modelB", "-b", type=str, required=True)
 args = parser.parse_args()
 # if args.help:
     # print("This is the helptext: \nKnown Arguments: ") # TODO 
-# print("Model "+args.modelA)
-# print("Compare "+args.modelB)
     
-
 
 #################################################
 # Define file paths                             #
@@ -88,12 +85,8 @@ if infeasible == False:
 #################################################
 
 # Outputfile path
-# Check if the output folder exists and create it if it doesn't
-path_exists = os.path.exists("output")
-if not path_exists:
-    os.makedirs("output")
-
-output_file_json = f"output/output.json"
+# mit Sarah absprechen: (-> ins stdout) -> Readme anpassen 
+# output_file_json = f"output/output.json"
 
 # Output the data
-output_function(components, components_prime, sol_x, input_file, input_file_prime, output_file_json, components_unique, relations_unique, components_prime_unique, relations_prime_unique, infeasible)
+output_function(components, components_prime, sol_x, input_file, input_file_prime, sys.stdout, components_unique, relations_unique, components_prime_unique, relations_prime_unique)

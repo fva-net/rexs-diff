@@ -2,7 +2,7 @@ from parse_json import parse_json
 from sort_refs import sort_refs
 from sort_data import sort_data
 from pydantic import BaseModel, root_validator
-from typing import Any, Union
+from typing import Any, Optional
 
 def import_data(filename: str):
 
@@ -26,9 +26,9 @@ def import_data(filename: str):
     class Attribute(BaseModel):
         id: str
         unit: str
-        origin: Union[str, None]
-        param_type: Union[str, None]
-        param_value: Union[Any, None]
+        origin: Optional[str] = None
+        param_type: Optional[str] = None
+        param_value: Optional[Any] = None
         
         # Extract the param_type and param_value from the data
         @root_validator(pre=True, allow_reuse = True)
@@ -81,7 +81,7 @@ def import_data(filename: str):
     class Component(BaseModel):
         id: int
         type: str
-        name: Union[str, None]
+        name: Optional[str] = None
         attributes: list[Attribute]
 
 
@@ -89,14 +89,14 @@ def import_data(filename: str):
     class Ref(BaseModel):
         id: int
         role: str
-        hint: Union[str, None]
+        hint: Optional[str] = None
 
 
     # Class for relations
     class Relation(BaseModel):
         id: int
         type: str
-        order: Union[int, None]
+        order: Optional[int] = None
         refs: list[Ref]
 
 

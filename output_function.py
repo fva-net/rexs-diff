@@ -178,6 +178,6 @@ def output_function(components: list, components_prime: list, sol_x: list, input
             "warnings": warnings}
     
 
-    with open(output_file_json, "w", encoding= "utf-8") as outputfile:
+    # with open(output_file_json, "w", encoding= "utf-8") as outputfile:
         # outputfile.write(json_object)
-        json.dump(output_dict, outputfile, ensure_ascii=False, indent = 3)
+    json.dump(output_dict, output_file_json, ensure_ascii=False, indent = 3)
