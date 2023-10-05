@@ -4,8 +4,9 @@ from cx_Freeze import setup, Executable
 
 buildOptions = dict(
     include_files = [
-        'Sample_Data/',
-        'settings.cfg'
+        # 'Sample_Data/',
+        # 'settings.cfg'
+        'README.md'
     ],
     silent_level = 0
 )
