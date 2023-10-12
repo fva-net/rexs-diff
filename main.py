@@ -20,7 +20,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--modelA","-a", type=str, required=True)
 parser.add_argument("--modelB", "-b", type=str, required=True)
-# args = parser.parse_args()
+args = parser.parse_args()
 # if args.help:
     # print("This is the helptext: \nKnown Arguments: ") # TODO 
     
@@ -29,8 +29,8 @@ parser.add_argument("--modelB", "-b", type=str, required=True)
 # Define file paths                             #
 #################################################
 ### Define path of the import files
-input_file = "C:\\bearinx_28_schiffsgetriebe_rexsj_1_3.rexsj" #args.modelA
-input_file_prime = "C:\\bearinx_28_schiffsgetriebe_rexsj_1_3_mod.rexsj" #args.modelB
+input_file = args.modelA
+input_file_prime = args.modelB
 
 #################################################
 # Import the data                               #
