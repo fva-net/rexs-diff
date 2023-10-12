@@ -20,7 +20,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--modelA","-a", type=str, required=True)
 parser.add_argument("--modelB", "-b", type=str, required=True)
-args = parser.parse_args()
+# args = parser.parse_args()
 # if args.help:
     # print("This is the helptext: \nKnown Arguments: ") # TODO 
     
@@ -29,8 +29,8 @@ args = parser.parse_args()
 # Define file paths                             #
 #################################################
 ### Define path of the import files
-input_file = args.modelA
-input_file_prime = args.modelB
+input_file = "C:\\bearinx_28_schiffsgetriebe_rexsj_1_3.rexsj" #args.modelA
+input_file_prime = "C:\\bearinx_28_schiffsgetriebe_rexsj_1_3_mod.rexsj" #args.modelB
 
 #################################################
 # Import the data                               #
@@ -89,4 +89,4 @@ if infeasible == False:
 # output_file_json = f"output/output.json"
 
 # Output the data
-output_function(components, components_prime, sol_x, input_file, input_file_prime, sys.stdout, components_unique, relations_unique, components_prime_unique, relations_prime_unique)
+output_function(components, components_prime, sol_x, input_file, input_file_prime, sys.stdout, components_unique, relations_unique, components_prime_unique, relations_prime_unique, infeasible)
