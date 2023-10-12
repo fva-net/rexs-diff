@@ -47,11 +47,11 @@ jobs:
     - name: Zip build folder
       uses: montudor/action-zip@v1
       with: 
-        args: zip -qq -r linux.zip build/exe.linux-x86_64-3.11
+        args: zip -qq -r ${{format('{0}_linux.zip', github.ref_name)}} build/exe.linux-x86_64-3.11
     - name: Create GitHub Release
       uses: ncipollo/release-action@v1.13.0
       with:
-        artifacts: "linux.zip"
+        artifacts: ${{format('{0}_linux.zip', github.ref_name)}}
         body: "TODO Document me!"
         allowUpdates: true
   Run-on-mac:
@@ -89,11 +89,11 @@ jobs:
         python setup.py build
         git status --porcelain
     - name: Zip build folder
-      run: zip -r mac_os.zip build/exe.macosx-10.9-x86_64-3.11
+      run: zip -r ${{format('{0}_macos.zip', github.ref_name)}} build/exe.macosx-10.9-x86_64-3.11
     - name: Create GitHub Release
       uses: ncipollo/release-action@v1.13.0
       with:
-        artifacts: "mac_os.zip"
+        artifacts: ${{format('{0}_macos.zip', github.ref_name)}}
         body: "TODO Document me!"
         allowUpdates: true
   Run-on-windows:
@@ -132,10 +132,10 @@ jobs:
       run: |
         python setup.py build
     - name: Zip build folder
-      run: Compress-Archive build/exe.win-amd64-3.11 windows.zip
+      run: Compress-Archive build/exe.win-amd64-3.11 ${{format('{0}_windows.zip', github.ref_name)}}
     - name: Create GitHub Release
       uses: ncipollo/release-action@v1.13.0
       with:
-        artifacts: "windows.zip"
+        artifacts: ${{format('{0}_windows.zip', github.ref_name)}}
         body: "TODO Document me!"
         allowUpdates: true
