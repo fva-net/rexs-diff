@@ -1,5 +1,4 @@
-import json
-import sys
+from json import dump
 
 
 def output_function(components: list, components_prime: list, sol_x: list, input_file: str, input_file_prime: str, output_file_json: str, components_unique: bool, relations_unique: bool, components_prime_unique: bool, relations_prime_unique: bool, infeasible: bool):
@@ -180,4 +179,4 @@ def output_function(components: list, components_prime: list, sol_x: list, input
 
     # with open(output_file_json, "w", encoding= "utf-8") as outputfile:
         # outputfile.write(json_object)
-    json.dump(output_dict, output_file_json, ensure_ascii=False, indent = 3)
+    dump(output_dict, output_file_json, ensure_ascii=False, indent = 3)

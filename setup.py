@@ -2,6 +2,8 @@ import os
 import sys
 from cx_Freeze import setup, Executable
 
+# run with `python setup.py build`
+
 buildOptions = dict(
     include_files = [
         # 'Sample_Data/',

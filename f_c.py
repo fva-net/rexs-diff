@@ -1,4 +1,4 @@
-import numpy as np
+from np_ones_zeros import zeros
 
 def f_c(components: list, components_prime: list):
     """
@@ -14,7 +14,7 @@ def f_c(components: list, components_prime: list):
     len_comp_prime = len(components_prime)
 
     # Initialize the matrix
-    f_c_matrix = np.zeros((len_comp, len_comp_prime)) 
+    f_c_matrix = zeros((len_comp, len_comp_prime)) 
 
     # Go through every component of model A and every component of model B and calculate the proportion of equal attributes
     for c in range(len_comp):

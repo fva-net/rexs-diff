@@ -5,19 +5,18 @@
 #################################################
 # Import the necessary functions and packages   #
 #################################################
-import sys
-from eprint import eprint
+from sys import stdout
 from import_data import import_data
 from model_optimize import model_optimize
 from output_function import output_function
 from f_c import f_c
 from check_unique_ids import check_unique_ids
 
-import numpy as np
-import argparse
+from np_ones_zeros import ones
+from argparse import ArgumentParser
 
 
-parser = argparse.ArgumentParser()
+parser = ArgumentParser()
 parser.add_argument("--modelA","-a", type=str, required=True)
 parser.add_argument("--modelB", "-b", type=str, required=True)
 # args = parser.parse_args()
@@ -55,7 +54,7 @@ relations_prime_unique = check_unique_ids(relations_prime)
 ##############################################################
 
 f_c_matrix = f_c(components, components_prime) # Similarity function of the components
-g_r = np.ones((len(relations), len(relations_prime))) # Similarity function of the relations
+g_r = ones((len(relations), len(relations_prime))) # Similarity function of the relations
 
 
 #################################################
@@ -89,4 +88,4 @@ if infeasible == False:
 # output_file_json = f"output/output.json"
 
 # Output the data
-output_function(components, components_prime, sol_x, input_file, input_file_prime, sys.stdout, components_unique, relations_unique, components_prime_unique, relations_prime_unique, infeasible)
+output_function(components, components_prime, sol_x, input_file, input_file_prime, stdout, components_unique, relations_unique, components_prime_unique, relations_prime_unique, infeasible)
