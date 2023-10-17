@@ -54,7 +54,7 @@ relations_prime_unique = check_unique_ids(relations_prime)
 ##############################################################
 
 f_c_matrix = f_c(components, components_prime) # Similarity function of the components
-g_r = ones((len(relations), len(relations_prime))) # Similarity function of the relations
+g_r = ones(len(relations), len(relations_prime)) # Similarity function of the relations
 
 
 #################################################

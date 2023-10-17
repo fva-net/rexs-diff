@@ -1,12 +1,7 @@
 
-def ones(count: int): 
-    list = []
-    for x in count:
-        list.append(1)
-    return list
+def ones(countx: int, county:int): 
+    return [[1.]*county]*countx
 
-def zeros(count: int): 
-    list = []
-    for x in count:
-        list.append(0)
-    return list
+def zeros(countx: int, county:int): 
+    return [[0.]*county]*countx
+    
