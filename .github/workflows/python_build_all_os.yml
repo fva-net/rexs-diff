@@ -28,9 +28,9 @@ jobs:
         use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
         auto-update-conda: true
         auto-activate-base: true
-    - name: Install numpy
-      run: |
-        conda install --channel conda-forge numpy
+    # - name: Install numpy
+      # run: |
+        # conda install --channel conda-forge numpy
     - name: Install pydantic
       run: |
         conda install --channel conda-forge pydantic
@@ -72,9 +72,9 @@ jobs:
         use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
         auto-update-conda: true
         auto-activate-base: true
-    - name: Install numpy
-      run: |
-        conda install --channel conda-forge numpy
+    # - name: Install numpy
+      # run: |
+        # conda install --channel conda-forge numpy
     - name: Install pydantic
       run: |
         conda install --channel conda-forge pydantic
@@ -116,9 +116,9 @@ jobs:
         use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
         auto-update-conda: true
         auto-activate-base: true
-    - name: Install numpy
-      run: |
-        conda install --channel conda-forge numpy
+    # - name: Install numpy
+      # run: |
+        # conda install --channel conda-forge numpy
     - name: Install pydantic
       run: |
         conda install --channel conda-forge pydantic
