@@ -179,6 +179,6 @@ def output_function(components: list, components_prime: list, sol_x: list, input
             "warnings": warnings}
     
 
-    with open(stdout.fileno(), encoding="utf-8", closefd=False) as encodedout:
+    with open(stdout.fileno(), mode='w', encoding="utf8", buffering=1) as encodedout:
         # outputfile.write(json_object)
         dump(output_dict, encodedout, ensure_ascii=False, indent = 3)
