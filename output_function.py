@@ -1,4 +1,6 @@
 from json import dump
+from io import open
+from sys import stdout
 
 
 def output_function(components: list, components_prime: list, sol_x: list, input_file: str, input_file_prime: str, output_file_json: str, components_unique: bool, relations_unique: bool, components_prime_unique: bool, relations_prime_unique: bool, infeasible: bool):
@@ -177,6 +179,6 @@ def output_function(components: list, components_prime: list, sol_x: list, input
             "warnings": warnings}
     
 
-    # with open(output_file_json, "w", encoding= "utf-8") as outputfile:
+    with open(stdout.fileno(), encoding="utf-8", closefd=False) as encodedout:
         # outputfile.write(json_object)
-    dump(output_dict, output_file_json, ensure_ascii=False, indent = 3).encode('utf8').decode()
+        dump(output_dict, encodedout, ensure_ascii=False, indent = 3)
