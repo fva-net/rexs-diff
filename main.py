@@ -12,14 +12,17 @@ from output_function import output_function
 from f_c import f_c
 from check_unique_ids import check_unique_ids
 
-from np_ones_zeros import ones
+from np_ones_zeros_math import ones
 from argparse import ArgumentParser
 
 
-parser = ArgumentParser()
-parser.add_argument("--modelA","-a", type=str, required=True)
-parser.add_argument("--modelB", "-b", type=str, required=True)
-args = parser.parse_args()
+# parser = ArgumentParser()
+# parser.add_argument("--modelA","-a", type=str, required=True)
+# parser.add_argument("--modelB", "-b", type=str, required=True)
+# parser.add_argument("--relative_tol", "-r", type=float, required=False)
+# parser.add_argument("--absolute_tol", "-r", type=float, required=False)
+# parser.add_argument("--check_both_tol", "-c", type=bool, required=False)
+# args = parser.parse_args()
 # if args.help:
     # print("This is the helptext: \nKnown Arguments: ") # TODO 
     
@@ -28,8 +31,11 @@ args = parser.parse_args()
 # Define file paths                             #
 #################################################
 ### Define path of the import files
-input_file = args.modelA
-input_file_prime = args.modelB
+input_file = "C:\\bearinx_28_schiffsgetriebe_rexsj_1_3.rexsj" #args.modelA
+input_file_prime = "C:\\bearinx_28_schiffsgetriebe_rexsj_1_3_mod.rexsj" #args.modelB
+absolute_tol = 5.0 #args.absolute_tol
+relative_tol = 0.9 #args.relative_tol
+check_both_tol = True #args.relative_tol
 
 #################################################
 # Import the data                               #
@@ -53,7 +59,7 @@ relations_prime_unique = check_unique_ids(relations_prime)
 # Set the parameters and functions of the optimization model #
 ##############################################################
 
-f_c_matrix = f_c(components, components_prime) # Similarity function of the components
+f_c_matrix = f_c(components, components_prime, absolute_tol, relative_tol, check_both_tol) # Similarity function of the components
 g_r = ones(len(relations), len(relations_prime)) # Similarity function of the relations
 
 
@@ -88,4 +94,4 @@ if infeasible == False:
 # output_file_json = f"output/output.json"
 
 # Output the data
-output_function(components, components_prime, sol_x, input_file, input_file_prime, stdout, components_unique, relations_unique, components_prime_unique, relations_prime_unique, infeasible)
+output_function(components, components_prime, sol_x, input_file, input_file_prime, stdout, components_unique, relations_unique, components_prime_unique, relations_prime_unique, infeasible, absolute_tol, relative_tol, check_both_tol)

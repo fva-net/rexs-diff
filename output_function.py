@@ -1,9 +1,10 @@
 from json import dump
 from io import open
 from sys import stdout
+from np_ones_zeros_math import check_equality
 
 
-def output_function(components: list, components_prime: list, sol_x: list, input_file: str, input_file_prime: str, output_file_json: str, components_unique: bool, relations_unique: bool, components_prime_unique: bool, relations_prime_unique: bool, infeasible: bool):
+def output_function(components: list, components_prime: list, sol_x: list, input_file: str, input_file_prime: str, output_file_json: str, components_unique: bool, relations_unique: bool, components_prime_unique: bool, relations_prime_unique: bool, infeasible: bool, absolute_tol=0, relative_tol=1e-9, check_both_tol=False):
     """"
     This function gives the resulting matching in a json format.\n
     Input: \n
@@ -54,13 +55,13 @@ def output_function(components: list, components_prime: list, sol_x: list, input
                         for attribute_b in attributes_comp_b:
                             if attribute_a.id == attribute_b.id:
                                 match_found = True
-                                if attribute_a.param_value == attribute_b.param_value and attribute_a.unit == attribute_b.unit:
+                                if check_equality(attribute_a.param_value == attribute_b.param_value, absolute_tol, relative_tol, check_both_tol) and attribute_a.unit == attribute_b.unit:
                                         attribute = {
                                             "result": "values_equal", 
                                             "id": attribute_a.id, 
                                             "unit": attribute_a.unit, 
                                             attribute_a.param_type: attribute_a.param_value}
-                                elif (attribute_a.param_value == attribute_b.param_value and attribute_a.unit != attribute_b.unit) or (attribute_a.param_value != attribute_b.param_value):
+                                else: #if (attribute_a.param_value == attribute_b.param_value and attribute_a.unit != attribute_b.unit) or (not check_equality(attribute_a.param_value, attribute_b.param_value)):
                                         comp_a = {"unit": attribute_a.unit, attribute_a.param_type: attribute_a.param_value}
                                         comp_b = {"unit": attribute_b.unit, attribute_b.param_type: attribute_b.param_value}
                                         attribute = {

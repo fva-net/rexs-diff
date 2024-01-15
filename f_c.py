@@ -1,6 +1,6 @@
-from np_ones_zeros import zeros
+from np_ones_zeros_math import zeros, check_equality
 
-def f_c(components: list, components_prime: list):
+def f_c(components: list, components_prime: list, absolute_tol=0, relative_tol=1e-9, check_both_tol=False):
     """
     This functions tells us how similar two components of the two models are. It calculates the proportion of attributes that are equal.\n
     Input:
@@ -36,7 +36,8 @@ def f_c(components: list, components_prime: list):
                     for attribute in attributes:
                         for attribute_prime in attributes_prime:
                             if attribute.id == attribute_prime.id:
-                                if attribute.param_value == attribute_prime.param_value:
+                                if check_equality(attribute.param_value, attribute_prime.param_value, absolute_tol, relative_tol,check_both_tol):
+                                # if attribute.param_value == attribute_prime.param_value:
                                     number_attributes_equal += 1
                     f_c_matrix[c][c_prime] = number_attributes_equal/total_number_attributes
             # If the components are not of the same type, set the value of the matrix to -10
