@@ -55,7 +55,7 @@ def output_function(components: list, components_prime: list, sol_x: list, input
                         for attribute_b in attributes_comp_b:
                             if attribute_a.id == attribute_b.id:
                                 match_found = True
-                                if check_equality(attribute_a.param_value == attribute_b.param_value, absolute_tol, relative_tol, check_both_tol) and attribute_a.unit == attribute_b.unit:
+                                if check_equality(attribute_a.param_value, attribute_b.param_value, absolute_tol, relative_tol, check_both_tol) and attribute_a.unit == attribute_b.unit:
                                         attribute = {
                                             "result": "values_equal", 
                                             "id": attribute_a.id, 

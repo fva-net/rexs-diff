@@ -16,13 +16,13 @@ from np_ones_zeros_math import ones
 from argparse import ArgumentParser
 
 
-# parser = ArgumentParser()
-# parser.add_argument("--modelA","-a", type=str, required=True)
-# parser.add_argument("--modelB", "-b", type=str, required=True)
-# parser.add_argument("--relative_tol", "-r", type=float, required=False)
-# parser.add_argument("--absolute_tol", "-r", type=float, required=False)
-# parser.add_argument("--check_both_tol", "-c", type=bool, required=False)
-# args = parser.parse_args()
+parser = ArgumentParser()
+parser.add_argument("--modelA","-a", type=str, required=True)
+parser.add_argument("--modelB", "-b", type=str, required=True)
+parser.add_argument("--relative_tol", type=float, required=False)
+parser.add_argument("--absolute_tol", type=float, required=False)
+parser.add_argument("--check_both_tol", "-c", default=False, action='store_true')
+args = parser.parse_args()
 # if args.help:
     # print("This is the helptext: \nKnown Arguments: ") # TODO 
     
@@ -31,11 +31,17 @@ from argparse import ArgumentParser
 # Define file paths                             #
 #################################################
 ### Define path of the import files
-input_file = "C:\\bearinx_28_schiffsgetriebe_rexsj_1_3.rexsj" #args.modelA
-input_file_prime = "C:\\bearinx_28_schiffsgetriebe_rexsj_1_3_mod.rexsj" #args.modelB
-absolute_tol = 5.0 #args.absolute_tol
-relative_tol = 0.9 #args.relative_tol
-check_both_tol = True #args.relative_tol
+# input_file = "C:\\diff.rexsj" #args.modelA
+# input_file_prime = "C:\\diff2.rexsj" #args.modelB
+# absolute_tol = 2 #args.absolute_tol
+# relative_tol = 2 #args.relative_tol
+# check_both_tol = True #args.check_both_tol
+
+input_file = args.modelA
+input_file_prime = args.modelB
+absolute_tol = args.absolute_tol
+relative_tol = args.relative_tol
+check_both_tol = args.check_both_tol
 
 #################################################
 # Import the data                               #
