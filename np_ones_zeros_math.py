@@ -6,11 +6,13 @@ def zeros(countx: int, county:int):
     return [[0. for _ in range(county)] for _ in range(countx)]
 
 def check_tolerance(a, b, abs_tol=0.0, rel_tol=1e-09, check_both=False):
-    if check_both:
-        return abs(a-b) <= min(rel_tol * max(abs(a), abs(b)), abs_tol) 
-    else:
-        return (abs(a-b) <= rel_tol * max(abs(a), abs(b))) or (abs(a-b) <= abs_tol)
-        
+    if type(abs_tol) is float and type(rel_tol) is float: 
+        if check_both:
+            return abs(a-b) <= min(rel_tol * max(abs(a), abs(b)), abs_tol) 
+        else:
+            return (abs(a-b) <= rel_tol * max(abs(a), abs(b))) or (abs(a-b) <= abs_tol)
+    else: 
+        raise Exception("The values of abs or tol are wrong "+ str(abs_tol)+" "+str(rel_tol) +" "+ str(a)+ " "+ str(b))
 
 def check_equality(a, b, abs=0.0, rel=1e-09, check_both=False):
     if type(a) is float and type(b) is float:
